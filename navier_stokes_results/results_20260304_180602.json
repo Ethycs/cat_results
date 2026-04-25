@@ -1,0 +1,45 @@
+{
+  "config": {
+    "models": [
+      "gpt2"
+    ],
+    "tasks": [
+      "arithmetic",
+      "logic"
+    ],
+    "epsilon": 3.0,
+    "epsilon_values": [
+      1.0,
+      2.0,
+      3.0,
+      5.0
+    ],
+    "n_scan": 300,
+    "n_gcb": 50,
+    "gcb_k": 3,
+    "depth_mode": "simple",
+    "n_perturbation": 50,
+    "contamination_metric": "kl"
+  },
+  "critical_re": null,
+  "results": [
+    {
+      "model": "gpt2",
+      "task": "arithmetic",
+      "lambda_eps": 0.00042735042735042735,
+      "d_eff": 12.0,
+      "c_bar": 0.5,
+      "re_safety": 0.010256410256410256,
+      "regime": "LAMINAR"
+    },
+    {
+      "model": "gpt2",
+      "task": "logic",
+      "lambda_eps": 0.0,
+      "d_eff": 12.0,
+      "c_bar": 0.5,
+      "re_safety": 0.0,
+      "regime": "LAMINAR"
+    }
+  ]
+}

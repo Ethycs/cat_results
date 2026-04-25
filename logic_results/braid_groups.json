@@ -1,0 +1,55 @@
+{
+  "results": {
+    "AND": {
+      "connective": "AND",
+      "braid_word": "\u03c3\u2082\u03c3\u2082\u03c3\u2081\u03c3\u2081\u03c3\u2081\u03c3\u2082\u03c3\u2082",
+      "word_length": 7,
+      "exponent_sum": 7,
+      "n_generators": 2,
+      "predicted_group": "Z2",
+      "observed_group": "S3",
+      "matches_prediction": false
+    },
+    "OR": {
+      "connective": "OR",
+      "braid_word": "\u03c3\u2082\u03c3\u2082",
+      "word_length": 2,
+      "exponent_sum": 2,
+      "n_generators": 1,
+      "predicted_group": "Z2",
+      "observed_group": "Z2",
+      "matches_prediction": true
+    },
+    "XOR": {
+      "connective": "XOR",
+      "braid_word": "\u03c3\u2081",
+      "word_length": 1,
+      "exponent_sum": 1,
+      "n_generators": 1,
+      "predicted_group": "S3",
+      "observed_group": "Z2",
+      "matches_prediction": false
+    },
+    "IMPLIES": {
+      "connective": "IMPLIES",
+      "braid_word": "\u03c3\u2082\u03c3\u2082\u03c3\u2082\u03c3\u2082",
+      "word_length": 4,
+      "exponent_sum": 4,
+      "n_generators": 1,
+      "predicted_group": "Z2",
+      "observed_group": "Z2",
+      "matches_prediction": true
+    },
+    "IFF": {
+      "connective": "IFF",
+      "braid_word": "e",
+      "word_length": 0,
+      "exponent_sum": 0,
+      "n_generators": 0,
+      "predicted_group": "S3",
+      "observed_group": "trivial",
+      "matches_prediction": false
+    }
+  },
+  "n_matches": 2
+}

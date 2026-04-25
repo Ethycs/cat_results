@@ -1,0 +1,176 @@
+{
+  "test": "Test 5: Monodromy Loop Tracing",
+  "center": [
+    100.0,
+    75.0
+  ],
+  "radii": [
+    5.0,
+    10.0,
+    15.0,
+    20.0
+  ],
+  "loops": [
+    {
+      "center": [
+        100.0,
+        75.0
+      ],
+      "radius": 5.0,
+      "n_samples": 64,
+      "n_crossings": 88,
+      "monodromy_order": {
+        "order": 1,
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "cycle_structure": [],
+        "center": [
+          100.0,
+          75.0
+        ],
+        "radius": 5.0,
+        "divides_periods": {
+          "2": true,
+          "5": true,
+          "10": true,
+          "100": true
+        }
+      }
+    },
+    {
+      "center": [
+        100.0,
+        75.0
+      ],
+      "radius": 10.0,
+      "n_samples": 64,
+      "n_crossings": 116,
+      "monodromy_order": {
+        "order": 2,
+        "permutation": [
+          7,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "cycle_structure": [
+          2
+        ],
+        "center": [
+          100.0,
+          75.0
+        ],
+        "radius": 10.0,
+        "divides_periods": {
+          "2": true,
+          "5": false,
+          "10": true,
+          "100": true
+        }
+      }
+    },
+    {
+      "center": [
+        100.0,
+        75.0
+      ],
+      "radius": 15.0,
+      "n_samples": 64,
+      "n_crossings": 115,
+      "monodromy_order": {
+        "order": 1,
+        "permutation": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "cycle_structure": [],
+        "center": [
+          100.0,
+          75.0
+        ],
+        "radius": 15.0,
+        "divides_periods": {
+          "2": true,
+          "5": true,
+          "10": true,
+          "100": true
+        }
+      }
+    },
+    {
+      "center": [
+        100.0,
+        75.0
+      ],
+      "radius": 20.0,
+      "n_samples": 64,
+      "n_crossings": 94,
+      "monodromy_order": {
+        "order": 2,
+        "permutation": [
+          1,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          0,
+          8,
+          2
+        ],
+        "cycle_structure": [
+          2,
+          1,
+          1
+        ],
+        "center": [
+          100.0,
+          75.0
+        ],
+        "radius": 20.0,
+        "divides_periods": {
+          "2": true,
+          "5": false,
+          "10": true,
+          "100": true
+        }
+      }
+    }
+  ],
+  "group": {
+    "n_strands": 5,
+    "order": 1,
+    "group_name": "trivial",
+    "is_symmetric": false,
+    "is_alternating": false,
+    "n_generators": 0,
+    "expected_group": null,
+    "matches_prediction": false
+  },
+  "verdict": "trivial"
+}

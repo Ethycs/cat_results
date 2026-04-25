@@ -1,0 +1,30 @@
+{
+  "mode": "arithmetic",
+  "model": "stabilityai/stablelm-2-zephyr-1_6b",
+  "tests_run": [
+    "test_2"
+  ],
+  "output_dir": "./test2_errors",
+  "results": {
+    "test_2": {
+      "total_samples": 10000,
+      "n_correct": 0,
+      "n_errors": 0,
+      "accuracy": 0.0,
+      "period_matches": {
+        "2": 0,
+        "5": 0,
+        "10": 0,
+        "100": 0
+      },
+      "period_fractions": {
+        "2": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "100": 0.0
+      },
+      "most_common_deltas": [],
+      "chi_squared_uniform": 0.0
+    }
+  }
+}

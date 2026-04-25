@@ -1,0 +1,283 @@
+{
+  "timestamp": "2026-03-12T21:19:13.299201",
+  "model_id": "gpt2",
+  "n_points": 30,
+  "n_isolated": 3,
+  "n_superposed": 15,
+  "n_interfering": 12,
+  "mean_superlinearity": 1.4577597457034839,
+  "max_superlinearity": 2.3432551110318975,
+  "p2_confirmed": true,
+  "points": [
+    {
+      "prompt": "2 + 2 =",
+      "domain": "single_layer",
+      "n_active_cats": 8,
+      "sum_individual_re": 120.22607148186653,
+      "final_re": 28.38899718431882,
+      "superlinearity": 1.8890409931493557,
+      "combination_type": "interfering"
+    },
+    {
+      "prompt": "True AND True =",
+      "domain": "single_layer",
+      "n_active_cats": 11,
+      "sum_individual_re": 141.1168757483883,
+      "final_re": 23.043600562587905,
+      "superlinearity": 1.7962387903231476,
+      "combination_type": "interfering"
+    },
+    {
+      "prompt": "The capital of France is",
+      "domain": "single_layer",
+      "n_active_cats": 5,
+      "sum_individual_re": 42.011870002665844,
+      "final_re": 16.16509763617677,
+      "superlinearity": 1.92387266207753,
+      "combination_type": "interfering"
+    },
+    {
+      "prompt": "Hello",
+      "domain": "single_layer",
+      "n_active_cats": 7,
+      "sum_individual_re": 151.17798281298857,
+      "final_re": 22.96956597932122,
+      "superlinearity": 1.0635607041677924,
+      "combination_type": "superposed"
+    },
+    {
+      "prompt": "Yes or no:",
+      "domain": "single_layer",
+      "n_active_cats": 9,
+      "sum_individual_re": 95.02878117412885,
+      "final_re": 15.048450057405281,
+      "superlinearity": 1.4252108555246774,
+      "combination_type": "superposed"
+    },
+    {
+      "prompt": "99 + 1 =",
+      "domain": "arithmetic_carry",
+      "n_active_cats": 7,
+      "sum_individual_re": 85.01208695122699,
+      "final_re": 27.244231968405735,
+      "superlinearity": 2.2433236333587927,
+      "combination_type": "interfering"
+    },
+    {
+      "prompt": "999 + 1 =",
+      "domain": "arithmetic_carry",
+      "n_active_cats": 7,
+      "sum_individual_re": 99.48247725543033,
+      "final_re": 23.25345949142519,
+      "superlinearity": 1.6362099228996752,
+      "combination_type": "interfering"
+    },
+    {
+      "prompt": "9999 + 1 =",
+      "domain": "arithmetic_carry",
+      "n_active_cats": 6,
+      "sum_individual_re": 120.55708157457997,
+      "final_re": 20.608805031446543,
+      "superlinearity": 1.0256786957154747,
+      "combination_type": "superposed"
+    },
+    {
+      "prompt": "47 + 53 =",
+      "domain": "arithmetic_carry",
+      "n_active_cats": 7,
+      "sum_individual_re": 78.79980052443462,
+      "final_re": 14.227368116361532,
+      "superlinearity": 1.2638556969906147,
+      "combination_type": "superposed"
+    },
+    {
+      "prompt": "189 + 11 =",
+      "domain": "arithmetic_carry",
+      "n_active_cats": 6,
+      "sum_individual_re": 94.67006383929663,
+      "final_re": 19.115994166261544,
+      "superlinearity": 1.2115336184019776,
+      "combination_type": "superposed"
+    },
+    {
+      "prompt": "True XOR True =",
+      "domain": "logic_xor",
+      "n_active_cats": 8,
+      "sum_individual_re": 108.10375973949263,
+      "final_re": 16.293030579265764,
+      "superlinearity": 1.2057327603427335,
+      "combination_type": "superposed"
+    },
+    {
+      "prompt": "True XOR False =",
+      "domain": "logic_xor",
+      "n_active_cats": 6,
+      "sum_individual_re": 108.14470124702633,
+      "final_re": 27.337041156840936,
+      "superlinearity": 1.516692404248107,
+      "combination_type": "interfering"
+    },
+    {
+      "prompt": "False XOR True =",
+      "domain": "logic_xor",
+      "n_active_cats": 9,
+      "sum_individual_re": 116.8130470125917,
+      "final_re": 16.672998643147896,
+      "superlinearity": 1.2845909906977762,
+      "combination_type": "superposed"
+    },
+    {
+      "prompt": "NOT (True AND False) =",
+      "domain": "logic_xor",
+      "n_active_cats": 8,
+      "sum_individual_re": 106.32556977566028,
+      "final_re": 18.22131603336423,
+      "superlinearity": 1.3709828085048565,
+      "combination_type": "superposed"
+    },
+    {
+      "prompt": "True IMPLIES False =",
+      "domain": "logic_xor",
+      "n_active_cats": 9,
+      "sum_individual_re": 135.08417875950522,
+      "final_re": 15.801326100060278,
+      "superlinearity": 1.052765292031179,
+      "combination_type": "superposed"
+    },
+    {
+      "prompt": "The capital of the country where the Eiffel Tower is located is",
+      "domain": "multi_hop",
+      "n_active_cats": 3,
+      "sum_individual_re": 27.242158166125094,
+      "final_re": 7.191484692197959,
+      "superlinearity": 0.7919509880616266,
+      "combination_type": "isolated"
+    },
+    {
+      "prompt": "The currency of the country with the largest population is",
+      "domain": "multi_hop",
+      "n_active_cats": 2,
+      "sum_individual_re": 10.065937131186825,
+      "final_re": 5.05055487053021,
+      "superlinearity": 1.00349422109588,
+      "combination_type": "superposed"
+    },
+    {
+      "prompt": "If A implies B and B implies C, then A implies",
+      "domain": "multi_hop",
+      "n_active_cats": 10,
+      "sum_individual_re": 162.69105047078122,
+      "final_re": 24.233699001602364,
+      "superlinearity": 1.4895532932805458,
+      "combination_type": "superposed"
+    },
+    {
+      "prompt": "The derivative of x^2 evaluated at x=3 is",
+      "domain": "multi_hop",
+      "n_active_cats": 8,
+      "sum_individual_re": 114.21827242517097,
+      "final_re": 16.16509763617677,
+      "superlinearity": 1.1322249789247816,
+      "combination_type": "superposed"
+    },
+    {
+      "prompt": "All men are mortal. Socrates is a man. Therefore Socrates is",
+      "domain": "multi_hop",
+      "n_active_cats": 4,
+      "sum_individual_re": 56.73019568724283,
+      "final_re": 9.183856502242152,
+      "superlinearity": 0.6475462593412041,
+      "combination_type": "isolated"
+    },
+    {
+      "prompt": "The number of planets in our solar system is",
+      "domain": "contested",
+      "n_active_cats": 10,
+      "sum_individual_re": 126.07421876700661,
+      "final_re": 24.54531835205993,
+      "superlinearity": 1.946894344625786,
+      "combination_type": "interfering"
+    },
+    {
+      "prompt": "Pluto is a",
+      "domain": "contested",
+      "n_active_cats": 8,
+      "sum_individual_re": 113.90668700981877,
+      "final_re": 11.049117680116893,
+      "superlinearity": 0.7760118721854816,
+      "combination_type": "isolated"
+    },
+    {
+      "prompt": "The best programming language is",
+      "domain": "contested",
+      "n_active_cats": 4,
+      "sum_individual_re": 58.028498822959705,
+      "final_re": 31.88194754124944,
+      "superlinearity": 2.1976751553417713,
+      "combination_type": "interfering"
+    },
+    {
+      "prompt": "The meaning of life is",
+      "domain": "contested",
+      "n_active_cats": 6,
+      "sum_individual_re": 66.03553423148412,
+      "final_re": 21.60527472527473,
+      "superlinearity": 1.963058978174257,
+      "combination_type": "interfering"
+    },
+    {
+      "prompt": "Consciousness is",
+      "domain": "contested",
+      "n_active_cats": 8,
+      "sum_individual_re": 118.79748444398327,
+      "final_re": 27.58539408607808,
+      "superlinearity": 1.85764163038893,
+      "combination_type": "interfering"
+    },
+    {
+      "prompt": "(99 + 1) XOR (True AND False) =",
+      "domain": "compound",
+      "n_active_cats": 10,
+      "sum_individual_re": 121.15196954298834,
+      "final_re": 28.38899718431882,
+      "superlinearity": 2.3432551110318975,
+      "combination_type": "interfering"
+    },
+    {
+      "prompt": "If 47 + 53 = 100 then True else False =",
+      "domain": "compound",
+      "n_active_cats": 6,
+      "sum_individual_re": 98.60544031433673,
+      "final_re": 30.835633626097867,
+      "superlinearity": 1.8763041995126828,
+      "combination_type": "interfering"
+    },
+    {
+      "prompt": "The capital of France plus 1 is",
+      "domain": "compound",
+      "n_active_cats": 7,
+      "sum_individual_re": 62.15606394537223,
+      "final_re": 11.84207197711188,
+      "superlinearity": 1.3336511126675838,
+      "combination_type": "superposed"
+    },
+    {
+      "prompt": "True IMPLIES (99 + 1 = 100) =",
+      "domain": "compound",
+      "n_active_cats": 11,
+      "sum_individual_re": 123.51083510877697,
+      "final_re": 15.048450057405281,
+      "superlinearity": 1.3402301950729416,
+      "combination_type": "superposed"
+    },
+    {
+      "prompt": "NOT (The moon landing was in 1969) =",
+      "domain": "compound",
+      "n_active_cats": 9,
+      "sum_individual_re": 106.78666769450368,
+      "final_re": 13.336589336589336,
+      "superlinearity": 1.1240102029654582,
+      "combination_type": "superposed"
+    }
+  ]
+}

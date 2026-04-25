@@ -1,0 +1,71 @@
+{
+  "mode": "arithmetic",
+  "model": "stabilityai/stablelm-zephyr-3b",
+  "tests_run": [
+    "test_2"
+  ],
+  "output_dir": "./arithmetic_hard_results",
+  "results": {
+    "test_2": {
+      "total_samples": 10000,
+      "n_correct": 0,
+      "n_errors": 2436,
+      "accuracy": 0.0,
+      "period_matches": {
+        "2": 0,
+        "5": 0,
+        "10": 0,
+        "100": 0
+      },
+      "period_fractions": {
+        "2": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "100": 0.0
+      },
+      "most_common_deltas": [
+        [
+          18180,
+          3
+        ],
+        [
+          18000,
+          3
+        ],
+        [
+          39500,
+          3
+        ],
+        [
+          17760,
+          3
+        ],
+        [
+          68773,
+          2
+        ],
+        [
+          16440,
+          2
+        ],
+        [
+          86760,
+          2
+        ],
+        [
+          16832,
+          2
+        ],
+        [
+          17934,
+          2
+        ],
+        [
+          9540,
+          2
+        ]
+      ],
+      "chi_squared_uniform": 65.74466338259441
+    }
+  }
+}

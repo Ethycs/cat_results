@@ -1,0 +1,44 @@
+{
+  "mode": "arithmetic",
+  "model": "stabilityai/stablelm-2-zephyr-1_6b",
+  "tests_run": [
+    "tight"
+  ],
+  "output_dir": "./arithmetic_n200_hard",
+  "results": {
+    "tight": {
+      "2": {
+        "period": 2,
+        "n_tested": 0,
+        "n_confirmed": 0,
+        "confirmation_rate": 0.0,
+        "verdict": "NO_ERRORS_FOUND",
+        "error_points": []
+      },
+      "5": {
+        "period": 5,
+        "n_tested": 0,
+        "n_confirmed": 0,
+        "confirmation_rate": 0.0,
+        "verdict": "NO_ERRORS_FOUND",
+        "error_points": []
+      },
+      "10": {
+        "period": 10,
+        "n_tested": 0,
+        "n_confirmed": 0,
+        "confirmation_rate": 0.0,
+        "verdict": "NO_ERRORS_FOUND",
+        "error_points": []
+      },
+      "100": {
+        "period": 100,
+        "n_tested": 0,
+        "n_confirmed": 0,
+        "confirmation_rate": 0.0,
+        "verdict": "NO_ERRORS_FOUND",
+        "error_points": []
+      }
+    }
+  }
+}

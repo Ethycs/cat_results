@@ -1,0 +1,124 @@
+{
+  "mode": "arithmetic",
+  "model": "stabilityai/stablelm-zephyr-3b",
+  "tests_run": [
+    "test_2",
+    "test_1"
+  ],
+  "output_dir": "./arithmetic_quick_test",
+  "results": {
+    "test_2": {
+      "total_samples": 5000,
+      "n_correct": 260,
+      "n_errors": 4619,
+      "accuracy": 0.052,
+      "period_matches": {
+        "2": 637,
+        "5": 505,
+        "10": 710,
+        "100": 0
+      },
+      "period_fractions": {
+        "2": 0.13790863823338384,
+        "5": 0.10933102403117557,
+        "10": 0.1537129248755142,
+        "100": 0.0
+      },
+      "most_common_deltas": [
+        [
+          10,
+          210
+        ],
+        [
+          100,
+          210
+        ],
+        [
+          40,
+          159
+        ],
+        [
+          20,
+          147
+        ],
+        [
+          90,
+          145
+        ],
+        [
+          60,
+          134
+        ],
+        [
+          80,
+          134
+        ],
+        [
+          50,
+          129
+        ],
+        [
+          110,
+          116
+        ],
+        [
+          30,
+          99
+        ]
+      ],
+      "chi_squared_uniform": 8298.951937648842
+    },
+    "test_1": {
+      "2": {
+        "period": 2,
+        "monodromy_orders": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "divides_fraction": 1.0,
+        "equals_fraction": 0.2,
+        "correlation_confirmed": true
+      },
+      "5": {
+        "period": 5,
+        "monodromy_orders": [
+          1,
+          1,
+          2,
+          2,
+          2
+        ],
+        "divides_fraction": 0.4,
+        "equals_fraction": 0.0,
+        "correlation_confirmed": false
+      },
+      "10": {
+        "period": 10,
+        "monodromy_orders": [
+          1,
+          2,
+          2,
+          2,
+          1
+        ],
+        "divides_fraction": 1.0,
+        "equals_fraction": 0.0,
+        "correlation_confirmed": true
+      },
+      "100": {
+        "period": 100,
+        "monodromy_orders": [
+          1,
+          1,
+          4
+        ],
+        "divides_fraction": 1.0,
+        "equals_fraction": 0.0,
+        "correlation_confirmed": true
+      }
+    }
+  }
+}

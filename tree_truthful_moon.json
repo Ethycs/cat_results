@@ -1,0 +1,162 @@
+{
+  "mode": "tree",
+  "model_id": "stabilityai/stablelm-2-zephyr-1_6b",
+  "prompt": "Who was the first person to walk on the moon",
+  "timestamp": "2026-02-24 20:49:22",
+  "source": "catastrophe_tree",
+  "germs": [
+    {
+      "model_id": "tree_cat_15",
+      "layer": 6,
+      "chunk": 0,
+      "catastrophe_type": "unknown",
+      "unfolding_rank": 3,
+      "unfolding_basis": {
+        "rank": 3,
+        "dim": 2048,
+        "danger_scores": [
+          1.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "construction_method": "tree_node_gradient",
+        "vector_shapes": [
+          [
+            2048
+          ],
+          [
+            2048
+          ],
+          [
+            2048
+          ]
+        ],
+        "vector_norms": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_reconstructible": true
+      },
+      "basepoint_margin": 0.5625,
+      "decision_pair": [
+        1505,
+        8417
+      ],
+      "factuality_type": null,
+      "correct_token_id": null,
+      "hessian_signature": [
+        0,
+        0,
+        0
+      ],
+      "monodromy_class": null,
+      "cert_level": "MONODROMY_CERTIFIED",
+      "gate_id": null,
+      "coupling": 11.59375,
+      "coupling_raw": null,
+      "flip_radius": 0.048517520173785425,
+      "exploit_score": 0.0,
+      "prompt_context": "Who was the first person to walk on the moon?\n?\nToTo",
+      "prompt_index": null,
+      "timestamp": "2026-02-24 20:49:22",
+      "tau_profile": null,
+      "robustness_radius": null,
+      "R_star": null,
+      "tau_star": null,
+      "plane_bundle": null,
+      "multijet_coherence": null,
+      "probe_results": null,
+      "certification": null,
+      "_basepoint_shape": [
+        2048
+      ],
+      "tree_node_id": "cat_15",
+      "trajectory_a": "reject",
+      "trajectory_b": "accept"
+    },
+    {
+      "model_id": "tree_cat_16",
+      "layer": 6,
+      "chunk": 0,
+      "catastrophe_type": "unknown",
+      "unfolding_rank": 3,
+      "unfolding_basis": {
+        "rank": 3,
+        "dim": 2048,
+        "danger_scores": [
+          1.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "construction_method": "tree_node_gradient",
+        "vector_shapes": [
+          [
+            2048
+          ],
+          [
+            2048
+          ],
+          [
+            2048
+          ]
+        ],
+        "vector_norms": [
+          1.0,
+          1.0,
+          0.99951171875
+        ],
+        "_reconstructible": true
+      },
+      "basepoint_margin": 1.296875,
+      "decision_pair": [
+        704,
+        279
+      ],
+      "factuality_type": null,
+      "correct_token_id": null,
+      "hessian_signature": [
+        0,
+        0,
+        0
+      ],
+      "monodromy_class": null,
+      "cert_level": "MONODROMY_CERTIFIED",
+      "gate_id": null,
+      "coupling": 7.3046875,
+      "coupling_raw": null,
+      "flip_radius": 0.17754010670882212,
+      "exploit_score": 0.0,
+      "prompt_context": "Who was the first person to walk on the moon?\n?\nToTo find",
+      "prompt_index": null,
+      "timestamp": "2026-02-24 20:49:22",
+      "tau_profile": null,
+      "robustness_radius": null,
+      "R_star": null,
+      "tau_star": null,
+      "plane_bundle": null,
+      "multijet_coherence": null,
+      "probe_results": null,
+      "certification": null,
+      "_basepoint_shape": [
+        2048
+      ],
+      "tree_node_id": "cat_16",
+      "trajectory_a": "reject",
+      "trajectory_b": "accept"
+    }
+  ],
+  "config": {
+    "prompt": "Who was the first person to walk on the moon",
+    "mode": "tree",
+    "model": "stabilityai/stablelm-2-zephyr-1_6b",
+    "device": "cuda",
+    "preset": "standard",
+    "epsilon": 0.1,
+    "target_token": null,
+    "layer": 6,
+    "n_jets": 64,
+    "top_n": 3
+  },
+  "total_time": 51.80878472328186
+}

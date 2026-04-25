@@ -1,0 +1,656 @@
+{
+  "catastrophe_measurements": [
+    {
+      "point_type": "catastrophe",
+      "point_info": {
+        "connective": "XOR",
+        "p": true,
+        "q": false
+      },
+      "branch_tokens": [
+        10352,
+        6407,
+        657
+      ],
+      "branch_probs": [
+        0.3623046875,
+        0.3623046875,
+        0.10064697265625
+      ],
+      "correct_branch": null,
+      "branch_norms": [
+        69.6875,
+        71.75,
+        66.75
+      ],
+      "pairwise_cosines": [
+        0.99853515625,
+        0.9921875,
+        0.994140625
+      ],
+      "aggregate_norm": 70.1875,
+      "cancellation_ratio": 1.011407985589913,
+      "mean_pairwise_cosine": 0.9949544270833334
+    },
+    {
+      "point_type": "catastrophe",
+      "point_info": {
+        "connective": "XOR",
+        "p": false,
+        "q": false
+      },
+      "branch_tokens": [
+        10352,
+        6407,
+        657
+      ],
+      "branch_probs": [
+        0.2208251953125,
+        0.2208251953125,
+        0.1888427734375
+      ],
+      "correct_branch": null,
+      "branch_norms": [
+        69.125,
+        71.0,
+        64.625
+      ],
+      "pairwise_cosines": [
+        0.99609375,
+        0.990234375,
+        0.9931640625
+      ],
+      "aggregate_norm": 68.3125,
+      "cancellation_ratio": 1.000915750915751,
+      "mean_pairwise_cosine": 0.9931640625
+    },
+    {
+      "point_type": "catastrophe",
+      "point_info": {
+        "connective": "XOR",
+        "p": true,
+        "q": false
+      },
+      "branch_tokens": [
+        10352,
+        6407,
+        657
+      ],
+      "branch_probs": [
+        0.3623046875,
+        0.3623046875,
+        0.10064697265625
+      ],
+      "correct_branch": null,
+      "branch_norms": [
+        69.6875,
+        71.75,
+        66.75
+      ],
+      "pairwise_cosines": [
+        0.99853515625,
+        0.9921875,
+        0.994140625
+      ],
+      "aggregate_norm": 70.1875,
+      "cancellation_ratio": 1.011407985589913,
+      "mean_pairwise_cosine": 0.9949544270833334
+    },
+    {
+      "point_type": "catastrophe",
+      "point_info": {
+        "connective": "XOR",
+        "p": true,
+        "q": false
+      },
+      "branch_tokens": [
+        10352,
+        6407,
+        657
+      ],
+      "branch_probs": [
+        0.3623046875,
+        0.3623046875,
+        0.10064697265625
+      ],
+      "correct_branch": null,
+      "branch_norms": [
+        69.6875,
+        71.75,
+        66.75
+      ],
+      "pairwise_cosines": [
+        0.99853515625,
+        0.9921875,
+        0.994140625
+      ],
+      "aggregate_norm": 70.1875,
+      "cancellation_ratio": 1.011407985589913,
+      "mean_pairwise_cosine": 0.9949544270833334
+    },
+    {
+      "point_type": "catastrophe",
+      "point_info": {
+        "connective": "XOR",
+        "p": true,
+        "q": false
+      },
+      "branch_tokens": [
+        10352,
+        6407,
+        657
+      ],
+      "branch_probs": [
+        0.3623046875,
+        0.3623046875,
+        0.10064697265625
+      ],
+      "correct_branch": null,
+      "branch_norms": [
+        69.6875,
+        71.75,
+        66.75
+      ],
+      "pairwise_cosines": [
+        0.99853515625,
+        0.9921875,
+        0.994140625
+      ],
+      "aggregate_norm": 70.1875,
+      "cancellation_ratio": 1.011407985589913,
+      "mean_pairwise_cosine": 0.9949544270833334
+    },
+    {
+      "point_type": "catastrophe",
+      "point_info": {
+        "connective": "XOR",
+        "p": true,
+        "q": false
+      },
+      "branch_tokens": [
+        10352,
+        6407,
+        657
+      ],
+      "branch_probs": [
+        0.3623046875,
+        0.3623046875,
+        0.10064697265625
+      ],
+      "correct_branch": null,
+      "branch_norms": [
+        69.6875,
+        71.75,
+        66.75
+      ],
+      "pairwise_cosines": [
+        0.99853515625,
+        0.9921875,
+        0.994140625
+      ],
+      "aggregate_norm": 70.1875,
+      "cancellation_ratio": 1.011407985589913,
+      "mean_pairwise_cosine": 0.9949544270833334
+    },
+    {
+      "point_type": "catastrophe",
+      "point_info": {
+        "connective": "XOR",
+        "p": false,
+        "q": false
+      },
+      "branch_tokens": [
+        10352,
+        6407,
+        657
+      ],
+      "branch_probs": [
+        0.2208251953125,
+        0.2208251953125,
+        0.1888427734375
+      ],
+      "correct_branch": null,
+      "branch_norms": [
+        69.125,
+        71.0,
+        64.625
+      ],
+      "pairwise_cosines": [
+        0.99609375,
+        0.990234375,
+        0.9931640625
+      ],
+      "aggregate_norm": 68.3125,
+      "cancellation_ratio": 1.000915750915751,
+      "mean_pairwise_cosine": 0.9931640625
+    },
+    {
+      "point_type": "catastrophe",
+      "point_info": {
+        "connective": "XOR",
+        "p": false,
+        "q": false
+      },
+      "branch_tokens": [
+        10352,
+        6407,
+        657
+      ],
+      "branch_probs": [
+        0.2208251953125,
+        0.2208251953125,
+        0.1888427734375
+      ],
+      "correct_branch": null,
+      "branch_norms": [
+        69.125,
+        71.0,
+        64.625
+      ],
+      "pairwise_cosines": [
+        0.99609375,
+        0.990234375,
+        0.9931640625
+      ],
+      "aggregate_norm": 68.3125,
+      "cancellation_ratio": 1.000915750915751,
+      "mean_pairwise_cosine": 0.9931640625
+    },
+    {
+      "point_type": "catastrophe",
+      "point_info": {
+        "connective": "XOR",
+        "p": false,
+        "q": false
+      },
+      "branch_tokens": [
+        10352,
+        6407,
+        657
+      ],
+      "branch_probs": [
+        0.2208251953125,
+        0.2208251953125,
+        0.1888427734375
+      ],
+      "correct_branch": null,
+      "branch_norms": [
+        69.125,
+        71.0,
+        64.625
+      ],
+      "pairwise_cosines": [
+        0.99609375,
+        0.990234375,
+        0.9931640625
+      ],
+      "aggregate_norm": 68.3125,
+      "cancellation_ratio": 1.000915750915751,
+      "mean_pairwise_cosine": 0.9931640625
+    },
+    {
+      "point_type": "catastrophe",
+      "point_info": {
+        "connective": "XOR",
+        "p": true,
+        "q": false
+      },
+      "branch_tokens": [
+        10352,
+        6407,
+        657
+      ],
+      "branch_probs": [
+        0.3623046875,
+        0.3623046875,
+        0.10064697265625
+      ],
+      "correct_branch": null,
+      "branch_norms": [
+        69.6875,
+        71.75,
+        66.75
+      ],
+      "pairwise_cosines": [
+        0.99853515625,
+        0.9921875,
+        0.994140625
+      ],
+      "aggregate_norm": 70.1875,
+      "cancellation_ratio": 1.011407985589913,
+      "mean_pairwise_cosine": 0.9949544270833334
+    }
+  ],
+  "regular_measurements": [
+    {
+      "point_type": "regular",
+      "point_info": {
+        "connective": "IFF",
+        "p": false,
+        "q": false
+      },
+      "branch_tokens": [
+        10352,
+        657,
+        6407
+      ],
+      "branch_probs": [
+        0.372314453125,
+        0.136962890625,
+        0.12091064453125
+      ],
+      "correct_branch": null,
+      "branch_norms": [
+        88.25,
+        91.8125,
+        88.5625
+      ],
+      "pairwise_cosines": [
+        0.99365234375,
+        0.9990234375,
+        0.9921875
+      ],
+      "aggregate_norm": 89.0,
+      "cancellation_ratio": 0.9939506747324336,
+      "mean_pairwise_cosine": 0.9949544270833334
+    },
+    {
+      "point_type": "regular",
+      "point_info": {
+        "connective": "IFF",
+        "p": false,
+        "q": false
+      },
+      "branch_tokens": [
+        10352,
+        657,
+        6407
+      ],
+      "branch_probs": [
+        0.372314453125,
+        0.136962890625,
+        0.12091064453125
+      ],
+      "correct_branch": null,
+      "branch_norms": [
+        88.25,
+        91.8125,
+        88.5625
+      ],
+      "pairwise_cosines": [
+        0.99365234375,
+        0.9990234375,
+        0.9921875
+      ],
+      "aggregate_norm": 89.0,
+      "cancellation_ratio": 0.9939506747324336,
+      "mean_pairwise_cosine": 0.9949544270833334
+    },
+    {
+      "point_type": "regular",
+      "point_info": {
+        "connective": "IFF",
+        "p": false,
+        "q": false
+      },
+      "branch_tokens": [
+        10352,
+        657,
+        6407
+      ],
+      "branch_probs": [
+        0.372314453125,
+        0.136962890625,
+        0.12091064453125
+      ],
+      "correct_branch": null,
+      "branch_norms": [
+        88.25,
+        91.8125,
+        88.5625
+      ],
+      "pairwise_cosines": [
+        0.99365234375,
+        0.9990234375,
+        0.9921875
+      ],
+      "aggregate_norm": 89.0,
+      "cancellation_ratio": 0.9939506747324336,
+      "mean_pairwise_cosine": 0.9949544270833334
+    },
+    {
+      "point_type": "regular",
+      "point_info": {
+        "connective": "IFF",
+        "p": false,
+        "q": false
+      },
+      "branch_tokens": [
+        10352,
+        657,
+        6407
+      ],
+      "branch_probs": [
+        0.372314453125,
+        0.136962890625,
+        0.12091064453125
+      ],
+      "correct_branch": null,
+      "branch_norms": [
+        88.25,
+        91.8125,
+        88.5625
+      ],
+      "pairwise_cosines": [
+        0.99365234375,
+        0.9990234375,
+        0.9921875
+      ],
+      "aggregate_norm": 89.0,
+      "cancellation_ratio": 0.9939506747324336,
+      "mean_pairwise_cosine": 0.9949544270833334
+    },
+    {
+      "point_type": "regular",
+      "point_info": {
+        "connective": "IFF",
+        "p": false,
+        "q": false
+      },
+      "branch_tokens": [
+        10352,
+        657,
+        6407
+      ],
+      "branch_probs": [
+        0.372314453125,
+        0.136962890625,
+        0.12091064453125
+      ],
+      "correct_branch": null,
+      "branch_norms": [
+        88.25,
+        91.8125,
+        88.5625
+      ],
+      "pairwise_cosines": [
+        0.99365234375,
+        0.9990234375,
+        0.9921875
+      ],
+      "aggregate_norm": 89.0,
+      "cancellation_ratio": 0.9939506747324336,
+      "mean_pairwise_cosine": 0.9949544270833334
+    },
+    {
+      "point_type": "regular",
+      "point_info": {
+        "connective": "IFF",
+        "p": false,
+        "q": false
+      },
+      "branch_tokens": [
+        10352,
+        657,
+        6407
+      ],
+      "branch_probs": [
+        0.372314453125,
+        0.136962890625,
+        0.12091064453125
+      ],
+      "correct_branch": null,
+      "branch_norms": [
+        88.25,
+        91.8125,
+        88.5625
+      ],
+      "pairwise_cosines": [
+        0.99365234375,
+        0.9990234375,
+        0.9921875
+      ],
+      "aggregate_norm": 89.0,
+      "cancellation_ratio": 0.9939506747324336,
+      "mean_pairwise_cosine": 0.9949544270833334
+    },
+    {
+      "point_type": "regular",
+      "point_info": {
+        "connective": "IFF",
+        "p": false,
+        "q": false
+      },
+      "branch_tokens": [
+        10352,
+        657,
+        6407
+      ],
+      "branch_probs": [
+        0.372314453125,
+        0.136962890625,
+        0.12091064453125
+      ],
+      "correct_branch": null,
+      "branch_norms": [
+        88.25,
+        91.8125,
+        88.5625
+      ],
+      "pairwise_cosines": [
+        0.99365234375,
+        0.9990234375,
+        0.9921875
+      ],
+      "aggregate_norm": 89.0,
+      "cancellation_ratio": 0.9939506747324336,
+      "mean_pairwise_cosine": 0.9949544270833334
+    },
+    {
+      "point_type": "regular",
+      "point_info": {
+        "connective": "IFF",
+        "p": false,
+        "q": false
+      },
+      "branch_tokens": [
+        10352,
+        657,
+        6407
+      ],
+      "branch_probs": [
+        0.372314453125,
+        0.136962890625,
+        0.12091064453125
+      ],
+      "correct_branch": null,
+      "branch_norms": [
+        88.25,
+        91.8125,
+        88.5625
+      ],
+      "pairwise_cosines": [
+        0.99365234375,
+        0.9990234375,
+        0.9921875
+      ],
+      "aggregate_norm": 89.0,
+      "cancellation_ratio": 0.9939506747324336,
+      "mean_pairwise_cosine": 0.9949544270833334
+    },
+    {
+      "point_type": "regular",
+      "point_info": {
+        "connective": "IFF",
+        "p": false,
+        "q": false
+      },
+      "branch_tokens": [
+        10352,
+        657,
+        6407
+      ],
+      "branch_probs": [
+        0.372314453125,
+        0.136962890625,
+        0.12091064453125
+      ],
+      "correct_branch": null,
+      "branch_norms": [
+        88.25,
+        91.8125,
+        88.5625
+      ],
+      "pairwise_cosines": [
+        0.99365234375,
+        0.9990234375,
+        0.9921875
+      ],
+      "aggregate_norm": 89.0,
+      "cancellation_ratio": 0.9939506747324336,
+      "mean_pairwise_cosine": 0.9949544270833334
+    },
+    {
+      "point_type": "regular",
+      "point_info": {
+        "connective": "IFF",
+        "p": false,
+        "q": false
+      },
+      "branch_tokens": [
+        10352,
+        657,
+        6407
+      ],
+      "branch_probs": [
+        0.372314453125,
+        0.136962890625,
+        0.12091064453125
+      ],
+      "correct_branch": null,
+      "branch_norms": [
+        88.25,
+        91.8125,
+        88.5625
+      ],
+      "pairwise_cosines": [
+        0.99365234375,
+        0.9990234375,
+        0.9921875
+      ],
+      "aggregate_norm": 89.0,
+      "cancellation_ratio": 0.9939506747324336,
+      "mean_pairwise_cosine": 0.9949544270833334
+    }
+  ],
+  "catastrophe_mean_ratio": 1.007211091720248,
+  "catastrophe_std_ratio": 0.0051401242426467875,
+  "regular_mean_ratio": 0.9939506747324336,
+  "regular_std_ratio": 0.0,
+  "catastrophe_mean_cosine": 0.9942382812500001,
+  "regular_mean_cosine": 0.9949544270833334,
+  "t_statistic": 7.739355915443503,
+  "p_value": 0.9999998042430073,
+  "effect_size": -3.648367366550882,
+  "gcb_confirmed": false
+}

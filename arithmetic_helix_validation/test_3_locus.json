@@ -1,0 +1,153 @@
+{
+  "test": "Test 3: Catastrophe Locus at a=100",
+  "boundary": 100,
+  "sweeps": [
+    {
+      "boundary_value": 100,
+      "fixed_b": 10,
+      "sweep_range": [
+        90,
+        111
+      ],
+      "n_points": 21,
+      "n_crossings": 4,
+      "max_gradient": 4.171875,
+      "gradient_at_boundary": 3.5,
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_7",
+      "branch_multiplicity": 7
+    },
+    {
+      "boundary_value": 100,
+      "fixed_b": 25,
+      "sweep_range": [
+        90,
+        111
+      ],
+      "n_points": 21,
+      "n_crossings": 6,
+      "max_gradient": 3.625,
+      "gradient_at_boundary": 2.234375,
+      "is_catastrophe": true,
+      "catastrophe_type": "cusp",
+      "branch_multiplicity": 3
+    },
+    {
+      "boundary_value": 100,
+      "fixed_b": 50,
+      "sweep_range": [
+        90,
+        111
+      ],
+      "n_points": 21,
+      "n_crossings": 4,
+      "max_gradient": 3.65625,
+      "gradient_at_boundary": 0.953125,
+      "is_catastrophe": true,
+      "catastrophe_type": "fold",
+      "branch_multiplicity": 2
+    },
+    {
+      "boundary_value": 100,
+      "fixed_b": 75,
+      "sweep_range": [
+        90,
+        111
+      ],
+      "n_points": 21,
+      "n_crossings": 7,
+      "max_gradient": 2.90625,
+      "gradient_at_boundary": 1.046875,
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_5",
+      "branch_multiplicity": 5
+    }
+  ],
+  "catastrophes": [
+    {
+      "location": [
+        105,
+        10
+      ],
+      "n_branches": 10,
+      "branch_tokens": [
+        14821,
+        17574,
+        7346,
+        15610,
+        5540,
+        10909,
+        209,
+        12035,
+        13718,
+        3436
+      ],
+      "min_gap": 0.046875,
+      "catastrophe_type": "butterfly_10"
+    },
+    {
+      "location": [
+        108,
+        25
+      ],
+      "n_branches": 10,
+      "branch_tokens": [
+        7904,
+        8319,
+        7127,
+        5540,
+        10909,
+        8073,
+        5693,
+        559,
+        2456,
+        5976
+      ],
+      "min_gap": 0.046875,
+      "catastrophe_type": "butterfly_10"
+    },
+    {
+      "location": [
+        99,
+        50
+      ],
+      "n_branches": 10,
+      "branch_tokens": [
+        15470,
+        23504,
+        12035,
+        21300,
+        24062,
+        17181,
+        24665,
+        22769,
+        1749,
+        8688
+      ],
+      "min_gap": 0.390625,
+      "catastrophe_type": "butterfly_10"
+    },
+    {
+      "location": [
+        96,
+        75
+      ],
+      "n_branches": 10,
+      "branch_tokens": [
+        12660,
+        19939,
+        559,
+        24727,
+        25384,
+        24665,
+        24549,
+        24833,
+        7783,
+        21748
+      ],
+      "min_gap": 0.203125,
+      "catastrophe_type": "butterfly_10"
+    }
+  ],
+  "verdict": "confirmed"
+}

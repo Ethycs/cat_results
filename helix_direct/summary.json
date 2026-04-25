@@ -1,0 +1,48 @@
+{
+  "mode": "arithmetic",
+  "model": "gpt2",
+  "tests_run": [
+    "helix"
+  ],
+  "output_dir": "./helix_direct",
+  "results": {
+    "helix": {
+      "71": [
+        {
+          "a_range": [
+            0,
+            100
+          ],
+          "b_fixed": 20,
+          "winding_number": -1.4069704620448622,
+          "detected_period": 71,
+          "helix_radius": 5.696313285248557
+        }
+      ],
+      "17": [
+        {
+          "a_range": [
+            0,
+            100
+          ],
+          "b_fixed": 50,
+          "winding_number": -5.80494414736765,
+          "detected_period": 17,
+          "helix_radius": 4.103828160698728
+        }
+      ],
+      "15": [
+        {
+          "a_range": [
+            0,
+            100
+          ],
+          "b_fixed": 80,
+          "winding_number": -6.560531973138288,
+          "detected_period": 15,
+          "helix_radius": 4.5703389481395345
+        }
+      ]
+    }
+  }
+}

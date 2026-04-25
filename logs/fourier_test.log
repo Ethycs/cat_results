@@ -1,0 +1,98 @@
+
+Running ARITHMETIC Pipeline...
+  Prompt: 
+  Model: gpt2
+  Device: cuda
+  Preset: standard
+  Output: ./fourier_results
+  Layer: 6
+
+============================================================
+ARITHMETIC MONODROMY TEST SUITE
+============================================================
+  Model: gpt2
+  Test(s): fourier
+  Operation: add (+)
+  Range: a in [0, 100) × b in [0, 100)
+  Prompt: {a} + {b} =
+  Boundary: 100
+  Output: ./fourier_results
+  Skip expensive: False
+
+GPU Memory: 8.2 GB free / 8.2 GB total
+
+Initializing model...
+Loading model: gpt2
+/home/rabbit/gpt2_attack_notions/.pixi/envs/default/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/home/rabbit/gpt2_attack_notions/.pixi/envs/default/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+ModelAdapter initialized: arch=GPT2, hidden_dim=768, vocab_size=50257, n_layers=12
+Model loaded in 1.62s
+======================================================================
+FOURIER PERIOD DETECTION (Layer-Specific)
+======================================================================
+Measures helix periods directly via FFT on activations
+Testing periods: [5, 10, 100]
+Sweeps: 10 different b values
+
+--- Period T=5 (Layer 11) ---
+  b=20: strength = 4.72x
+  b=27: strength = 4.37x
+  b=34: strength = 3.19x
+  b=41: strength = 3.04x
+  b=48: strength = 2.05x
+  b=55: strength = 5.04x
+  b=62: strength = 4.49x
+  b=69: strength = 4.62x
+  b=76: strength = 4.56x
+  b=83: strength = 3.98x
+  Mean: 4.01x ± 0.90
+  p-value: 0.0000
+  Significant: ✓
+
+--- Period T=10 (Layer 9) ---
+  b=20: strength = 0.76x
+  b=27: strength = 1.29x
+  b=34: strength = 1.34x
+  b=41: strength = 1.37x
+  b=48: strength = 1.24x
+  b=55: strength = 0.94x
+  b=62: strength = 1.32x
+  b=69: strength = 1.28x
+  b=76: strength = 1.36x
+  b=83: strength = 1.42x
+  Mean: 1.23x ± 0.20
+  p-value: 0.0035
+  Significant: ✓
+
+--- Period T=100 (Layer 6) ---
+  b=20: strength = 6.75x
+  b=27: strength = 7.30x
+  b=34: strength = 6.70x
+  b=41: strength = 6.30x
+  b=48: strength = 6.54x
+  b=55: strength = 6.95x
+  b=62: strength = 6.91x
+  b=69: strength = 6.92x
+  b=76: strength = 6.71x
+  b=83: strength = 6.66x
+  Mean: 6.78x ± 0.25
+  p-value: 0.0000
+  Significant: ✓
+
+======================================================================
+FOURIER TEST SUMMARY:
+----------------------------------------------------------------------
+Period     Layer    Strength        p-value      Sig?  
+----------------------------------------------------------------------
+T=5       11       4.01x ± 0.90  0.0000       ✓
+T=10      9        1.23x ± 0.20  0.0035       ✓
+T=100     6        6.78x ± 0.25  0.0000       ✓
+----------------------------------------------------------------------
+
+Significant periods: 3/3
+VERDICT: HELIX PERIODS CONFIRMED
+Results saved to ./fourier_results/fourier_periods.json
+
+Summary saved to ./fourier_results/summary.json

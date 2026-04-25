@@ -1,0 +1,20 @@
+{
+  "mode": "arithmetic",
+  "model": "gpt2",
+  "tests_run": [
+    "test_5"
+  ],
+  "output_dir": "./test5_20loops",
+  "results": {
+    "test_5": {
+      "n_strands": 5,
+      "order": 1,
+      "group_name": "trivial",
+      "is_symmetric": false,
+      "is_alternating": false,
+      "n_generators": 0,
+      "expected_group": null,
+      "matches_prediction": false
+    }
+  }
+}

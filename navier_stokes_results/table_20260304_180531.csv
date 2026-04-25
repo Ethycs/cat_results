@@ -1,0 +1,3 @@
+model,task,lambda_eps,d_eff,c_bar,re_safety,regime
+gpt2,arithmetic,0.0000,12.0000,0.5000,0.0000,LAMINAR
+gpt2,logic,0.0000,12.0000,0.5000,0.0000,LAMINAR

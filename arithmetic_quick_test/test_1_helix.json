@@ -1,0 +1,55 @@
+{
+  "test": "Test 1: Helix Period = Monodromy Order",
+  "results": {
+    "2": {
+      "period": 2,
+      "monodromy_orders": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "divides_fraction": 1.0,
+      "equals_fraction": 0.2,
+      "correlation_confirmed": true
+    },
+    "5": {
+      "period": 5,
+      "monodromy_orders": [
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "divides_fraction": 0.4,
+      "equals_fraction": 0.0,
+      "correlation_confirmed": false
+    },
+    "10": {
+      "period": 10,
+      "monodromy_orders": [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "divides_fraction": 1.0,
+      "equals_fraction": 0.0,
+      "correlation_confirmed": true
+    },
+    "100": {
+      "period": 100,
+      "monodromy_orders": [
+        1,
+        1,
+        4
+      ],
+      "divides_fraction": 1.0,
+      "equals_fraction": 0.0,
+      "correlation_confirmed": true
+    }
+  }
+}

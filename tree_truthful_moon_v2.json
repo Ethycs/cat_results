@@ -1,0 +1,647 @@
+{
+  "mode": "tree",
+  "model_id": "stabilityai/stablelm-2-zephyr-1_6b",
+  "prompt": "Who was the first person to walk on the moon",
+  "timestamp": "2026-02-24 21:43:55",
+  "source": "catastrophe_tree",
+  "tree": {
+    "model_id": "stabilityai/stablelm-2-zephyr-1_6b",
+    "root_prompt": "Who was the first person to walk on the moon",
+    "total_nodes": 21,
+    "max_depth": 2,
+    "total_context_flips": 0,
+    "nodes": [
+      {
+        "node_id": "cat_1",
+        "position": 0,
+        "decision_pair": [
+          30,
+          5380
+        ],
+        "decision_pair_text": [
+          "?",
+          "?\n"
+        ],
+        "gap": 0.046875,
+        "branch_a_trajectory": "accept",
+        "branch_b_trajectory": "accept",
+        "branch_a_continuation": "? Who was the first person to set foot on the moon? These are two of the most famous questions in th",
+        "branch_b_continuation": "?\nThe first person to walk on the moon was an American astronaut named Neil Armstrong. He was a memb",
+        "n_children_a": 2,
+        "n_children_b": 2,
+        "n_context_flips": 0,
+        "context_flips": [],
+        "depth": 0
+      },
+      {
+        "node_id": "cat_2",
+        "position": 1,
+        "decision_pair": [
+          10699,
+          34221
+        ],
+        "decision_pair_text": [
+          " Who",
+          " Neil"
+        ],
+        "gap": 0.8671875,
+        "branch_a_trajectory": "neutral",
+        "branch_b_trajectory": "neutral",
+        "branch_a_continuation": " Who was the first person to walk on the moon and what was their name? \n\nTo find out who the first p",
+        "branch_b_continuation": " Neil Armstrong was the first person to walk on the moon during the Apollo 11 mission on July 20, 19",
+        "n_children_a": 2,
+        "n_children_b": 2,
+        "n_context_flips": 0,
+        "context_flips": [],
+        "depth": 1
+      },
+      {
+        "node_id": "cat_3",
+        "position": 1,
+        "decision_pair": [
+          574,
+          374
+        ],
+        "decision_pair_text": [
+          " was",
+          " is"
+        ],
+        "gap": 1.4375,
+        "branch_a_trajectory": "neutral",
+        "branch_b_trajectory": "accept",
+        "branch_a_continuation": " was the first person to walk on the moon? Neil Armstrong was the first person to walk on the moon d",
+        "branch_b_continuation": " is the first person to walk on the moon? The first person to walk on the moon was an American astro",
+        "n_children_a": 0,
+        "n_children_b": 0,
+        "n_context_flips": 0,
+        "context_flips": [],
+        "depth": 2
+      },
+      {
+        "node_id": "cat_4",
+        "position": 3,
+        "decision_pair": [
+          1176,
+          1732
+        ],
+        "decision_pair_text": [
+          " first",
+          " person"
+        ],
+        "gap": 2.0,
+        "branch_a_trajectory": "neutral",
+        "branch_b_trajectory": "accept",
+        "branch_a_continuation": " first person to walk on the moon? Neil Armstrong was the first person to walk on the moon during th",
+        "branch_b_continuation": " person who walked on the moon first? The first person to walk on the moon was an American astronaut",
+        "n_children_a": 0,
+        "n_children_b": 0,
+        "n_context_flips": 0,
+        "context_flips": [],
+        "depth": 2
+      },
+      {
+        "node_id": "cat_5",
+        "position": 2,
+        "decision_pair": [
+          574,
+          11
+        ],
+        "decision_pair_text": [
+          " was",
+          ","
+        ],
+        "gap": 1.09375,
+        "branch_a_trajectory": "neutral",
+        "branch_b_trajectory": "neutral",
+        "branch_a_continuation": " was the first person to walk on the moon. He was an American astronaut and aeronautical engineer wh",
+        "branch_b_continuation": ", an American astronaut, was the first person to walk on the moon during the Apollo 11 mission on Ju",
+        "n_children_a": 0,
+        "n_children_b": 0,
+        "n_context_flips": 0,
+        "context_flips": [],
+        "depth": 2
+      },
+      {
+        "node_id": "cat_6",
+        "position": 11,
+        "decision_pair": [
+          2391,
+          389
+        ],
+        "decision_pair_text": [
+          " during",
+          " on"
+        ],
+        "gap": 0.40625,
+        "branch_a_trajectory": "neutral",
+        "branch_b_trajectory": "neutral",
+        "branch_a_continuation": " during the Apollo 11 mission in 1969.",
+        "branch_b_continuation": " on July 20, 1969, during the Apollo 11 mission.",
+        "n_children_a": 0,
+        "n_children_b": 0,
+        "n_context_flips": 0,
+        "context_flips": [],
+        "depth": 2
+      },
+      {
+        "node_id": "cat_7",
+        "position": 2,
+        "decision_pair": [
+          574,
+          1550
+        ],
+        "decision_pair_text": [
+          " was",
+          " did"
+        ],
+        "gap": 1.25,
+        "branch_a_trajectory": "accept",
+        "branch_b_trajectory": "neutral",
+        "branch_a_continuation": " was the first person to walk on the moon and what was their name? \n\nTo find out who the first perso",
+        "branch_b_continuation": " did Neil Armstrong say he was when he walked on the moon? \n\nStep 1: Identify the question's focus, ",
+        "n_children_a": 2,
+        "n_children_b": 2,
+        "n_context_flips": 0,
+        "context_flips": [],
+        "depth": 1
+      },
+      {
+        "node_id": "cat_8",
+        "position": 2,
+        "decision_pair": [
+          1176,
+          1732
+        ],
+        "decision_pair_text": [
+          " first",
+          " person"
+        ],
+        "gap": 2.0,
+        "branch_a_trajectory": "neutral",
+        "branch_b_trajectory": "neutral",
+        "branch_a_continuation": " first person to walk on the moon in 1969? \n\nStep 1: Identify the question's focus, which is identif",
+        "branch_b_continuation": " person who walked on the moon first in history? \n\nStep 1: Identify the question's focus, which is i",
+        "n_children_a": 0,
+        "n_children_b": 0,
+        "n_context_flips": 0,
+        "context_flips": [],
+        "depth": 2
+      },
+      {
+        "node_id": "cat_9",
+        "position": 3,
+        "decision_pair": [
+          1732,
+          47733
+        ],
+        "decision_pair_text": [
+          " person",
+          " astronaut"
+        ],
+        "gap": 1.59375,
+        "branch_a_trajectory": "neutral",
+        "branch_b_trajectory": "accept",
+        "branch_a_continuation": " person to walk on the moon in 1969? \n\nStep 1: Identify the question's focus, which is identifying t",
+        "branch_b_continuation": " astronaut to walk on the moon? \n\nTo find the answer to this question, I will search for information",
+        "n_children_a": 0,
+        "n_children_b": 0,
+        "n_context_flips": 0,
+        "context_flips": [],
+        "depth": 2
+      },
+      {
+        "node_id": "cat_10",
+        "position": 1,
+        "decision_pair": [
+          34221,
+          279
+        ],
+        "decision_pair_text": [
+          " Neil",
+          " the"
+        ],
+        "gap": 1.765625,
+        "branch_a_trajectory": "neutral",
+        "branch_b_trajectory": "neutral",
+        "branch_a_continuation": " Neil Armstrong walk with on the moon? \n\nStep 1: Identify the question's focus, which is the first p",
+        "branch_b_continuation": " the first moon landing take place on July 20, 1969? \n\nStep 1: Identify the task\nThe task is to",
+        "n_children_a": 0,
+        "n_children_b": 0,
+        "n_context_flips": 0,
+        "context_flips": [],
+        "depth": 2
+      },
+      {
+        "node_id": "cat_11",
+        "position": 3,
+        "decision_pair": [
+          4321,
+          2019
+        ],
+        "decision_pair_text": [
+          " walk",
+          " say"
+        ],
+        "gap": 0.015625,
+        "branch_a_trajectory": "neutral",
+        "branch_b_trajectory": "neutral",
+        "branch_a_continuation": " walk with on the moon? \n\nStep 1: Identify the question's focus, which is the first person to walk o",
+        "branch_b_continuation": " say he was when he walked on the moon? \n\nStep 1: Identify the question's focus, which is to find th",
+        "n_children_a": 0,
+        "n_children_b": 0,
+        "n_context_flips": 0,
+        "context_flips": [],
+        "depth": 2
+      },
+      {
+        "node_id": "cat_12",
+        "position": 1,
+        "decision_pair": [
+          791,
+          1271
+        ],
+        "decision_pair_text": [
+          "The",
+          "To"
+        ],
+        "gap": 1.734375,
+        "branch_a_trajectory": "accept",
+        "branch_b_trajectory": "neutral",
+        "branch_a_continuation": "The first person to walk on the moon was Neil Armstrong, an American astronaut and former Navy pilot",
+        "branch_b_continuation": "To find out who the first person to walk on the moon was, I will perform the following steps:\n\n1. Se",
+        "n_children_a": 2,
+        "n_children_b": 2,
+        "n_context_flips": 0,
+        "context_flips": [],
+        "depth": 1
+      },
+      {
+        "node_id": "cat_13",
+        "position": 9,
+        "decision_pair": [
+          34221,
+          459
+        ],
+        "decision_pair_text": [
+          " Neil",
+          " an"
+        ],
+        "gap": 0.09375,
+        "branch_a_trajectory": "neutral",
+        "branch_b_trajectory": "neutral",
+        "branch_a_continuation": " Neil Armstrong, an American astronaut. He was part of the Apollo 11 mission, which was launched on ",
+        "branch_b_continuation": " an American astronaut named Neil Armstrong. He was a member of the Apollo 11 mission, which was lau",
+        "n_children_a": 0,
+        "n_children_b": 0,
+        "n_context_flips": 0,
+        "context_flips": [],
+        "depth": 2
+      },
+      {
+        "node_id": "cat_14",
+        "position": 11,
+        "decision_pair": [
+          11,
+          13
+        ],
+        "decision_pair_text": [
+          ",",
+          "."
+        ],
+        "gap": 0.859375,
+        "branch_a_trajectory": "neutral",
+        "branch_b_trajectory": "neutral",
+        "branch_a_continuation": ", an American astronaut. He was part of the Apollo 11 mission, which was launched on July 16, 1969,",
+        "branch_b_continuation": ". He was an American astronaut and aeronautical engineer who was a part of the Apollo 11 mission. Ar",
+        "n_children_a": 0,
+        "n_children_b": 0,
+        "n_context_flips": 0,
+        "context_flips": [],
+        "depth": 2
+      },
+      {
+        "node_id": "cat_15",
+        "position": 1,
+        "decision_pair": [
+          1505,
+          8417
+        ],
+        "decision_pair_text": [
+          " find",
+          " determine"
+        ],
+        "gap": 1.5,
+        "branch_a_trajectory": "reject",
+        "branch_b_trajectory": "accept",
+        "branch_a_continuation": " find out who the first person to walk on the moon was, I will perform the following steps:\n\n1. Sear",
+        "branch_b_continuation": " determine the answer to this question, I will search for information about the first person to walk",
+        "n_children_a": 0,
+        "n_children_b": 0,
+        "n_context_flips": 0,
+        "context_flips": [],
+        "depth": 2
+      },
+      {
+        "node_id": "cat_16",
+        "position": 2,
+        "decision_pair": [
+          704,
+          279
+        ],
+        "decision_pair_text": [
+          " out",
+          " the"
+        ],
+        "gap": 1.6875,
+        "branch_a_trajectory": "reject",
+        "branch_b_trajectory": "accept",
+        "branch_a_continuation": " out who the first person to walk on the moon was, I will perform the following steps:\n\n1. Search fo",
+        "branch_b_continuation": " the answer to this question, I will search for information about the first person to walk on the mo",
+        "n_children_a": 0,
+        "n_children_b": 0,
+        "n_context_flips": 0,
+        "context_flips": [],
+        "depth": 2
+      },
+      {
+        "node_id": "cat_17",
+        "position": 10,
+        "decision_pair": [
+          459,
+          34221
+        ],
+        "decision_pair_text": [
+          " an",
+          " Neil"
+        ],
+        "gap": 0.203125,
+        "branch_a_trajectory": "neutral",
+        "branch_b_trajectory": "neutral",
+        "branch_a_continuation": " an American astronaut named Neil Armstrong. He was a part of the historic Apollo 11 mission that to",
+        "branch_b_continuation": " Neil Armstrong, an American astronaut and former Navy pilot. He became the first human to step foot",
+        "n_children_a": 2,
+        "n_children_b": 2,
+        "n_context_flips": 0,
+        "context_flips": [],
+        "depth": 1
+      },
+      {
+        "node_id": "cat_18",
+        "position": 1,
+        "decision_pair": [
+          3778,
+          47733
+        ],
+        "decision_pair_text": [
+          " American",
+          " astronaut"
+        ],
+        "gap": 0.921875,
+        "branch_a_trajectory": "neutral",
+        "branch_b_trajectory": "accept",
+        "branch_a_continuation": " American astronaut named Neil Armstrong. He was a part of the historic Apollo 11 mission that took ",
+        "branch_b_continuation": " astronaut named Neil Armstrong, who was a part of the Apollo 11 mission. The mission took place on ",
+        "n_children_a": 0,
+        "n_children_b": 0,
+        "n_context_flips": 0,
+        "context_flips": [],
+        "depth": 2
+      },
+      {
+        "node_id": "cat_19",
+        "position": 3,
+        "decision_pair": [
+          7086,
+          11
+        ],
+        "decision_pair_text": [
+          " named",
+          ","
+        ],
+        "gap": 1.375,
+        "branch_a_trajectory": "neutral",
+        "branch_b_trajectory": "accept",
+        "branch_a_continuation": " named Neil Armstrong. He was a part of the historic Apollo 11 mission that took place on July 20, 1",
+        "branch_b_continuation": ", Neil Armstrong, who was a part of the Apollo 11 mission. The mission took place on July 20, 1969",
+        "n_children_a": 0,
+        "n_children_b": 0,
+        "n_context_flips": 0,
+        "context_flips": [],
+        "depth": 2
+      },
+      {
+        "node_id": "cat_20",
+        "position": 2,
+        "decision_pair": [
+          11,
+          13
+        ],
+        "decision_pair_text": [
+          ",",
+          "."
+        ],
+        "gap": 0.859375,
+        "branch_a_trajectory": "neutral",
+        "branch_b_trajectory": "neutral",
+        "branch_a_continuation": ", an American astronaut. He was part of the Apollo 11 mission, which was launched on July 16, 1969,",
+        "branch_b_continuation": ". He was an American astronaut and aeronautical engineer who was a part of the Apollo 11 mission. Ar",
+        "n_children_a": 0,
+        "n_children_b": 0,
+        "n_context_flips": 0,
+        "context_flips": [],
+        "depth": 2
+      },
+      {
+        "node_id": "cat_21",
+        "position": 6,
+        "decision_pair": [
+          323,
+          13
+        ],
+        "decision_pair_text": [
+          " and",
+          "."
+        ],
+        "gap": 0.203125,
+        "branch_a_trajectory": "neutral",
+        "branch_b_trajectory": "neutral",
+        "branch_a_continuation": " and former Navy pilot. He was part of the Apollo 11 mission, which was the sixth mission of NASA's ",
+        "branch_b_continuation": ". He was part of the Apollo 11 mission, which was launched on July 16, 1969, and landed on the",
+        "n_children_a": 0,
+        "n_children_b": 0,
+        "n_context_flips": 0,
+        "context_flips": [],
+        "depth": 2
+      }
+    ]
+  },
+  "n_total_nodes": 21,
+  "n_divergent_nodes": 2,
+  "germs": [
+    {
+      "model_id": "tree_cat_15",
+      "layer": 6,
+      "chunk": 0,
+      "catastrophe_type": "unknown",
+      "unfolding_rank": 3,
+      "unfolding_basis": {
+        "rank": 3,
+        "dim": 2048,
+        "danger_scores": [
+          1.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "construction_method": "tree_node_gradient",
+        "vector_shapes": [
+          [
+            2048
+          ],
+          [
+            2048
+          ],
+          [
+            2048
+          ]
+        ],
+        "vector_norms": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_reconstructible": true
+      },
+      "basepoint_margin": 0.5625,
+      "decision_pair": [
+        1505,
+        8417
+      ],
+      "factuality_type": null,
+      "correct_token_id": null,
+      "hessian_signature": [
+        0,
+        0,
+        0
+      ],
+      "monodromy_class": null,
+      "cert_level": "MONODROMY_CERTIFIED",
+      "gate_id": null,
+      "coupling": 11.59375,
+      "coupling_raw": null,
+      "flip_radius": 0.048517520173785425,
+      "exploit_score": 0.0,
+      "prompt_context": "Who was the first person to walk on the moon?\n?\nToTo",
+      "prompt_index": null,
+      "timestamp": "2026-02-24 21:43:54",
+      "tau_profile": null,
+      "robustness_radius": null,
+      "R_star": null,
+      "tau_star": null,
+      "plane_bundle": null,
+      "multijet_coherence": null,
+      "probe_results": null,
+      "certification": null,
+      "_basepoint_shape": [
+        2048
+      ],
+      "tree_node_id": "cat_15",
+      "trajectory_a": "reject",
+      "trajectory_b": "accept",
+      "decision_pair_text": [
+        " find",
+        " determine"
+      ],
+      "branch_a_continuation": " find out who the first person to walk on the moon was, I will perform the following steps:\n\n1. Sear",
+      "branch_b_continuation": " determine the answer to this question, I will search for information about the first person to walk"
+    },
+    {
+      "model_id": "tree_cat_16",
+      "layer": 6,
+      "chunk": 0,
+      "catastrophe_type": "unknown",
+      "unfolding_rank": 3,
+      "unfolding_basis": {
+        "rank": 3,
+        "dim": 2048,
+        "danger_scores": [
+          1.0,
+          0.5,
+          0.3333333333333333
+        ],
+        "construction_method": "tree_node_gradient",
+        "vector_shapes": [
+          [
+            2048
+          ],
+          [
+            2048
+          ],
+          [
+            2048
+          ]
+        ],
+        "vector_norms": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_reconstructible": true
+      },
+      "basepoint_margin": 1.296875,
+      "decision_pair": [
+        704,
+        279
+      ],
+      "factuality_type": null,
+      "correct_token_id": null,
+      "hessian_signature": [
+        0,
+        0,
+        0
+      ],
+      "monodromy_class": null,
+      "cert_level": "MONODROMY_CERTIFIED",
+      "gate_id": null,
+      "coupling": 7.3046875,
+      "coupling_raw": null,
+      "flip_radius": 0.17754010670882212,
+      "exploit_score": 0.0,
+      "prompt_context": "Who was the first person to walk on the moon?\n?\nToTo find",
+      "prompt_index": null,
+      "timestamp": "2026-02-24 21:43:55",
+      "tau_profile": null,
+      "robustness_radius": null,
+      "R_star": null,
+      "tau_star": null,
+      "plane_bundle": null,
+      "multijet_coherence": null,
+      "probe_results": null,
+      "certification": null,
+      "_basepoint_shape": [
+        2048
+      ],
+      "tree_node_id": "cat_16",
+      "trajectory_a": "reject",
+      "trajectory_b": "accept",
+      "decision_pair_text": [
+        " out",
+        " the"
+      ],
+      "branch_a_continuation": " out who the first person to walk on the moon was, I will perform the following steps:\n\n1. Search fo",
+      "branch_b_continuation": " the answer to this question, I will search for information about the first person to walk on the mo"
+    }
+  ],
+  "config": {
+    "prompt": "Who was the first person to walk on the moon",
+    "mode": "tree",
+    "model": "stabilityai/stablelm-2-zephyr-1_6b",
+    "device": "cuda",
+    "preset": "standard",
+    "epsilon": 0.1,
+    "target_token": null,
+    "layer": 6,
+    "n_jets": 64,
+    "top_n": 3
+  },
+  "total_time": 51.95924472808838
+}

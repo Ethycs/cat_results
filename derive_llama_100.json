@@ -1,0 +1,20 @@
+{
+  "status": "error",
+  "error": "You are trying to access a gated repo.\nMake sure to have access to it at https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct.\n403 Client Error. (Request ID: Root=1-69b88bb9-0bdb82a4307abb4c7e4370ed;ffbba759-0c51-42e0-b0d4-2280ee7bb7c4)\n\nCannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct/resolve/main/config.json.\nAccess to model meta-llama/Llama-3.2-1B-Instruct is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct to ask for access.",
+  "config": {
+    "prompt": "",
+    "mode": "banshee",
+    "model": "meta-llama/Llama-3.2-1B-Instruct",
+    "device": "cuda",
+    "preset": "standard",
+    "epsilon": 0.1,
+    "target_token": null,
+    "layer": 6,
+    "n_jets": 64,
+    "top_n": 3,
+    "banshee_layers": "all",
+    "fragile_margin": 0.1,
+    "min_separability": 0.0,
+    "max_new_tokens": 20
+  }
+}

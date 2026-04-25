@@ -1,0 +1,68 @@
+{
+  "test": "Test 3: Catastrophe Locus at a=100",
+  "boundary": 100,
+  "sweeps": [
+    {
+      "boundary_value": 100,
+      "fixed_b": 10,
+      "sweep_range": [
+        90,
+        111
+      ],
+      "n_points": 21,
+      "n_crossings": 30,
+      "max_gradient": 3.3671875,
+      "gradient_at_boundary": 1.4609375,
+      "is_catastrophe": true,
+      "catastrophe_type": "fold",
+      "branch_multiplicity": 2
+    },
+    {
+      "boundary_value": 100,
+      "fixed_b": 25,
+      "sweep_range": [
+        90,
+        111
+      ],
+      "n_points": 21,
+      "n_crossings": 37,
+      "max_gradient": 3.046875,
+      "gradient_at_boundary": 2.78125,
+      "is_catastrophe": true,
+      "catastrophe_type": "fold",
+      "branch_multiplicity": 2
+    },
+    {
+      "boundary_value": 100,
+      "fixed_b": 50,
+      "sweep_range": [
+        90,
+        111
+      ],
+      "n_points": 21,
+      "n_crossings": 43,
+      "max_gradient": 3.203125,
+      "gradient_at_boundary": 2.09375,
+      "is_catastrophe": true,
+      "catastrophe_type": "fold",
+      "branch_multiplicity": 2
+    },
+    {
+      "boundary_value": 100,
+      "fixed_b": 75,
+      "sweep_range": [
+        90,
+        111
+      ],
+      "n_points": 21,
+      "n_crossings": 30,
+      "max_gradient": 2.609375,
+      "gradient_at_boundary": 1.765625,
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_4",
+      "branch_multiplicity": 4
+    }
+  ],
+  "catastrophes": [],
+  "verdict": "not_detected"
+}

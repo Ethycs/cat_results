@@ -1,0 +1,1715 @@
+{
+  "model_id": "gpt2",
+  "timestamp": "2026-03-04T19:40:29.207724",
+  "n_points": 76,
+  "n_turbulent": 46,
+  "mean_re": 16.03398595104929,
+  "max_re": 26.02562648430587,
+  "critical_re": 15.948172883072855,
+  "global_regime": "TURBULENT",
+  "domain_summary": {
+    "arithmetic": {
+      "n_points": 26,
+      "n_turbulent": 3,
+      "mean_re": 20.48841584450482,
+      "max_re": 25.14964267983188,
+      "mean_cancellation": 0.5381937513254109
+    },
+    "logic": {
+      "n_points": 16,
+      "n_turbulent": 16,
+      "mean_re": 11.996112388768005,
+      "max_re": 15.928490588492293,
+      "mean_cancellation": 0.2188184201425044
+    },
+    "completion": {
+      "n_points": 20,
+      "n_turbulent": 18,
+      "mean_re": 13.396888411532208,
+      "max_re": 26.02562648430587,
+      "mean_cancellation": 0.48673680471376785
+    },
+    "factuality": {
+      "n_points": 14,
+      "n_turbulent": 9,
+      "mean_re": 16.143468133692057,
+      "max_re": 21.302483426910968,
+      "mean_cancellation": 0.5180440412768379
+    }
+  },
+  "layer_summary": {},
+  "hazard_points": [
+    {
+      "prompt": "99 + 1 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.053558349609375,
+      "top_tokens": [
+        352,
+        657,
+        362
+      ],
+      "top_probs": [
+        0.41186222434043884,
+        0.39038386940956116,
+        0.1977539211511612
+      ],
+      "gcb_cancellation": 0.508642004786882,
+      "mean_cosine": -0.14150012284517288,
+      "opposing_frac": 1.0,
+      "local_re": 23.180597474249385,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "99 + 2 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.0137481689453125,
+      "top_tokens": [
+        657,
+        352,
+        362
+      ],
+      "top_probs": [
+        0.36887121200561523,
+        0.3638346195220947,
+        0.26729416847229004
+      ],
+      "gcb_cancellation": 0.5220992803239886,
+      "mean_cosine": -0.0987276757756869,
+      "opposing_frac": 1.0,
+      "local_re": 24.76928548363552,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "98 + 2 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.18585205078125,
+      "top_tokens": [
+        657,
+        352,
+        362
+      ],
+      "top_probs": [
+        0.4099355638027191,
+        0.3404090404510498,
+        0.24965542554855347
+      ],
+      "gcb_cancellation": 0.5174467226468458,
+      "mean_cosine": -0.11327814062436421,
+      "opposing_frac": 1.0,
+      "local_re": 20.970339787723415,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "97 + 3 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.22496795654296875,
+      "top_tokens": [
+        657,
+        352,
+        362
+      ],
+      "top_probs": [
+        0.4325355887413025,
+        0.3453977704048157,
+        0.22206665575504303
+      ],
+      "gcb_cancellation": 0.528651566687783,
+      "mean_cosine": -0.10379297037919362,
+      "opposing_frac": 1.0,
+      "local_re": 20.78329728625651,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "47 + 53 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.6107635498046875,
+      "top_tokens": [
+        657,
+        352,
+        532
+      ],
+      "top_probs": [
+        0.5147406458854675,
+        0.2794713079929352,
+        0.2057880014181137
+      ],
+      "gcb_cancellation": 0.5715285449251366,
+      "mean_cosine": -0.06927454223235448,
+      "opposing_frac": 1.0,
+      "local_re": 17.38711627113955,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "48 + 52 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.76751708984375,
+      "top_tokens": [
+        657,
+        352,
+        532
+      ],
+      "top_probs": [
+        0.5378309488296509,
+        0.24964182078838348,
+        0.21252718567848206
+      ],
+      "gcb_cancellation": 0.5835986208340856,
+      "mean_cosine": -0.06956600646177928,
+      "opposing_frac": 1.0,
+      "local_re": 16.304424166452204,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "49 + 51 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.5785903930664062,
+      "top_tokens": [
+        657,
+        352,
+        532
+      ],
+      "top_probs": [
+        0.5223240852355957,
+        0.29286089539527893,
+        0.18481501936912537
+      ],
+      "gcb_cancellation": 0.5801550230004044,
+      "mean_cosine": -0.06676264107227325,
+      "opposing_frac": 1.0,
+      "local_re": 18.106013043801216,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "46 + 54 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.6965484619140625,
+      "top_tokens": [
+        657,
+        352,
+        532
+      ],
+      "top_probs": [
+        0.5363813638687134,
+        0.26728004217147827,
+        0.19633857905864716
+      ],
+      "gcb_cancellation": 0.5836815276076477,
+      "mean_cosine": -0.0698297234872977,
+      "opposing_frac": 1.0,
+      "local_re": 16.989840234023866,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "94 + 6 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.30646514892578125,
+      "top_tokens": [
+        657,
+        352,
+        718
+      ],
+      "top_probs": [
+        0.4381592571735382,
+        0.32250455021858215,
+        0.23933616280555725
+      ],
+      "gcb_cancellation": 0.5337980507410638,
+      "mean_cosine": -0.09265466282765071,
+      "opposing_frac": 1.0,
+      "local_re": 19.701955416381008,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "95 + 5 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.14962005615234375,
+      "top_tokens": [
+        657,
+        352,
+        642
+      ],
+      "top_probs": [
+        0.39829200506210327,
+        0.34294337034225464,
+        0.2587645649909973
+      ],
+      "gcb_cancellation": 0.5258970923100048,
+      "mean_cosine": -0.09411366780598958,
+      "opposing_frac": 1.0,
+      "local_re": 22.016804968673256,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "93 + 7 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.2835693359375,
+      "top_tokens": [
+        657,
+        352,
+        807
+      ],
+      "top_probs": [
+        0.44639331102371216,
+        0.33617475628852844,
+        0.2174319326877594
+      ],
+      "gcb_cancellation": 0.5425157674937839,
+      "mean_cosine": -0.08763179431358974,
+      "opposing_frac": 1.0,
+      "local_re": 20.435524189853513,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "92 + 8 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.3081207275390625,
+      "top_tokens": [
+        657,
+        352,
+        807
+      ],
+      "top_probs": [
+        0.44524651765823364,
+        0.3271789848804474,
+        0.22757454216480255
+      ],
+      "gcb_cancellation": 0.542299391442127,
+      "mean_cosine": -0.08891454587380092,
+      "opposing_frac": 1.0,
+      "local_re": 20.04250169277123,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "189 + 11 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.352783203125,
+      "top_tokens": [
+        657,
+        352,
+        532
+      ],
+      "top_probs": [
+        0.44845351576805115,
+        0.3151415288448334,
+        0.23640495538711548
+      ],
+      "gcb_cancellation": 0.5515162554793993,
+      "mean_cosine": -0.07074836765726407,
+      "opposing_frac": 1.0,
+      "local_re": 19.779091400593376,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "188 + 12 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.2973785400390625,
+      "top_tokens": [
+        657,
+        352,
+        532
+      ],
+      "top_probs": [
+        0.4403859078884125,
+        0.32710227370262146,
+        0.23251189291477203
+      ],
+      "gcb_cancellation": 0.5527830662928181,
+      "mean_cosine": -0.06870670492450397,
+      "opposing_frac": 1.0,
+      "local_re": 20.682179187464598,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "187 + 13 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.4227752685546875,
+      "top_tokens": [
+        657,
+        352,
+        532
+      ],
+      "top_probs": [
+        0.45673805475234985,
+        0.2992665767669678,
+        0.24399536848068237
+      ],
+      "gcb_cancellation": 0.5483128168985588,
+      "mean_cosine": -0.07759601126114528,
+      "opposing_frac": 1.0,
+      "local_re": 18.672702212338653,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "999 + 1 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.22176361083984375,
+      "top_tokens": [
+        352,
+        657,
+        362
+      ],
+      "top_probs": [
+        0.43928879499435425,
+        0.3519163727760315,
+        0.20879481732845306
+      ],
+      "gcb_cancellation": 0.5130415264011864,
+      "mean_cosine": -0.13446480284134546,
+      "opposing_frac": 1.0,
+      "local_re": 20.169825119248195,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "998 + 2 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.157745361328125,
+      "top_tokens": [
+        657,
+        352,
+        362
+      ],
+      "top_probs": [
+        0.40802955627441406,
+        0.34848466515541077,
+        0.24348579347133636
+      ],
+      "gcb_cancellation": 0.5142443473239529,
+      "mean_cosine": -0.11799257000287373,
+      "opposing_frac": 1.0,
+      "local_re": 21.337834056301272,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "997 + 3 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.0084991455078125,
+      "top_tokens": [
+        657,
+        352,
+        362
+      ],
+      "top_probs": [
+        0.3789156973361969,
+        0.3757088780403137,
+        0.2453753799200058
+      ],
+      "gcb_cancellation": 0.5268771836686656,
+      "mean_cosine": -0.09774103512366612,
+      "opposing_frac": 1.0,
+      "local_re": 25.14964267983188,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "37 + 45 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.4842376708984375,
+      "top_tokens": [
+        657,
+        352,
+        532
+      ],
+      "top_probs": [
+        0.4972202479839325,
+        0.3063705861568451,
+        0.1964091807603836
+      ],
+      "gcb_cancellation": 0.5765003525797703,
+      "mean_cosine": -0.06342728560169537,
+      "opposing_frac": 1.0,
+      "local_re": 19.09082703422527,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "28 + 36 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.7363052368164062,
+      "top_tokens": [
+        657,
+        4570,
+        352
+      ],
+      "top_probs": [
+        0.52308189868927,
+        0.25049346685409546,
+        0.22642460465431213
+      ],
+      "gcb_cancellation": 0.5740506678703093,
+      "mean_cosine": -0.07329471781849861,
+      "opposing_frac": 1.0,
+      "local_re": 16.225467890406627,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "19 + 27 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.4995880126953125,
+      "top_tokens": [
+        657,
+        352,
+        532
+      ],
+      "top_probs": [
+        0.4600026309490204,
+        0.27912065386772156,
+        0.26087668538093567
+      ],
+      "gcb_cancellation": 0.5522375018172533,
+      "mean_cosine": -0.07303451001644135,
+      "opposing_frac": 1.0,
+      "local_re": 17.871523188665673,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "123 + 456 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.1628265380859375,
+      "top_tokens": [
+        657,
+        352,
+        604
+      ],
+      "top_probs": [
+        0.4016030728816986,
+        0.34125763177871704,
+        0.2571392357349396
+      ],
+      "gcb_cancellation": 0.5388907413422118,
+      "mean_cosine": -0.08066420505444209,
+      "opposing_frac": 1.0,
+      "local_re": 22.380122986518824,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "234 + 567 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.154571533203125,
+      "top_tokens": [
+        657,
+        352,
+        720
+      ],
+      "top_probs": [
+        0.3774878978729248,
+        0.32342493534088135,
+        0.29908719658851624
+      ],
+      "gcb_cancellation": 0.5287548022350468,
+      "mean_cosine": -0.08316332846879959,
+      "opposing_frac": 1.0,
+      "local_re": 22.055325064365107,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "2 + 2 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.106536865234375,
+      "top_tokens": [
+        513,
+        352,
+        362
+      ],
+      "top_probs": [
+        0.36705344915390015,
+        0.3299597501754761,
+        0.3029868006706238
+      ],
+      "gcb_cancellation": 0.45647408444353116,
+      "mean_cosine": -0.18925057848294577,
+      "opposing_frac": 1.0,
+      "local_re": 19.952398141364355,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "3 + 4 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 9.1552734375e-05,
+      "top_tokens": [
+        352,
+        604,
+        362
+      ],
+      "top_probs": [
+        0.3594757318496704,
+        0.3594428598880768,
+        0.2810814380645752
+      ],
+      "gcb_cancellation": 0.5049459031695391,
+      "mean_cosine": -0.1222066804766655,
+      "opposing_frac": 1.0,
+      "local_re": 24.237556147061532,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "5 + 5 =",
+      "domain": "arithmetic",
+      "layer": 0,
+      "margin": 0.01186370849609375,
+      "top_tokens": [
+        352,
+        642,
+        718
+      ],
+      "top_probs": [
+        0.3615991175174713,
+        0.35733455419540405,
+        0.281066358089447
+      ],
+      "gcb_cancellation": 0.5140946921386882,
+      "mean_cosine": -0.10843295852343242,
+      "opposing_frac": 1.0,
+      "local_re": 24.406616833779346,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "True XOR True =",
+      "domain": "logic",
+      "layer": 0,
+      "margin": 0.3591041564941406,
+      "top_tokens": [
+        10352,
+        6407,
+        657
+      ],
+      "top_probs": [
+        0.5316796898841858,
+        0.3712727725505829,
+        0.09704755246639252
+      ],
+      "gcb_cancellation": 0.16502194811619283,
+      "mean_cosine": -0.4225711499651273,
+      "opposing_frac": 1.0,
+      "local_re": 10.574344267303758,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "True XOR False =",
+      "domain": "logic",
+      "layer": 0,
+      "margin": 0.01092529296875,
+      "top_tokens": [
+        6407,
+        10352,
+        657
+      ],
+      "top_probs": [
+        0.44204431772232056,
+        0.43724116683006287,
+        0.12071458250284195
+      ],
+      "gcb_cancellation": 0.13055421567929418,
+      "mean_cosine": -0.44007263084252674,
+      "opposing_frac": 1.0,
+      "local_re": 13.652735527730686,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "False XOR True =",
+      "domain": "logic",
+      "layer": 0,
+      "margin": 0.38077545166015625,
+      "top_tokens": [
+        10352,
+        6407,
+        657
+      ],
+      "top_probs": [
+        0.5254174470901489,
+        0.3590341806411743,
+        0.11554841697216034
+      ],
+      "gcb_cancellation": 0.21318177994643558,
+      "mean_cosine": -0.41265806555747986,
+      "opposing_frac": 1.0,
+      "local_re": 11.045459323032297,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "False XOR False =",
+      "domain": "logic",
+      "layer": 0,
+      "margin": 0.023014068603515625,
+      "top_tokens": [
+        10352,
+        6407,
+        657
+      ],
+      "top_probs": [
+        0.35222771763801575,
+        0.3442140817642212,
+        0.3035581707954407
+      ],
+      "gcb_cancellation": 0.2520798528406719,
+      "mean_cosine": -0.40468230843544006,
+      "opposing_frac": 1.0,
+      "local_re": 15.683551256178271,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "True IMPLIES True =",
+      "domain": "logic",
+      "layer": 0,
+      "margin": 0.2871208190917969,
+      "top_tokens": [
+        10352,
+        6407,
+        352
+      ],
+      "top_probs": [
+        0.5514786839485168,
+        0.41384121775627136,
+        0.0346800871193409
+      ],
+      "gcb_cancellation": 0.13542660363326492,
+      "mean_cosine": -0.39525196701288223,
+      "opposing_frac": 1.0,
+      "local_re": 10.78350795863872,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "True IMPLIES False =",
+      "domain": "logic",
+      "layer": 0,
+      "margin": 0.41046905517578125,
+      "top_tokens": [
+        10352,
+        6407,
+        657
+      ],
+      "top_probs": [
+        0.5411742925643921,
+        0.35898202657699585,
+        0.09984364360570908
+      ],
+      "gcb_cancellation": 0.24215704933503573,
+      "mean_cosine": -0.3967609455188115,
+      "opposing_frac": 1.0,
+      "local_re": 11.22634716779671,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "False IMPLIES True =",
+      "domain": "logic",
+      "layer": 0,
+      "margin": 0.5573806762695312,
+      "top_tokens": [
+        10352,
+        6407,
+        352
+      ],
+      "top_probs": [
+        0.6075706481933594,
+        0.34796005487442017,
+        0.04446927830576897
+      ],
+      "gcb_cancellation": 0.17048760983137573,
+      "mean_cosine": -0.3978114941661867,
+      "opposing_frac": 1.0,
+      "local_re": 9.288885017160295,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "False IMPLIES False =",
+      "domain": "logic",
+      "layer": 0,
+      "margin": 0.4924888610839844,
+      "top_tokens": [
+        10352,
+        657,
+        6407
+      ],
+      "top_probs": [
+        0.5048873424530029,
+        0.30853843688964844,
+        0.18657420575618744
+      ],
+      "gcb_cancellation": 0.3881901887806041,
+      "mean_cosine": -0.2962846706310908,
+      "opposing_frac": 1.0,
+      "local_re": 13.141765405103618,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "True NAND True =",
+      "domain": "logic",
+      "layer": 0,
+      "margin": 0.7080574035644531,
+      "top_tokens": [
+        10352,
+        6407,
+        352
+      ],
+      "top_probs": [
+        0.6076037287712097,
+        0.2993057072162628,
+        0.09309058636426926
+      ],
+      "gcb_cancellation": 0.224828561446905,
+      "mean_cosine": -0.4010571042696635,
+      "opposing_frac": 1.0,
+      "local_re": 9.063188678448293,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "True NAND False =",
+      "domain": "logic",
+      "layer": 0,
+      "margin": 1.0336685180664062,
+      "top_tokens": [
+        10352,
+        6407,
+        657
+      ],
+      "top_probs": [
+        0.6493844389915466,
+        0.2309858500957489,
+        0.11962971091270447
+      ],
+      "gcb_cancellation": 0.2145462942719113,
+      "mean_cosine": -0.4091452832023303,
+      "opposing_frac": 0.6666666666666666,
+      "local_re": 7.512430848728062,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "True NOR True =",
+      "domain": "logic",
+      "layer": 0,
+      "margin": 0.03527069091796875,
+      "top_tokens": [
+        6407,
+        10352,
+        657
+      ],
+      "top_probs": [
+        0.46712109446525574,
+        0.4509325921535492,
+        0.08194630593061447
+      ],
+      "gcb_cancellation": 0.20673705911054022,
+      "mean_cosine": -0.40557123720645905,
+      "opposing_frac": 1.0,
+      "local_re": 14.612016746916666,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "True NOR False =",
+      "domain": "logic",
+      "layer": 0,
+      "margin": 0.4522705078125,
+      "top_tokens": [
+        10352,
+        6407,
+        657
+      ],
+      "top_probs": [
+        0.5445708632469177,
+        0.3464462161064148,
+        0.10898295044898987
+      ],
+      "gcb_cancellation": 0.18740994884569395,
+      "mean_cosine": -0.41976824402809143,
+      "opposing_frac": 1.0,
+      "local_re": 10.168624898048032,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "NOT NOT True =",
+      "domain": "logic",
+      "layer": 0,
+      "margin": 0.10629653930664062,
+      "top_tokens": [
+        10352,
+        6407,
+        657
+      ],
+      "top_probs": [
+        0.5076975226402283,
+        0.45650026202201843,
+        0.035802267491817474
+      ],
+      "gcb_cancellation": 0.2591827235190662,
+      "mean_cosine": -0.37292975187301636,
+      "opposing_frac": 1.0,
+      "local_re": 14.64193890224268,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "NOT NOT False =",
+      "domain": "logic",
+      "layer": 0,
+      "margin": 0.08456039428710938,
+      "top_tokens": [
+        10352,
+        6407,
+        657
+      ],
+      "top_probs": [
+        0.458464115858078,
+        0.4212900996208191,
+        0.12024574726819992
+      ],
+      "gcb_cancellation": 0.3053710460683749,
+      "mean_cosine": -0.36361833413441974,
+      "opposing_frac": 1.0,
+      "local_re": 15.928490588492293,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "True AND False OR True =",
+      "domain": "logic",
+      "layer": 0,
+      "margin": 0.25212860107421875,
+      "top_tokens": [
+        10352,
+        6407,
+        657
+      ],
+      "top_probs": [
+        0.5140242576599121,
+        0.3994712829589844,
+        0.0865044966340065
+      ],
+      "gcb_cancellation": 0.2624090325960718,
+      "mean_cosine": -0.3845844616492589,
+      "opposing_frac": 1.0,
+      "local_re": 12.993217864730436,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "(True OR False) AND True =",
+      "domain": "logic",
+      "layer": 0,
+      "margin": 0.20560455322265625,
+      "top_tokens": [
+        10352,
+        6407,
+        357
+      ],
+      "top_probs": [
+        0.5308470129966736,
+        0.43219172954559326,
+        0.036961235105991364
+      ],
+      "gcb_cancellation": 0.1435108082586323,
+      "mean_cosine": -0.3965388437112172,
+      "opposing_frac": 1.0,
+      "local_re": 11.621293769737235,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "The answer is",
+      "domain": "completion",
+      "layer": 0,
+      "margin": 0.38439178466796875,
+      "top_tokens": [
+        326,
+        2829,
+        11
+      ],
+      "top_probs": [
+        0.4556629955768585,
+        0.3102448284626007,
+        0.23409217596054077
+      ],
+      "gcb_cancellation": 0.46357201864679,
+      "mean_cosine": -0.19915317495663962,
+      "opposing_frac": 1.0,
+      "local_re": 16.158863377881644,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "The number is",
+      "domain": "completion",
+      "layer": 0,
+      "margin": 0.00396728515625,
+      "top_tokens": [
+        635,
+        257,
+        407
+      ],
+      "top_probs": [
+        0.3349277973175049,
+        0.3336016535758972,
+        0.3314705789089203
+      ],
+      "gcb_cancellation": 0.5407380217647448,
+      "mean_cosine": -0.06140351668000221,
+      "opposing_frac": 1.0,
+      "local_re": 26.02562648430587,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "The result is",
+      "domain": "completion",
+      "layer": 0,
+      "margin": 0.08832550048828125,
+      "top_tokens": [
+        326,
+        257,
+        262
+      ],
+      "top_probs": [
+        0.4764978885650635,
+        0.4362161159515381,
+        0.08728599548339844
+      ],
+      "gcb_cancellation": 0.3171271669739668,
+      "mean_cosine": -0.35429603854815167,
+      "opposing_frac": 1.0,
+      "local_re": 16.146656468743583,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "I think that",
+      "domain": "completion",
+      "layer": 0,
+      "margin": 0.7700729370117188,
+      "top_tokens": [
+        338,
+        262,
+        340
+      ],
+      "top_probs": [
+        0.5664448142051697,
+        0.26225224137306213,
+        0.17130298912525177
+      ],
+      "gcb_cancellation": 0.4969293907460623,
+      "mean_cosine": -0.1970264489452044,
+      "opposing_frac": 1.0,
+      "local_re": 13.476004226607248,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "I believe that",
+      "domain": "completion",
+      "layer": 0,
+      "margin": 1.0298614501953125,
+      "top_tokens": [
+        262,
+        356,
+        428
+      ],
+      "top_probs": [
+        0.5964928865432739,
+        0.21298161149024963,
+        0.19052551686763763
+      ],
+      "gcb_cancellation": 0.5544090807411998,
+      "mean_cosine": -0.14924490451812744,
+      "opposing_frac": 1.0,
+      "local_re": 13.267176857239216,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "In my opinion,",
+      "domain": "completion",
+      "layer": 0,
+      "margin": 0.6937789916992188,
+      "top_tokens": [
+        262,
+        340,
+        428
+      ],
+      "top_probs": [
+        0.5020532608032227,
+        0.2508681118488312,
+        0.24707862734794617
+      ],
+      "gcb_cancellation": 0.4319161470318059,
+      "mean_cosine": -0.24602575600147247,
+      "opposing_frac": 1.0,
+      "local_re": 12.47130954867126,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "The capital of",
+      "domain": "completion",
+      "layer": 0,
+      "margin": 2.5224380493164062,
+      "top_tokens": [
+        262,
+        257,
+        2692
+      ],
+      "top_probs": [
+        0.8691225051879883,
+        0.06975897401571274,
+        0.06111842766404152
+      ],
+      "gcb_cancellation": 0.6859006452028087,
+      "mean_cosine": -0.16247754481931528,
+      "opposing_frac": 0.6666666666666666,
+      "local_re": 10.846030915913323,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "The president of",
+      "domain": "completion",
+      "layer": 0,
+      "margin": 2.6781005859375,
+      "top_tokens": [
+        262,
+        257,
+        281
+      ],
+      "top_probs": [
+        0.9239607453346252,
+        0.06347010284662247,
+        0.01256919652223587
+      ],
+      "gcb_cancellation": 0.44426681643520116,
+      "mean_cosine": -0.2766813983519872,
+      "opposing_frac": 0.6666666666666666,
+      "local_re": 5.87071928183984,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "The founder of",
+      "domain": "completion",
+      "layer": 0,
+      "margin": 1.6626472473144531,
+      "top_tokens": [
+        262,
+        257,
+        383
+      ],
+      "top_probs": [
+        0.8060876727104187,
+        0.1528634876012802,
+        0.041048746556043625
+      ],
+      "gcb_cancellation": 0.5673309538955206,
+      "mean_cosine": -0.2217088658362627,
+      "opposing_frac": 0.6666666666666666,
+      "local_re": 10.416259378191624,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "Once upon a time",
+      "domain": "completion",
+      "layer": 0,
+      "margin": 1.8884468078613281,
+      "top_tokens": [
+        11,
+        262,
+        314
+      ],
+      "top_probs": [
+        0.8022364377975464,
+        0.12138370424509048,
+        0.07637984305620193
+      ],
+      "gcb_cancellation": 0.43120199289634964,
+      "mean_cosine": -0.29704685012499493,
+      "opposing_frac": 0.6666666666666666,
+      "local_re": 7.303967057229237,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "In the beginning",
+      "domain": "completion",
+      "layer": 0,
+      "margin": 1.2130088806152344,
+      "top_tokens": [
+        11,
+        286,
+        314
+      ],
+      "top_probs": [
+        0.7305808663368225,
+        0.21720273792743683,
+        0.05221641808748245
+      ],
+      "gcb_cancellation": 0.29452689044044883,
+      "mean_cosine": -0.3604922965168953,
+      "opposing_frac": 0.6666666666666666,
+      "local_re": 7.686305197951533,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "Long ago",
+      "domain": "completion",
+      "layer": 0,
+      "margin": 1.8586311340332031,
+      "top_tokens": [
+        11,
+        314,
+        618
+      ],
+      "top_probs": [
+        0.8171899318695068,
+        0.1273883581161499,
+        0.055421773344278336
+      ],
+      "gcb_cancellation": 0.35526962841357895,
+      "mean_cosine": -0.3293254226446152,
+      "opposing_frac": 0.6666666666666666,
+      "local_re": 6.510959552983136,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "My favorite color is",
+      "domain": "completion",
+      "layer": 0,
+      "margin": 0.76470947265625,
+      "top_tokens": [
+        262,
+        4171,
+        257
+      ],
+      "top_probs": [
+        0.5571934580802917,
+        0.2593563497066498,
+        0.1834501475095749
+      ],
+      "gcb_cancellation": 0.5456191673244825,
+      "mean_cosine": -0.13515241195758185,
+      "opposing_frac": 1.0,
+      "local_re": 14.965389550770809,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "The best programming language is",
+      "domain": "completion",
+      "layer": 0,
+      "margin": 0.00011444091796875,
+      "top_tokens": [
+        11361,
+        7349,
+        262
+      ],
+      "top_probs": [
+        0.34107378125190735,
+        0.34103477001190186,
+        0.3178914487361908
+      ],
+      "gcb_cancellation": 0.5062581645945008,
+      "mean_cosine": -0.11586323132117589,
+      "opposing_frac": 1.0,
+      "local_re": 24.301418283246893,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "def f(x):",
+      "domain": "completion",
+      "layer": 0,
+      "margin": 0.29522705078125,
+      "top_tokens": [
+        198,
+        1441,
+        277
+      ],
+      "top_probs": [
+        0.4264577329158783,
+        0.3174391984939575,
+        0.2561030089855194
+      ],
+      "gcb_cancellation": 0.4486102547841357,
+      "mean_cosine": -0.21176387866338095,
+      "opposing_frac": 1.0,
+      "local_re": 16.802606438159152,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "for i in range(",
+      "domain": "completion",
+      "layer": 0,
+      "margin": 0.2996826171875,
+      "top_tokens": [
+        15,
+        16,
+        72
+      ],
+      "top_probs": [
+        0.4411037564277649,
+        0.32688143849372864,
+        0.23201480507850647
+      ],
+      "gcb_cancellation": 0.4212093628052712,
+      "mean_cosine": -0.24667817850907645,
+      "opposing_frac": 1.0,
+      "local_re": 15.952268045696071,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "if x >",
+      "domain": "completion",
+      "layer": 0,
+      "margin": 2.0669631958007812,
+      "top_tokens": [
+        657,
+        352,
+        532
+      ],
+      "top_probs": [
+        0.799659013748169,
+        0.10121248662471771,
+        0.09912848472595215
+      ],
+      "gcb_cancellation": 0.45763591686825195,
+      "mean_cosine": -0.28367382536331814,
+      "opposing_frac": 0.6666666666666666,
+      "local_re": 7.214093387817605,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "class MyClass:",
+      "domain": "completion",
+      "layer": 0,
+      "margin": 0.9161872863769531,
+      "top_tokens": [
+        2011,
+        3666,
+        198
+      ],
+      "top_probs": [
+        0.5885677933692932,
+        0.23545145988464355,
+        0.17598077654838562
+      ],
+      "gcb_cancellation": 0.6016480348508484,
+      "mean_cosine": -0.07753608251611392,
+      "opposing_frac": 1.0,
+      "local_re": 15.720860997443756,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "import ",
+      "domain": "completion",
+      "layer": 0,
+      "margin": 1.4530296325683594,
+      "top_tokens": [
+        1849,
+        4907,
+        2340
+      ],
+      "top_probs": [
+        0.6845995783805847,
+        0.16010093688964844,
+        0.15529949963092804
+      ],
+      "gcb_cancellation": 0.6135892671001726,
+      "mean_cosine": -0.12818187351028124,
+      "opposing_frac": 1.0,
+      "local_re": 12.659870718112352,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "return ",
+      "domain": "completion",
+      "layer": 0,
+      "margin": 0.9154167175292969,
+      "top_tokens": [
+        1849,
+        4907,
+        1701
+      ],
+      "top_probs": [
+        0.5753806233406067,
+        0.2303534895181656,
+        0.19426590204238892
+      ],
+      "gcb_cancellation": 0.5569771727592161,
+      "mean_cosine": -0.12918034940958023,
+      "opposing_frac": 1.0,
+      "local_re": 14.14138246184002,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "The capital of France is",
+      "domain": "factuality",
+      "layer": 0,
+      "margin": 0.5677032470703125,
+      "top_tokens": [
+        262,
+        783,
+        257
+      ],
+      "top_probs": [
+        0.47336846590042114,
+        0.26831743121147156,
+        0.2583141624927521
+      ],
+      "gcb_cancellation": 0.5221463567327361,
+      "mean_cosine": -0.1207292452454567,
+      "opposing_frac": 1.0,
+      "local_re": 16.01852364615386,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "The capital of Japan is",
+      "domain": "factuality",
+      "layer": 0,
+      "margin": 0.3344879150390625,
+      "top_tokens": [
+        262,
+        11790,
+        1363
+      ],
+      "top_probs": [
+        0.41722428798675537,
+        0.29860928654670715,
+        0.28416645526885986
+      ],
+      "gcb_cancellation": 0.4879845199499698,
+      "mean_cosine": -0.1524842530488968,
+      "opposing_frac": 1.0,
+      "local_re": 17.562385643847378,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "The largest country is",
+      "domain": "factuality",
+      "layer": 0,
+      "margin": 0.504791259765625,
+      "top_tokens": [
+        262,
+        2807,
+        3284
+      ],
+      "top_probs": [
+        0.5234372019767761,
+        0.3159632086753845,
+        0.16059952974319458
+      ],
+      "gcb_cancellation": 0.5382552137574057,
+      "mean_cosine": -0.1351649984717369,
+      "opposing_frac": 1.0,
+      "local_re": 17.2704234335359,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "The smallest continent is",
+      "domain": "factuality",
+      "layer": 0,
+      "margin": 1.3835296630859375,
+      "top_tokens": [
+        262,
+        257,
+        1444
+      ],
+      "top_probs": [
+        0.7070489525794983,
+        0.17725160717964172,
+        0.1156994178891182
+      ],
+      "gcb_cancellation": 0.6306399423260047,
+      "mean_cosine": -0.13144402454296747,
+      "opposing_frac": 1.0,
+      "local_re": 13.630467625409638,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "World War II ended in",
+      "domain": "factuality",
+      "layer": 0,
+      "margin": 0.2341766357421875,
+      "top_tokens": [
+        257,
+        15761,
+        7433
+      ],
+      "top_probs": [
+        0.44451090693473816,
+        0.351706862449646,
+        0.20378227531909943
+      ],
+      "gcb_cancellation": 0.46519837740953024,
+      "mean_cosine": -0.197797621289889,
+      "opposing_frac": 1.0,
+      "local_re": 18.18072548280379,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "The moon landing was in",
+      "domain": "factuality",
+      "layer": 0,
+      "margin": 0.49755859375,
+      "top_tokens": [
+        1109,
+        262,
+        257
+      ],
+      "top_probs": [
+        0.5754795074462891,
+        0.34989920258522034,
+        0.07462126761674881
+      ],
+      "gcb_cancellation": 0.531684929438697,
+      "mean_cosine": -0.1816986675063769,
+      "opposing_frac": 1.0,
+      "local_re": 17.110365572992308,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "The first president was",
+      "domain": "factuality",
+      "layer": 0,
+      "margin": 0.4803924560546875,
+      "top_tokens": [
+        257,
+        4642,
+        39981
+      ],
+      "top_probs": [
+        0.5032516121864319,
+        0.31128159165382385,
+        0.18546676635742188
+      ],
+      "gcb_cancellation": 0.5367072562547761,
+      "mean_cosine": -0.12225162486235301,
+      "opposing_frac": 1.0,
+      "local_re": 17.4964074790656,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "Einstein discovered",
+      "domain": "factuality",
+      "layer": 0,
+      "margin": 0.71734619140625,
+      "top_tokens": [
+        326,
+        262,
+        257
+      ],
+      "top_probs": [
+        0.6002742648124695,
+        0.2929612994194031,
+        0.1067645326256752
+      ],
+      "gcb_cancellation": 0.34117727464882597,
+      "mean_cosine": -0.34316886713107425,
+      "opposing_frac": 1.0,
+      "local_re": 10.606078165874553,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "Water boils at",
+      "domain": "factuality",
+      "layer": 0,
+      "margin": 0.2143402099609375,
+      "top_tokens": [
+        546,
+        257,
+        1088
+      ],
+      "top_probs": [
+        0.44997438788414,
+        0.3631625175476074,
+        0.18686304986476898
+      ],
+      "gcb_cancellation": 0.5361146747547619,
+      "mean_cosine": -0.10957778990268707,
+      "opposing_frac": 1.0,
+      "local_re": 21.302483426910968,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "Light travels at",
+      "domain": "factuality",
+      "layer": 0,
+      "margin": 1.3958053588867188,
+      "top_tokens": [
+        257,
+        281,
+        262
+      ],
+      "top_probs": [
+        0.7168481349945068,
+        0.1775156408548355,
+        0.1056361272931099
+      ],
+      "gcb_cancellation": 0.5730847063899093,
+      "mean_cosine": -0.18729495257139206,
+      "opposing_frac": 1.0,
+      "local_re": 11.732430790868168,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "The speed of sound is",
+      "domain": "factuality",
+      "layer": 0,
+      "margin": 0.242279052734375,
+      "top_tokens": [
+        635,
+        257,
+        262
+      ],
+      "top_probs": [
+        0.3919363021850586,
+        0.30760616064071655,
+        0.30045756697654724
+      ],
+      "gcb_cancellation": 0.5328143958995595,
+      "mean_cosine": -0.08220560600360234,
+      "opposing_frac": 1.0,
+      "local_re": 20.676290812535726,
+      "is_turbulent": "False",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "Gravity on Earth is",
+      "domain": "factuality",
+      "layer": 0,
+      "margin": 0.4227142333984375,
+      "top_tokens": [
+        257,
+        262,
+        407
+      ],
+      "top_probs": [
+        0.4914446175098419,
+        0.3220268785953522,
+        0.1865285038948059
+      ],
+      "gcb_cancellation": 0.5030721615383354,
+      "mean_cosine": -0.16127831488847733,
+      "opposing_frac": 1.0,
+      "local_re": 16.973454579614486,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "Pi equals approximately",
+      "domain": "factuality",
+      "layer": 0,
+      "margin": 0.3914947509765625,
+      "top_tokens": [
+        352,
+        362,
+        657
+      ],
+      "top_probs": [
+        0.4426157772541046,
+        0.2992284595966339,
+        0.25815579295158386
+      ],
+      "gcb_cancellation": 0.4728921405892635,
+      "mean_cosine": -0.17932983239491782,
+      "opposing_frac": 1.0,
+      "local_re": 16.360635981356474,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    },
+    {
+      "prompt": "The square root of 2 is",
+      "domain": "factuality",
+      "layer": 0,
+      "margin": 1.5820083618164062,
+      "top_tokens": [
+        262,
+        352,
+        257
+      ],
+      "top_probs": [
+        0.7121955156326294,
+        0.14640022814273834,
+        0.14140425622463226
+      ],
+      "gcb_cancellation": 0.5808446281859558,
+      "mean_cosine": -0.1799649621049563,
+      "opposing_frac": 1.0,
+      "local_re": 11.087881230719956,
+      "is_turbulent": "True",
+      "contamination_rate": 0.0
+    }
+  ]
+}

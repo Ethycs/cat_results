@@ -1,0 +1,1020 @@
+{
+  "summary": {
+    "n_germs": 30,
+    "n_exploitable": 16,
+    "correlations_with_flip_radius": {
+      "layer": -0.30991296520759676,
+      "unfolding_rank": 0.0,
+      "logit_gradient_norm": 0.3136388442014444,
+      "reversal_norm": -0.2755781874229687,
+      "braid_reduced_length": 0.0,
+      "braid_exponent_sum": 0.0
+    },
+    "by_type": {
+      "fragile_comply": {
+        "n": 9,
+        "mean_flip_radius": 0.6288194444444444,
+        "mean_gradient_norm": 2.6487630208333335,
+        "n_exploitable": 2,
+        "layers": [
+          13,
+          14,
+          16,
+          17,
+          19,
+          20,
+          21,
+          23
+        ]
+      },
+      "frontier": {
+        "n": 8,
+        "mean_flip_radius": 1.15703125,
+        "mean_gradient_norm": 8.460662841796875,
+        "n_exploitable": 5,
+        "layers": [
+          6,
+          8,
+          13,
+          18,
+          19,
+          21,
+          23
+        ]
+      },
+      "robust_comply": {
+        "n": 4,
+        "mean_flip_radius": 1.07421875,
+        "mean_gradient_norm": 5.11810302734375,
+        "n_exploitable": 2,
+        "layers": [
+          8,
+          18,
+          20,
+          21
+        ]
+      },
+      "robust_refuse": {
+        "n": 9,
+        "mean_flip_radius": 1.0086805555555556,
+        "mean_gradient_norm": 6.905436197916667,
+        "n_exploitable": 7,
+        "layers": [
+          2,
+          3,
+          5,
+          15,
+          17,
+          18,
+          19,
+          21,
+          22
+        ]
+      }
+    },
+    "by_unfolding_rank": {
+      "2": {
+        "name": "rank_2",
+        "n": 30,
+        "mean_flip_radius": 0.9430208333333335,
+        "n_exploitable": 16
+      }
+    },
+    "by_cert_level": {
+      "1": {
+        "n": 30,
+        "mean_flip_radius": 0.9430208333333335,
+        "n_exploitable": 16
+      }
+    },
+    "by_braid": {
+      "exp=0_len=0": {
+        "n": 30,
+        "mean_flip_radius": 0.9430208333333335,
+        "n_exploitable": 16
+      }
+    },
+    "by_decision_pair": {
+      "(3947, 40)": {
+        "n": 3,
+        "mean_flip_radius": 0.2677083333333333,
+        "n_exploitable": 0,
+        "layers": [
+          18,
+          19,
+          20
+        ]
+      },
+      "(40, 2170)": {
+        "n": 3,
+        "mean_flip_radius": 0.484375,
+        "n_exploitable": 1,
+        "layers": [
+          18,
+          19,
+          21
+        ]
+      },
+      "(3947, 8586)": {
+        "n": 2,
+        "mean_flip_radius": 0.359375,
+        "n_exploitable": 1,
+        "layers": [
+          17,
+          20
+        ]
+      },
+      "(100257, 13)": {
+        "n": 2,
+        "mean_flip_radius": 2.546875,
+        "n_exploitable": 2,
+        "layers": [
+          5,
+          8
+        ]
+      },
+      "(2170, 2181)": {
+        "n": 2,
+        "mean_flip_radius": 1.484375,
+        "n_exploitable": 2,
+        "layers": [
+          15,
+          17
+        ]
+      },
+      "(8586, 16)": {
+        "n": 2,
+        "mean_flip_radius": 0.46875,
+        "n_exploitable": 1,
+        "layers": [
+          13,
+          17
+        ]
+      },
+      "(3947, 2181)": {
+        "n": 2,
+        "mean_flip_radius": 0.1,
+        "n_exploitable": 0,
+        "layers": [
+          23
+        ]
+      },
+      "(100257, 12)": {
+        "n": 2,
+        "mean_flip_radius": 0.859375,
+        "n_exploitable": 2,
+        "layers": [
+          6
+        ]
+      },
+      "(100257, 1)": {
+        "n": 1,
+        "mean_flip_radius": 2.796875,
+        "n_exploitable": 1,
+        "layers": [
+          8
+        ]
+      },
+      "(3947, 16)": {
+        "n": 1,
+        "mean_flip_radius": 0.5,
+        "n_exploitable": 0,
+        "layers": [
+          21
+        ]
+      },
+      "(198, 100257)": {
+        "n": 1,
+        "mean_flip_radius": 0.375,
+        "n_exploitable": 0,
+        "layers": [
+          2
+        ]
+      },
+      "(100257, 198)": {
+        "n": 1,
+        "mean_flip_radius": 0.265625,
+        "n_exploitable": 0,
+        "layers": [
+          3
+        ]
+      },
+      "(2181, 56962)": {
+        "n": 1,
+        "mean_flip_radius": 1.71875,
+        "n_exploitable": 1,
+        "layers": [
+          18
+        ]
+      },
+      "(2181, 8142)": {
+        "n": 1,
+        "mean_flip_radius": 0.796875,
+        "n_exploitable": 1,
+        "layers": [
+          19
+        ]
+      },
+      "(2170, 25488)": {
+        "n": 1,
+        "mean_flip_radius": 1.265625,
+        "n_exploitable": 1,
+        "layers": [
+          21
+        ]
+      },
+      "(2170, 15841)": {
+        "n": 1,
+        "mean_flip_radius": 0.953125,
+        "n_exploitable": 1,
+        "layers": [
+          22
+        ]
+      },
+      "(8586, 2170)": {
+        "n": 1,
+        "mean_flip_radius": 3.59375,
+        "n_exploitable": 1,
+        "layers": [
+          14
+        ]
+      },
+      "(8586, 40914)": {
+        "n": 1,
+        "mean_flip_radius": 0.40625,
+        "n_exploitable": 0,
+        "layers": [
+          16
+        ]
+      },
+      "(2181, 3947)": {
+        "n": 1,
+        "mean_flip_radius": 0.1,
+        "n_exploitable": 0,
+        "layers": [
+          21
+        ]
+      },
+      "(8586, 39314)": {
+        "n": 1,
+        "mean_flip_radius": 1.625,
+        "n_exploitable": 1,
+        "layers": [
+          13
+        ]
+      }
+    }
+  },
+  "germs": [
+    {
+      "germ_id": "gate_L8_robust_comply",
+      "layer": 8,
+      "band": "early",
+      "flip_radius": 2.796875,
+      "exploitable": true,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 18.609375,
+      "reversal_norm": 0.5498046875,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 10.4375,
+      "ablated_margin": -3.09375,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        100257,
+        1
+      ],
+      "basin_id": "basin_44_sig-1_0",
+      "germ_type": "robust_comply"
+    },
+    {
+      "germ_id": "gate_L18_robust_comply",
+      "layer": 18,
+      "band": "late",
+      "flip_radius": 0.4375,
+      "exploitable": false,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 0.853515625,
+      "reversal_norm": 2.50390625,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 0.890625,
+      "ablated_margin": -0.265625,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        3947,
+        40
+      ],
+      "basin_id": "basin_27_sig-1_0",
+      "germ_type": "robust_comply"
+    },
+    {
+      "germ_id": "gate_L20_robust_comply",
+      "layer": 20,
+      "band": "late",
+      "flip_radius": 0.5625,
+      "exploitable": true,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 0.5419921875,
+      "reversal_norm": 1.705078125,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 0.96875,
+      "ablated_margin": -0.3125,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        3947,
+        8586
+      ],
+      "basin_id": "basin_15_sig-1_0",
+      "germ_type": "robust_comply"
+    },
+    {
+      "germ_id": "gate_L21_robust_comply",
+      "layer": 21,
+      "band": "late",
+      "flip_radius": 0.5,
+      "exploitable": false,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 0.467529296875,
+      "reversal_norm": 3.84375,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 1.25,
+      "ablated_margin": -1.03125,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        3947,
+        16
+      ],
+      "basin_id": "basin_62_sig-1_0",
+      "germ_type": "robust_comply"
+    },
+    {
+      "germ_id": "gate_L2_robust_refuse",
+      "layer": 2,
+      "band": "early",
+      "flip_radius": 0.375,
+      "exploitable": false,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 13.96875,
+      "reversal_norm": 0.332763671875,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 7.0234375,
+      "ablated_margin": -2.2109375,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        198,
+        100257
+      ],
+      "basin_id": "basin_1_sig-1_0",
+      "germ_type": "robust_refuse"
+    },
+    {
+      "germ_id": "gate_L3_robust_refuse",
+      "layer": 3,
+      "band": "early",
+      "flip_radius": 0.265625,
+      "exploitable": false,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 23.875,
+      "reversal_norm": 0.173583984375,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 8.265625,
+      "ablated_margin": -1.296875,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        100257,
+        198
+      ],
+      "basin_id": "basin_5_sig-1_0",
+      "germ_type": "robust_refuse"
+    },
+    {
+      "germ_id": "gate_L5_robust_refuse",
+      "layer": 5,
+      "band": "early",
+      "flip_radius": 0.734375,
+      "exploitable": true,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 15.2109375,
+      "reversal_norm": 0.82861328125,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 8.0859375,
+      "ablated_margin": -10.109375,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        100257,
+        13
+      ],
+      "basin_id": "basin_3_sig-1_0",
+      "germ_type": "robust_refuse"
+    },
+    {
+      "germ_id": "gate_L15_robust_refuse",
+      "layer": 15,
+      "band": "mid",
+      "flip_radius": 1.625,
+      "exploitable": true,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 3.984375,
+      "reversal_norm": 1.2041015625,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 5.2109375,
+      "ablated_margin": -0.078125,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        2170,
+        2181
+      ],
+      "basin_id": "basin_29_sig-1_0",
+      "germ_type": "robust_refuse"
+    },
+    {
+      "germ_id": "gate_L17_robust_refuse",
+      "layer": 17,
+      "band": "mid",
+      "flip_radius": 1.34375,
+      "exploitable": true,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 1.482421875,
+      "reversal_norm": 1.7919921875,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 1.859375,
+      "ablated_margin": -0.234375,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        2170,
+        2181
+      ],
+      "basin_id": "basin_12_sig-1_0",
+      "germ_type": "robust_refuse"
+    },
+    {
+      "germ_id": "gate_L18_robust_refuse",
+      "layer": 18,
+      "band": "late",
+      "flip_radius": 1.71875,
+      "exploitable": true,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 1.0712890625,
+      "reversal_norm": 4.421875,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 3.421875,
+      "ablated_margin": -0.40625,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        2181,
+        56962
+      ],
+      "basin_id": "basin_81_sig-1_0",
+      "germ_type": "robust_refuse"
+    },
+    {
+      "germ_id": "gate_L19_robust_refuse",
+      "layer": 19,
+      "band": "late",
+      "flip_radius": 0.796875,
+      "exploitable": true,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 0.63134765625,
+      "reversal_norm": 1.693359375,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 1.265625,
+      "ablated_margin": -0.1875,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        2181,
+        8142
+      ],
+      "basin_id": "basin_83_sig-1_0",
+      "germ_type": "robust_refuse"
+    },
+    {
+      "germ_id": "gate_L21_robust_refuse",
+      "layer": 21,
+      "band": "late",
+      "flip_radius": 1.265625,
+      "exploitable": true,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 0.9638671875,
+      "reversal_norm": 1.9169921875,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 2.265625,
+      "ablated_margin": -0.484375,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        2170,
+        25488
+      ],
+      "basin_id": "basin_86_sig-1_0",
+      "germ_type": "robust_refuse"
+    },
+    {
+      "germ_id": "gate_L22_robust_refuse",
+      "layer": 22,
+      "band": "late",
+      "flip_radius": 0.953125,
+      "exploitable": true,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 0.9609375,
+      "reversal_norm": 7.375,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 2.078125,
+      "ablated_margin": -0.890625,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        2170,
+        15841
+      ],
+      "basin_id": "basin_87_sig-1_0",
+      "germ_type": "robust_refuse"
+    },
+    {
+      "germ_id": "gate_L13_fragile_comply",
+      "layer": 13,
+      "band": "mid",
+      "flip_radius": 0.65625,
+      "exploitable": true,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 11.2109375,
+      "reversal_norm": 1.224609375,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 0.875,
+      "ablated_margin": -10.953125,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        8586,
+        16
+      ],
+      "basin_id": "basin_98_sig-1_0",
+      "germ_type": "fragile_comply"
+    },
+    {
+      "germ_id": "gate_L14_fragile_comply",
+      "layer": 14,
+      "band": "mid",
+      "flip_radius": 3.59375,
+      "exploitable": true,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 4.80859375,
+      "reversal_norm": 1.0712890625,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 2.09375,
+      "ablated_margin": -1.53125,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        8586,
+        2170
+      ],
+      "basin_id": "basin_99_sig-1_0",
+      "germ_type": "fragile_comply"
+    },
+    {
+      "germ_id": "gate_L16_fragile_comply",
+      "layer": 16,
+      "band": "mid",
+      "flip_radius": 0.40625,
+      "exploitable": false,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 2.767578125,
+      "reversal_norm": 1.8525390625,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 5.203125,
+      "ablated_margin": -3.953125,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        8586,
+        40914
+      ],
+      "basin_id": "basin_101_sig-1_0",
+      "germ_type": "fragile_comply"
+    },
+    {
+      "germ_id": "gate_L17_fragile_comply",
+      "layer": 17,
+      "band": "mid",
+      "flip_radius": 0.28125,
+      "exploitable": false,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 1.869140625,
+      "reversal_norm": 1.494140625,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 1.09375,
+      "ablated_margin": -0.265625,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        8586,
+        16
+      ],
+      "basin_id": "basin_6_sig-1_0",
+      "germ_type": "fragile_comply"
+    },
+    {
+      "germ_id": "gate_L17_fragile_comply",
+      "layer": 17,
+      "band": "mid",
+      "flip_radius": 0.15625,
+      "exploitable": false,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 1.203125,
+      "reversal_norm": 2.158203125,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 1.453125,
+      "ablated_margin": -1.875,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        3947,
+        8586
+      ],
+      "basin_id": "basin_6_sig-1_0",
+      "germ_type": "fragile_comply"
+    },
+    {
+      "germ_id": "gate_L19_fragile_comply",
+      "layer": 19,
+      "band": "late",
+      "flip_radius": 0.1,
+      "exploitable": false,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 0.67138671875,
+      "reversal_norm": 4.38671875,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 0.25,
+      "ablated_margin": -0.703125,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        3947,
+        40
+      ],
+      "basin_id": "basin_15_sig-1_0",
+      "germ_type": "fragile_comply"
+    },
+    {
+      "germ_id": "gate_L20_fragile_comply",
+      "layer": 20,
+      "band": "late",
+      "flip_radius": 0.265625,
+      "exploitable": false,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 0.5888671875,
+      "reversal_norm": 1.4677734375,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 0.296875,
+      "ablated_margin": -0.03125,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        3947,
+        40
+      ],
+      "basin_id": "basin_15_sig-1_0",
+      "germ_type": "fragile_comply"
+    },
+    {
+      "germ_id": "gate_L21_fragile_comply",
+      "layer": 21,
+      "band": "late",
+      "flip_radius": 0.1,
+      "exploitable": false,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 0.41259765625,
+      "reversal_norm": 1.8173828125,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 0.203125,
+      "ablated_margin": -0.25,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        2181,
+        3947
+      ],
+      "basin_id": "basin_40_sig-1_0",
+      "germ_type": "fragile_comply"
+    },
+    {
+      "germ_id": "gate_L23_fragile_comply",
+      "layer": 23,
+      "band": "late",
+      "flip_radius": 0.1,
+      "exploitable": false,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 0.306640625,
+      "reversal_norm": 4.78515625,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 0.359375,
+      "ablated_margin": -0.5625,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        3947,
+        2181
+      ],
+      "basin_id": "basin_16_sig-1_0",
+      "germ_type": "fragile_comply"
+    },
+    {
+      "germ_id": "gate_L6_frontier",
+      "layer": 6,
+      "band": "early",
+      "flip_radius": 1.125,
+      "exploitable": true,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 21.421875,
+      "reversal_norm": 0.67431640625,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 14.125,
+      "ablated_margin": -2.609375,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        100257,
+        12
+      ],
+      "basin_id": "basin_0_sig-1_0",
+      "germ_type": "frontier"
+    },
+    {
+      "germ_id": "gate_L6_frontier",
+      "layer": 6,
+      "band": "early",
+      "flip_radius": 0.59375,
+      "exploitable": true,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 21.078125,
+      "reversal_norm": 0.319580078125,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 7.80859375,
+      "ablated_margin": -4.1875,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        100257,
+        12
+      ],
+      "basin_id": "basin_0_sig-1_0",
+      "germ_type": "frontier"
+    },
+    {
+      "germ_id": "gate_L8_frontier",
+      "layer": 8,
+      "band": "early",
+      "flip_radius": 4.359375,
+      "exploitable": true,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 17.125,
+      "reversal_norm": 0.5087890625,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 2.453125,
+      "ablated_margin": -1.59375,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        100257,
+        13
+      ],
+      "basin_id": "basin_3_sig-1_0",
+      "germ_type": "frontier"
+    },
+    {
+      "germ_id": "gate_L13_frontier",
+      "layer": 13,
+      "band": "mid",
+      "flip_radius": 1.625,
+      "exploitable": true,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 5.8984375,
+      "reversal_norm": 0.98828125,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 5.625,
+      "ablated_margin": -4.0625,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        8586,
+        39314
+      ],
+      "basin_id": "basin_105_sig-1_0",
+      "germ_type": "frontier"
+    },
+    {
+      "germ_id": "gate_L18_frontier",
+      "layer": 18,
+      "band": "late",
+      "flip_radius": 0.828125,
+      "exploitable": true,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 0.87548828125,
+      "reversal_norm": 3.783203125,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 1.875,
+      "ablated_margin": -0.609375,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        40,
+        2170
+      ],
+      "basin_id": "basin_9_sig-1_0",
+      "germ_type": "frontier"
+    },
+    {
+      "germ_id": "gate_L19_frontier",
+      "layer": 19,
+      "band": "late",
+      "flip_radius": 0.34375,
+      "exploitable": false,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 0.55712890625,
+      "reversal_norm": 2.97265625,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 0.75,
+      "ablated_margin": -0.1875,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        40,
+        2170
+      ],
+      "basin_id": "basin_10_sig-1_0",
+      "germ_type": "frontier"
+    },
+    {
+      "germ_id": "gate_L21_frontier",
+      "layer": 21,
+      "band": "late",
+      "flip_radius": 0.28125,
+      "exploitable": false,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 0.422607421875,
+      "reversal_norm": 3.396484375,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 1.21875,
+      "ablated_margin": -1.125,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        40,
+        2170
+      ],
+      "basin_id": "basin_40_sig-1_0",
+      "germ_type": "frontier"
+    },
+    {
+      "germ_id": "gate_L23_frontier",
+      "layer": 23,
+      "band": "late",
+      "flip_radius": 0.1,
+      "exploitable": false,
+      "unfolding_rank": 2,
+      "cert_level": 1,
+      "logit_gradient_norm": 0.306640625,
+      "reversal_norm": 2.919921875,
+      "margin": 0,
+      "coupling": 0,
+      "coupled_margin": 0.34375,
+      "ablated_margin": -0.5625,
+      "braid_reduced_length": 0,
+      "braid_exponent_sum": 0,
+      "braid_permutation_type": "[]",
+      "has_circuit_trace": false,
+      "decision_pair": [
+        3947,
+        2181
+      ],
+      "basin_id": "basin_16_sig-1_0",
+      "germ_type": "frontier"
+    }
+  ]
+}

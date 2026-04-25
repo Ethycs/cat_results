@@ -1,0 +1,6314 @@
+{
+  "test": "Tight Helix-Monodromy Validation (Statistical)",
+  "results": {
+    "2": {
+      "period": 2,
+      "n_tested": 200,
+      "n_confirmed": 100,
+      "confirmation_rate": 0.5,
+      "verdict": "CONFIRMED",
+      "error_points": [
+        {
+          "location": [
+            148,
+            98
+          ],
+          "delta": -246,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            145,
+            99
+          ],
+          "delta": -244,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            147,
+            97
+          ],
+          "delta": -244,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            148,
+            94
+          ],
+          "delta": -242,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            142,
+            98
+          ],
+          "delta": -240,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            147,
+            93
+          ],
+          "delta": -240,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            144,
+            94
+          ],
+          "delta": -238,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            147,
+            91
+          ],
+          "delta": -238,
+          "period": 2,
+          "monodromy_order": 12,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            147,
+            89
+          ],
+          "delta": -236,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            140,
+            94
+          ],
+          "delta": -234,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            137,
+            97
+          ],
+          "delta": -234,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            139,
+            95
+          ],
+          "delta": -234,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            148,
+            86
+          ],
+          "delta": -234,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            137,
+            95
+          ],
+          "delta": -232,
+          "period": 2,
+          "monodromy_order": 12,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            136,
+            96
+          ],
+          "delta": -232,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            134,
+            96
+          ],
+          "delta": -230,
+          "period": 2,
+          "monodromy_order": 12,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            131,
+            99
+          ],
+          "delta": -230,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            146,
+            84
+          ],
+          "delta": -230,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            136,
+            92
+          ],
+          "delta": -228,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            138,
+            90
+          ],
+          "delta": -228,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            133,
+            95
+          ],
+          "delta": -228,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            131,
+            97
+          ],
+          "delta": -228,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            147,
+            79
+          ],
+          "delta": -226,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            131,
+            95
+          ],
+          "delta": -226,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            143,
+            83
+          ],
+          "delta": -226,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            137,
+            89
+          ],
+          "delta": -226,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            127,
+            97
+          ],
+          "delta": -224,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            128,
+            96
+          ],
+          "delta": -224,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            132,
+            92
+          ],
+          "delta": -224,
+          "period": 2,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            142,
+            82
+          ],
+          "delta": -224,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            129,
+            95
+          ],
+          "delta": -224,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            140,
+            84
+          ],
+          "delta": -224,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            133,
+            89
+          ],
+          "delta": -222,
+          "period": 2,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            130,
+            92
+          ],
+          "delta": -222,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            137,
+            85
+          ],
+          "delta": -222,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            136,
+            86
+          ],
+          "delta": -222,
+          "period": 2,
+          "monodromy_order": 12,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            140,
+            80
+          ],
+          "delta": -220,
+          "period": 2,
+          "monodromy_order": 5,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            122,
+            98
+          ],
+          "delta": -220,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            134,
+            86
+          ],
+          "delta": -220,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            142,
+            76
+          ],
+          "delta": -218,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            133,
+            85
+          ],
+          "delta": -218,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            146,
+            72
+          ],
+          "delta": -218,
+          "period": 2,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            136,
+            82
+          ],
+          "delta": -218,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            130,
+            88
+          ],
+          "delta": -218,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            120,
+            98
+          ],
+          "delta": -218,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            132,
+            86
+          ],
+          "delta": -218,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            127,
+            91
+          ],
+          "delta": -218,
+          "period": 2,
+          "monodromy_order": 5,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            121,
+            97
+          ],
+          "delta": -218,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            124,
+            94
+          ],
+          "delta": -218,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            135,
+            81
+          ],
+          "delta": -216,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            130,
+            86
+          ],
+          "delta": -216,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            127,
+            89
+          ],
+          "delta": -216,
+          "period": 2,
+          "monodromy_order": 12,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            138,
+            78
+          ],
+          "delta": -216,
+          "period": 2,
+          "monodromy_order": 10,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            144,
+            72
+          ],
+          "delta": -216,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            149,
+            65
+          ],
+          "delta": -214,
+          "period": 2,
+          "monodromy_order": 12,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            124,
+            90
+          ],
+          "delta": -214,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            117,
+            97
+          ],
+          "delta": -214,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            140,
+            72
+          ],
+          "delta": -212,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            141,
+            71
+          ],
+          "delta": -212,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            116,
+            96
+          ],
+          "delta": -212,
+          "period": 2,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            143,
+            69
+          ],
+          "delta": -212,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            127,
+            85
+          ],
+          "delta": -212,
+          "period": 2,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            119,
+            91
+          ],
+          "delta": -210,
+          "period": 2,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            120,
+            90
+          ],
+          "delta": -210,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            145,
+            65
+          ],
+          "delta": -210,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            114,
+            96
+          ],
+          "delta": -210,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            135,
+            75
+          ],
+          "delta": -210,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            132,
+            78
+          ],
+          "delta": -210,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            142,
+            68
+          ],
+          "delta": -210,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            144,
+            66
+          ],
+          "delta": -210,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            124,
+            86
+          ],
+          "delta": -210,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            130,
+            80
+          ],
+          "delta": -210,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            113,
+            95
+          ],
+          "delta": -208,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            130,
+            78
+          ],
+          "delta": -208,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            142,
+            66
+          ],
+          "delta": -208,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            116,
+            92
+          ],
+          "delta": -208,
+          "period": 2,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            138,
+            70
+          ],
+          "delta": -208,
+          "period": 2,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            110,
+            96
+          ],
+          "delta": -206,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            137,
+            69
+          ],
+          "delta": -206,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            126,
+            80
+          ],
+          "delta": -206,
+          "period": 2,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            133,
+            73
+          ],
+          "delta": -206,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            118,
+            88
+          ],
+          "delta": -206,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            146,
+            60
+          ],
+          "delta": -206,
+          "period": 2,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            129,
+            77
+          ],
+          "delta": -206,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            141,
+            65
+          ],
+          "delta": -206,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            114,
+            90
+          ],
+          "delta": -204,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            111,
+            93
+          ],
+          "delta": -204,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            106,
+            98
+          ],
+          "delta": -204,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            107,
+            97
+          ],
+          "delta": -204,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            117,
+            87
+          ],
+          "delta": -204,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            129,
+            75
+          ],
+          "delta": -204,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            137,
+            67
+          ],
+          "delta": -204,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            131,
+            73
+          ],
+          "delta": -204,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            128,
+            74
+          ],
+          "delta": -202,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            112,
+            90
+          ],
+          "delta": -202,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            119,
+            83
+          ],
+          "delta": -202,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            130,
+            72
+          ],
+          "delta": -202,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            141,
+            61
+          ],
+          "delta": -202,
+          "period": 2,
+          "monodromy_order": 12,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            104,
+            98
+          ],
+          "delta": -202,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            135,
+            67
+          ],
+          "delta": -202,
+          "period": 2,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            116,
+            86
+          ],
+          "delta": -202,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            122,
+            80
+          ],
+          "delta": -202,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            101,
+            99
+          ],
+          "delta": -200,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            134,
+            66
+          ],
+          "delta": -200,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            133,
+            67
+          ],
+          "delta": -200,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            128,
+            72
+          ],
+          "delta": -200,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            110,
+            90
+          ],
+          "delta": -200,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            136,
+            64
+          ],
+          "delta": -200,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            109,
+            91
+          ],
+          "delta": -200,
+          "period": 2,
+          "monodromy_order": 5,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            108,
+            90
+          ],
+          "delta": -198,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            99,
+            99
+          ],
+          "delta": -198,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            146,
+            52
+          ],
+          "delta": -198,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            125,
+            73
+          ],
+          "delta": -198,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            131,
+            67
+          ],
+          "delta": -198,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            149,
+            49
+          ],
+          "delta": -198,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            130,
+            68
+          ],
+          "delta": -198,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            129,
+            69
+          ],
+          "delta": -198,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            105,
+            93
+          ],
+          "delta": -198,
+          "period": 2,
+          "monodromy_order": 12,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            123,
+            75
+          ],
+          "delta": -198,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            113,
+            85
+          ],
+          "delta": -198,
+          "period": 2,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            114,
+            82
+          ],
+          "delta": -196,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            128,
+            68
+          ],
+          "delta": -196,
+          "period": 2,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            143,
+            53
+          ],
+          "delta": -196,
+          "period": 2,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            149,
+            47
+          ],
+          "delta": -196,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            124,
+            72
+          ],
+          "delta": -196,
+          "period": 2,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            127,
+            69
+          ],
+          "delta": -196,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            120,
+            76
+          ],
+          "delta": -196,
+          "period": 2,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            135,
+            61
+          ],
+          "delta": -196,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            132,
+            62
+          ],
+          "delta": -194,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            127,
+            67
+          ],
+          "delta": -194,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            147,
+            47
+          ],
+          "delta": -194,
+          "period": 2,
+          "monodromy_order": 12,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            104,
+            90
+          ],
+          "delta": -194,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            117,
+            77
+          ],
+          "delta": -194,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            134,
+            60
+          ],
+          "delta": -194,
+          "period": 2,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            107,
+            87
+          ],
+          "delta": -194,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            116,
+            78
+          ],
+          "delta": -194,
+          "period": 2,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            99,
+            95
+          ],
+          "delta": -194,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            98,
+            94
+          ],
+          "delta": -192,
+          "period": 2,
+          "monodromy_order": 5,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            124,
+            68
+          ],
+          "delta": -192,
+          "period": 2,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            146,
+            46
+          ],
+          "delta": -192,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            140,
+            52
+          ],
+          "delta": -192,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            128,
+            64
+          ],
+          "delta": -192,
+          "period": 2,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            112,
+            80
+          ],
+          "delta": -192,
+          "period": 2,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            148,
+            42
+          ],
+          "delta": -190,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            112,
+            78
+          ],
+          "delta": -190,
+          "period": 2,
+          "monodromy_order": 10,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            125,
+            63
+          ],
+          "delta": -188,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            103,
+            85
+          ],
+          "delta": -188,
+          "period": 2,
+          "monodromy_order": 5,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            131,
+            57
+          ],
+          "delta": -188,
+          "period": 2,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            111,
+            77
+          ],
+          "delta": -188,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            108,
+            80
+          ],
+          "delta": -188,
+          "period": 2,
+          "monodromy_order": 5,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            112,
+            76
+          ],
+          "delta": -188,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            110,
+            78
+          ],
+          "delta": -188,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            143,
+            45
+          ],
+          "delta": -188,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            114,
+            74
+          ],
+          "delta": -188,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            144,
+            44
+          ],
+          "delta": -188,
+          "period": 2,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            93,
+            95
+          ],
+          "delta": -188,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            129,
+            59
+          ],
+          "delta": -188,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            119,
+            69
+          ],
+          "delta": -188,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            89,
+            99
+          ],
+          "delta": -188,
+          "period": 2,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            87,
+            99
+          ],
+          "delta": -186,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            113,
+            73
+          ],
+          "delta": -186,
+          "period": 2,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            109,
+            77
+          ],
+          "delta": -186,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            110,
+            76
+          ],
+          "delta": -186,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            124,
+            62
+          ],
+          "delta": -186,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            147,
+            39
+          ],
+          "delta": -186,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            117,
+            69
+          ],
+          "delta": -186,
+          "period": 2,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            99,
+            85
+          ],
+          "delta": -184,
+          "period": 2,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            110,
+            74
+          ],
+          "delta": -184,
+          "period": 2,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            107,
+            77
+          ],
+          "delta": -184,
+          "period": 2,
+          "monodromy_order": 5,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            130,
+            54
+          ],
+          "delta": -184,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            140,
+            44
+          ],
+          "delta": -184,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            91,
+            93
+          ],
+          "delta": -184,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            122,
+            62
+          ],
+          "delta": -184,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            89,
+            95
+          ],
+          "delta": -184,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            141,
+            43
+          ],
+          "delta": -184,
+          "period": 2,
+          "monodromy_order": 12,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            105,
+            79
+          ],
+          "delta": -184,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            137,
+            47
+          ],
+          "delta": -184,
+          "period": 2,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            126,
+            58
+          ],
+          "delta": -184,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            119,
+            63
+          ],
+          "delta": -182,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            127,
+            55
+          ],
+          "delta": -182,
+          "period": 2,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            118,
+            64
+          ],
+          "delta": -182,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            112,
+            70
+          ],
+          "delta": -182,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            141,
+            41
+          ],
+          "delta": -182,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            97,
+            85
+          ],
+          "delta": -182,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            92,
+            90
+          ],
+          "delta": -182,
+          "period": 2,
+          "monodromy_order": 5,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            105,
+            77
+          ],
+          "delta": -182,
+          "period": 2,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            98,
+            84
+          ],
+          "delta": -182,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            143,
+            39
+          ],
+          "delta": -182,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            128,
+            54
+          ],
+          "delta": -182,
+          "period": 2,
+          "monodromy_order": 5,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            145,
+            37
+          ],
+          "delta": -182,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            86,
+            94
+          ],
+          "delta": -180,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            102,
+            78
+          ],
+          "delta": -180,
+          "period": 2,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            96,
+            84
+          ],
+          "delta": -180,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            88,
+            92
+          ],
+          "delta": -180,
+          "period": 2,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            147,
+            33
+          ],
+          "delta": -180,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            139,
+            41
+          ],
+          "delta": -180,
+          "period": 2,
+          "monodromy_order": 5,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            131,
+            47
+          ],
+          "delta": -178,
+          "period": 2,
+          "monodromy_order": 5,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            102,
+            76
+          ],
+          "delta": -178,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            106,
+            72
+          ],
+          "delta": -178,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            121,
+            57
+          ],
+          "delta": -178,
+          "period": 2,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        }
+      ]
+    },
+    "5": {
+      "period": 5,
+      "n_tested": 200,
+      "n_confirmed": 21,
+      "confirmation_rate": 0.105,
+      "verdict": "NOT_CONFIRMED",
+      "error_points": [
+        {
+          "location": [
+            149,
+            96
+          ],
+          "delta": -245,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            142,
+            98
+          ],
+          "delta": -240,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            147,
+            93
+          ],
+          "delta": -240,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            146,
+            89
+          ],
+          "delta": -235,
+          "period": 5,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            142,
+            93
+          ],
+          "delta": -235,
+          "period": 5,
+          "monodromy_order": 5,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            139,
+            96
+          ],
+          "delta": -235,
+          "period": 5,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            147,
+            88
+          ],
+          "delta": -235,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            134,
+            96
+          ],
+          "delta": -230,
+          "period": 5,
+          "monodromy_order": 12,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            131,
+            99
+          ],
+          "delta": -230,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            146,
+            84
+          ],
+          "delta": -230,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            138,
+            87
+          ],
+          "delta": -225,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            129,
+            96
+          ],
+          "delta": -225,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            140,
+            85
+          ],
+          "delta": -225,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            134,
+            91
+          ],
+          "delta": -225,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            126,
+            99
+          ],
+          "delta": -225,
+          "period": 5,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            140,
+            80
+          ],
+          "delta": -220,
+          "period": 5,
+          "monodromy_order": 5,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            122,
+            98
+          ],
+          "delta": -220,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            134,
+            86
+          ],
+          "delta": -220,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            137,
+            78
+          ],
+          "delta": -215,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            136,
+            79
+          ],
+          "delta": -215,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            120,
+            95
+          ],
+          "delta": -215,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            125,
+            90
+          ],
+          "delta": -215,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            119,
+            91
+          ],
+          "delta": -210,
+          "period": 5,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            120,
+            90
+          ],
+          "delta": -210,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            145,
+            65
+          ],
+          "delta": -210,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            114,
+            96
+          ],
+          "delta": -210,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            135,
+            75
+          ],
+          "delta": -210,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            132,
+            78
+          ],
+          "delta": -210,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            142,
+            68
+          ],
+          "delta": -210,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            144,
+            66
+          ],
+          "delta": -210,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            124,
+            86
+          ],
+          "delta": -210,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            130,
+            80
+          ],
+          "delta": -210,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            107,
+            98
+          ],
+          "delta": -205,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            137,
+            68
+          ],
+          "delta": -205,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            116,
+            89
+          ],
+          "delta": -205,
+          "period": 5,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            114,
+            91
+          ],
+          "delta": -205,
+          "period": 5,
+          "monodromy_order": 12,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            120,
+            85
+          ],
+          "delta": -205,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            122,
+            83
+          ],
+          "delta": -205,
+          "period": 5,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            110,
+            95
+          ],
+          "delta": -205,
+          "period": 5,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            101,
+            99
+          ],
+          "delta": -200,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            134,
+            66
+          ],
+          "delta": -200,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            133,
+            67
+          ],
+          "delta": -200,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            128,
+            72
+          ],
+          "delta": -200,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            110,
+            90
+          ],
+          "delta": -200,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            136,
+            64
+          ],
+          "delta": -200,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            109,
+            91
+          ],
+          "delta": -200,
+          "period": 5,
+          "monodromy_order": 5,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            110,
+            85
+          ],
+          "delta": -195,
+          "period": 5,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            107,
+            88
+          ],
+          "delta": -195,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            149,
+            46
+          ],
+          "delta": -195,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            114,
+            81
+          ],
+          "delta": -195,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            130,
+            65
+          ],
+          "delta": -195,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            125,
+            70
+          ],
+          "delta": -195,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            118,
+            77
+          ],
+          "delta": -195,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            102,
+            93
+          ],
+          "delta": -195,
+          "period": 5,
+          "monodromy_order": 12,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            123,
+            72
+          ],
+          "delta": -195,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            103,
+            92
+          ],
+          "delta": -195,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            148,
+            42
+          ],
+          "delta": -190,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            112,
+            78
+          ],
+          "delta": -190,
+          "period": 5,
+          "monodromy_order": 10,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            122,
+            63
+          ],
+          "delta": -185,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            132,
+            53
+          ],
+          "delta": -185,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            109,
+            76
+          ],
+          "delta": -185,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            87,
+            98
+          ],
+          "delta": -185,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            118,
+            67
+          ],
+          "delta": -185,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            125,
+            60
+          ],
+          "delta": -185,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            90,
+            95
+          ],
+          "delta": -185,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            86,
+            99
+          ],
+          "delta": -185,
+          "period": 5,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            130,
+            55
+          ],
+          "delta": -185,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            143,
+            42
+          ],
+          "delta": -185,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            111,
+            74
+          ],
+          "delta": -185,
+          "period": 5,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            86,
+            94
+          ],
+          "delta": -180,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            102,
+            78
+          ],
+          "delta": -180,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            96,
+            84
+          ],
+          "delta": -180,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            88,
+            92
+          ],
+          "delta": -180,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            147,
+            33
+          ],
+          "delta": -180,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            139,
+            41
+          ],
+          "delta": -180,
+          "period": 5,
+          "monodromy_order": 5,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            77,
+            98
+          ],
+          "delta": -175,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            136,
+            39
+          ],
+          "delta": -175,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            128,
+            47
+          ],
+          "delta": -175,
+          "period": 5,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            118,
+            57
+          ],
+          "delta": -175,
+          "period": 5,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            140,
+            35
+          ],
+          "delta": -175,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            101,
+            74
+          ],
+          "delta": -175,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            91,
+            79
+          ],
+          "delta": -170,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            148,
+            22
+          ],
+          "delta": -170,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            146,
+            24
+          ],
+          "delta": -170,
+          "period": 5,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            133,
+            37
+          ],
+          "delta": -170,
+          "period": 5,
+          "monodromy_order": 10,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            79,
+            91
+          ],
+          "delta": -170,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            115,
+            55
+          ],
+          "delta": -170,
+          "period": 5,
+          "monodromy_order": 7,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            99,
+            71
+          ],
+          "delta": -170,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            136,
+            34
+          ],
+          "delta": -170,
+          "period": 5,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            130,
+            40
+          ],
+          "delta": -170,
+          "period": 5,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            114,
+            56
+          ],
+          "delta": -170,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            145,
+            25
+          ],
+          "delta": -170,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            128,
+            37
+          ],
+          "delta": -165,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            71,
+            94
+          ],
+          "delta": -165,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            75,
+            90
+          ],
+          "delta": -165,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            106,
+            59
+          ],
+          "delta": -165,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            72,
+            93
+          ],
+          "delta": -165,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            93,
+            72
+          ],
+          "delta": -165,
+          "period": 5,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            139,
+            26
+          ],
+          "delta": -165,
+          "period": 5,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            120,
+            45
+          ],
+          "delta": -165,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            81,
+            84
+          ],
+          "delta": -165,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            66,
+            99
+          ],
+          "delta": -165,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            73,
+            92
+          ],
+          "delta": -165,
+          "period": 5,
+          "monodromy_order": 5,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            91,
+            74
+          ],
+          "delta": -165,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            77,
+            88
+          ],
+          "delta": -165,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            84,
+            81
+          ],
+          "delta": -165,
+          "period": 5,
+          "monodromy_order": 5,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            144,
+            16
+          ],
+          "delta": -160,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            133,
+            27
+          ],
+          "delta": -160,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            93,
+            67
+          ],
+          "delta": -160,
+          "period": 5,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            75,
+            85
+          ],
+          "delta": -160,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            90,
+            70
+          ],
+          "delta": -160,
+          "period": 5,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            115,
+            45
+          ],
+          "delta": -160,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            82,
+            78
+          ],
+          "delta": -160,
+          "period": 5,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            95,
+            65
+          ],
+          "delta": -160,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            94,
+            66
+          ],
+          "delta": -160,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            105,
+            55
+          ],
+          "delta": -160,
+          "period": 5,
+          "monodromy_order": 5,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            130,
+            30
+          ],
+          "delta": -160,
+          "period": 5,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            92,
+            68
+          ],
+          "delta": -160,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            117,
+            43
+          ],
+          "delta": -160,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            67,
+            93
+          ],
+          "delta": -160,
+          "period": 5,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            85,
+            75
+          ],
+          "delta": -160,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            98,
+            62
+          ],
+          "delta": -160,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            135,
+            25
+          ],
+          "delta": -160,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            101,
+            59
+          ],
+          "delta": -160,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            91,
+            69
+          ],
+          "delta": -160,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            137,
+            18
+          ],
+          "delta": -155,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            82,
+            73
+          ],
+          "delta": -155,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            92,
+            63
+          ],
+          "delta": -155,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            129,
+            26
+          ],
+          "delta": -155,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            125,
+            30
+          ],
+          "delta": -155,
+          "period": 5,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            94,
+            61
+          ],
+          "delta": -155,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            116,
+            39
+          ],
+          "delta": -155,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            64,
+            91
+          ],
+          "delta": -155,
+          "period": 5,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            99,
+            56
+          ],
+          "delta": -155,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            95,
+            60
+          ],
+          "delta": -155,
+          "period": 5,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            136,
+            19
+          ],
+          "delta": -155,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            128,
+            27
+          ],
+          "delta": -155,
+          "period": 5,
+          "monodromy_order": 5,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            91,
+            64
+          ],
+          "delta": -155,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            66,
+            89
+          ],
+          "delta": -155,
+          "period": 5,
+          "monodromy_order": 5,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            134,
+            21
+          ],
+          "delta": -155,
+          "period": 5,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            98,
+            57
+          ],
+          "delta": -155,
+          "period": 5,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            92,
+            58
+          ],
+          "delta": -150,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            93,
+            57
+          ],
+          "delta": -150,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            98,
+            52
+          ],
+          "delta": -150,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            71,
+            79
+          ],
+          "delta": -150,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            61,
+            89
+          ],
+          "delta": -150,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            96,
+            54
+          ],
+          "delta": -150,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            124,
+            26
+          ],
+          "delta": -150,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            55,
+            95
+          ],
+          "delta": -150,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            102,
+            48
+          ],
+          "delta": -150,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            101,
+            49
+          ],
+          "delta": -150,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            63,
+            87
+          ],
+          "delta": -150,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            94,
+            56
+          ],
+          "delta": -150,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            52,
+            98
+          ],
+          "delta": -150,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            69,
+            81
+          ],
+          "delta": -150,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            97,
+            53
+          ],
+          "delta": -150,
+          "period": 5,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            113,
+            32
+          ],
+          "delta": -145,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            106,
+            39
+          ],
+          "delta": -145,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            131,
+            14
+          ],
+          "delta": -145,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            67,
+            78
+          ],
+          "delta": -145,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            58,
+            87
+          ],
+          "delta": -145,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            95,
+            50
+          ],
+          "delta": -145,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            108,
+            37
+          ],
+          "delta": -145,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            90,
+            55
+          ],
+          "delta": -145,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            83,
+            62
+          ],
+          "delta": -145,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            102,
+            43
+          ],
+          "delta": -145,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            98,
+            47
+          ],
+          "delta": -145,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            117,
+            28
+          ],
+          "delta": -145,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            94,
+            51
+          ],
+          "delta": -145,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            101,
+            44
+          ],
+          "delta": -145,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            88,
+            52
+          ],
+          "delta": -140,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            48,
+            92
+          ],
+          "delta": -140,
+          "period": 5,
+          "monodromy_order": 10,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            123,
+            17
+          ],
+          "delta": -140,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            82,
+            58
+          ],
+          "delta": -140,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            102,
+            38
+          ],
+          "delta": -140,
+          "period": 5,
+          "monodromy_order": 5,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            50,
+            90
+          ],
+          "delta": -140,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            104,
+            36
+          ],
+          "delta": -140,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            121,
+            19
+          ],
+          "delta": -140,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            99,
+            41
+          ],
+          "delta": -140,
+          "period": 5,
+          "monodromy_order": 10,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            70,
+            70
+          ],
+          "delta": -140,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            116,
+            24
+          ],
+          "delta": -140,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            63,
+            77
+          ],
+          "delta": -140,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            130,
+            10
+          ],
+          "delta": -140,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            76,
+            64
+          ],
+          "delta": -140,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            71,
+            69
+          ],
+          "delta": -140,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            112,
+            28
+          ],
+          "delta": -140,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            78,
+            62
+          ],
+          "delta": -140,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            73,
+            67
+          ],
+          "delta": -140,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            95,
+            45
+          ],
+          "delta": -140,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            108,
+            27
+          ],
+          "delta": -135,
+          "period": 5,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            117,
+            18
+          ],
+          "delta": -135,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            52,
+            83
+          ],
+          "delta": -135,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            85,
+            50
+          ],
+          "delta": -135,
+          "period": 5,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            38,
+            97
+          ],
+          "delta": -135,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            67,
+            68
+          ],
+          "delta": -135,
+          "period": 5,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            40,
+            95
+          ],
+          "delta": -135,
+          "period": 5,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            123,
+            12
+          ],
+          "delta": -135,
+          "period": 5,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            77,
+            58
+          ],
+          "delta": -135,
+          "period": 5,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            82,
+            53
+          ],
+          "delta": -135,
+          "period": 5,
+          "monodromy_order": 2,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            68,
+            67
+          ],
+          "delta": -135,
+          "period": 5,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        }
+      ]
+    },
+    "10": {
+      "period": 10,
+      "n_tested": 200,
+      "n_confirmed": 104,
+      "confirmation_rate": 0.52,
+      "verdict": "CONFIRMED",
+      "error_points": [
+        {
+          "location": [
+            142,
+            98
+          ],
+          "delta": -240,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            147,
+            93
+          ],
+          "delta": -240,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            134,
+            96
+          ],
+          "delta": -230,
+          "period": 10,
+          "monodromy_order": 12,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            131,
+            99
+          ],
+          "delta": -230,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            146,
+            84
+          ],
+          "delta": -230,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            140,
+            80
+          ],
+          "delta": -220,
+          "period": 10,
+          "monodromy_order": 5,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            122,
+            98
+          ],
+          "delta": -220,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            134,
+            86
+          ],
+          "delta": -220,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            119,
+            91
+          ],
+          "delta": -210,
+          "period": 10,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            120,
+            90
+          ],
+          "delta": -210,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            145,
+            65
+          ],
+          "delta": -210,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            114,
+            96
+          ],
+          "delta": -210,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            135,
+            75
+          ],
+          "delta": -210,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            132,
+            78
+          ],
+          "delta": -210,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            142,
+            68
+          ],
+          "delta": -210,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            144,
+            66
+          ],
+          "delta": -210,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            124,
+            86
+          ],
+          "delta": -210,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            130,
+            80
+          ],
+          "delta": -210,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            101,
+            99
+          ],
+          "delta": -200,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            134,
+            66
+          ],
+          "delta": -200,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            133,
+            67
+          ],
+          "delta": -200,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            128,
+            72
+          ],
+          "delta": -200,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            110,
+            90
+          ],
+          "delta": -200,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            136,
+            64
+          ],
+          "delta": -200,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            109,
+            91
+          ],
+          "delta": -200,
+          "period": 10,
+          "monodromy_order": 5,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            148,
+            42
+          ],
+          "delta": -190,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            112,
+            78
+          ],
+          "delta": -190,
+          "period": 10,
+          "monodromy_order": 10,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            86,
+            94
+          ],
+          "delta": -180,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            102,
+            78
+          ],
+          "delta": -180,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            96,
+            84
+          ],
+          "delta": -180,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            88,
+            92
+          ],
+          "delta": -180,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            147,
+            33
+          ],
+          "delta": -180,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            139,
+            41
+          ],
+          "delta": -180,
+          "period": 10,
+          "monodromy_order": 5,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            91,
+            79
+          ],
+          "delta": -170,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            148,
+            22
+          ],
+          "delta": -170,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            146,
+            24
+          ],
+          "delta": -170,
+          "period": 10,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            133,
+            37
+          ],
+          "delta": -170,
+          "period": 10,
+          "monodromy_order": 10,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            79,
+            91
+          ],
+          "delta": -170,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            115,
+            55
+          ],
+          "delta": -170,
+          "period": 10,
+          "monodromy_order": 7,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            99,
+            71
+          ],
+          "delta": -170,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            136,
+            34
+          ],
+          "delta": -170,
+          "period": 10,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            130,
+            40
+          ],
+          "delta": -170,
+          "period": 10,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            114,
+            56
+          ],
+          "delta": -170,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            145,
+            25
+          ],
+          "delta": -170,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            144,
+            16
+          ],
+          "delta": -160,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            133,
+            27
+          ],
+          "delta": -160,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            93,
+            67
+          ],
+          "delta": -160,
+          "period": 10,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            75,
+            85
+          ],
+          "delta": -160,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            90,
+            70
+          ],
+          "delta": -160,
+          "period": 10,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            115,
+            45
+          ],
+          "delta": -160,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            82,
+            78
+          ],
+          "delta": -160,
+          "period": 10,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            95,
+            65
+          ],
+          "delta": -160,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            94,
+            66
+          ],
+          "delta": -160,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            105,
+            55
+          ],
+          "delta": -160,
+          "period": 10,
+          "monodromy_order": 5,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            130,
+            30
+          ],
+          "delta": -160,
+          "period": 10,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            92,
+            68
+          ],
+          "delta": -160,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            117,
+            43
+          ],
+          "delta": -160,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            67,
+            93
+          ],
+          "delta": -160,
+          "period": 10,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            85,
+            75
+          ],
+          "delta": -160,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            98,
+            62
+          ],
+          "delta": -160,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            135,
+            25
+          ],
+          "delta": -160,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            101,
+            59
+          ],
+          "delta": -160,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            91,
+            69
+          ],
+          "delta": -160,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            92,
+            58
+          ],
+          "delta": -150,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            93,
+            57
+          ],
+          "delta": -150,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            98,
+            52
+          ],
+          "delta": -150,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            71,
+            79
+          ],
+          "delta": -150,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            61,
+            89
+          ],
+          "delta": -150,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            96,
+            54
+          ],
+          "delta": -150,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            124,
+            26
+          ],
+          "delta": -150,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            55,
+            95
+          ],
+          "delta": -150,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            102,
+            48
+          ],
+          "delta": -150,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            101,
+            49
+          ],
+          "delta": -150,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            63,
+            87
+          ],
+          "delta": -150,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            94,
+            56
+          ],
+          "delta": -150,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            52,
+            98
+          ],
+          "delta": -150,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            69,
+            81
+          ],
+          "delta": -150,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            97,
+            53
+          ],
+          "delta": -150,
+          "period": 10,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            88,
+            52
+          ],
+          "delta": -140,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            48,
+            92
+          ],
+          "delta": -140,
+          "period": 10,
+          "monodromy_order": 10,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            123,
+            17
+          ],
+          "delta": -140,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            82,
+            58
+          ],
+          "delta": -140,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            102,
+            38
+          ],
+          "delta": -140,
+          "period": 10,
+          "monodromy_order": 5,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            50,
+            90
+          ],
+          "delta": -140,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            104,
+            36
+          ],
+          "delta": -140,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            121,
+            19
+          ],
+          "delta": -140,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            99,
+            41
+          ],
+          "delta": -140,
+          "period": 10,
+          "monodromy_order": 10,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            70,
+            70
+          ],
+          "delta": -140,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            116,
+            24
+          ],
+          "delta": -140,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            63,
+            77
+          ],
+          "delta": -140,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            130,
+            10
+          ],
+          "delta": -140,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            76,
+            64
+          ],
+          "delta": -140,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            71,
+            69
+          ],
+          "delta": -140,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            112,
+            28
+          ],
+          "delta": -140,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            78,
+            62
+          ],
+          "delta": -140,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            73,
+            67
+          ],
+          "delta": -140,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            95,
+            45
+          ],
+          "delta": -140,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            71,
+            59
+          ],
+          "delta": -130,
+          "period": 10,
+          "monodromy_order": 7,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            105,
+            25
+          ],
+          "delta": -130,
+          "period": 10,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            67,
+            63
+          ],
+          "delta": -130,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            48,
+            82
+          ],
+          "delta": -130,
+          "period": 10,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            40,
+            90
+          ],
+          "delta": -130,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            61,
+            69
+          ],
+          "delta": -130,
+          "period": 10,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            52,
+            78
+          ],
+          "delta": -130,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            59,
+            71
+          ],
+          "delta": -130,
+          "period": 10,
+          "monodromy_order": 5,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            32,
+            98
+          ],
+          "delta": -130,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            99,
+            31
+          ],
+          "delta": -130,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            53,
+            77
+          ],
+          "delta": -130,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            89,
+            41
+          ],
+          "delta": -130,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            68,
+            62
+          ],
+          "delta": -130,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            85,
+            45
+          ],
+          "delta": -130,
+          "period": 10,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            114,
+            16
+          ],
+          "delta": -130,
+          "period": 10,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            102,
+            18
+          ],
+          "delta": -120,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            76,
+            44
+          ],
+          "delta": -120,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            36,
+            84
+          ],
+          "delta": -120,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            37,
+            83
+          ],
+          "delta": -120,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            71,
+            49
+          ],
+          "delta": -120,
+          "period": 10,
+          "monodromy_order": 5,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            49,
+            71
+          ],
+          "delta": -120,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            26,
+            94
+          ],
+          "delta": -120,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            97,
+            23
+          ],
+          "delta": -120,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            30,
+            90
+          ],
+          "delta": -120,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            62,
+            58
+          ],
+          "delta": -120,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            101,
+            19
+          ],
+          "delta": -120,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            34,
+            86
+          ],
+          "delta": -120,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            64,
+            56
+          ],
+          "delta": -120,
+          "period": 10,
+          "monodromy_order": 7,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            84,
+            36
+          ],
+          "delta": -120,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            92,
+            28
+          ],
+          "delta": -120,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            23,
+            97
+          ],
+          "delta": -120,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            21,
+            99
+          ],
+          "delta": -120,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            33,
+            87
+          ],
+          "delta": -120,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            96,
+            14
+          ],
+          "delta": -110,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            44,
+            66
+          ],
+          "delta": -110,
+          "period": 10,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            42,
+            68
+          ],
+          "delta": -110,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            59,
+            51
+          ],
+          "delta": -110,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            82,
+            28
+          ],
+          "delta": -110,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            24,
+            86
+          ],
+          "delta": -110,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            78,
+            32
+          ],
+          "delta": -110,
+          "period": 10,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            125,
+            75
+          ],
+          "delta": -100,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            15,
+            85
+          ],
+          "delta": -100,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            85,
+            15
+          ],
+          "delta": -100,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            29,
+            71
+          ],
+          "delta": -100,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            88,
+            12
+          ],
+          "delta": -100,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            77,
+            23
+          ],
+          "delta": -100,
+          "period": 10,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            60,
+            40
+          ],
+          "delta": -100,
+          "period": 10,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            58,
+            42
+          ],
+          "delta": -100,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            67,
+            33
+          ],
+          "delta": -100,
+          "period": 10,
+          "monodromy_order": 12,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            62,
+            38
+          ],
+          "delta": -100,
+          "period": 10,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            12,
+            88
+          ],
+          "delta": -100,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            78,
+            22
+          ],
+          "delta": -100,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            72,
+            28
+          ],
+          "delta": -100,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            14,
+            86
+          ],
+          "delta": -100,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            58,
+            32
+          ],
+          "delta": -90,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            21,
+            69
+          ],
+          "delta": -90,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            20,
+            70
+          ],
+          "delta": -90,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            67,
+            23
+          ],
+          "delta": -90,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            79,
+            11
+          ],
+          "delta": -90,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            45,
+            45
+          ],
+          "delta": -90,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            50,
+            40
+          ],
+          "delta": -90,
+          "period": 10,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            54,
+            36
+          ],
+          "delta": -90,
+          "period": 10,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            26,
+            64
+          ],
+          "delta": -90,
+          "period": 10,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            60,
+            30
+          ],
+          "delta": -90,
+          "period": 10,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            17,
+            73
+          ],
+          "delta": -90,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            69,
+            21
+          ],
+          "delta": -90,
+          "period": 10,
+          "monodromy_order": 15,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            37,
+            53
+          ],
+          "delta": -90,
+          "period": 10,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            74,
+            16
+          ],
+          "delta": -90,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            18,
+            72
+          ],
+          "delta": -90,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            55,
+            25
+          ],
+          "delta": -80,
+          "period": 10,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            25,
+            55
+          ],
+          "delta": -80,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            58,
+            22
+          ],
+          "delta": -80,
+          "period": 10,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            70,
+            10
+          ],
+          "delta": -80,
+          "period": 10,
+          "monodromy_order": 12,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            19,
+            61
+          ],
+          "delta": -80,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            49,
+            31
+          ],
+          "delta": -80,
+          "period": 10,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            37,
+            43
+          ],
+          "delta": -80,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            130,
+            50
+          ],
+          "delta": -80,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            48,
+            22
+          ],
+          "delta": -70,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            14,
+            56
+          ],
+          "delta": -70,
+          "period": 10,
+          "monodromy_order": 5,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            52,
+            18
+          ],
+          "delta": -70,
+          "period": 10,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            13,
+            57
+          ],
+          "delta": -70,
+          "period": 10,
+          "monodromy_order": 5,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            12,
+            58
+          ],
+          "delta": -70,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            22,
+            48
+          ],
+          "delta": -70,
+          "period": 10,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            60,
+            10
+          ],
+          "delta": -70,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            39,
+            21
+          ],
+          "delta": -60,
+          "period": 10,
+          "monodromy_order": 12,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            38,
+            22
+          ],
+          "delta": -60,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            25,
+            35
+          ],
+          "delta": -60,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            43,
+            17
+          ],
+          "delta": -60,
+          "period": 10,
+          "monodromy_order": 10,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            45,
+            15
+          ],
+          "delta": -60,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            19,
+            41
+          ],
+          "delta": -60,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            13,
+            47
+          ],
+          "delta": -60,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            17,
+            33
+          ],
+          "delta": -50,
+          "period": 10,
+          "monodromy_order": 7,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            32,
+            18
+          ],
+          "delta": -50,
+          "period": 10,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            15,
+            35
+          ],
+          "delta": -50,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            31,
+            19
+          ],
+          "delta": -50,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            38,
+            12
+          ],
+          "delta": -50,
+          "period": 10,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            36,
+            14
+          ],
+          "delta": -50,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            18,
+            32
+          ],
+          "delta": -50,
+          "period": 10,
+          "monodromy_order": 4,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            20,
+            30
+          ],
+          "delta": -50,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            19,
+            21
+          ],
+          "delta": -40,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            28,
+            12
+          ],
+          "delta": -40,
+          "period": 10,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            12,
+            18
+          ],
+          "delta": -30,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            18,
+            12
+          ],
+          "delta": -30,
+          "period": 10,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        }
+      ]
+    },
+    "100": {
+      "period": 100,
+      "n_tested": 21,
+      "n_confirmed": 16,
+      "confirmation_rate": 0.7619047619047619,
+      "verdict": "CONFIRMED",
+      "error_points": [
+        {
+          "location": [
+            101,
+            99
+          ],
+          "delta": -200,
+          "period": 100,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            134,
+            66
+          ],
+          "delta": -200,
+          "period": 100,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            133,
+            67
+          ],
+          "delta": -200,
+          "period": 100,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            128,
+            72
+          ],
+          "delta": -200,
+          "period": 100,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            110,
+            90
+          ],
+          "delta": -200,
+          "period": 100,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            136,
+            64
+          ],
+          "delta": -200,
+          "period": 100,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            109,
+            91
+          ],
+          "delta": -200,
+          "period": 100,
+          "monodromy_order": 5,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            125,
+            75
+          ],
+          "delta": -100,
+          "period": 100,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            15,
+            85
+          ],
+          "delta": -100,
+          "period": 100,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            85,
+            15
+          ],
+          "delta": -100,
+          "period": 100,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            29,
+            71
+          ],
+          "delta": -100,
+          "period": 100,
+          "monodromy_order": 4,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            88,
+            12
+          ],
+          "delta": -100,
+          "period": 100,
+          "monodromy_order": 4,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            77,
+            23
+          ],
+          "delta": -100,
+          "period": 100,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            60,
+            40
+          ],
+          "delta": -100,
+          "period": 100,
+          "monodromy_order": 1,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            58,
+            42
+          ],
+          "delta": -100,
+          "period": 100,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            67,
+            33
+          ],
+          "delta": -100,
+          "period": 100,
+          "monodromy_order": 12,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            62,
+            38
+          ],
+          "delta": -100,
+          "period": 100,
+          "monodromy_order": 3,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            12,
+            88
+          ],
+          "delta": -100,
+          "period": 100,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            78,
+            22
+          ],
+          "delta": -100,
+          "period": 100,
+          "monodromy_order": 6,
+          "order_divides_period": false
+        },
+        {
+          "location": [
+            72,
+            28
+          ],
+          "delta": -100,
+          "period": 100,
+          "monodromy_order": 4,
+          "order_divides_period": true
+        },
+        {
+          "location": [
+            14,
+            86
+          ],
+          "delta": -100,
+          "period": 100,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        }
+      ]
+    }
+  },
+  "statistics": {
+    "2": {
+      "n_samples": 200,
+      "observed_rate": 0.5,
+      "null_rate": 0.2,
+      "p_value": 0.0,
+      "ci_95": [
+        0.43135962209034523,
+        0.5686403779096547
+      ],
+      "effect_size": 0.6435011087932846,
+      "significant": true
+    },
+    "5": {
+      "n_samples": 200,
+      "observed_rate": 0.105,
+      "null_rate": 0.2,
+      "p_value": 0.9998940702259074,
+      "ci_95": [
+        0.0697069624619373,
+        0.15518138221353622
+      ],
+      "effect_size": -0.2673078886141138,
+      "significant": false
+    },
+    "10": {
+      "n_samples": 200,
+      "observed_rate": 0.52,
+      "null_rate": 0.4,
+      "p_value": 0.0003937729590468564,
+      "ci_95": [
+        0.4510366005581654,
+        0.5882095592051018
+      ],
+      "effect_size": 0.24136859514431985,
+      "significant": true
+    },
+    "100": {
+      "n_samples": 21,
+      "observed_rate": 0.7619047619047619,
+      "null_rate": 0.5,
+      "p_value": 0.013301849365234375,
+      "ci_95": [
+        0.5490841802765406,
+        0.8937214361088773
+      ],
+      "effect_size": 0.5513169691318824,
+      "significant": true
+    }
+  },
+  "pooled": {
+    "n_samples": 621,
+    "observed_rate": 0.38808373590982287,
+    "null_rate": 0.325,
+    "p_value": 0.0005381988267498805,
+    "ci_95": [
+      0.3505553705023518,
+      0.4269882501528672
+    ],
+    "effect_size": 0.1318260970575349,
+    "significant": true
+  },
+  "verdict": "HELIX-MONODROMY CONNECTION STATISTICALLY CONFIRMED"
+}

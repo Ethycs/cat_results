@@ -1,0 +1,116 @@
+
+Running ARITHMETIC Pipeline...
+  Prompt: 
+  Model: stabilityai/stablelm-2-zephyr-1_6b
+  Device: cuda
+  Preset: standard
+  Output: ./arithmetic_n200
+  Layer: 6
+
+============================================================
+ARITHMETIC MONODROMY TEST SUITE
+============================================================
+  Model: stabilityai/stablelm-2-zephyr-1_6b
+  Test(s): tight
+  Operation: add (+)
+  Range: a in [50, 300) × b in [20, 120)
+  Prompt: {a} + {b} =
+  Boundary: 100
+  Output: ./arithmetic_n200
+  Skip expensive: False
+
+GPU Memory: 8.2 GB free / 8.2 GB total
+
+Initializing model...
+Loading model: stabilityai/stablelm-2-zephyr-1_6b
+/home/rabbit/gpt2_attack_notions/.pixi/envs/default/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/home/rabbit/gpt2_attack_notions/.pixi/envs/default/lib/python3.11/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+ModelAdapter initialized: arch=STABLELM, hidden_dim=2048, vocab_size=100352, n_layers=24
+Model loaded in 2.29s
+============================================================
+TIGHT HELIX-MONODROMY VALIDATION (with statistics)
+============================================================
+H0: monodromy order dividing period is random
+H1: helix structure causes order to divide period
+Testing 200 points per period
+
+--- Period T=2 ---
+Finding error points where |Δ| = k × 2...
+Sampled 2000 pairs from 2000 total
+Collecting predictions for 2000 arithmetic problems...
+  Prompt template: {a} + {b} =
+Collected 2000 predictions
+  Found 1 error points
+    Testing (224, 24), Δ=-246...
+      Order=2, divides 2: True
+  Null rate (random): 20.0%
+  Observed rate: 100.0%
+  p-value: 0.2000
+  95% CI: [20.7%, 100.0%]
+  Effect size (Cohen's h): 2.21
+  Significant (p<0.05): False
+
+--- Period T=5 ---
+Finding error points where |Δ| = k × 5...
+Sampled 2000 pairs from 2000 total
+Collecting predictions for 2000 arithmetic problems...
+  Prompt template: {a} + {b} =
+Collected 2000 predictions
+  No errors with |Δ| = k × 5 found
+  Null rate (random): 20.0%
+  Observed rate: 0.0%
+  p-value: 1.0000
+  95% CI: [0.0%, 100.0%]
+  Effect size (Cohen's h): 0.00
+  Significant (p<0.05): False
+
+--- Period T=10 ---
+Finding error points where |Δ| = k × 10...
+Sampled 2000 pairs from 2000 total
+Collecting predictions for 2000 arithmetic problems...
+  Prompt template: {a} + {b} =
+Collected 2000 predictions
+  No errors with |Δ| = k × 10 found
+  Null rate (random): 40.0%
+  Observed rate: 0.0%
+  p-value: 1.0000
+  95% CI: [0.0%, 100.0%]
+  Effect size (Cohen's h): 0.00
+  Significant (p<0.05): False
+
+--- Period T=100 ---
+Finding error points where |Δ| = k × 100...
+Sampled 2000 pairs from 2000 total
+Collecting predictions for 2000 arithmetic problems...
+  Prompt template: {a} + {b} =
+Collected 2000 predictions
+  No errors with |Δ| = k × 100 found
+  Null rate (random): 50.0%
+  Observed rate: 0.0%
+  p-value: 1.0000
+  95% CI: [0.0%, 100.0%]
+  Effect size (Cohen's h): 0.00
+  Significant (p<0.05): False
+
+============================================================
+STATISTICAL SUMMARY:
+------------------------------------------------------------
+Period   Rate       Null     p-value    Sig?   Effect  
+------------------------------------------------------------
+T=2       100%       20%      0.2000   ✗        2.21
+T=5         0%       20%      1.0000   ✗        0.00
+T=10        0%       40%      1.0000   ✗        0.00
+T=100       0%       50%      1.0000   ✗        0.00
+------------------------------------------------------------
+POOLED    100%       32%      0.3250   ✗        1.93
+------------------------------------------------------------
+
+Significant periods: 0/4
+Pooled test: NOT SIGNIFICANT (p=0.3250)
+
+VERDICT: NOT STATISTICALLY SIGNIFICANT
+Results saved to ./arithmetic_n200/tight_validation.json
+
+Summary saved to ./arithmetic_n200/summary.json

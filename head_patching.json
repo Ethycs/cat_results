@@ -1,0 +1,1556 @@
+{
+  "summary": {
+    "n_circuits_tested": 5,
+    "n_heads": 32,
+    "top_10_heads_by_avg_margin_change": [
+      {
+        "head": 15,
+        "avg_margin_change": 0.14296875
+      },
+      {
+        "head": 24,
+        "avg_margin_change": 0.103515625
+      },
+      {
+        "head": 21,
+        "avg_margin_change": 0.08125
+      },
+      {
+        "head": 17,
+        "avg_margin_change": 0.078515625
+      },
+      {
+        "head": 0,
+        "avg_margin_change": 0.078125
+      },
+      {
+        "head": 20,
+        "avg_margin_change": 0.075390625
+      },
+      {
+        "head": 31,
+        "avg_margin_change": 0.071484375
+      },
+      {
+        "head": 28,
+        "avg_margin_change": 0.070703125
+      },
+      {
+        "head": 1,
+        "avg_margin_change": 0.0703125
+      },
+      {
+        "head": 7,
+        "avg_margin_change": 0.069921875
+      }
+    ],
+    "elapsed": 6.354778051376343
+  },
+  "results": [
+    {
+      "germ_id": "gate_L8_frontier",
+      "layer": 8,
+      "decision_pair": [
+        100257,
+        13
+      ],
+      "flip_radius": 4.359375,
+      "baseline_margin": 8.546875,
+      "n_heads_that_flip": 0,
+      "head_results": [
+        {
+          "head": 24,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.828125,
+          "margin_change": 0.28125,
+          "margin_change_pct": 0.03290676412968861,
+          "flipped": false,
+          "lg_alignment": 0.20163077116012573
+        },
+        {
+          "head": 21,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.2734375,
+          "margin_change": -0.2734375,
+          "margin_change_pct": -0.03199268734830837,
+          "flipped": false,
+          "lg_alignment": 0.2772846817970276
+        },
+        {
+          "head": 26,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.75,
+          "margin_change": 0.203125,
+          "margin_change_pct": 0.023765996315886218,
+          "flipped": false,
+          "lg_alignment": 0.1489243358373642
+        },
+        {
+          "head": 20,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.3671875,
+          "margin_change": -0.1796875,
+          "margin_change_pct": -0.0210237659717455,
+          "flipped": false,
+          "lg_alignment": 0.20380178093910217
+        },
+        {
+          "head": 12,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.3828125,
+          "margin_change": -0.1640625,
+          "margin_change_pct": -0.019195612408985024,
+          "flipped": false,
+          "lg_alignment": 0.2434241622686386
+        },
+        {
+          "head": 17,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.6875,
+          "margin_change": 0.140625,
+          "margin_change_pct": 0.016453382064844306,
+          "flipped": false,
+          "lg_alignment": 0.268591046333313
+        },
+        {
+          "head": 11,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.671875,
+          "margin_change": 0.125,
+          "margin_change_pct": 0.014625228502083826,
+          "flipped": false,
+          "lg_alignment": 0.20711183547973633
+        },
+        {
+          "head": 3,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.4375,
+          "margin_change": -0.109375,
+          "margin_change_pct": -0.012797074939323349,
+          "flipped": false,
+          "lg_alignment": 0.17089444398880005
+        },
+        {
+          "head": 14,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.65625,
+          "margin_change": 0.109375,
+          "margin_change_pct": 0.012797074939323349,
+          "flipped": false,
+          "lg_alignment": 0.17185229063034058
+        },
+        {
+          "head": 5,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.453125,
+          "margin_change": -0.09375,
+          "margin_change_pct": -0.010968921376562869,
+          "flipped": false,
+          "lg_alignment": 0.3261256814002991
+        },
+        {
+          "head": 9,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.6328125,
+          "margin_change": 0.0859375,
+          "margin_change_pct": 0.010054844595182631,
+          "flipped": false,
+          "lg_alignment": 0.13422858715057373
+        },
+        {
+          "head": 23,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.4609375,
+          "margin_change": -0.0859375,
+          "margin_change_pct": -0.010054844595182631,
+          "flipped": false,
+          "lg_alignment": 0.2116355448961258
+        },
+        {
+          "head": 28,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.6328125,
+          "margin_change": 0.0859375,
+          "margin_change_pct": 0.010054844595182631,
+          "flipped": false,
+          "lg_alignment": 0.2215547114610672
+        },
+        {
+          "head": 19,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.625,
+          "margin_change": 0.078125,
+          "margin_change_pct": 0.009140767813802391,
+          "flipped": false,
+          "lg_alignment": 0.21106088161468506
+        },
+        {
+          "head": 22,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.625,
+          "margin_change": 0.078125,
+          "margin_change_pct": 0.009140767813802391,
+          "flipped": false,
+          "lg_alignment": 0.22348038852214813
+        },
+        {
+          "head": 31,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.46875,
+          "margin_change": -0.078125,
+          "margin_change_pct": -0.009140767813802391,
+          "flipped": false,
+          "lg_alignment": 0.17962095141410828
+        },
+        {
+          "head": 0,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.4765625,
+          "margin_change": -0.0703125,
+          "margin_change_pct": -0.008226691032422153,
+          "flipped": false,
+          "lg_alignment": 0.1811613142490387
+        },
+        {
+          "head": 30,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.6171875,
+          "margin_change": 0.0703125,
+          "margin_change_pct": 0.008226691032422153,
+          "flipped": false,
+          "lg_alignment": 0.22192782163619995
+        },
+        {
+          "head": 7,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.609375,
+          "margin_change": 0.0625,
+          "margin_change_pct": 0.007312614251041913,
+          "flipped": false,
+          "lg_alignment": 0.19968277215957642
+        },
+        {
+          "head": 15,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.609375,
+          "margin_change": 0.0625,
+          "margin_change_pct": 0.007312614251041913,
+          "flipped": false,
+          "lg_alignment": 0.1770893931388855
+        },
+        {
+          "head": 1,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.4921875,
+          "margin_change": -0.0546875,
+          "margin_change_pct": -0.006398537469661674,
+          "flipped": false,
+          "lg_alignment": 0.2336030751466751
+        },
+        {
+          "head": 4,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.4921875,
+          "margin_change": -0.0546875,
+          "margin_change_pct": -0.006398537469661674,
+          "flipped": false,
+          "lg_alignment": 0.19475983083248138
+        },
+        {
+          "head": 10,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.6015625,
+          "margin_change": 0.0546875,
+          "margin_change_pct": 0.006398537469661674,
+          "flipped": false,
+          "lg_alignment": 0.2815448045730591
+        },
+        {
+          "head": 18,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.6015625,
+          "margin_change": 0.0546875,
+          "margin_change_pct": 0.006398537469661674,
+          "flipped": false,
+          "lg_alignment": 0.20889420807361603
+        },
+        {
+          "head": 2,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.5859375,
+          "margin_change": 0.0390625,
+          "margin_change_pct": 0.0045703839069011955,
+          "flipped": false,
+          "lg_alignment": 0.163347065448761
+        },
+        {
+          "head": 6,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.5859375,
+          "margin_change": 0.0390625,
+          "margin_change_pct": 0.0045703839069011955,
+          "flipped": false,
+          "lg_alignment": 0.23309999704360962
+        },
+        {
+          "head": 8,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.5859375,
+          "margin_change": 0.0390625,
+          "margin_change_pct": 0.0045703839069011955,
+          "flipped": false,
+          "lg_alignment": 0.20865321159362793
+        },
+        {
+          "head": 16,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.5078125,
+          "margin_change": -0.0390625,
+          "margin_change_pct": -0.0045703839069011955,
+          "flipped": false,
+          "lg_alignment": 0.2796630561351776
+        },
+        {
+          "head": 27,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.515625,
+          "margin_change": -0.03125,
+          "margin_change_pct": -0.0036563071255209566,
+          "flipped": false,
+          "lg_alignment": 0.19898614287376404
+        },
+        {
+          "head": 29,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.5234375,
+          "margin_change": -0.0234375,
+          "margin_change_pct": -0.0027422303441407172,
+          "flipped": false,
+          "lg_alignment": 0.16699707508087158
+        },
+        {
+          "head": 25,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.53125,
+          "margin_change": -0.015625,
+          "margin_change_pct": -0.0018281535627604783,
+          "flipped": false,
+          "lg_alignment": 0.20294691622257233
+        },
+        {
+          "head": 13,
+          "baseline_margin": 8.546875,
+          "ablated_margin": 8.546875,
+          "margin_change": 0.0,
+          "margin_change_pct": 0.0,
+          "flipped": false,
+          "lg_alignment": 0.19092006981372833
+        }
+      ]
+    },
+    {
+      "germ_id": "gate_L14_fragile_comply",
+      "layer": 14,
+      "decision_pair": [
+        8586,
+        2170
+      ],
+      "flip_radius": 3.59375,
+      "baseline_margin": 1.5078125,
+      "n_heads_that_flip": 0,
+      "head_results": [
+        {
+          "head": 15,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.68359375,
+          "margin_change": 0.17578125,
+          "margin_change_pct": 0.1165803101076539,
+          "flipped": false,
+          "lg_alignment": 0.2158868908882141
+        },
+        {
+          "head": 16,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.62109375,
+          "margin_change": 0.11328125,
+          "margin_change_pct": 0.07512953318048807,
+          "flipped": false,
+          "lg_alignment": 0.21620552241802216
+        },
+        {
+          "head": 24,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.39453125,
+          "margin_change": -0.11328125,
+          "margin_change_pct": -0.07512953318048807,
+          "flipped": false,
+          "lg_alignment": 0.21890883147716522
+        },
+        {
+          "head": 23,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.61328125,
+          "margin_change": 0.10546875,
+          "margin_change_pct": 0.06994818606459234,
+          "flipped": false,
+          "lg_alignment": 0.18623480200767517
+        },
+        {
+          "head": 18,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.40625,
+          "margin_change": -0.1015625,
+          "margin_change_pct": -0.06735751250664448,
+          "flipped": false,
+          "lg_alignment": 0.1734551191329956
+        },
+        {
+          "head": 7,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.41015625,
+          "margin_change": -0.09765625,
+          "margin_change_pct": -0.06476683894869661,
+          "flipped": false,
+          "lg_alignment": 0.1315864622592926
+        },
+        {
+          "head": 8,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.421875,
+          "margin_change": -0.0859375,
+          "margin_change_pct": -0.05699481827485302,
+          "flipped": false,
+          "lg_alignment": 0.3073519766330719
+        },
+        {
+          "head": 29,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.5703125,
+          "margin_change": 0.0625,
+          "margin_change_pct": 0.04145077692716583,
+          "flipped": false,
+          "lg_alignment": 0.16653688251972198
+        },
+        {
+          "head": 21,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.44921875,
+          "margin_change": -0.05859375,
+          "margin_change_pct": -0.03886010336921797,
+          "flipped": false,
+          "lg_alignment": 0.3213426470756531
+        },
+        {
+          "head": 3,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.55859375,
+          "margin_change": 0.05078125,
+          "margin_change_pct": 0.03367875625332224,
+          "flipped": false,
+          "lg_alignment": 0.16995976865291595
+        },
+        {
+          "head": 1,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.4609375,
+          "margin_change": -0.046875,
+          "margin_change_pct": -0.031088082695374376,
+          "flipped": false,
+          "lg_alignment": 0.19428984820842743
+        },
+        {
+          "head": 20,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.4609375,
+          "margin_change": -0.046875,
+          "margin_change_pct": -0.031088082695374376,
+          "flipped": false,
+          "lg_alignment": 0.26299354434013367
+        },
+        {
+          "head": 13,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.55078125,
+          "margin_change": 0.04296875,
+          "margin_change_pct": 0.02849740913742651,
+          "flipped": false,
+          "lg_alignment": 0.14136236906051636
+        },
+        {
+          "head": 26,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.46484375,
+          "margin_change": -0.04296875,
+          "margin_change_pct": -0.02849740913742651,
+          "flipped": false,
+          "lg_alignment": 0.16163469851016998
+        },
+        {
+          "head": 30,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.546875,
+          "margin_change": 0.0390625,
+          "margin_change_pct": 0.025906735579478646,
+          "flipped": false,
+          "lg_alignment": 0.18130506575107574
+        },
+        {
+          "head": 4,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.5390625,
+          "margin_change": 0.03125,
+          "margin_change_pct": 0.020725388463582916,
+          "flipped": false,
+          "lg_alignment": 0.1624567210674286
+        },
+        {
+          "head": 6,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.48046875,
+          "margin_change": -0.02734375,
+          "margin_change_pct": -0.018134714905635053,
+          "flipped": false,
+          "lg_alignment": 0.15550659596920013
+        },
+        {
+          "head": 9,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.53515625,
+          "margin_change": 0.02734375,
+          "margin_change_pct": 0.018134714905635053,
+          "flipped": false,
+          "lg_alignment": 0.18452602624893188
+        },
+        {
+          "head": 28,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.53515625,
+          "margin_change": 0.02734375,
+          "margin_change_pct": 0.018134714905635053,
+          "flipped": false,
+          "lg_alignment": 0.21707934141159058
+        },
+        {
+          "head": 14,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.484375,
+          "margin_change": -0.0234375,
+          "margin_change_pct": -0.015544041347687188,
+          "flipped": false,
+          "lg_alignment": 0.12889926135540009
+        },
+        {
+          "head": 19,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.53125,
+          "margin_change": 0.0234375,
+          "margin_change_pct": 0.015544041347687188,
+          "flipped": false,
+          "lg_alignment": 0.16762816905975342
+        },
+        {
+          "head": 22,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.52734375,
+          "margin_change": 0.01953125,
+          "margin_change_pct": 0.012953367789739323,
+          "flipped": false,
+          "lg_alignment": 0.2355514019727707
+        },
+        {
+          "head": 11,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.5234375,
+          "margin_change": 0.015625,
+          "margin_change_pct": 0.010362694231791458,
+          "flipped": false,
+          "lg_alignment": 0.17897643148899078
+        },
+        {
+          "head": 12,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.4921875,
+          "margin_change": -0.015625,
+          "margin_change_pct": -0.010362694231791458,
+          "flipped": false,
+          "lg_alignment": 0.20099259912967682
+        },
+        {
+          "head": 2,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.515625,
+          "margin_change": 0.0078125,
+          "margin_change_pct": 0.005181347115895729,
+          "flipped": false,
+          "lg_alignment": 0.14501981437206268
+        },
+        {
+          "head": 10,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.5,
+          "margin_change": -0.0078125,
+          "margin_change_pct": -0.005181347115895729,
+          "flipped": false,
+          "lg_alignment": 0.1829627901315689
+        },
+        {
+          "head": 27,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.515625,
+          "margin_change": 0.0078125,
+          "margin_change_pct": 0.005181347115895729,
+          "flipped": false,
+          "lg_alignment": 0.20153291523456573
+        },
+        {
+          "head": 31,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.515625,
+          "margin_change": 0.0078125,
+          "margin_change_pct": 0.005181347115895729,
+          "flipped": false,
+          "lg_alignment": 0.26543572545051575
+        },
+        {
+          "head": 25,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.50390625,
+          "margin_change": -0.00390625,
+          "margin_change_pct": -0.0025906735579478645,
+          "flipped": false,
+          "lg_alignment": 0.15837344527244568
+        },
+        {
+          "head": 0,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.5078125,
+          "margin_change": 0.0,
+          "margin_change_pct": 0.0,
+          "flipped": false,
+          "lg_alignment": 0.15376408398151398
+        },
+        {
+          "head": 5,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.5078125,
+          "margin_change": 0.0,
+          "margin_change_pct": 0.0,
+          "flipped": false,
+          "lg_alignment": 0.1939905434846878
+        },
+        {
+          "head": 17,
+          "baseline_margin": 1.5078125,
+          "ablated_margin": 1.5078125,
+          "margin_change": 0.0,
+          "margin_change_pct": 0.0,
+          "flipped": false,
+          "lg_alignment": 0.29879599809646606
+        }
+      ]
+    },
+    {
+      "germ_id": "gate_L8_robust_comply",
+      "layer": 8,
+      "decision_pair": [
+        100257,
+        1
+      ],
+      "flip_radius": 2.796875,
+      "baseline_margin": 3.30078125,
+      "n_heads_that_flip": 0,
+      "head_results": [
+        {
+          "head": 0,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.14453125,
+          "margin_change": -0.15625,
+          "margin_change_pct": -0.04733727796309653,
+          "flipped": false,
+          "lg_alignment": 0.13968828320503235
+        },
+        {
+          "head": 1,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.18359375,
+          "margin_change": -0.1171875,
+          "margin_change_pct": -0.0355029584723224,
+          "flipped": false,
+          "lg_alignment": 0.1764896810054779
+        },
+        {
+          "head": 31,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.4140625,
+          "margin_change": 0.11328125,
+          "margin_change_pct": 0.034319526523244985,
+          "flipped": false,
+          "lg_alignment": 0.1771407574415207
+        },
+        {
+          "head": 2,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.205078125,
+          "margin_change": -0.095703125,
+          "margin_change_pct": -0.028994082752396625,
+          "flipped": false,
+          "lg_alignment": 0.16526171565055847
+        },
+        {
+          "head": 9,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.205078125,
+          "margin_change": -0.095703125,
+          "margin_change_pct": -0.028994082752396625,
+          "flipped": false,
+          "lg_alignment": 0.1325121968984604
+        },
+        {
+          "head": 17,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.208984375,
+          "margin_change": -0.091796875,
+          "margin_change_pct": -0.027810650803319212,
+          "flipped": false,
+          "lg_alignment": 0.2623714506626129
+        },
+        {
+          "head": 19,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.388671875,
+          "margin_change": 0.087890625,
+          "margin_change_pct": 0.0266272188542418,
+          "flipped": false,
+          "lg_alignment": 0.20098227262496948
+        },
+        {
+          "head": 20,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.212890625,
+          "margin_change": -0.087890625,
+          "margin_change_pct": -0.0266272188542418,
+          "flipped": false,
+          "lg_alignment": 0.24318328499794006
+        },
+        {
+          "head": 29,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.388671875,
+          "margin_change": 0.087890625,
+          "margin_change_pct": 0.0266272188542418,
+          "flipped": false,
+          "lg_alignment": 0.18915484845638275
+        },
+        {
+          "head": 15,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.3828125,
+          "margin_change": 0.08203125,
+          "margin_change_pct": 0.024852070930625678,
+          "flipped": false,
+          "lg_alignment": 0.17925862967967987
+        },
+        {
+          "head": 28,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.22265625,
+          "margin_change": -0.078125,
+          "margin_change_pct": -0.023668638981548265,
+          "flipped": false,
+          "lg_alignment": 0.22862067818641663
+        },
+        {
+          "head": 7,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.3671875,
+          "margin_change": 0.06640625,
+          "margin_change_pct": 0.020118343134316027,
+          "flipped": false,
+          "lg_alignment": 0.19843809306621552
+        },
+        {
+          "head": 13,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.3671875,
+          "margin_change": 0.06640625,
+          "margin_change_pct": 0.020118343134316027,
+          "flipped": false,
+          "lg_alignment": 0.19723692536354065
+        },
+        {
+          "head": 23,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.36328125,
+          "margin_change": 0.0625,
+          "margin_change_pct": 0.01893491118523861,
+          "flipped": false,
+          "lg_alignment": 0.18274927139282227
+        },
+        {
+          "head": 4,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.255859375,
+          "margin_change": -0.044921875,
+          "margin_change_pct": -0.013609467414390253,
+          "flipped": false,
+          "lg_alignment": 0.18464182317256927
+        },
+        {
+          "head": 5,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.255859375,
+          "margin_change": -0.044921875,
+          "margin_change_pct": -0.013609467414390253,
+          "flipped": false,
+          "lg_alignment": 0.3355942666530609
+        },
+        {
+          "head": 18,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.265625,
+          "margin_change": -0.03515625,
+          "margin_change_pct": -0.01065088754169672,
+          "flipped": false,
+          "lg_alignment": 0.21019138395786285
+        },
+        {
+          "head": 16,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.267578125,
+          "margin_change": -0.033203125,
+          "margin_change_pct": -0.010059171567158014,
+          "flipped": false,
+          "lg_alignment": 0.24929095804691315
+        },
+        {
+          "head": 22,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.333984375,
+          "margin_change": 0.033203125,
+          "margin_change_pct": 0.010059171567158014,
+          "flipped": false,
+          "lg_alignment": 0.19176854193210602
+        },
+        {
+          "head": 24,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.333984375,
+          "margin_change": 0.033203125,
+          "margin_change_pct": 0.010059171567158014,
+          "flipped": false,
+          "lg_alignment": 0.16801300644874573
+        },
+        {
+          "head": 14,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.33203125,
+          "margin_change": 0.03125,
+          "margin_change_pct": 0.009467455592619306,
+          "flipped": false,
+          "lg_alignment": 0.15769527852535248
+        },
+        {
+          "head": 11,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.328125,
+          "margin_change": 0.02734375,
+          "margin_change_pct": 0.008284023643541893,
+          "flipped": false,
+          "lg_alignment": 0.18384593725204468
+        },
+        {
+          "head": 30,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.328125,
+          "margin_change": 0.02734375,
+          "margin_change_pct": 0.008284023643541893,
+          "flipped": false,
+          "lg_alignment": 0.22055386006832123
+        },
+        {
+          "head": 8,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.322265625,
+          "margin_change": 0.021484375,
+          "margin_change_pct": 0.006508875719925773,
+          "flipped": false,
+          "lg_alignment": 0.18892565369606018
+        },
+        {
+          "head": 26,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.28515625,
+          "margin_change": -0.015625,
+          "margin_change_pct": -0.004733727796309653,
+          "flipped": false,
+          "lg_alignment": 0.11968104541301727
+        },
+        {
+          "head": 21,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.287109375,
+          "margin_change": -0.013671875,
+          "margin_change_pct": -0.0041420118217709466,
+          "flipped": false,
+          "lg_alignment": 0.2627784013748169
+        },
+        {
+          "head": 25,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.287109375,
+          "margin_change": -0.013671875,
+          "margin_change_pct": -0.0041420118217709466,
+          "flipped": false,
+          "lg_alignment": 0.22824975848197937
+        },
+        {
+          "head": 27,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.2890625,
+          "margin_change": -0.01171875,
+          "margin_change_pct": -0.00355029584723224,
+          "flipped": false,
+          "lg_alignment": 0.1697375625371933
+        },
+        {
+          "head": 3,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.291015625,
+          "margin_change": -0.009765625,
+          "margin_change_pct": -0.002958579872693533,
+          "flipped": false,
+          "lg_alignment": 0.1823025643825531
+        },
+        {
+          "head": 6,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.294921875,
+          "margin_change": -0.005859375,
+          "margin_change_pct": -0.00177514792361612,
+          "flipped": false,
+          "lg_alignment": 0.20276647806167603
+        },
+        {
+          "head": 10,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.302734375,
+          "margin_change": 0.001953125,
+          "margin_change_pct": 0.0005917159745387066,
+          "flipped": false,
+          "lg_alignment": 0.2431258112192154
+        },
+        {
+          "head": 12,
+          "baseline_margin": 3.30078125,
+          "ablated_margin": 3.298828125,
+          "margin_change": -0.001953125,
+          "margin_change_pct": -0.0005917159745387066,
+          "flipped": false,
+          "lg_alignment": 0.2015305459499359
+        }
+      ]
+    },
+    {
+      "germ_id": "gate_L18_robust_refuse",
+      "layer": 18,
+      "decision_pair": [
+        2181,
+        56962
+      ],
+      "flip_radius": 1.71875,
+      "baseline_margin": 3.3828125,
+      "n_heads_that_flip": 0,
+      "head_results": [
+        {
+          "head": 15,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.734375,
+          "margin_change": 0.3515625,
+          "margin_change_pct": 0.10392609669047251,
+          "flipped": false,
+          "lg_alignment": 0.2267201989889145
+        },
+        {
+          "head": 0,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.23046875,
+          "margin_change": -0.15234375,
+          "margin_change_pct": -0.04503464189920475,
+          "flipped": false,
+          "lg_alignment": 0.15766067802906036
+        },
+        {
+          "head": 28,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.251953125,
+          "margin_change": -0.130859375,
+          "margin_change_pct": -0.038683602657009215,
+          "flipped": false,
+          "lg_alignment": 0.16261553764343262
+        },
+        {
+          "head": 27,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.255859375,
+          "margin_change": -0.126953125,
+          "margin_change_pct": -0.037528868249337294,
+          "flipped": false,
+          "lg_alignment": 0.18468278646469116
+        },
+        {
+          "head": 17,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.2734375,
+          "margin_change": -0.109375,
+          "margin_change_pct": -0.03233256341481367,
+          "flipped": false,
+          "lg_alignment": 0.17628858983516693
+        },
+        {
+          "head": 19,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.48046875,
+          "margin_change": 0.09765625,
+          "margin_change_pct": 0.02886836019179792,
+          "flipped": false,
+          "lg_alignment": 0.20961914956569672
+        },
+        {
+          "head": 3,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.478515625,
+          "margin_change": 0.095703125,
+          "margin_change_pct": 0.02829099298796196,
+          "flipped": false,
+          "lg_alignment": 0.18150675296783447
+        },
+        {
+          "head": 1,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.2890625,
+          "margin_change": -0.09375,
+          "margin_change_pct": -0.027713625784126002,
+          "flipped": false,
+          "lg_alignment": 0.18384245038032532
+        },
+        {
+          "head": 16,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.296875,
+          "margin_change": -0.0859375,
+          "margin_change_pct": -0.02540415696878217,
+          "flipped": false,
+          "lg_alignment": 0.2177821397781372
+        },
+        {
+          "head": 2,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.30078125,
+          "margin_change": -0.08203125,
+          "margin_change_pct": -0.02424942256111025,
+          "flipped": false,
+          "lg_alignment": 0.21105393767356873
+        },
+        {
+          "head": 8,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.462890625,
+          "margin_change": 0.080078125,
+          "margin_change_pct": 0.023672055357274294,
+          "flipped": false,
+          "lg_alignment": 0.2259206622838974
+        },
+        {
+          "head": 31,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.462890625,
+          "margin_change": 0.080078125,
+          "margin_change_pct": 0.023672055357274294,
+          "flipped": false,
+          "lg_alignment": 0.23531924188137054
+        },
+        {
+          "head": 5,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.310546875,
+          "margin_change": -0.072265625,
+          "margin_change_pct": -0.02136258654193046,
+          "flipped": false,
+          "lg_alignment": 0.18792405724525452
+        },
+        {
+          "head": 22,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.3125,
+          "margin_change": -0.0703125,
+          "margin_change_pct": -0.0207852193380945,
+          "flipped": false,
+          "lg_alignment": 0.16976195573806763
+        },
+        {
+          "head": 14,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.451171875,
+          "margin_change": 0.068359375,
+          "margin_change_pct": 0.020207852134258544,
+          "flipped": false,
+          "lg_alignment": 0.20174932479858398
+        },
+        {
+          "head": 11,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.44921875,
+          "margin_change": 0.06640625,
+          "margin_change_pct": 0.019630484930422586,
+          "flipped": false,
+          "lg_alignment": 0.18837594985961914
+        },
+        {
+          "head": 7,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.447265625,
+          "margin_change": 0.064453125,
+          "margin_change_pct": 0.019053117726586626,
+          "flipped": false,
+          "lg_alignment": 0.27008509635925293
+        },
+        {
+          "head": 4,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.4375,
+          "margin_change": 0.0546875,
+          "margin_change_pct": 0.016166281707406836,
+          "flipped": false,
+          "lg_alignment": 0.28398364782333374
+        },
+        {
+          "head": 10,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.4375,
+          "margin_change": 0.0546875,
+          "margin_change_pct": 0.016166281707406836,
+          "flipped": false,
+          "lg_alignment": 0.201655313372612
+        },
+        {
+          "head": 25,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.4375,
+          "margin_change": 0.0546875,
+          "margin_change_pct": 0.016166281707406836,
+          "flipped": false,
+          "lg_alignment": 0.1375146061182022
+        },
+        {
+          "head": 24,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.33203125,
+          "margin_change": -0.05078125,
+          "margin_change_pct": -0.015011547299734918,
+          "flipped": false,
+          "lg_alignment": 0.114478200674057
+        },
+        {
+          "head": 9,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.431640625,
+          "margin_change": 0.048828125,
+          "margin_change_pct": 0.01443418009589896,
+          "flipped": false,
+          "lg_alignment": 0.1681709885597229
+        },
+        {
+          "head": 13,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.333984375,
+          "margin_change": -0.048828125,
+          "margin_change_pct": -0.01443418009589896,
+          "flipped": false,
+          "lg_alignment": 0.17219220101833344
+        },
+        {
+          "head": 21,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.423828125,
+          "margin_change": 0.041015625,
+          "margin_change_pct": 0.012124711280555126,
+          "flipped": false,
+          "lg_alignment": 0.19260892271995544
+        },
+        {
+          "head": 30,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.345703125,
+          "margin_change": -0.037109375,
+          "margin_change_pct": -0.01096997687288321,
+          "flipped": false,
+          "lg_alignment": 0.20125870406627655
+        },
+        {
+          "head": 12,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.416015625,
+          "margin_change": 0.033203125,
+          "margin_change_pct": 0.009815242465211293,
+          "flipped": false,
+          "lg_alignment": 0.20869265496730804
+        },
+        {
+          "head": 18,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.3515625,
+          "margin_change": -0.03125,
+          "margin_change_pct": -0.009237875261375334,
+          "flipped": false,
+          "lg_alignment": 0.17365385591983795
+        },
+        {
+          "head": 29,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.3515625,
+          "margin_change": -0.03125,
+          "margin_change_pct": -0.009237875261375334,
+          "flipped": false,
+          "lg_alignment": 0.31254518032073975
+        },
+        {
+          "head": 23,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.404296875,
+          "margin_change": 0.021484375,
+          "margin_change_pct": 0.006351039242195542,
+          "flipped": false,
+          "lg_alignment": 0.2478743940591812
+        },
+        {
+          "head": 6,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.3671875,
+          "margin_change": -0.015625,
+          "margin_change_pct": -0.004618937630687667,
+          "flipped": false,
+          "lg_alignment": 0.18861424922943115
+        },
+        {
+          "head": 20,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.3671875,
+          "margin_change": -0.015625,
+          "margin_change_pct": -0.004618937630687667,
+          "flipped": false,
+          "lg_alignment": 0.16514120995998383
+        },
+        {
+          "head": 26,
+          "baseline_margin": 3.3828125,
+          "ablated_margin": 3.369140625,
+          "margin_change": -0.013671875,
+          "margin_change_pct": -0.004041570426851709,
+          "flipped": false,
+          "lg_alignment": 0.21299941837787628
+        }
+      ]
+    },
+    {
+      "germ_id": "gate_L15_robust_refuse",
+      "layer": 15,
+      "decision_pair": [
+        2170,
+        2181
+      ],
+      "flip_radius": 1.625,
+      "baseline_margin": -2.51953125,
+      "n_heads_that_flip": 0,
+      "head_results": [
+        {
+          "head": 6,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.390625,
+          "margin_change": 0.12890625,
+          "margin_change_pct": 0.0511627904946097,
+          "flipped": false,
+          "lg_alignment": 0.2111230343580246
+        },
+        {
+          "head": 4,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.61328125,
+          "margin_change": -0.09375,
+          "margin_change_pct": -0.03720930217789797,
+          "flipped": false,
+          "lg_alignment": 0.20780202746391296
+        },
+        {
+          "head": 10,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.60546875,
+          "margin_change": -0.0859375,
+          "margin_change_pct": -0.034108526996406464,
+          "flipped": false,
+          "lg_alignment": 0.17217601835727692
+        },
+        {
+          "head": 31,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.59765625,
+          "margin_change": -0.078125,
+          "margin_change_pct": -0.03100775181491497,
+          "flipped": false,
+          "lg_alignment": 0.2550875246524811
+        },
+        {
+          "head": 22,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.4453125,
+          "margin_change": 0.07421875,
+          "margin_change_pct": 0.02945736422416922,
+          "flipped": false,
+          "lg_alignment": 0.20573249459266663
+        },
+        {
+          "head": 14,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.58984375,
+          "margin_change": -0.0703125,
+          "margin_change_pct": -0.027906976633423473,
+          "flipped": false,
+          "lg_alignment": 0.19140970706939697
+        },
+        {
+          "head": 7,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.578125,
+          "margin_change": -0.05859375,
+          "margin_change_pct": -0.023255813861186227,
+          "flipped": false,
+          "lg_alignment": 0.19412203133106232
+        },
+        {
+          "head": 26,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.4609375,
+          "margin_change": 0.05859375,
+          "margin_change_pct": 0.023255813861186227,
+          "flipped": false,
+          "lg_alignment": 0.23752301931381226
+        },
+        {
+          "head": 8,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.57421875,
+          "margin_change": -0.0546875,
+          "margin_change_pct": -0.02170542627044048,
+          "flipped": false,
+          "lg_alignment": 0.23188823461532593
+        },
+        {
+          "head": 17,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.5703125,
+          "margin_change": -0.05078125,
+          "margin_change_pct": -0.02015503867969473,
+          "flipped": false,
+          "lg_alignment": 0.16191457211971283
+        },
+        {
+          "head": 19,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.56640625,
+          "margin_change": -0.046875,
+          "margin_change_pct": -0.018604651088948983,
+          "flipped": false,
+          "lg_alignment": 0.23577359318733215
+        },
+        {
+          "head": 20,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.47265625,
+          "margin_change": 0.046875,
+          "margin_change_pct": 0.018604651088948983,
+          "flipped": false,
+          "lg_alignment": 0.1547987163066864
+        },
+        {
+          "head": 3,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.4765625,
+          "margin_change": 0.04296875,
+          "margin_change_pct": 0.017054263498203232,
+          "flipped": false,
+          "lg_alignment": 0.19294066727161407
+        },
+        {
+          "head": 9,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.5625,
+          "margin_change": -0.04296875,
+          "margin_change_pct": -0.017054263498203232,
+          "flipped": false,
+          "lg_alignment": 0.20986303687095642
+        },
+        {
+          "head": 15,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.4765625,
+          "margin_change": 0.04296875,
+          "margin_change_pct": 0.017054263498203232,
+          "flipped": false,
+          "lg_alignment": 0.15288466215133667
+        },
+        {
+          "head": 16,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.4765625,
+          "margin_change": 0.04296875,
+          "margin_change_pct": 0.017054263498203232,
+          "flipped": false,
+          "lg_alignment": 0.13794896006584167
+        },
+        {
+          "head": 1,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.55859375,
+          "margin_change": -0.0390625,
+          "margin_change_pct": -0.015503875907457484,
+          "flipped": false,
+          "lg_alignment": 0.20467019081115723
+        },
+        {
+          "head": 18,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.55859375,
+          "margin_change": -0.0390625,
+          "margin_change_pct": -0.015503875907457484,
+          "flipped": false,
+          "lg_alignment": 0.131263867020607
+        },
+        {
+          "head": 24,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.55859375,
+          "margin_change": -0.0390625,
+          "margin_change_pct": -0.015503875907457484,
+          "flipped": false,
+          "lg_alignment": 0.12789934873580933
+        },
+        {
+          "head": 5,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.55078125,
+          "margin_change": -0.03125,
+          "margin_change_pct": -0.012403100725965989,
+          "flipped": false,
+          "lg_alignment": 0.2508638799190521
+        },
+        {
+          "head": 28,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.48828125,
+          "margin_change": 0.03125,
+          "margin_change_pct": 0.012403100725965989,
+          "flipped": false,
+          "lg_alignment": 0.1897202730178833
+        },
+        {
+          "head": 13,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.546875,
+          "margin_change": -0.02734375,
+          "margin_change_pct": -0.01085271313522024,
+          "flipped": false,
+          "lg_alignment": 0.24144062399864197
+        },
+        {
+          "head": 23,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.4921875,
+          "margin_change": 0.02734375,
+          "margin_change_pct": 0.01085271313522024,
+          "flipped": false,
+          "lg_alignment": 0.2424936443567276
+        },
+        {
+          "head": 11,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.54296875,
+          "margin_change": -0.0234375,
+          "margin_change_pct": -0.009302325544474492,
+          "flipped": false,
+          "lg_alignment": 0.19128505885601044
+        },
+        {
+          "head": 2,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.5390625,
+          "margin_change": -0.01953125,
+          "margin_change_pct": -0.007751937953728742,
+          "flipped": false,
+          "lg_alignment": 0.2348712533712387
+        },
+        {
+          "head": 21,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.5390625,
+          "margin_change": -0.01953125,
+          "margin_change_pct": -0.007751937953728742,
+          "flipped": false,
+          "lg_alignment": 0.18017643690109253
+        },
+        {
+          "head": 25,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.5390625,
+          "margin_change": -0.01953125,
+          "margin_change_pct": -0.007751937953728742,
+          "flipped": false,
+          "lg_alignment": 0.17861461639404297
+        },
+        {
+          "head": 29,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.5,
+          "margin_change": 0.01953125,
+          "margin_change_pct": 0.007751937953728742,
+          "flipped": false,
+          "lg_alignment": 0.1557796150445938
+        },
+        {
+          "head": 12,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.50390625,
+          "margin_change": 0.015625,
+          "margin_change_pct": 0.0062015503629829945,
+          "flipped": false,
+          "lg_alignment": 0.1901659369468689
+        },
+        {
+          "head": 0,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.5078125,
+          "margin_change": 0.01171875,
+          "margin_change_pct": 0.004651162772237246,
+          "flipped": false,
+          "lg_alignment": 0.1885141283273697
+        },
+        {
+          "head": 27,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.51171875,
+          "margin_change": 0.0078125,
+          "margin_change_pct": 0.0031007751814914972,
+          "flipped": false,
+          "lg_alignment": 0.15170744061470032
+        },
+        {
+          "head": 30,
+          "baseline_margin": -2.51953125,
+          "ablated_margin": -2.51953125,
+          "margin_change": 0.0,
+          "margin_change_pct": 0.0,
+          "flipped": false,
+          "lg_alignment": 0.15490573644638062
+        }
+      ]
+    }
+  ]
+}

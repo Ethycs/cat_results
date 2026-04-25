@@ -1,0 +1,111 @@
+{
+  "test": "Tight Helix-Monodromy Validation (Statistical)",
+  "results": {
+    "2": {
+      "period": 2,
+      "n_tested": 1,
+      "n_confirmed": 1,
+      "confirmation_rate": 1.0,
+      "verdict": "STRONGLY_CONFIRMED",
+      "error_points": [
+        {
+          "location": [
+            224,
+            24
+          ],
+          "delta": -246,
+          "period": 2,
+          "monodromy_order": 2,
+          "order_divides_period": true
+        }
+      ]
+    },
+    "5": {
+      "period": 5,
+      "n_tested": 0,
+      "n_confirmed": 0,
+      "confirmation_rate": 0.0,
+      "verdict": "NO_ERRORS_FOUND",
+      "error_points": []
+    },
+    "10": {
+      "period": 10,
+      "n_tested": 0,
+      "n_confirmed": 0,
+      "confirmation_rate": 0.0,
+      "verdict": "NO_ERRORS_FOUND",
+      "error_points": []
+    },
+    "100": {
+      "period": 100,
+      "n_tested": 0,
+      "n_confirmed": 0,
+      "confirmation_rate": 0.0,
+      "verdict": "NO_ERRORS_FOUND",
+      "error_points": []
+    }
+  },
+  "statistics": {
+    "2": {
+      "n_samples": 1,
+      "observed_rate": 1.0,
+      "null_rate": 0.2,
+      "p_value": 0.19999999999999996,
+      "ci_95": [
+        0.20654329147389294,
+        1.0
+      ],
+      "effect_size": 2.214297435588181,
+      "significant": false
+    },
+    "5": {
+      "n_samples": 0,
+      "observed_rate": 0.0,
+      "null_rate": 0.2,
+      "p_value": 1.0,
+      "ci_95": [
+        0.0,
+        1.0
+      ],
+      "effect_size": 0.0,
+      "significant": false
+    },
+    "10": {
+      "n_samples": 0,
+      "observed_rate": 0.0,
+      "null_rate": 0.4,
+      "p_value": 1.0,
+      "ci_95": [
+        0.0,
+        1.0
+      ],
+      "effect_size": 0.0,
+      "significant": false
+    },
+    "100": {
+      "n_samples": 0,
+      "observed_rate": 0.0,
+      "null_rate": 0.5,
+      "p_value": 1.0,
+      "ci_95": [
+        0.0,
+        1.0
+      ],
+      "effect_size": 0.0,
+      "significant": false
+    }
+  },
+  "pooled": {
+    "n_samples": 1,
+    "observed_rate": 1.0,
+    "null_rate": 0.325,
+    "p_value": 0.32499999999999996,
+    "ci_95": [
+      0.20654329147389294,
+      1.0
+    ],
+    "effect_size": 1.9283674304404066,
+    "significant": false
+  },
+  "verdict": "NOT STATISTICALLY SIGNIFICANT"
+}

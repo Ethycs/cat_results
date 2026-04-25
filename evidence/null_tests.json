@@ -1,0 +1,133 @@
+{
+  "N1": {
+    "item": "N1",
+    "name": "GCB carry vs non-carry",
+    "carry_mean_cbar": 0.5328482249107699,
+    "carry_std_cbar": 0.030651862912154,
+    "noncarry_mean_cbar": 0.5577985815192987,
+    "noncarry_std_cbar": 0.01107618109545626,
+    "other_mean_cbar": 0.39341947564998525,
+    "carry_mean_cosine": -0.10636725773413976,
+    "noncarry_mean_cosine": -0.06957000109056631,
+    "mann_whitney_u": 26.0,
+    "p_value_cbar": 0.03783078607194352,
+    "p_value_cosine": 0.022577284812139504,
+    "cohens_d": 0.9520961324139124,
+    "n_carry": 10,
+    "n_noncarry": 10,
+    "n_other": 10,
+    "confirmed": "True",
+    "summary": "Carry c_bar=0.533 vs non-carry 0.558 (p=0.0378, d=0.95)"
+  },
+  "N2": {
+    "item": "N2",
+    "name": "GCB monodromy loop",
+    "n_total_loops": 180,
+    "n_monodromy": 140,
+    "n_non_monodromy": 40,
+    "mono_mean_cbar": 0.721831305762829,
+    "mono_std_cbar": 0.04658562642658573,
+    "non_mono_mean_cbar": 0.9999989293059975,
+    "non_mono_std_cbar": 2.7690388513082815e-06,
+    "mann_whitney_u": 0.0,
+    "p_value": 2.9154530869510696e-22,
+    "cohens_d": 2.2665654872477505,
+    "partial_r_gap_controlled": -0.9003390694415804,
+    "partial_p_gap_controlled": 3.2050825228456505e-66,
+    "per_radius": {
+      "0.1": {
+        "n_mono": 0,
+        "n_non_mono": 30,
+        "mono_mean_cbar": null,
+        "non_mono_mean_cbar": 0.9999999502984871
+      },
+      "0.5": {
+        "n_mono": 24,
+        "n_non_mono": 6,
+        "mono_mean_cbar": 0.7996613802038327,
+        "non_mono_mean_cbar": 0.9999971221134567
+      },
+      "1.0": {
+        "n_mono": 27,
+        "n_non_mono": 3,
+        "mono_mean_cbar": 0.7154361555479847,
+        "non_mono_mean_cbar": 0.999994018658981
+      },
+      "2.0": {
+        "n_mono": 29,
+        "n_non_mono": 1,
+        "mono_mean_cbar": 0.7058499642875484,
+        "non_mono_mean_cbar": 0.9999938746276139
+      },
+      "5.0": {
+        "n_mono": 30,
+        "n_non_mono": 0,
+        "mono_mean_cbar": 0.7008520831644972,
+        "non_mono_mean_cbar": null
+      },
+      "10.0": {
+        "n_mono": 30,
+        "n_non_mono": 0,
+        "mono_mean_cbar": 0.7017507340944884,
+        "non_mono_mean_cbar": null
+      }
+    },
+    "confirmed": "True",
+    "summary": "Monodromy c_bar=0.722 vs non-mono 1.000 (p=2.92e-22, d=2.27, partial r=-0.90)"
+  },
+  "N3": {
+    "item": "N3",
+    "name": "Gap-cancellation confound",
+    "n_prompts": 30,
+    "gap_vs_cbar_r": -0.6634987639717624,
+    "gap_vs_cbar_p": 6.425456690747215e-05,
+    "gap_vs_cosine_r": -0.4471216184381375,
+    "gap_vs_cosine_p": 0.0132403959797443,
+    "gap_bins": {
+      "small": {
+        "n": 12,
+        "mean_cbar": 0.4839103944458558,
+        "mean_gap": 0.08479690551757812
+      },
+      "medium": {
+        "n": 14,
+        "mean_cbar": 0.5185844741754811,
+        "mean_gap": 0.5233347756522042
+      },
+      "large": {
+        "n": 4,
+        "mean_cbar": 0.2844647027378471,
+        "mean_gap": 3.2405004501342773
+      }
+    },
+    "confirmed": "True",
+    "summary": "Gap vs c_bar: r=-0.66 (p=0.0001). Gap explains 44% of c_bar variance."
+  },
+  "N4": {
+    "item": "N4",
+    "name": "Gradient opposition universality",
+    "n_total": 30,
+    "n_opposing": 30,
+    "fraction_opposing": 1.0,
+    "groups": {
+      "carry": {
+        "n": 10,
+        "fraction_opposing": 1.0,
+        "mean_cosine": -0.10636725773413976
+      },
+      "noncarry": {
+        "n": 10,
+        "fraction_opposing": 1.0,
+        "mean_cosine": -0.06957000109056631
+      },
+      "other": {
+        "n": 10,
+        "fraction_opposing": 1.0,
+        "mean_cosine": -0.21919803520043693
+      }
+    },
+    "all_opposing": true,
+    "confirmed": true,
+    "summary": "30/30 (100%) points have opposing gradients (cos<0). This is UNIVERSAL, not catastrophe-specific."
+  }
+}

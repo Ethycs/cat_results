@@ -1,0 +1,2205 @@
+{
+  "model_id": "gpt2",
+  "model_structure": {
+    "model_id": "gpt2",
+    "layers": [
+      0,
+      8,
+      23
+    ],
+    "n_layers": 24,
+    "hidden_dim": 2048
+  },
+  "summary": {
+    "total_germs": 3,
+    "germs_by_type": {
+      "unknown": 3
+    },
+    "certified_families": 3,
+    "generated_families": 6,
+    "exploitable_germs": 3
+  },
+  "germs": [
+    {
+      "model_id": "fgsm_attack",
+      "layer": 0,
+      "chunk": 0,
+      "catastrophe_type": "unknown",
+      "unfolding_rank": 3,
+      "unfolding_basis": {
+        "rank": 3,
+        "dim": 2048,
+        "danger_scores": [
+          0.67578125,
+          0.6999659538269043,
+          0.09999999999999999
+        ],
+        "construction_method": "canonical_fgsm",
+        "vector_shapes": [
+          [
+            2048
+          ],
+          [
+            2048
+          ],
+          [
+            2048
+          ]
+        ],
+        "vector_norms": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_reconstructible": true
+      },
+      "basepoint_margin": 0.78125,
+      "decision_pair": [
+        12366,
+        35047
+      ],
+      "factuality_type": null,
+      "correct_token_id": null,
+      "hessian_signature": [
+        0,
+        0,
+        0
+      ],
+      "monodromy_class": null,
+      "cert_level": "MONODROMY_CERTIFIED",
+      "gate_id": null,
+      "coupling": 1.4453125,
+      "coupling_raw": null,
+      "flip_radius": 1.0,
+      "exploit_score": 1.0,
+      "prompt_context": "The capital of France is",
+      "prompt_index": null,
+      "timestamp": "2026-03-20 16:00:05",
+      "tau_profile": null,
+      "robustness_radius": null,
+      "R_star": null,
+      "tau_star": null,
+      "plane_bundle": null,
+      "multijet_coherence": null,
+      "probe_results": null,
+      "circuit_trace": null,
+      "certification": {
+        "certified": true,
+        "level": "MONODROMY_CERTIFIED",
+        "timestamp": "2026-03-20T16:00:12",
+        "geometry": {
+          "radius": 0.5,
+          "plane_basis": [
+            0,
+            1
+          ],
+          "center_shape": [
+            2048
+          ]
+        },
+        "decision_pair": {
+          "token_a": 12366,
+          "token_b": 35047
+        },
+        "stats": {
+          "n_crossings": 9,
+          "winding_number": 0,
+          "min_gap": 0.0,
+          "max_gap": 0.34375,
+          "gap_crossed_zero": false,
+          "n_samples": 64
+        },
+        "crossings": [
+          {
+            "theta": 0.44792239006260726,
+            "token_before": 4697,
+            "token_after": 6845,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          },
+          {
+            "theta": 0.628932123033113,
+            "token_before": 6845,
+            "token_after": 72627,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          },
+          {
+            "theta": 1.1044661672776614,
+            "token_before": 72627,
+            "token_after": 7911,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          },
+          {
+            "theta": 1.9144080232812801,
+            "token_before": 7911,
+            "token_after": 17916,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          },
+          {
+            "theta": 2.1353012567368124,
+            "token_before": 17916,
+            "token_after": 7911,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          },
+          {
+            "theta": 3.8042723539563896,
+            "token_before": 7911,
+            "token_after": 17916,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          },
+          {
+            "theta": 4.172427743048944,
+            "token_before": 17916,
+            "token_after": 7911,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          },
+          {
+            "theta": 4.859651136021711,
+            "token_before": 7911,
+            "token_after": 72627,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          },
+          {
+            "theta": 5.743224069843841,
+            "token_before": 11,
+            "token_after": 4697,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          }
+        ],
+        "separatrix": {
+          "stats": {
+            "n_crossings": 0,
+            "winding_number": 0,
+            "min_gap": 3.330078125,
+            "max_gap": 3.330078125,
+            "gap_crossed_zero": false,
+            "n_samples": 1
+          },
+          "geometry": {
+            "radius": 0.5,
+            "plane_basis": [
+              0,
+              1
+            ],
+            "center_shape": null
+          },
+          "n_certified": 0,
+          "min_abs_gap": 3.330078125,
+          "max_abs_gap": 3.330078125,
+          "mean_abs_gap": 3.330078125,
+          "theta_at_min_gap": 0.0,
+          "gap_range": 0.0,
+          "sign_changes": [],
+          "separatrix_angles": [],
+          "tau": 0.0,
+          "r_inner": 0.0,
+          "r_outer": 0.0,
+          "n_radial": 0,
+          "n_angular": 0,
+          "tube_area_fraction": 0.0,
+          "n_tube_points": 0,
+          "n_total_points": 0,
+          "mean_tube_thickness": 0.0,
+          "max_tube_thickness": 0.0,
+          "thickness_at_crossings": [],
+          "sensitivity_radius": null,
+          "trajectories": [],
+          "certificates": [],
+          "tau_min": 0.0,
+          "tau_max": 1.0,
+          "n_tau_samples": 0,
+          "tau_star": 0.0,
+          "dA_dtau_max": 0.0,
+          "area_at_tau_star": 0.0,
+          "fragility_score": 0.0,
+          "r_delta": 0.0
+        },
+        "tube": null,
+        "braid_word": {
+          "n_strands": 3,
+          "word_length": 3,
+          "reduced_length": 3,
+          "exponent_sum": 3,
+          "permutation": [
+            1,
+            0,
+            2
+          ],
+          "strand_labels": [
+            11,
+            4697,
+            6845
+          ],
+          "word_string": "\u03c3\u2082\u03c3\u2082\u03c3\u2081",
+          "generators": [
+            {
+              "strand_index": 1,
+              "sign": 1,
+              "theta": 0.44792239006260726,
+              "tokens": [
+                4697,
+                6845
+              ],
+              "gate_id": null
+            },
+            {
+              "strand_index": 1,
+              "sign": 1,
+              "theta": 5.743224069843841,
+              "tokens": [
+                11,
+                6845
+              ],
+              "gate_id": null
+            },
+            {
+              "strand_index": 0,
+              "sign": 1,
+              "theta": 5.743224069843841,
+              "tokens": [
+                11,
+                11
+              ],
+              "gate_id": null
+            }
+          ],
+          "reduced_generators": [
+            {
+              "strand_index": 1,
+              "sign": 1,
+              "theta": 0.44792239006260726,
+              "tokens": [
+                4697,
+                6845
+              ],
+              "gate_id": null
+            },
+            {
+              "strand_index": 1,
+              "sign": 1,
+              "theta": 5.743224069843841,
+              "tokens": [
+                11,
+                6845
+              ],
+              "gate_id": null
+            },
+            {
+              "strand_index": 0,
+              "sign": 1,
+              "theta": 5.743224069843841,
+              "tokens": [
+                11,
+                11
+              ],
+              "gate_id": null
+            }
+          ]
+        }
+      },
+      "_basepoint_shape": [
+        2048
+      ]
+    },
+    {
+      "model_id": "fgsm_attack",
+      "layer": 8,
+      "chunk": 0,
+      "catastrophe_type": "unknown",
+      "unfolding_rank": 3,
+      "unfolding_basis": {
+        "rank": 3,
+        "dim": 2048,
+        "danger_scores": [
+          0.625,
+          0.699955940246582,
+          0.09999999999999999
+        ],
+        "construction_method": "canonical_fgsm",
+        "vector_shapes": [
+          [
+            2048
+          ],
+          [
+            2048
+          ],
+          [
+            2048
+          ]
+        ],
+        "vector_norms": [
+          1.0,
+          1.0,
+          0.99951171875
+        ],
+        "_reconstructible": true
+      },
+      "basepoint_margin": 0.78125,
+      "decision_pair": [
+        12366,
+        743
+      ],
+      "factuality_type": null,
+      "correct_token_id": null,
+      "hessian_signature": [
+        0,
+        0,
+        0
+      ],
+      "monodromy_class": null,
+      "cert_level": "MONODROMY_CERTIFIED",
+      "gate_id": null,
+      "coupling": 0.3046875,
+      "coupling_raw": null,
+      "flip_radius": 1.0,
+      "exploit_score": 1.0,
+      "prompt_context": "The capital of France is",
+      "prompt_index": null,
+      "timestamp": "2026-03-20 16:00:06",
+      "tau_profile": null,
+      "robustness_radius": null,
+      "R_star": null,
+      "tau_star": null,
+      "plane_bundle": null,
+      "multijet_coherence": null,
+      "probe_results": null,
+      "circuit_trace": null,
+      "certification": {
+        "certified": true,
+        "level": "MONODROMY_CERTIFIED",
+        "timestamp": "2026-03-20T16:00:16",
+        "geometry": {
+          "radius": 0.5,
+          "plane_basis": [
+            0,
+            1
+          ],
+          "center_shape": [
+            2048
+          ]
+        },
+        "decision_pair": {
+          "token_a": 12366,
+          "token_b": 743
+        },
+        "stats": {
+          "n_crossings": 2,
+          "winding_number": 0,
+          "min_gap": 0.0078125,
+          "max_gap": 0.2890625,
+          "gap_crossed_zero": false,
+          "n_samples": 64
+        },
+        "crossings": [
+          {
+            "theta": 1.51831740593434,
+            "token_before": 374,
+            "token_after": 540,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          },
+          {
+            "theta": 4.110301521139576,
+            "token_before": 540,
+            "token_after": 374,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          }
+        ],
+        "separatrix": {
+          "stats": {
+            "n_crossings": 0,
+            "winding_number": 0,
+            "min_gap": 0.0546875,
+            "max_gap": 0.0546875,
+            "gap_crossed_zero": false,
+            "n_samples": 1
+          },
+          "geometry": {
+            "radius": 0.5,
+            "plane_basis": [
+              0,
+              1
+            ],
+            "center_shape": null
+          },
+          "n_certified": 0,
+          "min_abs_gap": 0.0546875,
+          "max_abs_gap": 0.0546875,
+          "mean_abs_gap": 0.0546875,
+          "theta_at_min_gap": 0.0,
+          "gap_range": 0.0,
+          "sign_changes": [],
+          "separatrix_angles": [],
+          "tau": 0.0,
+          "r_inner": 0.0,
+          "r_outer": 0.0,
+          "n_radial": 0,
+          "n_angular": 0,
+          "tube_area_fraction": 0.0,
+          "n_tube_points": 0,
+          "n_total_points": 0,
+          "mean_tube_thickness": 0.0,
+          "max_tube_thickness": 0.0,
+          "thickness_at_crossings": [],
+          "sensitivity_radius": null,
+          "trajectories": [],
+          "certificates": [],
+          "tau_min": 0.0,
+          "tau_max": 1.0,
+          "n_tau_samples": 0,
+          "tau_star": 0.0,
+          "dA_dtau_max": 0.0,
+          "area_at_tau_star": 0.0,
+          "fragility_score": 0.0,
+          "r_delta": 0.0
+        },
+        "tube": null,
+        "braid_word": {
+          "n_strands": 2,
+          "word_length": 2,
+          "reduced_length": 2,
+          "exponent_sum": 2,
+          "permutation": [
+            0,
+            1
+          ],
+          "strand_labels": [
+            374,
+            540
+          ],
+          "word_string": "\u03c3\u2081\u03c3\u2081",
+          "generators": [
+            {
+              "strand_index": 0,
+              "sign": 1,
+              "theta": 1.51831740593434,
+              "tokens": [
+                374,
+                540
+              ],
+              "gate_id": null
+            },
+            {
+              "strand_index": 0,
+              "sign": 1,
+              "theta": 4.110301521139576,
+              "tokens": [
+                540,
+                374
+              ],
+              "gate_id": null
+            }
+          ],
+          "reduced_generators": [
+            {
+              "strand_index": 0,
+              "sign": 1,
+              "theta": 1.51831740593434,
+              "tokens": [
+                374,
+                540
+              ],
+              "gate_id": null
+            },
+            {
+              "strand_index": 0,
+              "sign": 1,
+              "theta": 4.110301521139576,
+              "tokens": [
+                540,
+                374
+              ],
+              "gate_id": null
+            }
+          ]
+        }
+      },
+      "_basepoint_shape": [
+        2048
+      ]
+    },
+    {
+      "model_id": "fgsm_attack",
+      "layer": 23,
+      "chunk": 0,
+      "catastrophe_type": "unknown",
+      "unfolding_rank": 3,
+      "unfolding_basis": {
+        "rank": 3,
+        "dim": 2048,
+        "danger_scores": [
+          0.4150390625,
+          0.6999357879161834,
+          0.09999999999999999
+        ],
+        "construction_method": "canonical_fgsm",
+        "vector_shapes": [
+          [
+            2048
+          ],
+          [
+            2048
+          ],
+          [
+            2048
+          ]
+        ],
+        "vector_norms": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "_reconstructible": true
+      },
+      "basepoint_margin": 0.78125,
+      "decision_pair": [
+        12366,
+        264
+      ],
+      "factuality_type": null,
+      "correct_token_id": null,
+      "hessian_signature": [
+        0,
+        0,
+        0
+      ],
+      "monodromy_class": null,
+      "cert_level": "MONODROMY_CERTIFIED",
+      "gate_id": null,
+      "coupling": 0.171875,
+      "coupling_raw": null,
+      "flip_radius": 1.0,
+      "exploit_score": 1.0,
+      "prompt_context": "The capital of France is",
+      "prompt_index": null,
+      "timestamp": "2026-03-20 16:00:06",
+      "tau_profile": null,
+      "robustness_radius": null,
+      "R_star": null,
+      "tau_star": null,
+      "plane_bundle": null,
+      "multijet_coherence": null,
+      "probe_results": null,
+      "circuit_trace": null,
+      "certification": {
+        "certified": true,
+        "level": "MONODROMY_CERTIFIED",
+        "timestamp": "2026-03-20T16:00:17",
+        "geometry": {
+          "radius": 0.5,
+          "plane_basis": [
+            0,
+            1
+          ],
+          "center_shape": [
+            2048
+          ]
+        },
+        "decision_pair": {
+          "token_a": 12366,
+          "token_b": 264
+        },
+        "stats": {
+          "n_crossings": 1,
+          "winding_number": 0,
+          "min_gap": 0.0,
+          "max_gap": 0.140625,
+          "gap_crossed_zero": false,
+          "n_samples": 64
+        },
+        "crossings": [
+          {
+            "theta": 4.700117134081605,
+            "token_before": 12366,
+            "token_after": 264,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          }
+        ],
+        "separatrix": {
+          "stats": {
+            "n_crossings": 0,
+            "winding_number": 0,
+            "min_gap": 0.125,
+            "max_gap": 0.125,
+            "gap_crossed_zero": false,
+            "n_samples": 1
+          },
+          "geometry": {
+            "radius": 0.5,
+            "plane_basis": [
+              0,
+              1
+            ],
+            "center_shape": null
+          },
+          "n_certified": 0,
+          "min_abs_gap": 0.125,
+          "max_abs_gap": 0.125,
+          "mean_abs_gap": 0.125,
+          "theta_at_min_gap": 0.0,
+          "gap_range": 0.0,
+          "sign_changes": [],
+          "separatrix_angles": [],
+          "tau": 0.0,
+          "r_inner": 0.0,
+          "r_outer": 0.0,
+          "n_radial": 0,
+          "n_angular": 0,
+          "tube_area_fraction": 0.0,
+          "n_tube_points": 0,
+          "n_total_points": 0,
+          "mean_tube_thickness": 0.0,
+          "max_tube_thickness": 0.0,
+          "thickness_at_crossings": [],
+          "sensitivity_radius": null,
+          "trajectories": [],
+          "certificates": [],
+          "tau_min": 0.0,
+          "tau_max": 1.0,
+          "n_tau_samples": 0,
+          "tau_star": 0.0,
+          "dA_dtau_max": 0.0,
+          "area_at_tau_star": 0.0,
+          "fragility_score": 0.0,
+          "r_delta": 0.0
+        },
+        "tube": null,
+        "braid_word": {
+          "n_strands": 2,
+          "word_length": 1,
+          "reduced_length": 1,
+          "exponent_sum": 1,
+          "permutation": [
+            1,
+            0
+          ],
+          "strand_labels": [
+            264,
+            12366
+          ],
+          "word_string": "\u03c3\u2081",
+          "generators": [
+            {
+              "strand_index": 0,
+              "sign": 1,
+              "theta": 4.700117134081605,
+              "tokens": [
+                264,
+                12366
+              ],
+              "gate_id": null
+            }
+          ],
+          "reduced_generators": [
+            {
+              "strand_index": 0,
+              "sign": 1,
+              "theta": 4.700117134081605,
+              "tokens": [
+                264,
+                12366
+              ],
+              "gate_id": null
+            }
+          ]
+        }
+      },
+      "_basepoint_shape": [
+        2048
+      ]
+    }
+  ],
+  "attack_families": [
+    {
+      "germ": {
+        "model_id": "fgsm_attack",
+        "layer": 0,
+        "chunk": 0,
+        "catastrophe_type": "unknown",
+        "unfolding_rank": 3,
+        "unfolding_basis": {
+          "rank": 3,
+          "dim": 2048,
+          "danger_scores": [
+            0.67578125,
+            0.6999659538269043,
+            0.09999999999999999
+          ],
+          "construction_method": "canonical_fgsm",
+          "vector_shapes": [
+            [
+              2048
+            ],
+            [
+              2048
+            ],
+            [
+              2048
+            ]
+          ],
+          "vector_norms": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "_reconstructible": true
+        },
+        "basepoint_margin": 0.78125,
+        "decision_pair": [
+          12366,
+          35047
+        ],
+        "factuality_type": null,
+        "correct_token_id": null,
+        "hessian_signature": [
+          0,
+          0,
+          0
+        ],
+        "monodromy_class": null,
+        "cert_level": "MONODROMY_CERTIFIED",
+        "gate_id": null,
+        "coupling": 1.4453125,
+        "coupling_raw": null,
+        "flip_radius": 1.0,
+        "exploit_score": 1.0,
+        "prompt_context": "The capital of France is",
+        "prompt_index": null,
+        "timestamp": "2026-03-20 16:00:05",
+        "tau_profile": null,
+        "robustness_radius": null,
+        "R_star": null,
+        "tau_star": null,
+        "plane_bundle": null,
+        "multijet_coherence": null,
+        "probe_results": null,
+        "circuit_trace": null,
+        "certification": {
+          "certified": true,
+          "level": "MONODROMY_CERTIFIED",
+          "timestamp": "2026-03-20T16:00:12",
+          "geometry": {
+            "radius": 0.5,
+            "plane_basis": [
+              0,
+              1
+            ],
+            "center_shape": [
+              2048
+            ]
+          },
+          "decision_pair": {
+            "token_a": 12366,
+            "token_b": 35047
+          },
+          "stats": {
+            "n_crossings": 9,
+            "winding_number": 0,
+            "min_gap": 0.0,
+            "max_gap": 0.34375,
+            "gap_crossed_zero": false,
+            "n_samples": 64
+          },
+          "crossings": [
+            {
+              "theta": 0.44792239006260726,
+              "token_before": 4697,
+              "token_after": 6845,
+              "gap": 0.0,
+              "gap_fp32": 0.0
+            },
+            {
+              "theta": 0.628932123033113,
+              "token_before": 6845,
+              "token_after": 72627,
+              "gap": 0.0,
+              "gap_fp32": 0.0
+            },
+            {
+              "theta": 1.1044661672776614,
+              "token_before": 72627,
+              "token_after": 7911,
+              "gap": 0.0,
+              "gap_fp32": 0.0
+            },
+            {
+              "theta": 1.9144080232812801,
+              "token_before": 7911,
+              "token_after": 17916,
+              "gap": 0.0,
+              "gap_fp32": 0.0
+            },
+            {
+              "theta": 2.1353012567368124,
+              "token_before": 17916,
+              "token_after": 7911,
+              "gap": 0.0,
+              "gap_fp32": 0.0
+            },
+            {
+              "theta": 3.8042723539563896,
+              "token_before": 7911,
+              "token_after": 17916,
+              "gap": 0.0,
+              "gap_fp32": 0.0
+            },
+            {
+              "theta": 4.172427743048944,
+              "token_before": 17916,
+              "token_after": 7911,
+              "gap": 0.0,
+              "gap_fp32": 0.0
+            },
+            {
+              "theta": 4.859651136021711,
+              "token_before": 7911,
+              "token_after": 72627,
+              "gap": 0.0,
+              "gap_fp32": 0.0
+            },
+            {
+              "theta": 5.743224069843841,
+              "token_before": 11,
+              "token_after": 4697,
+              "gap": 0.0,
+              "gap_fp32": 0.0
+            }
+          ],
+          "separatrix": {
+            "stats": {
+              "n_crossings": 0,
+              "winding_number": 0,
+              "min_gap": 3.330078125,
+              "max_gap": 3.330078125,
+              "gap_crossed_zero": false,
+              "n_samples": 1
+            },
+            "geometry": {
+              "radius": 0.5,
+              "plane_basis": [
+                0,
+                1
+              ],
+              "center_shape": null
+            },
+            "n_certified": 0,
+            "min_abs_gap": 3.330078125,
+            "max_abs_gap": 3.330078125,
+            "mean_abs_gap": 3.330078125,
+            "theta_at_min_gap": 0.0,
+            "gap_range": 0.0,
+            "sign_changes": [],
+            "separatrix_angles": [],
+            "tau": 0.0,
+            "r_inner": 0.0,
+            "r_outer": 0.0,
+            "n_radial": 0,
+            "n_angular": 0,
+            "tube_area_fraction": 0.0,
+            "n_tube_points": 0,
+            "n_total_points": 0,
+            "mean_tube_thickness": 0.0,
+            "max_tube_thickness": 0.0,
+            "thickness_at_crossings": [],
+            "sensitivity_radius": null,
+            "trajectories": [],
+            "certificates": [],
+            "tau_min": 0.0,
+            "tau_max": 1.0,
+            "n_tau_samples": 0,
+            "tau_star": 0.0,
+            "dA_dtau_max": 0.0,
+            "area_at_tau_star": 0.0,
+            "fragility_score": 0.0,
+            "r_delta": 0.0
+          },
+          "tube": null,
+          "braid_word": {
+            "n_strands": 3,
+            "word_length": 3,
+            "reduced_length": 3,
+            "exponent_sum": 3,
+            "permutation": [
+              1,
+              0,
+              2
+            ],
+            "strand_labels": [
+              11,
+              4697,
+              6845
+            ],
+            "word_string": "\u03c3\u2082\u03c3\u2082\u03c3\u2081",
+            "generators": [
+              {
+                "strand_index": 1,
+                "sign": 1,
+                "theta": 0.44792239006260726,
+                "tokens": [
+                  4697,
+                  6845
+                ],
+                "gate_id": null
+              },
+              {
+                "strand_index": 1,
+                "sign": 1,
+                "theta": 5.743224069843841,
+                "tokens": [
+                  11,
+                  6845
+                ],
+                "gate_id": null
+              },
+              {
+                "strand_index": 0,
+                "sign": 1,
+                "theta": 5.743224069843841,
+                "tokens": [
+                  11,
+                  11
+                ],
+                "gate_id": null
+              }
+            ],
+            "reduced_generators": [
+              {
+                "strand_index": 1,
+                "sign": 1,
+                "theta": 0.44792239006260726,
+                "tokens": [
+                  4697,
+                  6845
+                ],
+                "gate_id": null
+              },
+              {
+                "strand_index": 1,
+                "sign": 1,
+                "theta": 5.743224069843841,
+                "tokens": [
+                  11,
+                  6845
+                ],
+                "gate_id": null
+              },
+              {
+                "strand_index": 0,
+                "sign": 1,
+                "theta": 5.743224069843841,
+                "tokens": [
+                  11,
+                  11
+                ],
+                "gate_id": null
+              }
+            ]
+          }
+        },
+        "_basepoint_shape": [
+          2048
+        ]
+      },
+      "generator_loop": {
+        "germ_id": "germ_88852582",
+        "geometry": {
+          "radius": 0.5,
+          "plane_basis": [
+            0,
+            1
+          ],
+          "center_shape": null
+        },
+        "certified": true,
+        "cert_level": "MONODROMY_CERTIFIED",
+        "stats": {
+          "n_crossings": 9,
+          "winding_number": 0,
+          "min_gap": 0.0,
+          "max_gap": 0.34375,
+          "gap_crossed_zero": false,
+          "n_samples": 64
+        },
+        "unique_tokens": 6,
+        "token_swaps": [],
+        "certified_swaps": [
+          {
+            "theta": 0.44792239006260726,
+            "token_before": 4697,
+            "token_after": 6845,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          },
+          {
+            "theta": 0.628932123033113,
+            "token_before": 6845,
+            "token_after": 72627,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          },
+          {
+            "theta": 1.1044661672776614,
+            "token_before": 72627,
+            "token_after": 7911,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          },
+          {
+            "theta": 1.9144080232812801,
+            "token_before": 7911,
+            "token_after": 17916,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          },
+          {
+            "theta": 2.1353012567368124,
+            "token_before": 17916,
+            "token_after": 7911,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          },
+          {
+            "theta": 3.8042723539563896,
+            "token_before": 7911,
+            "token_after": 17916,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          },
+          {
+            "theta": 4.172427743048944,
+            "token_before": 17916,
+            "token_after": 7911,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          },
+          {
+            "theta": 4.859651136021711,
+            "token_before": 7911,
+            "token_after": 72627,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          },
+          {
+            "theta": 5.743224069843841,
+            "token_before": 11,
+            "token_after": 4697,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          }
+        ],
+        "separatrix": {
+          "stats": {
+            "n_crossings": 0,
+            "winding_number": 0,
+            "min_gap": 3.330078125,
+            "max_gap": 3.330078125,
+            "gap_crossed_zero": false,
+            "n_samples": 1
+          },
+          "geometry": {
+            "radius": 0.5,
+            "plane_basis": [
+              0,
+              1
+            ],
+            "center_shape": null
+          },
+          "n_certified": 0,
+          "min_abs_gap": 3.330078125,
+          "max_abs_gap": 3.330078125,
+          "mean_abs_gap": 3.330078125,
+          "theta_at_min_gap": 0.0,
+          "gap_range": 0.0,
+          "sign_changes": [],
+          "separatrix_angles": [],
+          "tau": 0.0,
+          "r_inner": 0.0,
+          "r_outer": 0.0,
+          "n_radial": 0,
+          "n_angular": 0,
+          "tube_area_fraction": 0.0,
+          "n_tube_points": 0,
+          "n_total_points": 0,
+          "mean_tube_thickness": 0.0,
+          "max_tube_thickness": 0.0,
+          "thickness_at_crossings": [],
+          "sensitivity_radius": null,
+          "trajectories": [],
+          "certificates": [],
+          "tau_min": 0.0,
+          "tau_max": 1.0,
+          "n_tau_samples": 0,
+          "tau_star": 0.0,
+          "dA_dtau_max": 0.0,
+          "area_at_tau_star": 0.0,
+          "fragility_score": 0.0,
+          "r_delta": 0.0
+        },
+        "tube": null,
+        "braid_word": {
+          "n_strands": 3,
+          "word_length": 3,
+          "reduced_length": 3,
+          "exponent_sum": 3,
+          "permutation": [
+            1,
+            0,
+            2
+          ],
+          "strand_labels": [
+            11,
+            4697,
+            6845
+          ],
+          "word_string": "\u03c3\u2082\u03c3\u2082\u03c3\u2081",
+          "generators": [
+            {
+              "strand_index": 1,
+              "sign": 1,
+              "theta": 0.44792239006260726,
+              "tokens": [
+                4697,
+                6845
+              ],
+              "gate_id": null
+            },
+            {
+              "strand_index": 1,
+              "sign": 1,
+              "theta": 5.743224069843841,
+              "tokens": [
+                11,
+                6845
+              ],
+              "gate_id": null
+            },
+            {
+              "strand_index": 0,
+              "sign": 1,
+              "theta": 5.743224069843841,
+              "tokens": [
+                11,
+                11
+              ],
+              "gate_id": null
+            }
+          ],
+          "reduced_generators": [
+            {
+              "strand_index": 1,
+              "sign": 1,
+              "theta": 0.44792239006260726,
+              "tokens": [
+                4697,
+                6845
+              ],
+              "gate_id": null
+            },
+            {
+              "strand_index": 1,
+              "sign": 1,
+              "theta": 5.743224069843841,
+              "tokens": [
+                11,
+                6845
+              ],
+              "gate_id": null
+            },
+            {
+              "strand_index": 0,
+              "sign": 1,
+              "theta": 5.743224069843841,
+              "tokens": [
+                11,
+                11
+              ],
+              "gate_id": null
+            }
+          ]
+        },
+        "tau_profile": null,
+        "radius": 0.5,
+        "plane_basis": [
+          0,
+          1
+        ],
+        "n_samples": 64,
+        "n_certified_swaps": 9,
+        "winding_number": 0,
+        "min_gap": 0.0,
+        "max_gap": 0.34375,
+        "gap_crossed_zero": false
+      },
+      "homotopy_class": "layer_0",
+      "cert_level": "MONODROMY_CERTIFIED",
+      "n_variants": {
+        "scaled": 0,
+        "translated": 0,
+        "partial_arcs": 0
+      },
+      "scaled_loops": [],
+      "translated_loops": [],
+      "partial_arcs": []
+    },
+    {
+      "germ": {
+        "model_id": "fgsm_attack",
+        "layer": 8,
+        "chunk": 0,
+        "catastrophe_type": "unknown",
+        "unfolding_rank": 3,
+        "unfolding_basis": {
+          "rank": 3,
+          "dim": 2048,
+          "danger_scores": [
+            0.625,
+            0.699955940246582,
+            0.09999999999999999
+          ],
+          "construction_method": "canonical_fgsm",
+          "vector_shapes": [
+            [
+              2048
+            ],
+            [
+              2048
+            ],
+            [
+              2048
+            ]
+          ],
+          "vector_norms": [
+            1.0,
+            1.0,
+            0.99951171875
+          ],
+          "_reconstructible": true
+        },
+        "basepoint_margin": 0.78125,
+        "decision_pair": [
+          12366,
+          743
+        ],
+        "factuality_type": null,
+        "correct_token_id": null,
+        "hessian_signature": [
+          0,
+          0,
+          0
+        ],
+        "monodromy_class": null,
+        "cert_level": "MONODROMY_CERTIFIED",
+        "gate_id": null,
+        "coupling": 0.3046875,
+        "coupling_raw": null,
+        "flip_radius": 1.0,
+        "exploit_score": 1.0,
+        "prompt_context": "The capital of France is",
+        "prompt_index": null,
+        "timestamp": "2026-03-20 16:00:06",
+        "tau_profile": null,
+        "robustness_radius": null,
+        "R_star": null,
+        "tau_star": null,
+        "plane_bundle": null,
+        "multijet_coherence": null,
+        "probe_results": null,
+        "circuit_trace": null,
+        "certification": {
+          "certified": true,
+          "level": "MONODROMY_CERTIFIED",
+          "timestamp": "2026-03-20T16:00:16",
+          "geometry": {
+            "radius": 0.5,
+            "plane_basis": [
+              0,
+              1
+            ],
+            "center_shape": [
+              2048
+            ]
+          },
+          "decision_pair": {
+            "token_a": 12366,
+            "token_b": 743
+          },
+          "stats": {
+            "n_crossings": 2,
+            "winding_number": 0,
+            "min_gap": 0.0078125,
+            "max_gap": 0.2890625,
+            "gap_crossed_zero": false,
+            "n_samples": 64
+          },
+          "crossings": [
+            {
+              "theta": 1.51831740593434,
+              "token_before": 374,
+              "token_after": 540,
+              "gap": 0.0,
+              "gap_fp32": 0.0
+            },
+            {
+              "theta": 4.110301521139576,
+              "token_before": 540,
+              "token_after": 374,
+              "gap": 0.0,
+              "gap_fp32": 0.0
+            }
+          ],
+          "separatrix": {
+            "stats": {
+              "n_crossings": 0,
+              "winding_number": 0,
+              "min_gap": 0.0546875,
+              "max_gap": 0.0546875,
+              "gap_crossed_zero": false,
+              "n_samples": 1
+            },
+            "geometry": {
+              "radius": 0.5,
+              "plane_basis": [
+                0,
+                1
+              ],
+              "center_shape": null
+            },
+            "n_certified": 0,
+            "min_abs_gap": 0.0546875,
+            "max_abs_gap": 0.0546875,
+            "mean_abs_gap": 0.0546875,
+            "theta_at_min_gap": 0.0,
+            "gap_range": 0.0,
+            "sign_changes": [],
+            "separatrix_angles": [],
+            "tau": 0.0,
+            "r_inner": 0.0,
+            "r_outer": 0.0,
+            "n_radial": 0,
+            "n_angular": 0,
+            "tube_area_fraction": 0.0,
+            "n_tube_points": 0,
+            "n_total_points": 0,
+            "mean_tube_thickness": 0.0,
+            "max_tube_thickness": 0.0,
+            "thickness_at_crossings": [],
+            "sensitivity_radius": null,
+            "trajectories": [],
+            "certificates": [],
+            "tau_min": 0.0,
+            "tau_max": 1.0,
+            "n_tau_samples": 0,
+            "tau_star": 0.0,
+            "dA_dtau_max": 0.0,
+            "area_at_tau_star": 0.0,
+            "fragility_score": 0.0,
+            "r_delta": 0.0
+          },
+          "tube": null,
+          "braid_word": {
+            "n_strands": 2,
+            "word_length": 2,
+            "reduced_length": 2,
+            "exponent_sum": 2,
+            "permutation": [
+              0,
+              1
+            ],
+            "strand_labels": [
+              374,
+              540
+            ],
+            "word_string": "\u03c3\u2081\u03c3\u2081",
+            "generators": [
+              {
+                "strand_index": 0,
+                "sign": 1,
+                "theta": 1.51831740593434,
+                "tokens": [
+                  374,
+                  540
+                ],
+                "gate_id": null
+              },
+              {
+                "strand_index": 0,
+                "sign": 1,
+                "theta": 4.110301521139576,
+                "tokens": [
+                  540,
+                  374
+                ],
+                "gate_id": null
+              }
+            ],
+            "reduced_generators": [
+              {
+                "strand_index": 0,
+                "sign": 1,
+                "theta": 1.51831740593434,
+                "tokens": [
+                  374,
+                  540
+                ],
+                "gate_id": null
+              },
+              {
+                "strand_index": 0,
+                "sign": 1,
+                "theta": 4.110301521139576,
+                "tokens": [
+                  540,
+                  374
+                ],
+                "gate_id": null
+              }
+            ]
+          }
+        },
+        "_basepoint_shape": [
+          2048
+        ]
+      },
+      "generator_loop": {
+        "germ_id": "germ_3d3071c9",
+        "geometry": {
+          "radius": 0.5,
+          "plane_basis": [
+            0,
+            1
+          ],
+          "center_shape": null
+        },
+        "certified": true,
+        "cert_level": "MONODROMY_CERTIFIED",
+        "stats": {
+          "n_crossings": 2,
+          "winding_number": 0,
+          "min_gap": 0.0078125,
+          "max_gap": 0.2890625,
+          "gap_crossed_zero": false,
+          "n_samples": 64
+        },
+        "unique_tokens": 2,
+        "token_swaps": [],
+        "certified_swaps": [
+          {
+            "theta": 1.51831740593434,
+            "token_before": 374,
+            "token_after": 540,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          },
+          {
+            "theta": 4.110301521139576,
+            "token_before": 540,
+            "token_after": 374,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          }
+        ],
+        "separatrix": {
+          "stats": {
+            "n_crossings": 0,
+            "winding_number": 0,
+            "min_gap": 0.0546875,
+            "max_gap": 0.0546875,
+            "gap_crossed_zero": false,
+            "n_samples": 1
+          },
+          "geometry": {
+            "radius": 0.5,
+            "plane_basis": [
+              0,
+              1
+            ],
+            "center_shape": null
+          },
+          "n_certified": 0,
+          "min_abs_gap": 0.0546875,
+          "max_abs_gap": 0.0546875,
+          "mean_abs_gap": 0.0546875,
+          "theta_at_min_gap": 0.0,
+          "gap_range": 0.0,
+          "sign_changes": [],
+          "separatrix_angles": [],
+          "tau": 0.0,
+          "r_inner": 0.0,
+          "r_outer": 0.0,
+          "n_radial": 0,
+          "n_angular": 0,
+          "tube_area_fraction": 0.0,
+          "n_tube_points": 0,
+          "n_total_points": 0,
+          "mean_tube_thickness": 0.0,
+          "max_tube_thickness": 0.0,
+          "thickness_at_crossings": [],
+          "sensitivity_radius": null,
+          "trajectories": [],
+          "certificates": [],
+          "tau_min": 0.0,
+          "tau_max": 1.0,
+          "n_tau_samples": 0,
+          "tau_star": 0.0,
+          "dA_dtau_max": 0.0,
+          "area_at_tau_star": 0.0,
+          "fragility_score": 0.0,
+          "r_delta": 0.0
+        },
+        "tube": null,
+        "braid_word": {
+          "n_strands": 2,
+          "word_length": 2,
+          "reduced_length": 2,
+          "exponent_sum": 2,
+          "permutation": [
+            0,
+            1
+          ],
+          "strand_labels": [
+            374,
+            540
+          ],
+          "word_string": "\u03c3\u2081\u03c3\u2081",
+          "generators": [
+            {
+              "strand_index": 0,
+              "sign": 1,
+              "theta": 1.51831740593434,
+              "tokens": [
+                374,
+                540
+              ],
+              "gate_id": null
+            },
+            {
+              "strand_index": 0,
+              "sign": 1,
+              "theta": 4.110301521139576,
+              "tokens": [
+                540,
+                374
+              ],
+              "gate_id": null
+            }
+          ],
+          "reduced_generators": [
+            {
+              "strand_index": 0,
+              "sign": 1,
+              "theta": 1.51831740593434,
+              "tokens": [
+                374,
+                540
+              ],
+              "gate_id": null
+            },
+            {
+              "strand_index": 0,
+              "sign": 1,
+              "theta": 4.110301521139576,
+              "tokens": [
+                540,
+                374
+              ],
+              "gate_id": null
+            }
+          ]
+        },
+        "tau_profile": null,
+        "radius": 0.5,
+        "plane_basis": [
+          0,
+          1
+        ],
+        "n_samples": 64,
+        "n_certified_swaps": 2,
+        "winding_number": 0,
+        "min_gap": 0.0078125,
+        "max_gap": 0.2890625,
+        "gap_crossed_zero": false
+      },
+      "homotopy_class": "layer_8",
+      "cert_level": "MONODROMY_CERTIFIED",
+      "n_variants": {
+        "scaled": 0,
+        "translated": 0,
+        "partial_arcs": 0
+      },
+      "scaled_loops": [],
+      "translated_loops": [],
+      "partial_arcs": []
+    },
+    {
+      "germ": {
+        "model_id": "fgsm_attack",
+        "layer": 23,
+        "chunk": 0,
+        "catastrophe_type": "unknown",
+        "unfolding_rank": 3,
+        "unfolding_basis": {
+          "rank": 3,
+          "dim": 2048,
+          "danger_scores": [
+            0.4150390625,
+            0.6999357879161834,
+            0.09999999999999999
+          ],
+          "construction_method": "canonical_fgsm",
+          "vector_shapes": [
+            [
+              2048
+            ],
+            [
+              2048
+            ],
+            [
+              2048
+            ]
+          ],
+          "vector_norms": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "_reconstructible": true
+        },
+        "basepoint_margin": 0.78125,
+        "decision_pair": [
+          12366,
+          264
+        ],
+        "factuality_type": null,
+        "correct_token_id": null,
+        "hessian_signature": [
+          0,
+          0,
+          0
+        ],
+        "monodromy_class": null,
+        "cert_level": "MONODROMY_CERTIFIED",
+        "gate_id": null,
+        "coupling": 0.171875,
+        "coupling_raw": null,
+        "flip_radius": 1.0,
+        "exploit_score": 1.0,
+        "prompt_context": "The capital of France is",
+        "prompt_index": null,
+        "timestamp": "2026-03-20 16:00:06",
+        "tau_profile": null,
+        "robustness_radius": null,
+        "R_star": null,
+        "tau_star": null,
+        "plane_bundle": null,
+        "multijet_coherence": null,
+        "probe_results": null,
+        "circuit_trace": null,
+        "certification": {
+          "certified": true,
+          "level": "MONODROMY_CERTIFIED",
+          "timestamp": "2026-03-20T16:00:17",
+          "geometry": {
+            "radius": 0.5,
+            "plane_basis": [
+              0,
+              1
+            ],
+            "center_shape": [
+              2048
+            ]
+          },
+          "decision_pair": {
+            "token_a": 12366,
+            "token_b": 264
+          },
+          "stats": {
+            "n_crossings": 1,
+            "winding_number": 0,
+            "min_gap": 0.0,
+            "max_gap": 0.140625,
+            "gap_crossed_zero": false,
+            "n_samples": 64
+          },
+          "crossings": [
+            {
+              "theta": 4.700117134081605,
+              "token_before": 12366,
+              "token_after": 264,
+              "gap": 0.0,
+              "gap_fp32": 0.0
+            }
+          ],
+          "separatrix": {
+            "stats": {
+              "n_crossings": 0,
+              "winding_number": 0,
+              "min_gap": 0.125,
+              "max_gap": 0.125,
+              "gap_crossed_zero": false,
+              "n_samples": 1
+            },
+            "geometry": {
+              "radius": 0.5,
+              "plane_basis": [
+                0,
+                1
+              ],
+              "center_shape": null
+            },
+            "n_certified": 0,
+            "min_abs_gap": 0.125,
+            "max_abs_gap": 0.125,
+            "mean_abs_gap": 0.125,
+            "theta_at_min_gap": 0.0,
+            "gap_range": 0.0,
+            "sign_changes": [],
+            "separatrix_angles": [],
+            "tau": 0.0,
+            "r_inner": 0.0,
+            "r_outer": 0.0,
+            "n_radial": 0,
+            "n_angular": 0,
+            "tube_area_fraction": 0.0,
+            "n_tube_points": 0,
+            "n_total_points": 0,
+            "mean_tube_thickness": 0.0,
+            "max_tube_thickness": 0.0,
+            "thickness_at_crossings": [],
+            "sensitivity_radius": null,
+            "trajectories": [],
+            "certificates": [],
+            "tau_min": 0.0,
+            "tau_max": 1.0,
+            "n_tau_samples": 0,
+            "tau_star": 0.0,
+            "dA_dtau_max": 0.0,
+            "area_at_tau_star": 0.0,
+            "fragility_score": 0.0,
+            "r_delta": 0.0
+          },
+          "tube": null,
+          "braid_word": {
+            "n_strands": 2,
+            "word_length": 1,
+            "reduced_length": 1,
+            "exponent_sum": 1,
+            "permutation": [
+              1,
+              0
+            ],
+            "strand_labels": [
+              264,
+              12366
+            ],
+            "word_string": "\u03c3\u2081",
+            "generators": [
+              {
+                "strand_index": 0,
+                "sign": 1,
+                "theta": 4.700117134081605,
+                "tokens": [
+                  264,
+                  12366
+                ],
+                "gate_id": null
+              }
+            ],
+            "reduced_generators": [
+              {
+                "strand_index": 0,
+                "sign": 1,
+                "theta": 4.700117134081605,
+                "tokens": [
+                  264,
+                  12366
+                ],
+                "gate_id": null
+              }
+            ]
+          }
+        },
+        "_basepoint_shape": [
+          2048
+        ]
+      },
+      "generator_loop": {
+        "germ_id": "germ_8dccb0b5",
+        "geometry": {
+          "radius": 0.5,
+          "plane_basis": [
+            0,
+            1
+          ],
+          "center_shape": null
+        },
+        "certified": true,
+        "cert_level": "MONODROMY_CERTIFIED",
+        "stats": {
+          "n_crossings": 1,
+          "winding_number": 0,
+          "min_gap": 0.0,
+          "max_gap": 0.140625,
+          "gap_crossed_zero": false,
+          "n_samples": 64
+        },
+        "unique_tokens": 2,
+        "token_swaps": [],
+        "certified_swaps": [
+          {
+            "theta": 4.700117134081605,
+            "token_before": 12366,
+            "token_after": 264,
+            "gap": 0.0,
+            "gap_fp32": 0.0
+          }
+        ],
+        "separatrix": {
+          "stats": {
+            "n_crossings": 0,
+            "winding_number": 0,
+            "min_gap": 0.125,
+            "max_gap": 0.125,
+            "gap_crossed_zero": false,
+            "n_samples": 1
+          },
+          "geometry": {
+            "radius": 0.5,
+            "plane_basis": [
+              0,
+              1
+            ],
+            "center_shape": null
+          },
+          "n_certified": 0,
+          "min_abs_gap": 0.125,
+          "max_abs_gap": 0.125,
+          "mean_abs_gap": 0.125,
+          "theta_at_min_gap": 0.0,
+          "gap_range": 0.0,
+          "sign_changes": [],
+          "separatrix_angles": [],
+          "tau": 0.0,
+          "r_inner": 0.0,
+          "r_outer": 0.0,
+          "n_radial": 0,
+          "n_angular": 0,
+          "tube_area_fraction": 0.0,
+          "n_tube_points": 0,
+          "n_total_points": 0,
+          "mean_tube_thickness": 0.0,
+          "max_tube_thickness": 0.0,
+          "thickness_at_crossings": [],
+          "sensitivity_radius": null,
+          "trajectories": [],
+          "certificates": [],
+          "tau_min": 0.0,
+          "tau_max": 1.0,
+          "n_tau_samples": 0,
+          "tau_star": 0.0,
+          "dA_dtau_max": 0.0,
+          "area_at_tau_star": 0.0,
+          "fragility_score": 0.0,
+          "r_delta": 0.0
+        },
+        "tube": null,
+        "braid_word": {
+          "n_strands": 2,
+          "word_length": 1,
+          "reduced_length": 1,
+          "exponent_sum": 1,
+          "permutation": [
+            1,
+            0
+          ],
+          "strand_labels": [
+            264,
+            12366
+          ],
+          "word_string": "\u03c3\u2081",
+          "generators": [
+            {
+              "strand_index": 0,
+              "sign": 1,
+              "theta": 4.700117134081605,
+              "tokens": [
+                264,
+                12366
+              ],
+              "gate_id": null
+            }
+          ],
+          "reduced_generators": [
+            {
+              "strand_index": 0,
+              "sign": 1,
+              "theta": 4.700117134081605,
+              "tokens": [
+                264,
+                12366
+              ],
+              "gate_id": null
+            }
+          ]
+        },
+        "tau_profile": null,
+        "radius": 0.5,
+        "plane_basis": [
+          0,
+          1
+        ],
+        "n_samples": 64,
+        "n_certified_swaps": 1,
+        "winding_number": 0,
+        "min_gap": 0.0,
+        "max_gap": 0.140625,
+        "gap_crossed_zero": false
+      },
+      "homotopy_class": "layer_23",
+      "cert_level": "MONODROMY_CERTIFIED",
+      "n_variants": {
+        "scaled": 0,
+        "translated": 0,
+        "partial_arcs": 0
+      },
+      "scaled_loops": [],
+      "translated_loops": [],
+      "partial_arcs": []
+    }
+  ],
+  "generated_families": [
+    {
+      "family_type": "ray",
+      "n_samples": 32,
+      "max_radius": 2.0,
+      "path_spec": {
+        "path_type": "ray",
+        "n_samples": 32,
+        "max_radius": 2.0,
+        "direction_idx": 0,
+        "radius": 0.5,
+        "u1_idx": 0,
+        "u2_idx": 1,
+        "n_turns": 2.0,
+        "grid_size": 20
+      },
+      "_tensor_shapes": {
+        "activations": [
+          32,
+          2048
+        ],
+        "logits": [
+          32,
+          1,
+          1,
+          100352
+        ],
+        "direction": [
+          2048
+        ]
+      },
+      "_reconstructible": true
+    },
+    {
+      "family_type": "loop",
+      "n_samples": 32,
+      "radius": 0.5,
+      "path_spec": {
+        "path_type": "loop",
+        "n_samples": 32,
+        "max_radius": 2.0,
+        "direction_idx": 0,
+        "radius": 0.5,
+        "u1_idx": 0,
+        "u2_idx": 1,
+        "n_turns": 2.0,
+        "grid_size": 20
+      },
+      "_tensor_shapes": {
+        "activations": [
+          32,
+          2048
+        ],
+        "logits": [
+          32,
+          1,
+          1,
+          100352
+        ],
+        "u1": [
+          2048
+        ],
+        "u2": [
+          2048
+        ]
+      },
+      "_reconstructible": true
+    },
+    {
+      "family_type": "ray",
+      "n_samples": 32,
+      "max_radius": 2.0,
+      "path_spec": {
+        "path_type": "ray",
+        "n_samples": 32,
+        "max_radius": 2.0,
+        "direction_idx": 0,
+        "radius": 0.5,
+        "u1_idx": 0,
+        "u2_idx": 1,
+        "n_turns": 2.0,
+        "grid_size": 20
+      },
+      "_tensor_shapes": {
+        "activations": [
+          32,
+          2048
+        ],
+        "logits": [
+          32,
+          1,
+          1,
+          100352
+        ],
+        "direction": [
+          2048
+        ]
+      },
+      "_reconstructible": true
+    },
+    {
+      "family_type": "loop",
+      "n_samples": 32,
+      "radius": 0.5,
+      "path_spec": {
+        "path_type": "loop",
+        "n_samples": 32,
+        "max_radius": 2.0,
+        "direction_idx": 0,
+        "radius": 0.5,
+        "u1_idx": 0,
+        "u2_idx": 1,
+        "n_turns": 2.0,
+        "grid_size": 20
+      },
+      "_tensor_shapes": {
+        "activations": [
+          32,
+          2048
+        ],
+        "logits": [
+          32,
+          1,
+          1,
+          100352
+        ],
+        "u1": [
+          2048
+        ],
+        "u2": [
+          2048
+        ]
+      },
+      "_reconstructible": true
+    },
+    {
+      "family_type": "ray",
+      "n_samples": 32,
+      "max_radius": 2.0,
+      "path_spec": {
+        "path_type": "ray",
+        "n_samples": 32,
+        "max_radius": 2.0,
+        "direction_idx": 0,
+        "radius": 0.5,
+        "u1_idx": 0,
+        "u2_idx": 1,
+        "n_turns": 2.0,
+        "grid_size": 20
+      },
+      "_tensor_shapes": {
+        "activations": [
+          32,
+          2048
+        ],
+        "logits": [
+          32,
+          1,
+          1,
+          100352
+        ],
+        "direction": [
+          2048
+        ]
+      },
+      "_reconstructible": true
+    },
+    {
+      "family_type": "loop",
+      "n_samples": 32,
+      "radius": 0.5,
+      "path_spec": {
+        "path_type": "loop",
+        "n_samples": 32,
+        "max_radius": 2.0,
+        "direction_idx": 0,
+        "radius": 0.5,
+        "u1_idx": 0,
+        "u2_idx": 1,
+        "n_turns": 2.0,
+        "grid_size": 20
+      },
+      "_tensor_shapes": {
+        "activations": [
+          32,
+          2048
+        ],
+        "logits": [
+          32,
+          1,
+          1,
+          100352
+        ],
+        "u1": [
+          2048
+        ],
+        "u2": [
+          2048
+        ]
+      },
+      "_reconstructible": true
+    }
+  ],
+  "embedding": null,
+  "total_time": 13.233658790588379,
+  "pipeline": "Pipeline(fgsm_attack -> attack_to_germ -> deduplicator -> filter -> certifier -> generator -> aggregator)",
+  "config": {
+    "prompt": "The capital of France is",
+    "mode": "atlas",
+    "model": "stabilityai/stablelm-2-zephyr-1_6b",
+    "device": "cuda",
+    "preset": "standard",
+    "epsilon": 0.1,
+    "target_token": null,
+    "layer": 6,
+    "n_jets": 64,
+    "top_n": 3,
+    "scan_method": "fgsm",
+    "min_coupling": 0.1,
+    "max_margin": 2.0,
+    "cert_samples": 64,
+    "early_stop": false,
+    "family_types": "ray,loop",
+    "observe": true,
+    "monodromy_optimize": false
+  }
+}

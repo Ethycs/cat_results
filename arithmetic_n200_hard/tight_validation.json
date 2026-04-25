@@ -1,0 +1,100 @@
+{
+  "test": "Tight Helix-Monodromy Validation (Statistical)",
+  "results": {
+    "2": {
+      "period": 2,
+      "n_tested": 0,
+      "n_confirmed": 0,
+      "confirmation_rate": 0.0,
+      "verdict": "NO_ERRORS_FOUND",
+      "error_points": []
+    },
+    "5": {
+      "period": 5,
+      "n_tested": 0,
+      "n_confirmed": 0,
+      "confirmation_rate": 0.0,
+      "verdict": "NO_ERRORS_FOUND",
+      "error_points": []
+    },
+    "10": {
+      "period": 10,
+      "n_tested": 0,
+      "n_confirmed": 0,
+      "confirmation_rate": 0.0,
+      "verdict": "NO_ERRORS_FOUND",
+      "error_points": []
+    },
+    "100": {
+      "period": 100,
+      "n_tested": 0,
+      "n_confirmed": 0,
+      "confirmation_rate": 0.0,
+      "verdict": "NO_ERRORS_FOUND",
+      "error_points": []
+    }
+  },
+  "statistics": {
+    "2": {
+      "n_samples": 0,
+      "observed_rate": 0.0,
+      "null_rate": 0.2,
+      "p_value": 1.0,
+      "ci_95": [
+        0.0,
+        1.0
+      ],
+      "effect_size": 0.0,
+      "significant": false
+    },
+    "5": {
+      "n_samples": 0,
+      "observed_rate": 0.0,
+      "null_rate": 0.2,
+      "p_value": 1.0,
+      "ci_95": [
+        0.0,
+        1.0
+      ],
+      "effect_size": 0.0,
+      "significant": false
+    },
+    "10": {
+      "n_samples": 0,
+      "observed_rate": 0.0,
+      "null_rate": 0.4,
+      "p_value": 1.0,
+      "ci_95": [
+        0.0,
+        1.0
+      ],
+      "effect_size": 0.0,
+      "significant": false
+    },
+    "100": {
+      "n_samples": 0,
+      "observed_rate": 0.0,
+      "null_rate": 0.5,
+      "p_value": 1.0,
+      "ci_95": [
+        0.0,
+        1.0
+      ],
+      "effect_size": 0.0,
+      "significant": false
+    }
+  },
+  "pooled": {
+    "n_samples": 0,
+    "observed_rate": 0.0,
+    "null_rate": 0.325,
+    "p_value": 1.0,
+    "ci_95": [
+      0.0,
+      1.0
+    ],
+    "effect_size": 0.0,
+    "significant": false
+  },
+  "verdict": "NOT STATISTICALLY SIGNIFICANT"
+}

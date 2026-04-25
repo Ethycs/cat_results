@@ -1,0 +1,239 @@
+{
+  "mode": "arithmetic",
+  "model": "gpt2",
+  "tests_run": [
+    "test_2",
+    "test_3",
+    "test_4",
+    "fourier"
+  ],
+  "output_dir": "./all_tests",
+  "results": {
+    "test_2": {
+      "total_samples": 10000,
+      "n_correct": 1,
+      "n_errors": 9996,
+      "accuracy": 0.0001,
+      "period_matches": {
+        "2": 121,
+        "5": 255,
+        "10": 399,
+        "100": 0
+      },
+      "period_fractions": {
+        "2": 0.01210484193677471,
+        "5": 0.025510204081632654,
+        "10": 0.03991596638655462,
+        "100": 0.0
+      },
+      "most_common_deltas": [
+        [
+          99,
+          101
+        ],
+        [
+          98,
+          99
+        ],
+        [
+          97,
+          98
+        ],
+        [
+          101,
+          98
+        ],
+        [
+          102,
+          98
+        ],
+        [
+          96,
+          97
+        ],
+        [
+          100,
+          97
+        ],
+        [
+          95,
+          96
+        ],
+        [
+          94,
+          95
+        ],
+        [
+          103,
+          95
+        ]
+      ],
+      "chi_squared_uniform": 3189.0648259303716,
+      "period_stats": {
+        "2": {
+          "test_name": "Period T=2 alignment",
+          "n_samples": 9996,
+          "observed": 0.01210484193677471,
+          "expected": 0.5012594458438288,
+          "p_value": 1.0,
+          "significant": false,
+          "alpha": 0.05,
+          "effect_size": -1.3528248391910562,
+          "ci_lower": 0.010140770982985898,
+          "ci_upper": 0.01444376466521095
+        },
+        "5": {
+          "test_name": "Period T=5 alignment",
+          "n_samples": 9996,
+          "observed": 0.025510204081632654,
+          "expected": 0.20151133501259447,
+          "p_value": 1.0,
+          "significant": false,
+          "alpha": 0.05,
+          "effect_size": -0.6102559556718696,
+          "ci_lower": 0.022596834128509043,
+          "ci_upper": 0.02878812641678472
+        },
+        "10": {
+          "test_name": "Period T=10 alignment",
+          "n_samples": 9996,
+          "observed": 0.03991596638655462,
+          "expected": 0.10075566750629723,
+          "p_value": 1.0,
+          "significant": false,
+          "alpha": 0.05,
+          "effect_size": -0.24372899412499444,
+          "ci_lower": 0.036251748840419255,
+          "ci_upper": 0.04393366831070999
+        },
+        "100": {
+          "test_name": "Period T=100 alignment",
+          "n_samples": 9996,
+          "observed": 0.0,
+          "expected": 0.010075566750629723,
+          "p_value": 1.0,
+          "significant": false,
+          "alpha": 0.05,
+          "effect_size": -0.20109290181983683,
+          "ci_lower": null,
+          "ci_upper": 0.0003841519724600872
+        }
+      },
+      "pooled_stats": {
+        "test_name": "Pooled period alignment",
+        "n_samples": 9996,
+        "observed": 0.03991596638655462,
+        "expected": 0.601010101010101,
+        "p_value": 1.0,
+        "significant": false,
+        "alpha": 0.05,
+        "effect_size": -1.371929749906705,
+        "ci_lower": 0.036251748840419255,
+        "ci_upper": 0.04393366831070999
+      }
+    },
+    "test_3": [
+      {
+        "boundary_value": 100,
+        "fixed_b": 10,
+        "sweep_range": [
+          90,
+          111
+        ],
+        "n_points": 21,
+        "n_crossings": 35,
+        "max_gradient": 7.25,
+        "gradient_at_boundary": 3.0,
+        "is_catastrophe": true,
+        "catastrophe_type": "swallowtail_10",
+        "branch_multiplicity": 10
+      },
+      {
+        "boundary_value": 100,
+        "fixed_b": 25,
+        "sweep_range": [
+          90,
+          111
+        ],
+        "n_points": 21,
+        "n_crossings": 45,
+        "max_gradient": 6.0,
+        "gradient_at_boundary": 3.0,
+        "is_catastrophe": true,
+        "catastrophe_type": "swallowtail_10",
+        "branch_multiplicity": 10
+      },
+      {
+        "boundary_value": 100,
+        "fixed_b": 50,
+        "sweep_range": [
+          90,
+          111
+        ],
+        "n_points": 21,
+        "n_crossings": 40,
+        "max_gradient": 3.4375,
+        "gradient_at_boundary": 1.625,
+        "is_catastrophe": true,
+        "catastrophe_type": "swallowtail_10",
+        "branch_multiplicity": 10
+      },
+      {
+        "boundary_value": 100,
+        "fixed_b": 75,
+        "sweep_range": [
+          90,
+          111
+        ],
+        "n_points": 21,
+        "n_crossings": 42,
+        "max_gradient": 4.8125,
+        "gradient_at_boundary": 3.125,
+        "is_catastrophe": true,
+        "catastrophe_type": "swallowtail_10",
+        "branch_multiplicity": 10
+      }
+    ],
+    "test_4": {
+      "total_points": 10000,
+      "catastrophe_points": 10000,
+      "branch_counts": {
+        "20": 10000
+      },
+      "branch_fractions": {
+        "20": 1.0
+      },
+      "mean_branches": 20.0,
+      "median_branches": 20.0,
+      "max_branches": 20,
+      "binary_fraction": 0.0,
+      "non_binary_fraction": 1.0
+    },
+    "fourier": {
+      "5": {
+        "period": 5,
+        "layer": 11,
+        "mean_strength": 4.005734728602812,
+        "std_strength": 0.8956855604497291,
+        "p_value": 1.6918140817564404e-06,
+        "significant": true
+      },
+      "10": {
+        "period": 10,
+        "layer": 9,
+        "mean_strength": 1.2325780304954148,
+        "std_strength": 0.20131777269525664,
+        "p_value": 0.0035476062132872737,
+        "significant": true
+      },
+      "100": {
+        "period": 100,
+        "layer": 6,
+        "mean_strength": 6.775452862989499,
+        "std_strength": 0.25441845915706923,
+        "p_value": 8.016195649027502e-14,
+        "significant": true
+      }
+    }
+  }
+}

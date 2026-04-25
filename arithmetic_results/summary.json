@@ -1,0 +1,18 @@
+{
+  "mode": "arithmetic",
+  "model": "gpt2",
+  "tests_run": [
+    "test_6"
+  ],
+  "output_dir": "./arithmetic_results",
+  "results": {
+    "test_6": {
+      "n_points_tested": 20,
+      "n_gcb_confirmed": 0,
+      "confirmation_rate": 0.0,
+      "mean_gcb_ratio": 0.0,
+      "median_gcb_ratio": 0.0,
+      "mean_opposing_angle": 0.0
+    }
+  }
+}

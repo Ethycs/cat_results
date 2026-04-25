@@ -1,0 +1,48 @@
+{
+  "mode": "arithmetic",
+  "model": "stabilityai/stablelm-zephyr-3b",
+  "tests_run": [
+    "helix"
+  ],
+  "output_dir": "./helix_detection",
+  "results": {
+    "helix": {
+      "349": [
+        {
+          "a_range": [
+            50,
+            150
+          ],
+          "b_fixed": 30,
+          "winding_number": -0.286268478387946,
+          "detected_period": 349,
+          "helix_radius": 49.46737670820857
+        }
+      ],
+      "142": [
+        {
+          "a_range": [
+            50,
+            150
+          ],
+          "b_fixed": 50,
+          "winding_number": 0.7047328884337611,
+          "detected_period": 142,
+          "helix_radius": 47.05906963009808
+        }
+      ],
+      "131": [
+        {
+          "a_range": [
+            50,
+            150
+          ],
+          "b_fixed": 70,
+          "winding_number": 0.7644511572755192,
+          "detected_period": 131,
+          "helix_radius": 49.20816838825047
+        }
+      ]
+    }
+  }
+}

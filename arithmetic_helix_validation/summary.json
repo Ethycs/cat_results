@@ -1,0 +1,200 @@
+{
+  "mode": "arithmetic",
+  "model": "stabilityai/stablelm-zephyr-3b",
+  "tests_run": [
+    "test_2",
+    "test_4",
+    "test_3",
+    "test_5",
+    "test_1"
+  ],
+  "output_dir": "./arithmetic_helix_validation",
+  "results": {
+    "test_2": {
+      "total_samples": 10000,
+      "n_correct": 562,
+      "n_errors": 9309,
+      "accuracy": 0.0562,
+      "period_matches": {
+        "2": 1389,
+        "5": 687,
+        "10": 976,
+        "100": 150
+      },
+      "period_fractions": {
+        "2": 0.14921044150821786,
+        "5": 0.07379954882371899,
+        "10": 0.10484477387474488,
+        "100": 0.016113438607798906
+      },
+      "most_common_deltas": [
+        [
+          10,
+          470
+        ],
+        [
+          100,
+          327
+        ],
+        [
+          20,
+          280
+        ],
+        [
+          90,
+          259
+        ],
+        [
+          40,
+          169
+        ],
+        [
+          110,
+          162
+        ],
+        [
+          80,
+          159
+        ],
+        [
+          30,
+          152
+        ],
+        [
+          200,
+          147
+        ],
+        [
+          50,
+          143
+        ]
+      ],
+      "chi_squared_uniform": 27987.86776238049
+    },
+    "test_4": {
+      "total_points": 20000,
+      "catastrophe_points": 19966,
+      "branch_counts": {
+        "2": 56,
+        "11": 209,
+        "3": 75,
+        "13": 223,
+        "5": 127,
+        "6": 135,
+        "10": 185,
+        "7": 126,
+        "8": 169,
+        "9": 158,
+        "16": 247,
+        "20": 16850,
+        "12": 205,
+        "15": 222,
+        "1": 34,
+        "4": 82,
+        "14": 202,
+        "19": 223,
+        "18": 234,
+        "17": 238
+      },
+      "branch_fractions": {
+        "2": 0.0028,
+        "11": 0.01045,
+        "3": 0.00375,
+        "13": 0.01115,
+        "5": 0.00635,
+        "6": 0.00675,
+        "10": 0.00925,
+        "7": 0.0063,
+        "8": 0.00845,
+        "9": 0.0079,
+        "16": 0.01235,
+        "20": 0.8425,
+        "12": 0.01025,
+        "15": 0.0111,
+        "1": 0.0017,
+        "4": 0.0041,
+        "14": 0.0101,
+        "19": 0.01115,
+        "18": 0.0117,
+        "17": 0.0119
+      },
+      "mean_branches": 18.74565,
+      "median_branches": 20.0,
+      "max_branches": 20,
+      "binary_fraction": 0.002804768105779826,
+      "non_binary_fraction": 0.9971952318942202
+    },
+    "test_3": [
+      {
+        "boundary_value": 100,
+        "fixed_b": 10,
+        "sweep_range": [
+          90,
+          111
+        ],
+        "n_points": 21,
+        "n_crossings": 4,
+        "max_gradient": 4.171875,
+        "gradient_at_boundary": 3.5,
+        "is_catastrophe": true,
+        "catastrophe_type": "swallowtail_7",
+        "branch_multiplicity": 7
+      },
+      {
+        "boundary_value": 100,
+        "fixed_b": 25,
+        "sweep_range": [
+          90,
+          111
+        ],
+        "n_points": 21,
+        "n_crossings": 6,
+        "max_gradient": 3.625,
+        "gradient_at_boundary": 2.234375,
+        "is_catastrophe": true,
+        "catastrophe_type": "cusp",
+        "branch_multiplicity": 3
+      },
+      {
+        "boundary_value": 100,
+        "fixed_b": 50,
+        "sweep_range": [
+          90,
+          111
+        ],
+        "n_points": 21,
+        "n_crossings": 4,
+        "max_gradient": 3.65625,
+        "gradient_at_boundary": 0.953125,
+        "is_catastrophe": true,
+        "catastrophe_type": "fold",
+        "branch_multiplicity": 2
+      },
+      {
+        "boundary_value": 100,
+        "fixed_b": 75,
+        "sweep_range": [
+          90,
+          111
+        ],
+        "n_points": 21,
+        "n_crossings": 7,
+        "max_gradient": 2.90625,
+        "gradient_at_boundary": 1.046875,
+        "is_catastrophe": true,
+        "catastrophe_type": "swallowtail_5",
+        "branch_multiplicity": 5
+      }
+    ],
+    "test_5": {
+      "n_strands": 5,
+      "order": 1,
+      "group_name": "trivial",
+      "is_symmetric": false,
+      "is_alternating": false,
+      "n_generators": 0,
+      "expected_group": null,
+      "matches_prediction": false
+    },
+    "test_1": {
+      "2": 

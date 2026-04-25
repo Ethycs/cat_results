@@ -1,0 +1,20 @@
+{
+  "mode": "gcb",
+  "model": "stabilityai/stablelm-2-zephyr-1_6b",
+  "domain": "arithmetic",
+  "levels_run": [
+    "level1"
+  ],
+  "confirmed_levels": [],
+  "output_dir": "./gcb_results",
+  "results": {
+    "level1": {
+      "n_points_tested": 10,
+      "n_gcb_confirmed": 0,
+      "confirmation_rate": 0.0,
+      "mean_gcb_ratio": 1.127276778163278,
+      "median_gcb_ratio": 1.1186146223381028,
+      "mean_opposing_angle": 0.42401964839424494
+    }
+  }
+}

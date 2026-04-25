@@ -1,0 +1,16 @@
+{
+  "status": "error",
+  "error": "index -1 is out of bounds for dimension 1 with size 0",
+  "config": {
+    "prompt": "",
+    "mode": "attack-map",
+    "model": "stabilityai/stablelm-2-zephyr-1_6b",
+    "device": "cuda",
+    "preset": "standard",
+    "epsilon": 0.1,
+    "target_token": null,
+    "layer": 6,
+    "n_jets": 64,
+    "top_n": 3
+  }
+}

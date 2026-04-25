@@ -1,0 +1,22 @@
+{
+  "mode": "arithmetic",
+  "model": "stabilityai/stablelm-2-zephyr-1_6b",
+  "tests_run": [
+    "test_5",
+    "test_1"
+  ],
+  "output_dir": "./arithmetic_test5",
+  "results": {
+    "test_5": {
+      "n_strands": 5,
+      "order": 1,
+      "group_name": "trivial",
+      "is_symmetric": false,
+      "is_alternating": false,
+      "n_generators": 0,
+      "expected_group": null,
+      "matches_prediction": false
+    },
+    "test_1": {}
+  }
+}

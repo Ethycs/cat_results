@@ -1,0 +1,165 @@
+{
+  "test": "Test 3: Catastrophe Locus at a=100",
+  "boundary": 100,
+  "sweeps": [
+    {
+      "boundary_value": 100,
+      "fixed_b": 10,
+      "sweep_range": [
+        90,
+        111
+      ],
+      "n_points": 21,
+      "n_crossings": 35,
+      "max_gradient": 7.25,
+      "gradient_at_boundary": 3.0,
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_10",
+      "branch_multiplicity": 10
+    },
+    {
+      "boundary_value": 100,
+      "fixed_b": 25,
+      "sweep_range": [
+        90,
+        111
+      ],
+      "n_points": 21,
+      "n_crossings": 45,
+      "max_gradient": 6.0,
+      "gradient_at_boundary": 3.0,
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_10",
+      "branch_multiplicity": 10
+    },
+    {
+      "boundary_value": 100,
+      "fixed_b": 50,
+      "sweep_range": [
+        90,
+        111
+      ],
+      "n_points": 21,
+      "n_crossings": 40,
+      "max_gradient": 3.4375,
+      "gradient_at_boundary": 1.625,
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_10",
+      "branch_multiplicity": 10
+    },
+    {
+      "boundary_value": 100,
+      "fixed_b": 75,
+      "sweep_range": [
+        90,
+        111
+      ],
+      "n_points": 21,
+      "n_crossings": 42,
+      "max_gradient": 4.8125,
+      "gradient_at_boundary": 3.125,
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_10",
+      "branch_multiplicity": 10
+    }
+  ],
+  "catastrophes": [
+    {
+      "location": [
+        99,
+        10
+      ],
+      "n_branches": 10,
+      "branch_tokens": [
+        657,
+        720,
+        352,
+        838,
+        362,
+        642,
+        1802,
+        532,
+        807,
+        718
+      ],
+      "min_gap": 0.125,
+      "catastrophe_type": "butterfly_10"
+    },
+    {
+      "location": [
+        99,
+        25
+      ],
+      "n_branches": 10,
+      "branch_tokens": [
+        720,
+        657,
+        352,
+        1679,
+        1802,
+        838,
+        2026,
+        1542,
+        642,
+        362
+      ],
+      "min_gap": 0.0625,
+      "catastrophe_type": "butterfly_10"
+    },
+    {
+      "location": [
+        105,
+        50
+      ],
+      "n_branches": 10,
+      "branch_tokens": [
+        1802,
+        657,
+        352,
+        2026,
+        838,
+        720,
+        642,
+        362,
+        1343,
+        1160
+      ],
+      "min_gap": 0.0,
+      "catastrophe_type": "butterfly_10"
+    },
+    {
+      "location": [
+        100,
+        75
+      ],
+      "n_branches": 10,
+      "branch_tokens": [
+        1802,
+        657,
+        352,
+        1343,
+        5441,
+        2026,
+        720,
+        532,
+        838,
+        362
+      ],
+      "min_gap": 0.0625,
+      "catastrophe_type": "butterfly_10"
+    }
+  ],
+  "verdict": "confirmed",
+  "stats": {
+    "test_name": "Boundary catastrophe concentration",
+    "n_samples": 4,
+    "observed": 1.0,
+    "expected": 0.1,
+    "p_value": 0.00010000000000000002,
+    "significant": true,
+    "alpha": 0.05,
+    "effect_size": 2.498091544796509,
+    "ci_lower": 0.5101091635454027,
+    "ci_upper": 1.0
+  }
+}

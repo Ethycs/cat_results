@@ -1,0 +1,368 @@
+{
+  "mode": "arithmetic",
+  "model": "stabilityai/stablelm-zephyr-3b",
+  "tests_run": [
+    "tight"
+  ],
+  "output_dir": "./tight_validation",
+  "results": {
+    "tight": {
+      "2": {
+        "period": 2,
+        "n_tested": 8,
+        "n_confirmed": 7,
+        "confirmation_rate": 0.875,
+        "verdict": "STRONGLY_CONFIRMED",
+        "error_points": [
+          {
+            "location": [
+              198,
+              71
+            ],
+            "delta": -198,
+            "period": 2,
+            "monodromy_order": 1,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              192,
+              67
+            ],
+            "delta": -192,
+            "period": 2,
+            "monodromy_order": 1,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              189,
+              69
+            ],
+            "delta": -180,
+            "period": 2,
+            "monodromy_order": 1,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              191,
+              55
+            ],
+            "delta": -180,
+            "period": 2,
+            "monodromy_order": 1,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              176,
+              59
+            ],
+            "delta": -166,
+            "period": 2,
+            "monodromy_order": 1,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              189,
+              35
+            ],
+            "delta": -160,
+            "period": 2,
+            "monodromy_order": 6,
+            "order_divides_period": false
+          },
+          {
+            "location": [
+              161,
+              69
+            ],
+            "delta": -152,
+            "period": 2,
+            "monodromy_order": 1,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              194,
+              79
+            ],
+            "delta": -144,
+            "period": 2,
+            "monodromy_order": 2,
+            "order_divides_period": true
+          }
+        ]
+      },
+      "5": {
+        "period": 5,
+        "n_tested": 8,
+        "n_confirmed": 7,
+        "confirmation_rate": 0.875,
+        "verdict": "STRONGLY_CONFIRMED",
+        "error_points": [
+          {
+            "location": [
+              189,
+              69
+            ],
+            "delta": -180,
+            "period": 5,
+            "monodromy_order": 1,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              191,
+              55
+            ],
+            "delta": -180,
+            "period": 5,
+            "monodromy_order": 1,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              189,
+              35
+            ],
+            "delta": -160,
+            "period": 5,
+            "monodromy_order": 6,
+            "order_divides_period": false
+          },
+          {
+            "location": [
+              188,
+              48
+            ],
+            "delta": -140,
+            "period": 5,
+            "monodromy_order": 1,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              186,
+              49
+            ],
+            "delta": -135,
+            "period": 5,
+            "monodromy_order": 1,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              164,
+              35
+            ],
+            "delta": -135,
+            "period": 5,
+            "monodromy_order": 1,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              188,
+              58
+            ],
+            "delta": -130,
+            "period": 5,
+            "monodromy_order": 1,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              191,
+              61
+            ],
+            "delta": -130,
+            "period": 5,
+            "monodromy_order": 1,
+            "order_divides_period": true
+          }
+        ]
+      },
+      "10": {
+        "period": 10,
+        "n_tested": 8,
+        "n_confirmed": 7,
+        "confirmation_rate": 0.875,
+        "verdict": "STRONGLY_CONFIRMED",
+        "error_points": [
+          {
+            "location": [
+              189,
+              69
+            ],
+            "delta": -180,
+            "period": 10,
+            "monodromy_order": 1,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              191,
+              55
+            ],
+            "delta": -180,
+            "period": 10,
+            "monodromy_order": 1,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              189,
+              35
+            ],
+            "delta": -160,
+            "period": 10,
+            "monodromy_order": 6,
+            "order_divides_period": false
+          },
+          {
+            "location": [
+              188,
+              48
+            ],
+            "delta": -140,
+            "period": 10,
+            "monodromy_order": 1,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              188,
+              58
+            ],
+            "delta": -130,
+            "period": 10,
+            "monodromy_order": 1,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              191,
+              61
+            ],
+            "delta": -130,
+            "period": 10,
+            "monodromy_order": 1,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              187,
+              57
+            ],
+            "delta": -130,
+            "period": 10,
+            "monodromy_order": 2,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              189,
+              70
+            ],
+            "delta": -120,
+            "period": 10,
+            "monodromy_order": 2,
+            "order_divides_period": true
+          }
+        ]
+      },
+      "100": {
+        "period": 100,
+        "n_tested": 8,
+        "n_confirmed": 8,
+        "confirmation_rate": 1.0,
+        "verdict": "STRONGLY_CONFIRMED",
+        "error_points": [
+          {
+            "location": [
+              178,
+              75
+            ],
+            "delta": -100,
+            "period": 100,
+            "monodromy_order": 2,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              167,
+              72
+            ],
+            "delta": -100,
+            "period": 100,
+            "monodromy_order": 2,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              191,
+              79
+            ],
+            "delta": -100,
+            "period": 100,
+            "monodromy_order": 2,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              163,
+              54
+            ],
+            "delta": -100,
+            "period": 100,
+            "monodromy_order": 2,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              160,
+              72
+            ],
+            "delta": -100,
+            "period": 100,
+            "monodromy_order": 1,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              182,
+              70
+            ],
+            "delta": -100,
+            "period": 100,
+            "monodromy_order": 2,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              170,
+              62
+            ],
+            "delta": -100,
+            "period": 100,
+            "monodromy_order": 2,
+            "order_divides_period": true
+          },
+          {
+            "location": [
+              147,
+              47
+            ],
+            "delta": -100,
+            "period": 100,
+            "monodromy_order": 2,
+            "order_divides_period": true
+          }
+        ]
+      }
+    }
+  }
+}

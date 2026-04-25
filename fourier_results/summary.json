@@ -1,0 +1,36 @@
+{
+  "mode": "arithmetic",
+  "model": "gpt2",
+  "tests_run": [
+    "fourier"
+  ],
+  "output_dir": "./fourier_results",
+  "results": {
+    "fourier": {
+      "5": {
+        "period": 5,
+        "layer": 11,
+        "mean_strength": 4.005734728602998,
+        "std_strength": 0.8956855604498023,
+        "p_value": 1.6918140817567216e-06,
+        "significant": true
+      },
+      "10": {
+        "period": 10,
+        "layer": 9,
+        "mean_strength": 1.2325780304937501,
+        "std_strength": 0.20131777269564774,
+        "p_value": 0.0035476062134637185,
+        "significant": true
+      },
+      "100": {
+        "period": 100,
+        "layer": 6,
+        "mean_strength": 6.775452862989168,
+        "std_strength": 0.2544184591583181,
+        "p_value": 8.016195649385139e-14,
+        "significant": true
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "mode": "arithmetic",
+  "model": "gpt2",
+  "tests_run": [
+    "modular"
+  ],
+  "output_dir": "./modular_test",
+  "results": {
+    "modular": {
+      "3": {
+        "period": 3,
+        "layer": 3,
+        "mean_strength": 0.6165649819316577,
+        "std_strength": 0.26373185043603764,
+        "p_value": 0.999090452653847,
+        "significant": false
+      },
+      "5": {
+        "period": 5,
+        "layer": 12,
+        "mean_strength": 4.681546949049446,
+        "std_strength": 0.48264138441618115,
+        "p_value": 1.3798080100234165e-09,
+        "significant": true
+      },
+      "7": {
+        "period": 7,
+        "layer": 3,
+        "mean_strength": 0.5376112069949357,
+        "std_strength": 0.23402731058934362,
+        "p_value": 0.9998892794782558,
+        "significant": false
+      },
+      "10": {
+        "period": 10,
+        "layer": 12,
+        "mean_strength": 2.2805792014225945,
+        "std_strength": 0.35407013218638467,
+        "p_value": 9.035383231382878e-07,
+        "significant": true
+      }
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "mode": "arithmetic",
+  "model": "gpt2",
+  "tests_run": [
+    "test_2"
+  ],
+  "output_dir": "./test2_stats",
+  "results": {
+    "test_2": {
+      "total_samples": 6000,
+      "n_correct": 0,
+      "n_errors": 5998,
+      "accuracy": 0.0,
+      "period_matches": {
+        "2": 0,
+        "5": 3,
+        "10": 65,
+        "100": 28
+      },
+      "period_fractions": {
+        "2": 0.0,
+        "5": 0.0005001667222407469,
+        "10": 0.010836945648549517,
+        "100": 0.004668222740913638
+      },
+      "most_common_deltas": [
+        [
+          169,
+          61
+        ],
+        [
+          129,
+          60
+        ],
+        [
+          130,
+          60
+        ],
+        [
+          131,
+          60
+        ],
+        [
+          132,
+          60
+        ],
+        [
+          133,
+          60
+        ],
+        [
+          134,
+          60
+        ],
+        [
+          135,
+          60
+        ],
+        [
+          136,
+          60
+        ],
+        [
+          137,
+          60
+        ]
+      ],
+      "chi_squared_uniform": 1754.4481493831277,
+      "period_stats": {
+        "2": {
+          "test_name": "Period T=2 alignment",
+          "n_samples": 5998,
+          "observed": 0.0,
+          "expected": 0.5010940919037199,
+          "p_value": 1.0,
+          "significant": false,
+          "alpha": 0.05,
+          "effect_size": -1.572984512348565,
+          "ci_lower": 5.421010862427522e-20,
+          "ci_upper": 0.0006400467001754053
+        },
+        "5": {
+          "test_name": "Period T=5 alignment",
+          "n_samples": 5998,
+          "observed": 0.0005001667222407469,
+          "expected": 0.2013129102844639,
+          "p_value": 1.0,
+          "significant": false,
+          "alpha": 0.05,
+          "effect_size": -0.8858409250309998,
+          "ci_lower": 0.00017011607302176604,
+          "ci_upper": 0.001469623811514918
+        },
+        "10": {
+          "test_name": "Period T=10 alignment",
+          "n_samples": 5998,
+          "observed": 0.010836945648549517,
+          "expected": 0.10065645514223195,
+          "p_value": 1.0,
+          "significant": false,
+          "alpha": 0.05,
+          "effect_size": -0.43710691834779425,
+          "ci_lower": 0.008512039632464139,
+          "ci_upper": 0.013788026062205631
+        },
+        "100": {
+          "test_name": "Period T=100 alignment",
+          "n_samples": 5998,
+          "observed": 0.004668222740913638,
+          "expected": 0.010940919037199124,
+          "p_value": 0.9999999508781441,
+          "significant": false,
+          "alpha": 0.05,
+          "effect_size": -0.07282572725520778,
+          "ci_lower": 0.0032318489718535324,
+          "ci_upper": 0.006738667449027139
+        }
+      },
+      "pooled_stats": {
+        "test_name": "Pooled period alignment",
+        "n_samples": 5998,
+        "observed": 0.010836945648549517,
+        "expected": 0.6008771929824561,
+        "p_value": 1.0,
+        "significant": false,
+        "alpha": 0.05,
+        "effect_size": -1.5653659453944289,
+        "ci_lower": 0.008512039632464139,
+        "ci_upper": 0.013788026062205631
+      }
+    }
+  }
+}

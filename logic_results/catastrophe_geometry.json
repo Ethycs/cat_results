@@ -1,0 +1,81 @@
+{
+  "results": {
+    "AND": {
+      "connective": "AND",
+      "predicted_type": "fold",
+      "predicted_order": 2,
+      "measured_orders": [
+        1,
+        1,
+        2,
+        1
+      ],
+      "mean_order": 1.25,
+      "matches_prediction": true,
+      "boundary_detected": true,
+      "n_loops": 4
+    },
+    "OR": {
+      "connective": "OR",
+      "predicted_type": "fold",
+      "predicted_order": 2,
+      "measured_orders": [
+        1,
+        2,
+        2,
+        4
+      ],
+      "mean_order": 2.25,
+      "matches_prediction": true,
+      "boundary_detected": true,
+      "n_loops": 4
+    },
+    "XOR": {
+      "connective": "XOR",
+      "predicted_type": "cusp",
+      "predicted_order": 2,
+      "measured_orders": [
+        2,
+        2,
+        4,
+        6
+      ],
+      "mean_order": 3.5,
+      "matches_prediction": true,
+      "boundary_detected": true,
+      "n_loops": 4
+    },
+    "IMPLIES": {
+      "connective": "IMPLIES",
+      "predicted_type": "fold",
+      "predicted_order": 2,
+      "measured_orders": [
+        2,
+        2,
+        2,
+        4
+      ],
+      "mean_order": 2.5,
+      "matches_prediction": true,
+      "boundary_detected": true,
+      "n_loops": 4
+    },
+    "IFF": {
+      "connective": "IFF",
+      "predicted_type": "cusp",
+      "predicted_order": 2,
+      "measured_orders": [
+        2,
+        2,
+        2,
+        4
+      ],
+      "mean_order": 2.5,
+      "matches_prediction": true,
+      "boundary_detected": true,
+      "n_loops": 4
+    }
+  },
+  "fold_mean_order": 2.0,
+  "cusp_mean_order": 3.0
+}

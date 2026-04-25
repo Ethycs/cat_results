@@ -1,0 +1,30 @@
+{
+  "test": "Fourier Period Detection (Layer-Specific)",
+  "results": {
+    "5": {
+      "period": 5,
+      "layer": 11,
+      "mean_strength": 4.005734728602812,
+      "std_strength": 0.8956855604497291,
+      "p_value": 1.6918140817564404e-06,
+      "significant": true
+    },
+    "10": {
+      "period": 10,
+      "layer": 9,
+      "mean_strength": 1.2325780304954148,
+      "std_strength": 0.20131777269525664,
+      "p_value": 0.0035476062132872737,
+      "significant": true
+    },
+    "100": {
+      "period": 100,
+      "layer": 6,
+      "mean_strength": 6.775452862989499,
+      "std_strength": 0.25441845915706923,
+      "p_value": 8.016195649027502e-14,
+      "significant": true
+    }
+  },
+  "verdict": "HELIX PERIODS CONFIRMED"
+}

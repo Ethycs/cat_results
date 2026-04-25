@@ -1,0 +1,10 @@
+SAFETY REYNOLDS NUMBER ANALYSIS
+==================================================
+
+CROSS-MODEL TABLE
+--------------------------------------------------
+Model                Task         Λ(ε)       d_eff      c̄         Re         Regime      
+--------------------------------------------------
+gpt2                 arithmetic   0.0009     12.0000    0.5608     0.0234     LAMINAR     
+gpt2                 logic        0.0000     12.0000    0.2562     0.0000     LAMINAR     
+

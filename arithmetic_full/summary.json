@@ -1,0 +1,119 @@
+{
+  "mode": "arithmetic",
+  "model": "stabilityai/stablelm-2-zephyr-1_6b",
+  "tests_run": [
+    "test_2",
+    "test_4",
+    "test_3"
+  ],
+  "output_dir": "./arithmetic_full",
+  "results": {
+    "test_2": {
+      "total_samples": 15000,
+      "n_correct": 0,
+      "n_errors": 0,
+      "accuracy": 0.0,
+      "period_matches": {
+        "2": 0,
+        "5": 0,
+        "10": 0,
+        "100": 0
+      },
+      "period_fractions": {
+        "2": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "100": 0.0
+      },
+      "most_common_deltas": [],
+      "chi_squared_uniform": 0.0
+    },
+    "test_4": {
+      "total_points": 15000,
+      "catastrophe_points": 14696,
+      "branch_counts": {
+        "20": 1524,
+        "3": 5031,
+        "4": 4760,
+        "5": 12,
+        "2": 3369,
+        "1": 304
+      },
+      "branch_fractions": {
+        "20": 0.1016,
+        "3": 0.3354,
+        "4": 0.31733333333333336,
+        "5": 0.0008,
+        "2": 0.2246,
+        "1": 0.020266666666666665
+      },
+      "mean_branches": 4.781,
+      "median_branches": 3.0,
+      "max_branches": 20,
+      "binary_fraction": 0.22924605334784975,
+      "non_binary_fraction": 0.7707539466521502
+    },
+    "test_3": [
+      {
+        "boundary_value": 100,
+        "fixed_b": 10,
+        "sweep_range": [
+          90,
+          111
+        ],
+        "n_points": 21,
+        "n_crossings": 30,
+        "max_gradient": 3.3671875,
+        "gradient_at_boundary": 1.4609375,
+        "is_catastrophe": true,
+        "catastrophe_type": "fold",
+        "branch_multiplicity": 2
+      },
+      {
+        "boundary_value": 100,
+        "fixed_b": 25,
+        "sweep_range": [
+          90,
+          111
+        ],
+        "n_points": 21,
+        "n_crossings": 37,
+        "max_gradient": 3.046875,
+        "gradient_at_boundary": 2.78125,
+        "is_catastrophe": true,
+        "catastrophe_type": "fold",
+        "branch_multiplicity": 2
+      },
+      {
+        "boundary_value": 100,
+        "fixed_b": 50,
+        "sweep_range": [
+          90,
+          111
+        ],
+        "n_points": 21,
+        "n_crossings": 43,
+        "max_gradient": 3.203125,
+        "gradient_at_boundary": 2.09375,
+        "is_catastrophe": true,
+        "catastrophe_type": "fold",
+        "branch_multiplicity": 2
+      },
+      {
+        "boundary_value": 100,
+        "fixed_b": 75,
+        "sweep_range": [
+          90,
+          111
+        ],
+        "n_points": 21,
+        "n_crossings": 30,
+        "max_gradient": 2.609375,
+        "gradient_at_boundary": 1.765625,
+        "is_catastrophe": true,
+        "catastrophe_type": "swallowtail_4",
+        "branch_multiplicity": 4
+      }
+    ]
+  }
+}

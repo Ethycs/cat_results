@@ -1,0 +1,510 @@
+{
+  "test": "Test 4: Unbiased Branch Count Distribution",
+  "result": {
+    "total_points": 15000,
+    "catastrophe_points": 14696,
+    "branch_counts": {
+      "20": 1524,
+      "3": 5031,
+      "4": 4760,
+      "5": 12,
+      "2": 3369,
+      "1": 304
+    },
+    "branch_fractions": {
+      "20": 0.1016,
+      "3": 0.3354,
+      "4": 0.31733333333333336,
+      "5": 0.0008,
+      "2": 0.2246,
+      "1": 0.020266666666666665
+    },
+    "mean_branches": 4.781,
+    "median_branches": 3.0,
+    "max_branches": 20,
+    "binary_fraction": 0.22924605334784975,
+    "non_binary_fraction": 0.7707539466521502
+  },
+  "multiway_examples": [
+    {
+      "location": [
+        0,
+        0
+      ],
+      "n_active": 20,
+      "active_tokens": [
+        32,
+        791,
+        14924,
+        7184,
+        50,
+        644,
+        9290,
+        48,
+        10267,
+        22818,
+        9,
+        51,
+        2028,
+        4516,
+        17,
+        827,
+        12,
+        40,
+        8468,
+        3923
+      ],
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_20",
+      "threshold_nats": 5.0
+    },
+    {
+      "location": [
+        0,
+        1
+      ],
+      "n_active": 20,
+      "active_tokens": [
+        791,
+        32,
+        50,
+        7184,
+        644,
+        10267,
+        51,
+        14924,
+        17,
+        16,
+        8468,
+        3923,
+        40,
+        4516,
+        9290,
+        2028,
+        22818,
+        626,
+        12,
+        48
+      ],
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_20",
+      "threshold_nats": 5.0
+    },
+    {
+      "location": [
+        0,
+        2
+      ],
+      "n_active": 20,
+      "active_tokens": [
+        791,
+        32,
+        50,
+        7184,
+        10267,
+        644,
+        17,
+        51,
+        14924,
+        3923,
+        8468,
+        16,
+        40,
+        4516,
+        12,
+        2028,
+        22818,
+        9290,
+        827,
+        626
+      ],
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_20",
+      "threshold_nats": 5.0
+    },
+    {
+      "location": [
+        0,
+        3
+      ],
+      "n_active": 20,
+      "active_tokens": [
+        791,
+        32,
+        7184,
+        50,
+        10267,
+        14924,
+        51,
+        644,
+        3923,
+        17,
+        16,
+        8468,
+        12,
+        4516,
+        18,
+        40,
+        2028,
+        48,
+        827,
+        58
+      ],
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_20",
+      "threshold_nats": 5.0
+    },
+    {
+      "location": [
+        0,
+        4
+      ],
+      "n_active": 20,
+      "active_tokens": [
+        791,
+        32,
+        50,
+        7184,
+        14924,
+        51,
+        644,
+        10267,
+        3923,
+        17,
+        16,
+        8468,
+        12,
+        40,
+        4516,
+        48,
+        2028,
+        19,
+        827,
+        9290
+      ],
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_20",
+      "threshold_nats": 5.0
+    },
+    {
+      "location": [
+        0,
+        5
+      ],
+      "n_active": 20,
+      "active_tokens": [
+        791,
+        32,
+        7184,
+        50,
+        644,
+        14924,
+        10267,
+        51,
+        3923,
+        8468,
+        17,
+        16,
+        40,
+        2028,
+        4516,
+        12,
+        22818,
+        48,
+        1271,
+        9290
+      ],
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_20",
+      "threshold_nats": 5.0
+    },
+    {
+      "location": [
+        0,
+        6
+      ],
+      "n_active": 20,
+      "active_tokens": [
+        791,
+        32,
+        7184,
+        644,
+        50,
+        51,
+        10267,
+        14924,
+        8468,
+        3923,
+        16,
+        17,
+        2028,
+        40,
+        12,
+        4516,
+        827,
+        48,
+        22818,
+        21
+      ],
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_20",
+      "threshold_nats": 5.0
+    },
+    {
+      "location": [
+        0,
+        7
+      ],
+      "n_active": 20,
+      "active_tokens": [
+        791,
+        32,
+        7184,
+        14924,
+        50,
+        51,
+        644,
+        10267,
+        3923,
+        8468,
+        17,
+        16,
+        12,
+        2028,
+        40,
+        48,
+        4516,
+        22818,
+        9290,
+        262
+      ],
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_20",
+      "threshold_nats": 5.0
+    },
+    {
+      "location": [
+        0,
+        8
+      ],
+      "n_active": 20,
+      "active_tokens": [
+        791,
+        32,
+        50,
+        7184,
+        14924,
+        644,
+        10267,
+        51,
+        8468,
+        3923,
+        16,
+        17,
+        48,
+        2028,
+        4516,
+        40,
+        12,
+        827,
+        9290,
+        22818
+      ],
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_20",
+      "threshold_nats": 5.0
+    },
+    {
+      "location": [
+        0,
+        9
+      ],
+      "n_active": 20,
+      "active_tokens": [
+        32,
+        791,
+        7184,
+        14924,
+        644,
+        50,
+        51,
+        3923,
+        10267,
+        8468,
+        17,
+        16,
+        48,
+        40,
+        2028,
+        4516,
+        22818,
+        12,
+        827,
+        9290
+      ],
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_20",
+      "threshold_nats": 5.0
+    },
+    {
+      "location": [
+        0,
+        10
+      ],
+      "n_active": 3,
+      "active_tokens": [
+        220,
+        18072,
+        949
+      ],
+      "is_catastrophe": true,
+      "catastrophe_type": "cusp",
+      "threshold_nats": 5.0
+    },
+    {
+      "location": [
+        0,
+        11
+      ],
+      "n_active": 4,
+      "active_tokens": [
+        220,
+        482,
+        18072,
+        949
+      ],
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_4",
+      "threshold_nats": 5.0
+    },
+    {
+      "location": [
+        0,
+        12
+      ],
+      "n_active": 4,
+      "active_tokens": [
+        220,
+        18072,
+        949,
+        482
+      ],
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_4",
+      "threshold_nats": 5.0
+    },
+    {
+      "location": [
+        0,
+        13
+      ],
+      "n_active": 4,
+      "active_tokens": [
+        220,
+        482,
+        18072,
+        949
+      ],
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_4",
+      "threshold_nats": 5.0
+    },
+    {
+      "location": [
+        0,
+        14
+      ],
+      "n_active": 4,
+      "active_tokens": [
+        220,
+        482,
+        18072,
+        949
+      ],
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_4",
+      "threshold_nats": 5.0
+    },
+    {
+      "location": [
+        0,
+        15
+      ],
+      "n_active": 4,
+      "active_tokens": [
+        220,
+        482,
+        18072,
+        949
+      ],
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_4",
+      "threshold_nats": 5.0
+    },
+    {
+      "location": [
+        0,
+        16
+      ],
+      "n_active": 4,
+      "active_tokens": [
+        220,
+        18072,
+        482,
+        949
+      ],
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_4",
+      "threshold_nats": 5.0
+    },
+    {
+      "location": [
+        0,
+        17
+      ],
+      "n_active": 4,
+      "active_tokens": [
+        220,
+        482,
+        18072,
+        949
+      ],
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_4",
+      "threshold_nats": 5.0
+    },
+    {
+      "location": [
+        0,
+        18
+      ],
+      "n_active": 4,
+      "active_tokens": [
+        220,
+        482,
+        18072,
+        949
+      ],
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_4",
+      "threshold_nats": 5.0
+    },
+    {
+      "location": [
+        0,
+        19
+      ],
+      "n_active": 4,
+      "active_tokens": [
+        220,
+        482,
+        18072,
+        949
+      ],
+      "is_catastrophe": true,
+      "catastrophe_type": "swallowtail_4",
+      "threshold_nats": 5.0
+    }
+  ],
+  "verdict": "NON_BINARY_COMMON"
+}
