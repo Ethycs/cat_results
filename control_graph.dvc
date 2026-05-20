@@ -1,0 +1,6 @@
+outs:
+- md5: ccbd3b0b2640a8182fac05df6ae0a993.dir
+  size: 4386377
+  nfiles: 19
+  hash: md5
+  path: control_graph

@@ -1,0 +1,5 @@
+outs:
+- md5: ec67541513a4742d99f8204bece68947
+  size: 56667
+  hash: md5
+  path: basin_transfer.json

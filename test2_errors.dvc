@@ -1,0 +1,6 @@
+outs:
+- md5: 9e727db91b89fb72ce21b851b5414d76.dir
+  size: 13461
+  nfiles: 2
+  hash: md5
+  path: test2_errors

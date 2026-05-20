@@ -1,0 +1,6 @@
+outs:
+- md5: 74670a3e680e59dbd45ea7538386d64e.dir
+  size: 678999
+  nfiles: 4
+  hash: md5
+  path: p2_results

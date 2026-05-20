@@ -1,0 +1,6 @@
+outs:
+- md5: 208097c5b139e48301fa18c16a3d9c3a.dir
+  size: 51446
+  nfiles: 5
+  hash: md5
+  path: arithmetic_results

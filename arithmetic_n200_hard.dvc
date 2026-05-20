@@ -1,0 +1,6 @@
+outs:
+- md5: 708d8feecfc07ecac8f2421bbea02eb3.dir
+  size: 2892
+  nfiles: 2
+  hash: md5
+  path: arithmetic_n200_hard

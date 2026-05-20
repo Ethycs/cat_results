@@ -1,0 +1,6 @@
+outs:
+- md5: b393ce12e919d08a13414c4a8e7b1518.dir
+  size: 3469
+  nfiles: 3
+  hash: md5
+  path: arithmetic_test5

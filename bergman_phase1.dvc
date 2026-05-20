@@ -1,0 +1,6 @@
+outs:
+- md5: 201e2627f662bdeb8603646fcaf58fa7.dir
+  size: 30553
+  nfiles: 2
+  hash: md5
+  path: bergman_phase1

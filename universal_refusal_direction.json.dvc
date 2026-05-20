@@ -1,0 +1,5 @@
+outs:
+- md5: eca51399fbfdcb576a93727a005ce48a
+  size: 12221
+  hash: md5
+  path: universal_refusal_direction.json

@@ -1,0 +1,6 @@
+outs:
+- md5: 598883232ed8b1a22793b511543a19a8.dir
+  size: 4722912648
+  nfiles: 2
+  hash: md5
+  path: bergman_results_t1t3_v2

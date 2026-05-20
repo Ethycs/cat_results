@@ -1,0 +1,6 @@
+outs:
+- md5: 982ed384db57a64f00a53850d9ee8b42.dir
+  size: 18625
+  nfiles: 2
+  hash: md5
+  path: test2_stats

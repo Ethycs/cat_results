@@ -1,0 +1,6 @@
+outs:
+- md5: ea61aa4fdeef0e2fd78feff888f05da0.dir
+  size: 1782688
+  nfiles: 20
+  hash: md5
+  path: navier_stokes_results

@@ -1,0 +1,6 @@
+outs:
+- md5: e89b92ca039d3e6d8b07dbc722428b43.dir
+  size: 15188
+  nfiles: 2
+  hash: md5
+  path: test5_20loops

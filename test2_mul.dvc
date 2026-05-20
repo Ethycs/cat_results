@@ -1,0 +1,6 @@
+outs:
+- md5: 1956a8fb4afad07a196775d122d92cc6.dir
+  size: 13458
+  nfiles: 2
+  hash: md5
+  path: test2_mul

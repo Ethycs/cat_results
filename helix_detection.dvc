@@ -1,0 +1,6 @@
+outs:
+- md5: b5326dce5b0bfe315c2ddd235993bd99.dir
+  size: 971
+  nfiles: 1
+  hash: md5
+  path: helix_detection

@@ -1,0 +1,6 @@
+outs:
+- md5: 2116aea0f712a7b64923c3c87d947665.dir
+  size: 181677
+  nfiles: 6
+  hash: md5
+  path: factuality

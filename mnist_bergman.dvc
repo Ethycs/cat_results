@@ -1,0 +1,6 @@
+outs:
+- md5: 785846d6dedc5f33fcc905b9b1b00918.dir
+  size: 4255476303
+  nfiles: 9
+  hash: md5
+  path: mnist_bergman

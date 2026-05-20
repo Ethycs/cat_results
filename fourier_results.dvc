@@ -1,0 +1,6 @@
+outs:
+- md5: f83e529111448d902e8524e8100e3d6e.dir
+  size: 1574
+  nfiles: 2
+  hash: md5
+  path: fourier_results

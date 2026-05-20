@@ -1,0 +1,6 @@
+outs:
+- md5: 235054d4aabd72c697be4f031943abbd.dir
+  size: 3438
+  nfiles: 2
+  hash: md5
+  path: arithmetic_n200

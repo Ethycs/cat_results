@@ -1,0 +1,6 @@
+outs:
+- md5: c760aaa00b9b51b59cfbcd56fdc6b33e.dir
+  size: 15888
+  nfiles: 2
+  hash: md5
+  path: tight_validation

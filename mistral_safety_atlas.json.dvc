@@ -1,0 +1,5 @@
+outs:
+- md5: 36b7caeece95a6de8677f93673f03803
+  size: 948
+  hash: md5
+  path: mistral_safety_atlas.json

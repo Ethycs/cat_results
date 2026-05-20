@@ -1,0 +1,5 @@
+outs:
+- md5: bf1ba3771d55fa877e8b0aeaa443267f
+  size: 1159013
+  hash: md5
+  path: truthfulqa_100.json

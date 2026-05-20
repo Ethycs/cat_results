@@ -1,0 +1,6 @@
+outs:
+- md5: bba5e7e7c089cce7134559942af0f54c.dir
+  size: 276011
+  nfiles: 2
+  hash: md5
+  path: arithmetic_n200_gpt2

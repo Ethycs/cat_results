@@ -1,0 +1,6 @@
+outs:
+- md5: 34e74fe808138e6a6de9bc79f649b01d.dir
+  size: 5906027
+  nfiles: 4
+  hash: md5
+  path: braid

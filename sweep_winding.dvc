@@ -1,0 +1,6 @@
+outs:
+- md5: 1187e5634b9ae7c384496c8b5d7057e2.dir
+  size: 5759365
+  nfiles: 133
+  hash: md5
+  path: sweep_winding

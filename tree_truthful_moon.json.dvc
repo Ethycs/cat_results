@@ -1,0 +1,5 @@
+outs:
+- md5: 2b5468eca520fded2ad85a7b7b13215f
+  size: 3812
+  hash: md5
+  path: tree_truthful_moon.json

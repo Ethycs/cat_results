@@ -1,0 +1,6 @@
+outs:
+- md5: 4914384551ddcc6e8d502dd45176d52d.dir
+  size: 14643
+  nfiles: 4
+  hash: md5
+  path: logic_results

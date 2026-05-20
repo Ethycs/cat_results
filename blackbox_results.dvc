@@ -1,0 +1,6 @@
+outs:
+- md5: 36305547d37b2fdbad7f7967bcdb6171.dir
+  size: 897423
+  nfiles: 24
+  hash: md5
+  path: blackbox_results

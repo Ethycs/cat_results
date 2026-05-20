@@ -1,0 +1,6 @@
+outs:
+- md5: 0b890c2acfd69b183928304bfa447248.dir
+  size: 220042
+  nfiles: 9
+  hash: md5
+  path: evidence

@@ -1,0 +1,6 @@
+outs:
+- md5: c958584f48dc306425b167cccce4949d.dir
+  size: 1978
+  nfiles: 2
+  hash: md5
+  path: modular_test

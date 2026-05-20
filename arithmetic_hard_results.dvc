@@ -1,0 +1,6 @@
+outs:
+- md5: b3367546e687593055532e2fb3d1caea.dir
+  size: 14433
+  nfiles: 2
+  hash: md5
+  path: arithmetic_hard_results

@@ -1,0 +1,6 @@
+outs:
+- md5: d7d88e3f3cbe024ac514f72c976a3fe1.dir
+  size: 201004
+  nfiles: 1
+  hash: md5
+  path: bergman_results

@@ -1,0 +1,5 @@
+outs:
+- md5: 27facb4b457194620a9d55aa0a72d78b
+  size: 14727
+  hash: md5
+  path: high_power_test.json

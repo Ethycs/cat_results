@@ -1,0 +1,5 @@
+outs:
+- md5: 587d065c5a801d0cc600cf2d778ba836
+  size: 24975
+  hash: md5
+  path: germ_anatomy.json

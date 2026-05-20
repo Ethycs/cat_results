@@ -1,0 +1,6 @@
+outs:
+- md5: b068bece0ca12c0e92ce3ad8408ade2d.dir
+  size: 33085
+  nfiles: 6
+  hash: md5
+  path: arithmetic_helix_validation

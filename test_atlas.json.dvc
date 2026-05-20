@@ -1,0 +1,5 @@
+outs:
+- md5: 4ad06a8486eb66593466957c0b37b346
+  size: 54672
+  hash: md5
+  path: test_atlas.json

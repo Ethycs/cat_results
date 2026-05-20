@@ -1,0 +1,6 @@
+outs:
+- md5: d35ddb5ecbfdb7701f4645c81de6f99c.dir
+  size: 17900
+  nfiles: 1
+  hash: md5
+  path: statistical_validation

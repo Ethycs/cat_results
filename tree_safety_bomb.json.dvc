@@ -1,0 +1,5 @@
+outs:
+- md5: 68cc37a2aaa61dbd27e45dc9bfa6054b
+  size: 23823
+  hash: md5
+  path: tree_safety_bomb.json
