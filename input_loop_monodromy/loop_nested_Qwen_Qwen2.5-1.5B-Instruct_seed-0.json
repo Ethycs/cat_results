@@ -1,0 +1,1505 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "dtype": "bfloat16",
+  "device": "cuda:1",
+  "n_prompts": 100,
+  "periods": [
+    3,
+    5,
+    8
+  ],
+  "n_cycles": 5,
+  "seed": 0,
+  "wall_time_s": 63.34338140487671,
+  "summary": {
+    "3": {
+      "prompts_used": 100,
+      "classes": 300,
+      "nontrivial": 241,
+      "nontrivial_tail": 108,
+      "induction_onset_only": 133,
+      "p_nontrivial": 0.8033333333333333,
+      "p_tail_nontrivial": 0.36,
+      "mean_order": 2.1366666666666667,
+      "mean_order_tail": 1.5166666666666666,
+      "wilson_tail_lo": 0.3077684186012506,
+      "wilson_tail_hi": 0.4157717417981154
+    },
+    "5": {
+      "prompts_used": 100,
+      "classes": 500,
+      "nontrivial": 379,
+      "nontrivial_tail": 113,
+      "induction_onset_only": 266,
+      "p_nontrivial": 0.758,
+      "p_tail_nontrivial": 0.226,
+      "mean_order": 1.946,
+      "mean_order_tail": 1.296,
+      "wilson_tail_lo": 0.1915091878404532,
+      "wilson_tail_hi": 0.2646691031144819
+    },
+    "8": {
+      "prompts_used": 97,
+      "classes": 776,
+      "nontrivial": 553,
+      "nontrivial_tail": 103,
+      "induction_onset_only": 450,
+      "p_nontrivial": 0.7126288659793815,
+      "p_tail_nontrivial": 0.1327319587628866,
+      "mean_order": 1.8221649484536082,
+      "mean_order_tail": 1.172680412371134,
+      "wilson_tail_lo": 0.1106593652172995,
+      "wilson_tail_hi": 0.15842297150338838
+    }
+  },
+  "nested_summary": {
+    "3": {
+      "prompts_used": 100,
+      "outer_classes": 1200,
+      "outer_nontriv_tail": 241,
+      "p_outer_tail": 0.20083333333333334,
+      "outer_wilson_lo": 0.1791366616921208,
+      "outer_wilson_hi": 0.2244393569468762,
+      "inner_B1_classes": 300,
+      "inner_B1_nontriv_tail": 97,
+      "p_inner_B1_tail": 0.3233333333333333,
+      "inner_B2_classes": 300,
+      "inner_B2_nontriv_tail": 100,
+      "p_inner_B2_tail": 0.3333333333333333
+    },
+    "5": {
+      "prompts_used": 89,
+      "outer_classes": 1780,
+      "outer_nontriv_tail": 197,
+      "p_outer_tail": 0.11067415730337078,
+      "outer_wilson_lo": 0.09692947117968694,
+      "outer_wilson_hi": 0.12609571222224739,
+      "inner_B1_classes": 445,
+      "inner_B1_nontriv_tail": 88,
+      "p_inner_B1_tail": 0.19775280898876405,
+      "inner_B2_classes": 445,
+      "inner_B2_nontriv_tail": 91,
+      "p_inner_B2_tail": 0.20449438202247192
+    },
+    "8": {
+      "prompts_used": 71,
+      "outer_classes": 2272,
+      "outer_nontriv_tail": 183,
+      "p_outer_tail": 0.08054577464788733,
+      "outer_wilson_lo": 0.07005064911369081,
+      "outer_wilson_hi": 0.09245697004574453,
+      "inner_B1_classes": 568,
+      "inner_B1_nontriv_tail": 73,
+      "p_inner_B1_tail": 0.12852112676056338,
+      "inner_B2_classes": 568,
+      "inner_B2_nontriv_tail": 79,
+      "p_inner_B2_tail": 0.13908450704225353
+    }
+  },
+  "examples_by_period": {
+    "3": [
+      {
+        "prompt_idx": 0,
+        "base_decoded": "My community is",
+        "classes": {
+          "0": {
+            "positions": [
+              0,
+              3,
+              6,
+              9,
+              12
+            ],
+            "preds": [
+              10641,
+              3942,
+              3942,
+              3942,
+              3942
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " brother",
+              " community",
+              " community",
+              " community",
+              " community"
+            ]
+          },
+          "1": {
+            "positions": [
+              1,
+              4,
+              7,
+              10,
+              13
+            ],
+            "preds": [
+              374,
+              374,
+              374,
+              374,
+              374
+            ],
+            "n_distinct": 1,
+            "n_distinct_tail": 1,
+            "nontrivial": false,
+            "nontrivial_tail": false,
+            "induction_onset_only": false,
+            "preds_decoded": [
+              " is",
+              " is",
+              " is",
+              " is",
+              " is"
+            ]
+          },
+          "2": {
+            "positions": [
+              2,
+              5,
+              8,
+              11,
+              14
+            ],
+            "preds": [
+              264,
+              264,
+              5050,
+              5050,
+              5050
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 2,
+            "nontrivial": true,
+            "nontrivial_tail": true,
+            "induction_onset_only": false,
+            "preds_decoded": [
+              " a",
+              " a",
+              "My",
+              "My",
+              "My"
+            ]
+          }
+        }
+      },
+      {
+        "prompt_idx": 1,
+        "base_decoded": "What are some",
+        "classes": {
+          "0": {
+            "positions": [
+              0,
+              3,
+              6,
+              9,
+              12
+            ],
+            "preds": [
+              374,
+              525,
+              525,
+              525,
+              525
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " is",
+              " are",
+              " are",
+              " are",
+              " are"
+            ]
+          },
+          "1": {
+            "positions": [
+              1,
+              4,
+              7,
+              10,
+              13
+            ],
+            "preds": [
+              279,
+              1045,
+              1045,
+              1045,
+              1045
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " the",
+              " some",
+              " some",
+              " some",
+              " some"
+            ]
+          },
+          "2": {
+            "positions": [
+              2,
+              5,
+              8,
+              11,
+              14
+            ],
+            "preds": [
+              315,
+              315,
+              315,
+              3838,
+              3838
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 2,
+            "nontrivial": true,
+            "nontrivial_tail": true,
+            "induction_onset_only": false,
+            "preds_decoded": [
+              " of",
+              " of",
+              " of",
+              "What",
+              "What"
+            ]
+          }
+        }
+      },
+      {
+        "prompt_idx": 2,
+        "base_decoded": "How do I",
+        "classes": {
+          "0": {
+            "positions": [
+              0,
+              3,
+              6,
+              9,
+              12
+            ],
+            "preds": [
+              646,
+              653,
+              653,
+              653,
+              653
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " can",
+              " do",
+              " do",
+              " do",
+              " do"
+            ]
+          },
+          "1": {
+            "positions": [
+              1,
+              4,
+              7,
+              10,
+              13
+            ],
+            "preds": [
+              498,
+              358,
+              358,
+              358,
+              358
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " you",
+              " I",
+              " I",
+              " I",
+              " I"
+            ]
+          },
+          "2": {
+            "positions": [
+              2,
+              5,
+              8,
+              11,
+              14
+            ],
+            "preds": [
+              1477,
+              1477,
+              271,
+              4340,
+              4340
+            ],
+            "n_distinct": 3,
+            "n_distinct_tail": 3,
+            "nontrivial": true,
+            "nontrivial_tail": true,
+            "induction_onset_only": false,
+            "preds_decoded": [
+              " find",
+              " find",
+              "\n\n",
+              "How",
+              "How"
+            ]
+          }
+        }
+      }
+    ],
+    "5": [
+      {
+        "prompt_idx": 0,
+        "base_decoded": "My community is facing a",
+        "classes": {
+          "0": {
+            "positions": [
+              0,
+              5,
+              10,
+              15,
+              20
+            ],
+            "preds": [
+              10641,
+              3942,
+              3942,
+              3942,
+              3942
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " brother",
+              " community",
+              " community",
+              " community",
+              " community"
+            ]
+          },
+          "1": {
+            "positions": [
+              1,
+              6,
+              11,
+              16,
+              21
+            ],
+            "preds": [
+              374,
+              374,
+              374,
+              374,
+              374
+            ],
+            "n_distinct": 1,
+            "n_distinct_tail": 1,
+            "nontrivial": false,
+            "nontrivial_tail": false,
+            "induction_onset_only": false,
+            "preds_decoded": [
+              " is",
+              " is",
+              " is",
+              " is",
+              " is"
+            ]
+          },
+          "2": {
+            "positions": [
+              2,
+              7,
+              12,
+              17,
+              22
+            ],
+            "preds": [
+              264,
+              12880,
+              12880,
+              12880,
+              12880
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " a",
+              " facing",
+              " facing",
+              " facing",
+              " facing"
+            ]
+          },
+          "3": {
+            "positions": [
+              3,
+              8,
+              13,
+              18,
+              23
+            ],
+            "preds": [
+              264,
+              264,
+              264,
+              264,
+              264
+            ],
+            "n_distinct": 1,
+            "n_distinct_tail": 1,
+            "nontrivial": false,
+            "nontrivial_tail": false,
+            "induction_onset_only": false,
+            "preds_decoded": [
+              " a",
+              " a",
+              " a",
+              " a",
+              " a"
+            ]
+          },
+          "4": {
+            "positions": [
+              4,
+              9,
+              14,
+              19,
+              24
+            ],
+            "preds": [
+              15386,
+              15386,
+              198,
+              5050,
+              5050
+            ],
+            "n_distinct": 3,
+            "n_distinct_tail": 3,
+            "nontrivial": true,
+            "nontrivial_tail": true,
+            "induction_onset_only": false,
+            "preds_decoded": [
+              " severe",
+              " severe",
+              "\n",
+              "My",
+              "My"
+            ]
+          }
+        }
+      },
+      {
+        "prompt_idx": 1,
+        "base_decoded": "What are some insults for",
+        "classes": {
+          "0": {
+            "positions": [
+              0,
+              5,
+              10,
+              15,
+              20
+            ],
+            "preds": [
+              374,
+              374,
+              525,
+              525,
+              525
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 2,
+            "nontrivial": true,
+            "nontrivial_tail": true,
+            "induction_onset_only": false,
+            "preds_decoded": [
+              " is",
+              " is",
+              " are",
+              " are",
+              " are"
+            ]
+          },
+          "1": {
+            "positions": [
+              1,
+              6,
+              11,
+              16,
+              21
+            ],
+            "preds": [
+              279,
+              1045,
+              1045,
+              1045,
+              1045
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " the",
+              " some",
+              " some",
+              " some",
+              " some"
+            ]
+          },
+          "2": {
+            "positions": [
+              2,
+              7,
+              12,
+              17,
+              22
+            ],
+            "preds": [
+              315,
+              67889,
+              67889,
+              67889,
+              67889
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " of",
+              " insults",
+              " insults",
+              " insults",
+              " insults"
+            ]
+          },
+          "3": {
+            "positions": [
+              3,
+              8,
+              13,
+              18,
+              23
+            ],
+            "preds": [
+              429,
+              369,
+              369,
+              369,
+              369
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " that",
+              " for",
+              " for",
+              " for",
+              " for"
+            ]
+          },
+          "4": {
+            "positions": [
+              4,
+              9,
+              14,
+              19,
+              24
+            ],
+            "preds": [
+              264,
+              330,
+              271,
+              3838,
+              3838
+            ],
+            "n_distinct": 4,
+            "n_distinct_tail": 3,
+            "nontrivial": true,
+            "nontrivial_tail": true,
+            "induction_onset_only": false,
+            "preds_decoded": [
+              " a",
+              " \"",
+              "\n\n",
+              "What",
+              "What"
+            ]
+          }
+        }
+      },
+      {
+        "prompt_idx": 2,
+        "base_decoded": "How do I gain access",
+        "classes": {
+          "0": {
+            "positions": [
+              0,
+              5,
+              10,
+              15,
+              20
+            ],
+            "preds": [
+              646,
+              653,
+              653,
+              653,
+              653
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " can",
+              " do",
+              " do",
+              " do",
+              " do"
+            ]
+          },
+          "1": {
+            "positions": [
+              1,
+              6,
+              11,
+              16,
+              21
+            ],
+            "preds": [
+              498,
+              358,
+              358,
+              358,
+              358
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " you",
+              " I",
+              " I",
+              " I",
+              " I"
+            ]
+          },
+          "2": {
+            "positions": [
+              2,
+              7,
+              12,
+              17,
+              22
+            ],
+            "preds": [
+              1477,
+              8722,
+              8722,
+              8722,
+              8722
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " find",
+              " gain",
+              " gain",
+              " gain",
+              " gain"
+            ]
+          },
+          "3": {
+            "positions": [
+              3,
+              8,
+              13,
+              18,
+              23
+            ],
+            "preds": [
+              4680,
+              2615,
+              2615,
+              2615,
+              2615
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " weight",
+              " access",
+              " access",
+              " access",
+              " access"
+            ]
+          },
+          "4": {
+            "positions": [
+              4,
+              9,
+              14,
+              19,
+              24
+            ],
+            "preds": [
+              311,
+              311,
+              271,
+              4340,
+              4340
+            ],
+            "n_distinct": 3,
+            "n_distinct_tail": 3,
+            "nontrivial": true,
+            "nontrivial_tail": true,
+            "induction_onset_only": false,
+            "preds_decoded": [
+              " to",
+              " to",
+              "\n\n",
+              "How",
+              "How"
+            ]
+          }
+        }
+      }
+    ],
+    "8": [
+      {
+        "prompt_idx": 0,
+        "base_decoded": "My community is facing a rapid gentr",
+        "classes": {
+          "0": {
+            "positions": [
+              0,
+              8,
+              16,
+              24,
+              32
+            ],
+            "preds": [
+              10641,
+              3942,
+              3942,
+              3942,
+              3942
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " brother",
+              " community",
+              " community",
+              " community",
+              " community"
+            ]
+          },
+          "1": {
+            "positions": [
+              1,
+              9,
+              17,
+              25,
+              33
+            ],
+            "preds": [
+              374,
+              374,
+              374,
+              374,
+              374
+            ],
+            "n_distinct": 1,
+            "n_distinct_tail": 1,
+            "nontrivial": false,
+            "nontrivial_tail": false,
+            "induction_onset_only": false,
+            "preds_decoded": [
+              " is",
+              " is",
+              " is",
+              " is",
+              " is"
+            ]
+          },
+          "2": {
+            "positions": [
+              2,
+              10,
+              18,
+              26,
+              34
+            ],
+            "preds": [
+              264,
+              12880,
+              12880,
+              12880,
+              12880
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " a",
+              " facing",
+              " facing",
+              " facing",
+              " facing"
+            ]
+          },
+          "3": {
+            "positions": [
+              3,
+              11,
+              19,
+              27,
+              35
+            ],
+            "preds": [
+              264,
+              264,
+              264,
+              264,
+              264
+            ],
+            "n_distinct": 1,
+            "n_distinct_tail": 1,
+            "nontrivial": false,
+            "nontrivial_tail": false,
+            "induction_onset_only": false,
+            "preds_decoded": [
+              " a",
+              " a",
+              " a",
+              " a",
+              " a"
+            ]
+          },
+          "4": {
+            "positions": [
+              4,
+              12,
+              20,
+              28,
+              36
+            ],
+            "preds": [
+              15386,
+              11048,
+              11048,
+              11048,
+              11048
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " severe",
+              " rapid",
+              " rapid",
+              " rapid",
+              " rapid"
+            ]
+          },
+          "5": {
+            "positions": [
+              5,
+              13,
+              21,
+              29,
+              37
+            ],
+            "preds": [
+              5263,
+              15886,
+              15886,
+              15886,
+              15886
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " increase",
+              " gent",
+              " gent",
+              " gent",
+              " gent"
+            ]
+          },
+          "6": {
+            "positions": [
+              6,
+              14,
+              22,
+              30,
+              38
+            ],
+            "preds": [
+              81,
+              81,
+              81,
+              81,
+              81
+            ],
+            "n_distinct": 1,
+            "n_distinct_tail": 1,
+            "nontrivial": false,
+            "nontrivial_tail": false,
+            "induction_onset_only": false,
+            "preds_decoded": [
+              "r",
+              "r",
+              "r",
+              "r",
+              "r"
+            ]
+          },
+          "7": {
+            "positions": [
+              7,
+              15,
+              23,
+              31,
+              39
+            ],
+            "preds": [
+              2404,
+              2404,
+              2404,
+              5050,
+              5050
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 2,
+            "nontrivial": true,
+            "nontrivial_tail": true,
+            "induction_onset_only": false,
+            "preds_decoded": [
+              "ification",
+              "ification",
+              "ification",
+              "My",
+              "My"
+            ]
+          }
+        }
+      },
+      {
+        "prompt_idx": 1,
+        "base_decoded": "What are some insults for latinas?",
+        "classes": {
+          "0": {
+            "positions": [
+              0,
+              8,
+              16,
+              24,
+              32
+            ],
+            "preds": [
+              374,
+              525,
+              525,
+              525,
+              525
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " is",
+              " are",
+              " are",
+              " are",
+              " are"
+            ]
+          },
+          "1": {
+            "positions": [
+              1,
+              9,
+              17,
+              25,
+              33
+            ],
+            "preds": [
+              279,
+              1045,
+              1045,
+              1045,
+              1045
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " the",
+              " some",
+              " some",
+              " some",
+              " some"
+            ]
+          },
+          "2": {
+            "positions": [
+              2,
+              10,
+              18,
+              26,
+              34
+            ],
+            "preds": [
+              315,
+              67889,
+              67889,
+              67889,
+              67889
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " of",
+              " insults",
+              " insults",
+              " insults",
+              " insults"
+            ]
+          },
+          "3": {
+            "positions": [
+              3,
+              11,
+              19,
+              27,
+              35
+            ],
+            "preds": [
+              429,
+              369,
+              369,
+              369,
+              369
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " that",
+              " for",
+              " for",
+              " for",
+              " for"
+            ]
+          },
+          "4": {
+            "positions": [
+              4,
+              12,
+              20,
+              28,
+              36
+            ],
+            "preds": [
+              264,
+              96762,
+              23279,
+              6844,
+              6844
+            ],
+            "n_distinct": 4,
+            "n_distinct_tail": 3,
+            "nontrivial": true,
+            "nontrivial_tail": true,
+            "induction_onset_only": false,
+            "preds_decoded": [
+              " a",
+              " Mexicans",
+              " Mexican",
+              " lat",
+              " lat"
+            ]
+          },
+          "5": {
+            "positions": [
+              5,
+              13,
+              21,
+              29,
+              37
+            ],
+            "preds": [
+              15215,
+              20114,
+              20114,
+              20114,
+              20114
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              "inos",
+              "inas",
+              "inas",
+              "inas",
+              "inas"
+            ]
+          },
+          "6": {
+            "positions": [
+              6,
+              14,
+              22,
+              30,
+              38
+            ],
+            "preds": [
+              5267,
+              30,
+              30,
+              30,
+              30
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              "?\n",
+              "?",
+              "?",
+              "?",
+              "?"
+            ]
+          },
+          "7": {
+            "positions": [
+              7,
+              15,
+              23,
+              31,
+              39
+            ],
+            "preds": [
+              358,
+              3555,
+              3838,
+              3838,
+              3838
+            ],
+            "n_distinct": 3,
+            "n_distinct_tail": 2,
+            "nontrivial": true,
+            "nontrivial_tail": true,
+            "induction_onset_only": false,
+            "preds_decoded": [
+              " I",
+              " What",
+              "What",
+              "What",
+              "What"
+            ]
+          }
+        }
+      },
+      {
+        "prompt_idx": 2,
+        "base_decoded": "How do I gain access to a specific",
+        "classes": {
+          "0": {
+            "positions": [
+              0,
+              8,
+              16,
+              24,
+              32
+            ],
+            "preds": [
+              646,
+              653,
+              653,
+              653,
+              653
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " can",
+              " do",
+              " do",
+              " do",
+              " do"
+            ]
+          },
+          "1": {
+            "positions": [
+              1,
+              9,
+              17,
+              25,
+              33
+            ],
+            "preds": [
+              498,
+              358,
+              358,
+              358,
+              358
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " you",
+              " I",
+              " I",
+              " I",
+              " I"
+            ]
+          },
+          "2": {
+            "positions": [
+              2,
+              10,
+              18,
+              26,
+              34
+            ],
+            "preds": [
+              1477,
+              8722,
+              8722,
+              8722,
+              8722
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " find",
+              " gain",
+              " gain",
+              " gain",
+              " gain"
+            ]
+          },
+          "3": {
+            "positions": [
+              3,
+              11,
+              19,
+              27,
+              35
+            ],
+            "preds": [
+              4680,
+              2615,
+              2615,
+              2615,
+              2615
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " weight",
+              " access",
+              " access",
+              " access",
+              " access"
+            ]
+          },
+          "4": {
+            "positions": [
+              4,
+              12,
+              20,
+              28,
+              36
+            ],
+            "preds": [
+              311,
+              311,
+              311,
+              311,
+              311
+            ],
+            "n_distinct": 1,
+            "n_distinct_tail": 1,
+            "nontrivial": false,
+            "nontrivial_tail": false,
+            "induction_onset_only": false,
+            "preds_decoded": [
+              " to",
+              " to",
+              " to",
+              " to",
+              " to"
+            ]
+          },
+          "5": {
+            "positions": [
+              5,
+              13,
+              21,
+              29,
+              37
+            ],
+            "preds": [
+              279,
+              264,
+              264,
+              264,
+              264
+            ],
+            "n_distinct": 2,
+            "n_distinct_tail": 1,
+            "nontrivial": true,
+            "nontrivial_tail": false,
+            "induction_onset_only": true,
+            "preds_decoded": [
+              " the",
+              " a",
+              " a",
+              " a",
+              " a"
+            ]
+          },
+          "6": {
+            "positions": [
+              6,
+              14,
+              22,
+              30,
+              38
+            ],
+            "preds": [
+              3151,
+              3151,
+              3151,
+              3151,
+              3151
+            ],
+            "n_distinct": 1,
+            "n_distinct_tail": 1,
+            "nontrivial": false,
+            "nontrivial_tail": false,
+            "induction_onset_only": false,
+            "preds_decoded": [
+              " specific",
+              " specific",
+              " specific",
+              " specific",
+              " specific"
+            ]
+          },
+          "7": {
+            "positions": [
+              7,
+              15,
+              23,
+              31,
+              39
+            ],
+            "preds": [
+              8527,
+              1034,
+              271,
+              4340,
+              4340
+            ],
+            "n_distinct": 4,
+            "n_distinct_tail": 3,
+            "nontrivial": true,
+            "nontrivial_tail": true,
+            "induction_onset_only": false,
+            "preds_decoded": [
+              " folder",
+              " file",
+              "\n\n",
+              "How",
+              "How"
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

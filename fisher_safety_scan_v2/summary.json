@@ -1,0 +1,17 @@
+{
+  "Qwen2.5-0.5B": {
+    "fisher_early_change": 0.1618352120625863,
+    "fisher_total_change": 0.06288151828071328,
+    "fisher_base_total": 323225.40061083745,
+    "fisher_instruct_total": 343550.3045481387,
+    "margin_base": 1.5535999536514282,
+    "margin_instruct": 0.8141999244689941,
+    "adv_margin_base": 0.5902254581451416,
+    "adv_margin_instruct": 0.9966857433319092,
+    "pgd_margin_base": null,
+    "pgd_margin_instruct": null,
+    "vuln_base": 0.0027326654028635156,
+    "vuln_instruct": 0.001389107604529467,
+    "net_effect": "MORE VULNERABLE"
+  }
+}

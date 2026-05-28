@@ -1,0 +1,726 @@
+{
+  "normalized": {
+    "HuggingFaceTB/SmolLM-1.7B-Instruct": {
+      "model_id": "HuggingFaceTB/SmolLM-1.7B-Instruct",
+      "depth": 24,
+      "n_2d_matrices": 169,
+      "hazard_total": 6774.15225315094,
+      "hazard_per_block": 282.2563438812892,
+      "hazard_per_matrix": 40.08374114290497,
+      "mean_sv_max": 41.08374114290497,
+      "mean_sv_normalized": 0.9078309987081518,
+      "fraction_sv_above_1": 1.0,
+      "mean_stable_rank": 149.3101841169056,
+      "median_stable_rank": 122.21020195726344,
+      "mean_stable_rank_frac": 0.07290536333833281,
+      "sv_max_distribution": {
+        "min": 12.243552207946777,
+        "p25": 30.387462615966797,
+        "median": 35.9335823059082,
+        "p75": 45.821041107177734,
+        "max": 414.78326416015625
+      },
+      "per_role": {
+        "attn": {
+          "n_matrices": 96,
+          "mean_sv": 36.52351124087969,
+          "median_sv": 33.63605880737305,
+          "mean_sv_normed": 0.8070632022240352,
+          "fraction_above_1": 1.0,
+          "hazard_total": 3410.2570791244507,
+          "hazard_per_matrix": 35.52351124087969
+        },
+        "mlp": {
+          "n_matrices": 72,
+          "mean_sv": 41.973776525921295,
+          "median_sv": 41.12506675720215,
+          "mean_sv_normed": 0.9274981879214899,
+          "fraction_above_1": 1.0,
+          "hazard_total": 2950.111909866333,
+          "hazard_per_matrix": 40.973776525921295
+        },
+        "other": {
+          "n_matrices": 1,
+          "mean_sv": 414.78326416015625,
+          "median_sv": 414.78326416015625,
+          "mean_sv_normed": 9.165501837823047,
+          "fraction_above_1": 1.0,
+          "hazard_total": 413.78326416015625,
+          "hazard_per_matrix": 413.78326416015625
+        }
+      }
+    },
+    "HuggingFaceTB/SmolLM-1.7B": {
+      "model_id": "HuggingFaceTB/SmolLM-1.7B",
+      "depth": 24,
+      "n_2d_matrices": 169,
+      "hazard_total": 6734.834861755371,
+      "hazard_per_block": 280.61811923980713,
+      "hazard_per_matrix": 39.85109385654066,
+      "mean_sv_max": 40.85109385654066,
+      "mean_sv_normalized": 0.9026901714015002,
+      "fraction_sv_above_1": 1.0,
+      "mean_stable_rank": 149.17512930110203,
+      "median_stable_rank": 122.03210447715391,
+      "mean_stable_rank_frac": 0.07283941860405373,
+      "sv_max_distribution": {
+        "min": 11.966382026672363,
+        "p25": 30.144824981689453,
+        "median": 35.47409439086914,
+        "p75": 45.47763442993164,
+        "max": 413.91204833984375
+      },
+      "per_role": {
+        "attn": {
+          "n_matrices": 96,
+          "mean_sv": 36.296844144662224,
+          "median_sv": 33.61682891845703,
+          "mean_sv_normed": 0.8020545196988088,
+          "fraction_above_1": 1.0,
+          "hazard_total": 3388.4970378875732,
+          "hazard_per_matrix": 35.296844144662224
+        },
+        "mlp": {
+          "n_matrices": 72,
+          "mean_sv": 41.742024660110474,
+          "median_sv": 40.89286422729492,
+          "mean_sv_normed": 0.9223771468006314,
+          "fraction_above_1": 1.0,
+          "hazard_total": 2933.425775527954,
+          "hazard_per_matrix": 40.742024660110474
+        },
+        "other": {
+          "n_matrices": 1,
+          "mean_sv": 413.91204833984375,
+          "median_sv": 413.91204833984375,
+          "mean_sv_normed": 9.146250506122424,
+          "fraction_above_1": 1.0,
+          "hazard_total": 412.91204833984375,
+          "hazard_per_matrix": 412.91204833984375
+        }
+      }
+    },
+    "Qwen/Qwen2.5-0.5B-Instruct": {
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "depth": 24,
+      "n_2d_matrices": 169,
+      "hazard_total": 430.8657615184784,
+      "hazard_per_block": 17.952740063269932,
+      "hazard_per_matrix": 2.5495015474466176,
+      "mean_sv_max": 3.51891467733496,
+      "mean_sv_normalized": 0.14062121540518305,
+      "fraction_sv_above_1": 0.8875739644970414,
+      "mean_stable_rank": 88.26669694438783,
+      "median_stable_rank": 65.21886786251801,
+      "mean_stable_rank_frac": 0.1836758873947429,
+      "sv_max_distribution": {
+        "min": 0.4542466998100281,
+        "p25": 1.6728827953338623,
+        "median": 2.45046329498291,
+        "p75": 3.7357523441314697,
+        "max": 75.20468139648438
+      },
+      "per_role": {
+        "attn": {
+          "n_matrices": 96,
+          "mean_sv": 2.2939645256847143,
+          "median_sv": 1.743443787097931,
+          "mean_sv_normed": 0.11723563299743749,
+          "fraction_above_1": 0.8020833333333334,
+          "hazard_total": 129.38977551460266,
+          "hazard_per_matrix": 1.3478101616104443
+        },
+        "mlp": {
+          "n_matrices": 72,
+          "mean_sv": 4.15654589732488,
+          "median_sv": 3.804604649543762,
+          "mean_sv_normed": 0.13886045232313,
+          "fraction_above_1": 1.0,
+          "hazard_total": 227.27130460739136,
+          "hazard_per_matrix": 3.15654589732488
+        },
+        "other": {
+          "n_matrices": 1,
+          "mean_sv": 75.20468139648438,
+          "median_sv": 75.20468139648438,
+          "mean_sv_normed": 2.5124120684565767,
+          "fraction_above_1": 1.0,
+          "hazard_total": 74.20468139648438,
+          "hazard_per_matrix": 74.20468139648438
+        }
+      }
+    },
+    "Qwen/Qwen2.5-0.5B": {
+      "model_id": "Qwen/Qwen2.5-0.5B",
+      "depth": 24,
+      "n_2d_matrices": 169,
+      "hazard_total": 439.17794251441956,
+      "hazard_per_block": 18.299080938100815,
+      "hazard_per_matrix": 2.598686050381181,
+      "mean_sv_max": 3.570202288542979,
+      "mean_sv_normalized": 0.1425937880147487,
+      "fraction_sv_above_1": 0.8875739644970414,
+      "mean_stable_rank": 88.3018959346686,
+      "median_stable_rank": 65.20347723922907,
+      "mean_stable_rank_frac": 0.18371993209527226,
+      "sv_max_distribution": {
+        "min": 0.46383482217788696,
+        "p25": 1.6906490325927734,
+        "median": 2.482698917388916,
+        "p75": 3.8228347301483154,
+        "max": 75.76860046386719
+      },
+      "per_role": {
+        "attn": {
+          "n_matrices": 96,
+          "mean_sv": 2.327306352555752,
+          "median_sv": 1.754901647567749,
+          "mean_sv_normed": 0.11880575908993547,
+          "fraction_above_1": 0.8020833333333334,
+          "hazard_total": 132.2351655960083,
+          "hazard_per_matrix": 1.3774496416250865
+        },
+        "mlp": {
+          "n_matrices": 72,
+          "mean_sv": 4.224641339646445,
+          "median_sv": 3.877143383026123,
+          "mean_sv_normed": 0.14113536138355964,
+          "fraction_above_1": 1.0,
+          "hazard_total": 232.17417645454407,
+          "hazard_per_matrix": 3.2246413396464453
+        },
+        "other": {
+          "n_matrices": 1,
+          "mean_sv": 75.76860046386719,
+          "median_sv": 75.76860046386719,
+          "mean_sv_normed": 2.53125128224243,
+          "fraction_above_1": 1.0,
+          "hazard_total": 74.76860046386719,
+          "hazard_per_matrix": 74.76860046386719
+        }
+      }
+    },
+    "Qwen/Qwen2.5-1.5B-Instruct": {
+      "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "depth": 28,
+      "n_2d_matrices": 197,
+      "hazard_total": 1089.0976111888885,
+      "hazard_per_block": 38.89634325674602,
+      "hazard_per_matrix": 5.528414269994358,
+      "mean_sv_max": 6.528414269994358,
+      "mean_sv_normalized": 0.18988882549154942,
+      "fraction_sv_above_1": 1.0,
+      "mean_stable_rank": 133.6871901661193,
+      "median_stable_rank": 94.48145039384944,
+      "mean_stable_rank_frac": 0.16031765625128494,
+      "sv_max_distribution": {
+        "min": 1.0896297693252563,
+        "p25": 2.9257593154907227,
+        "median": 4.921706199645996,
+        "p75": 7.6819682121276855,
+        "max": 135.4253387451172
+      },
+      "per_role": {
+        "attn": {
+          "n_matrices": 112,
+          "mean_sv": 3.7173169361693517,
+          "median_sv": 3.500049114227295,
+          "mean_sv_normed": 0.13585508630236295,
+          "fraction_above_1": 1.0,
+          "hazard_total": 304.3394968509674,
+          "hazard_per_matrix": 2.7173169361693517
+        },
+        "mlp": {
+          "n_matrices": 84,
+          "mean_sv": 8.742056852295285,
+          "median_sv": 8.278793334960938,
+          "mean_sv_normed": 0.22305811031796563,
+          "fraction_above_1": 1.0,
+          "hazard_total": 650.332775592804,
+          "hazard_per_matrix": 7.742056852295285
+        },
+        "other": {
+          "n_matrices": 1,
+          "mean_sv": 135.4253387451172,
+          "median_sv": 135.4253387451172,
+          "mean_sv_normed": 3.455447689261478,
+          "fraction_above_1": 1.0,
+          "hazard_total": 134.4253387451172,
+          "hazard_per_matrix": 134.4253387451172
+        }
+      }
+    },
+    "Qwen/Qwen2.5-1.5B": {
+      "model_id": "Qwen/Qwen2.5-1.5B",
+      "depth": 28,
+      "n_2d_matrices": 197,
+      "hazard_total": 1089.342521429062,
+      "hazard_per_block": 38.905090051037924,
+      "hazard_per_matrix": 5.529657469183055,
+      "mean_sv_max": 6.529657469183055,
+      "mean_sv_normalized": 0.18994668680628998,
+      "fraction_sv_above_1": 1.0,
+      "mean_stable_rank": 133.7068335544105,
+      "median_stable_rank": 94.48913117557989,
+      "mean_stable_rank_frac": 0.16031592253444646,
+      "sv_max_distribution": {
+        "min": 1.0861345529556274,
+        "p25": 2.9263510704040527,
+        "median": 4.928709506988525,
+        "p75": 7.689539909362793,
+        "max": 134.565185546875
+      },
+      "per_role": {
+        "attn": {
+          "n_matrices": 112,
+          "mean_sv": 3.7209901873554503,
+          "median_sv": 3.5029165744781494,
+          "mean_sv_normed": 0.13599479038222745,
+          "fraction_above_1": 1.0,
+          "hazard_total": 304.7509009838104,
+          "hazard_per_matrix": 2.7209901873554503
+        },
+        "mlp": {
+          "n_matrices": 84,
+          "mean_sv": 8.750314701171149,
+          "median_sv": 8.287580966949463,
+          "mean_sv_normed": 0.2232688136108706,
+          "fraction_above_1": 1.0,
+          "hazard_total": 651.0264348983765,
+          "hazard_per_matrix": 7.750314701171148
+        },
+        "other": {
+          "n_matrices": 1,
+          "mean_sv": 134.565185546875,
+          "median_sv": 134.565185546875,
+          "mean_sv_normed": 3.4335004347165157,
+          "fraction_above_1": 1.0,
+          "hazard_total": 133.565185546875,
+          "hazard_per_matrix": 133.565185546875
+        }
+      }
+    },
+    "TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T": {
+      "model_id": "TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T",
+      "depth": 22,
+      "n_2d_matrices": 156,
+      "hazard_total": 690.0975704193115,
+      "hazard_per_block": 31.368071382695977,
+      "hazard_per_matrix": 4.423702374482766,
+      "mean_sv_max": 5.408620824416478,
+      "mean_sv_normalized": 0.16192780266691914,
+      "fraction_sv_above_1": 0.9038461538461539,
+      "mean_stable_rank": 134.87123126739613,
+      "median_stable_rank": 101.51333704656213,
+      "mean_stable_rank_frac": 0.13330959815678362,
+      "sv_max_distribution": {
+        "min": 0.6421512365341187,
+        "p25": 2.8401302099227905,
+        "median": 4.334342002868652,
+        "p75": 7.595682621002197,
+        "max": 70.40689849853516
+      },
+      "per_role": {
+        "attn": {
+          "n_matrices": 88,
+          "mean_sv": 4.741954663937742,
+          "median_sv": 4.7355122566223145,
+          "mean_sv_normed": 0.17997013394112257,
+          "fraction_above_1": 0.8295454545454546,
+          "hazard_total": 331.6447322368622,
+          "hazard_per_matrix": 3.768690139055252
+        },
+        "mlp": {
+          "n_matrices": 66,
+          "mean_sv": 5.180920084317525,
+          "median_sv": 4.129029750823975,
+          "mean_sv_normed": 0.11448324138770317,
+          "fraction_above_1": 1.0,
+          "hazard_total": 275.94072556495667,
+          "hazard_per_matrix": 4.180920084317525
+        },
+        "other": {
+          "n_matrices": 2,
+          "mean_sv": 42.25605630874634,
+          "median_sv": 42.25605630874634,
+          "mean_sv_normed": 0.9337357488160977,
+          "fraction_above_1": 1.0,
+          "hazard_total": 82.51211261749268,
+          "hazard_per_matrix": 41.25605630874634
+        }
+      }
+    },
+    "gpt2": {
+      "model_id": "gpt2",
+      "depth": 12,
+      "n_2d_matrices": 50,
+      "hazard_total": 1818.041389465332,
+      "hazard_per_block": 151.503449122111,
+      "hazard_per_matrix": 36.36082778930664,
+      "mean_sv_max": 37.36082778930664,
+      "mean_sv_normalized": 1.348142748831465,
+      "fraction_sv_above_1": 1.0,
+      "mean_stable_rank": 44.49213127269331,
+      "median_stable_rank": 32.708109100832196,
+      "mean_stable_rank_frac": 0.05793246259465274,
+      "sv_max_distribution": {
+        "min": 12.847155570983887,
+        "p25": 17.932477951049805,
+        "median": 29.93262767791748,
+        "p75": 32.759199142456055,
+        "max": 465.5638427734375
+      },
+      "per_role": {
+        "attn": {
+          "n_matrices": 24,
+          "mean_sv": 21.306597391764324,
+          "median_sv": 16.836464881896973,
+          "mean_sv_normed": 0.768835608728132,
+          "fraction_above_1": 1.0,
+          "hazard_total": 487.35833740234375,
+          "hazard_per_matrix": 20.306597391764324
+        },
+        "mlp": {
+          "n_matrices": 24,
+          "mean_sv": 34.58971166610718,
+          "median_sv": 32.070478439331055,
+          "mean_sv_normed": 1.2481487088511576,
+          "fraction_above_1": 1.0,
+          "hazard_total": 806.1530799865723,
+          "hazard_per_matrix": 33.58971166610718
+        },
+        "other": {
+          "n_matrices": 2,
+          "mean_sv": 263.264986038208,
+          "median_sv": 263.264986038208,
+          "mean_sv_normed": 9.499756909835154,
+          "fraction_above_1": 1.0,
+          "hazard_total": 524.529972076416,
+          "hazard_per_matrix": 262.264986038208
+        }
+      }
+    },
+    "stabilityai/stablelm-2-1_6b": {
+      "model_id": "stabilityai/stablelm-2-1_6b",
+      "depth": 24,
+      "n_2d_matrices": 170,
+      "hazard_total": 1007.0507845878601,
+      "hazard_per_block": 41.96044935782751,
+      "hazard_per_matrix": 5.923828144634471,
+      "mean_sv_max": 6.923828144634471,
+      "mean_sv_normalized": 0.1529964322762908,
+      "fraction_sv_above_1": 1.0,
+      "mean_stable_rank": 162.76830368108716,
+      "median_stable_rank": 137.7473416121798,
+      "mean_stable_rank_frac": 0.07947671078178084,
+      "sv_max_distribution": {
+        "min": 2.4273874759674072,
+        "p25": 4.736165881156921,
+        "median": 5.973237752914429,
+        "p75": 7.13539731502533,
+        "max": 55.8079948425293
+      },
+      "per_role": {
+        "attn": {
+          "n_matrices": 96,
+          "mean_sv": 5.909702035288016,
+          "median_sv": 5.713683843612671,
+          "mean_sv_normed": 0.13058719949825304,
+          "fraction_above_1": 1.0,
+          "hazard_total": 471.33139538764954,
+          "hazard_per_matrix": 4.909702035288016
+        },
+        "mlp": {
+          "n_matrices": 72,
+          "mean_sv": 7.226524011956321,
+          "median_sv": 6.132842302322388,
+          "mean_sv_normed": 0.15968512916442906,
+          "fraction_above_1": 1.0,
+          "hazard_total": 448.3097288608551,
+          "hazard_per_matrix": 6.226524011956321
+        },
+        "other": {
+          "n_matrices": 2,
+          "mean_sv": 44.704830169677734,
+          "median_sv": 44.704830169677734,
+          "mean_sv_normed": 0.9878465176491276,
+          "fraction_above_1": 1.0,
+          "hazard_total": 87.40966033935547,
+          "hazard_per_matrix": 43.704830169677734
+        }
+      }
+    },
+    "stabilityai/stablelm-2-zephyr-1_6b": {
+      "model_id": "stabilityai/stablelm-2-zephyr-1_6b",
+      "depth": 24,
+      "n_2d_matrices": 170,
+      "hazard_total": 1011.2264766693115,
+      "hazard_per_block": 42.13443652788798,
+      "hazard_per_matrix": 5.948391039231244,
+      "mean_sv_max": 6.948391039231244,
+      "mean_sv_normalized": 0.15353920069300794,
+      "fraction_sv_above_1": 1.0,
+      "mean_stable_rank": 162.86348636358483,
+      "median_stable_rank": 137.48091182886054,
+      "mean_stable_rank_frac": 0.07952318670096915,
+      "sv_max_distribution": {
+        "min": 2.44663143157959,
+        "p25": 4.742292881011963,
+        "median": 5.980903148651123,
+        "p75": 7.1415040493011475,
+        "max": 56.40715789794922
+      },
+      "per_role": {
+        "attn": {
+          "n_matrices": 96,
+          "mean_sv": 5.924969856937726,
+          "median_sv": 5.724180459976196,
+          "mean_sv_normed": 0.13092457388020481,
+          "fraction_above_1": 1.0,
+          "hazard_total": 472.79710626602173,
+          "hazard_per_matrix": 4.924969856937726
+        },
+        "mlp": {
+          "n_matrices": 72,
+          "mean_sv": 7.252833518717024,
+          "median_sv": 6.152010917663574,
+          "mean_sv_normed": 0.16026649262193426,
+          "fraction_above_1": 1.0,
+          "hazard_total": 450.20401334762573,
+          "hazard_per_matrix": 6.252833518717024
+        },
+        "other": {
+          "n_matrices": 2,
+          "mean_sv": 45.11267852783203,
+          "median_sv": 45.11267852783203,
+          "mean_sv_normed": 0.9968587782662119,
+          "fraction_above_1": 1.0,
+          "hazard_total": 88.22535705566406,
+          "hazard_per_matrix": 44.11267852783203
+        }
+      }
+    }
+  },
+  "compact": [
+    {
+      "model": "HuggingFaceTB/SmolLM-1.7B-Instruct",
+      "model_id": "HuggingFaceTB/SmolLM-1.7B-Instruct",
+      "depth": 24,
+      "n_2d_matrices": 169,
+      "hazard_total": 6774.15225315094,
+      "hazard_per_block": 282.2563438812892,
+      "hazard_per_matrix": 40.08374114290497,
+      "mean_sv_max": 41.08374114290497,
+      "mean_sv_normalized": 0.9078309987081518,
+      "fraction_sv_above_1": 1.0,
+      "mean_stable_rank": 149.3101841169056,
+      "median_stable_rank": 122.21020195726344,
+      "mean_stable_rank_frac": 0.07290536333833281,
+      "sv_max_distribution": {
+        "min": 12.243552207946777,
+        "p25": 30.387462615966797,
+        "median": 35.9335823059082,
+        "p75": 45.821041107177734,
+        "max": 414.78326416015625
+      }
+    },
+    {
+      "model": "HuggingFaceTB/SmolLM-1.7B",
+      "model_id": "HuggingFaceTB/SmolLM-1.7B",
+      "depth": 24,
+      "n_2d_matrices": 169,
+      "hazard_total": 6734.834861755371,
+      "hazard_per_block": 280.61811923980713,
+      "hazard_per_matrix": 39.85109385654066,
+      "mean_sv_max": 40.85109385654066,
+      "mean_sv_normalized": 0.9026901714015002,
+      "fraction_sv_above_1": 1.0,
+      "mean_stable_rank": 149.17512930110203,
+      "median_stable_rank": 122.03210447715391,
+      "mean_stable_rank_frac": 0.07283941860405373,
+      "sv_max_distribution": {
+        "min": 11.966382026672363,
+        "p25": 30.144824981689453,
+        "median": 35.47409439086914,
+        "p75": 45.47763442993164,
+        "max": 413.91204833984375
+      }
+    },
+    {
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "depth": 24,
+      "n_2d_matrices": 169,
+      "hazard_total": 430.8657615184784,
+      "hazard_per_block": 17.952740063269932,
+      "hazard_per_matrix": 2.5495015474466176,
+      "mean_sv_max": 3.51891467733496,
+      "mean_sv_normalized": 0.14062121540518305,
+      "fraction_sv_above_1": 0.8875739644970414,
+      "mean_stable_rank": 88.26669694438783,
+      "median_stable_rank": 65.21886786251801,
+      "mean_stable_rank_frac": 0.1836758873947429,
+      "sv_max_distribution": {
+        "min": 0.4542466998100281,
+        "p25": 1.6728827953338623,
+        "median": 2.45046329498291,
+        "p75": 3.7357523441314697,
+        "max": 75.20468139648438
+      }
+    },
+    {
+      "model": "Qwen/Qwen2.5-0.5B",
+      "model_id": "Qwen/Qwen2.5-0.5B",
+      "depth": 24,
+      "n_2d_matrices": 169,
+      "hazard_total": 439.17794251441956,
+      "hazard_per_block": 18.299080938100815,
+      "hazard_per_matrix": 2.598686050381181,
+      "mean_sv_max": 3.570202288542979,
+      "mean_sv_normalized": 0.1425937880147487,
+      "fraction_sv_above_1": 0.8875739644970414,
+      "mean_stable_rank": 88.3018959346686,
+      "median_stable_rank": 65.20347723922907,
+      "mean_stable_rank_frac": 0.18371993209527226,
+      "sv_max_distribution": {
+        "min": 0.46383482217788696,
+        "p25": 1.6906490325927734,
+        "median": 2.482698917388916,
+        "p75": 3.8228347301483154,
+        "max": 75.76860046386719
+      }
+    },
+    {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "depth": 28,
+      "n_2d_matrices": 197,
+      "hazard_total": 1089.0976111888885,
+      "hazard_per_block": 38.89634325674602,
+      "hazard_per_matrix": 5.528414269994358,
+      "mean_sv_max": 6.528414269994358,
+      "mean_sv_normalized": 0.18988882549154942,
+      "fraction_sv_above_1": 1.0,
+      "mean_stable_rank": 133.6871901661193,
+      "median_stable_rank": 94.48145039384944,
+      "mean_stable_rank_frac": 0.16031765625128494,
+      "sv_max_distribution": {
+        "min": 1.0896297693252563,
+        "p25": 2.9257593154907227,
+        "median": 4.921706199645996,
+        "p75": 7.6819682121276855,
+        "max": 135.4253387451172
+      }
+    },
+    {
+      "model": "Qwen/Qwen2.5-1.5B",
+      "model_id": "Qwen/Qwen2.5-1.5B",
+      "depth": 28,
+      "n_2d_matrices": 197,
+      "hazard_total": 1089.342521429062,
+      "hazard_per_block": 38.905090051037924,
+      "hazard_per_matrix": 5.529657469183055,
+      "mean_sv_max": 6.529657469183055,
+      "mean_sv_normalized": 0.18994668680628998,
+      "fraction_sv_above_1": 1.0,
+      "mean_stable_rank": 133.7068335544105,
+      "median_stable_rank": 94.48913117557989,
+      "mean_stable_rank_frac": 0.16031592253444646,
+      "sv_max_distribution": {
+        "min": 1.0861345529556274,
+        "p25": 2.9263510704040527,
+        "median": 4.928709506988525,
+        "p75": 7.689539909362793,
+        "max": 134.565185546875
+      }
+    },
+    {
+      "model": "TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T",
+      "model_id": "TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T",
+      "depth": 22,
+      "n_2d_matrices": 156,
+      "hazard_total": 690.0975704193115,
+      "hazard_per_block": 31.368071382695977,
+      "hazard_per_matrix": 4.423702374482766,
+      "mean_sv_max": 5.408620824416478,
+      "mean_sv_normalized": 0.16192780266691914,
+      "fraction_sv_above_1": 0.9038461538461539,
+      "mean_stable_rank": 134.87123126739613,
+      "median_stable_rank": 101.51333704656213,
+      "mean_stable_rank_frac": 0.13330959815678362,
+      "sv_max_distribution": {
+        "min": 0.6421512365341187,
+        "p25": 2.8401302099227905,
+        "median": 4.334342002868652,
+        "p75": 7.595682621002197,
+        "max": 70.40689849853516
+      }
+    },
+    {
+      "model": "gpt2",
+      "model_id": "gpt2",
+      "depth": 12,
+      "n_2d_matrices": 50,
+      "hazard_total": 1818.041389465332,
+      "hazard_per_block": 151.503449122111,
+      "hazard_per_matrix": 36.36082778930664,
+      "mean_sv_max": 37.36082778930664,
+      "mean_sv_normalized": 1.348142748831465,
+      "fraction_sv_above_1": 1.0,
+      "mean_stable_rank": 44.49213127269331,
+      "median_stable_rank": 32.708109100832196,
+      "mean_stable_rank_frac": 0.05793246259465274,
+      "sv_max_distribution": {
+        "min": 12.847155570983887,
+        "p25": 17.932477951049805,
+        "median": 29.93262767791748,
+        "p75": 32.759199142456055,
+        "max": 465.5638427734375
+      }
+    },
+    {
+      "model": "stabilityai/stablelm-2-1_6b",
+      "model_id": "stabilityai/stablelm-2-1_6b",
+      "depth": 24,
+      "n_2d_matrices": 170,
+      "hazard_total": 1007.0507845878601,
+      "hazard_per_block": 41.96044935782751,
+      "hazard_per_matrix": 5.923828144634471,
+      "mean_sv_max": 6.923828144634471,
+      "mean_sv_normalized": 0.1529964322762908,
+      "fraction_sv_above_1": 1.0,
+      "mean_stable_rank": 162.76830368108716,
+      "median_stable_rank": 137.7473416121798,
+      "mean_stable_rank_frac": 0.07947671078178084,
+      "sv_max_distribution": {
+        "min": 2.4273874759674072,
+        "p25": 4.736165881156921,
+        "median": 5.973237752914429,
+        "p75": 7.13539731502533,
+        "max": 55.8079948425293
+      }
+    },
+    {
+      "model": "stabilityai/stablelm-2-zephyr-1_6b",
+      "model_id": "stabilityai/stablelm-2-zephyr-1_6b",
+      "depth": 24,
+      "n_2d_matrices": 170,
+      "hazard_total": 1011.2264766693115,
+      "hazard_per_block": 42.13443652788798,
+      "hazard_per_matrix": 5.948391039231244,
+      "mean_sv_max": 6.948391039231244,
+      "mean_sv_normalized": 0.15353920069300794,
+      "fraction_sv_above_1": 1.0,
+      "mean_stable_rank": 162.86348636358483,
+      "median_stable_rank": 137.48091182886054,
+      "mean_stable_rank_frac": 0.07952318670096915,
+      "sv_max_distribution": {
+        "min": 2.44663143157959,
+        "p25": 4.742292881011963,
+        "median": 5.980903148651123,
+        "p75": 7.1415040493011475,
+        "max": 56.40715789794922
+      }
+    }
+  ]
+}

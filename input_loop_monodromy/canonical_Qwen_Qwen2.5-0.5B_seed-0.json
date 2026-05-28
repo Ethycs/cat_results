@@ -1,0 +1,2923 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B",
+  "dtype": "bfloat16",
+  "device": "cuda:1",
+  "n_cycles": 5,
+  "seed": 0,
+  "canonical": {
+    "days_full": {
+      "period": 7,
+      "n_classes": 7,
+      "nontrivial_tail": 0,
+      "p_tail": 0.0,
+      "cycle_str": "Monday Tuesday Wednesday Thursday Friday Saturday Sunday",
+      "classes_brief": {
+        "0": {
+          "token": " Monday",
+          "preds": [
+            ",",
+            " Tuesday",
+            " Tuesday",
+            " Tuesday",
+            " Tuesday"
+          ],
+          "nontrivial_tail": false
+        },
+        "1": {
+          "token": " Tuesday",
+          "preds": [
+            ",",
+            " Wednesday",
+            " Wednesday",
+            " Wednesday",
+            " Wednesday"
+          ],
+          "nontrivial_tail": false
+        },
+        "2": {
+          "token": " Wednesday",
+          "preds": [
+            " Thursday",
+            " Thursday",
+            " Thursday",
+            " Thursday",
+            " Thursday"
+          ],
+          "nontrivial_tail": false
+        },
+        "3": {
+          "token": " Thursday",
+          "preds": [
+            " Friday",
+            " Friday",
+            " Friday",
+            " Friday",
+            " Friday"
+          ],
+          "nontrivial_tail": false
+        },
+        "4": {
+          "token": " Friday",
+          "preds": [
+            "\n",
+            " Saturday",
+            " Saturday",
+            " Saturday",
+            " Saturday"
+          ],
+          "nontrivial_tail": false
+        },
+        "5": {
+          "token": " Saturday",
+          "preds": [
+            " Sunday",
+            " Sunday",
+            " Sunday",
+            " Sunday",
+            " Sunday"
+          ],
+          "nontrivial_tail": false
+        },
+        "6": {
+          "token": " Sunday",
+          "preds": [
+            " Monday",
+            " Monday",
+            " Monday",
+            " Monday",
+            " Monday"
+          ],
+          "nontrivial_tail": false
+        }
+      }
+    },
+    "days_short": {
+      "period": 7,
+      "n_classes": 7,
+      "nontrivial_tail": 0,
+      "p_tail": 0.0,
+      "cycle_str": "Mon Tue Wed Thu Fri Sat Sun",
+      "classes_brief": {
+        "0": {
+          "token": " Mon",
+          "preds": [
+            "ica",
+            " Tue",
+            " Tue",
+            " Tue",
+            " Tue"
+          ],
+          "nontrivial_tail": false
+        },
+        "1": {
+          "token": " Tue",
+          "preds": [
+            ",",
+            " Wed",
+            " Wed",
+            " Wed",
+            " Wed"
+          ],
+          "nontrivial_tail": false
+        },
+        "2": {
+          "token": " Wed",
+          "preds": [
+            " Thu",
+            " Thu",
+            " Thu",
+            " Thu",
+            " Thu"
+          ],
+          "nontrivial_tail": false
+        },
+        "3": {
+          "token": " Thu",
+          "preds": [
+            " Fri",
+            " Fri",
+            " Fri",
+            " Fri",
+            " Fri"
+          ],
+          "nontrivial_tail": false
+        },
+        "4": {
+          "token": " Fri",
+          "preds": [
+            " Sat",
+            " Sat",
+            " Sat",
+            " Sat",
+            " Sat"
+          ],
+          "nontrivial_tail": false
+        },
+        "5": {
+          "token": " Sat",
+          "preds": [
+            " Sun",
+            " Sun",
+            " Sun",
+            " Sun",
+            " Sun"
+          ],
+          "nontrivial_tail": false
+        },
+        "6": {
+          "token": " Sun",
+          "preds": [
+            "\n",
+            " Mon",
+            " Mon",
+            " Mon",
+            " Mon"
+          ],
+          "nontrivial_tail": false
+        }
+      }
+    },
+    "months": {
+      "period": 12,
+      "n_classes": 12,
+      "nontrivial_tail": 1,
+      "p_tail": 0.08333333333333333,
+      "cycle_str": "January February March April May June July August September October November December",
+      "classes_brief": {
+        "0": {
+          "token": " January",
+          "preds": [
+            " ",
+            " February",
+            " February",
+            " February",
+            " February"
+          ],
+          "nontrivial_tail": false
+        },
+        "1": {
+          "token": " February",
+          "preds": [
+            " March",
+            " March",
+            " March",
+            " March",
+            " March"
+          ],
+          "nontrivial_tail": false
+        },
+        "2": {
+          "token": " March",
+          "preds": [
+            " April",
+            " April",
+            " April",
+            " April",
+            " April"
+          ],
+          "nontrivial_tail": false
+        },
+        "3": {
+          "token": " April",
+          "preds": [
+            " May",
+            " May",
+            " May",
+            " May",
+            " May"
+          ],
+          "nontrivial_tail": false
+        },
+        "4": {
+          "token": " May",
+          "preds": [
+            " June",
+            " June",
+            " June",
+            " June",
+            " June"
+          ],
+          "nontrivial_tail": false
+        },
+        "5": {
+          "token": " June",
+          "preds": [
+            " July",
+            " July",
+            " July",
+            " July",
+            " July"
+          ],
+          "nontrivial_tail": false
+        },
+        "6": {
+          "token": " July",
+          "preds": [
+            " August",
+            " August",
+            " August",
+            " August",
+            " August"
+          ],
+          "nontrivial_tail": false
+        },
+        "7": {
+          "token": " August",
+          "preds": [
+            " September",
+            " September",
+            " September",
+            " September",
+            " September"
+          ],
+          "nontrivial_tail": false
+        },
+        "8": {
+          "token": " September",
+          "preds": [
+            " October",
+            " October",
+            " October",
+            " October",
+            " October"
+          ],
+          "nontrivial_tail": false
+        },
+        "9": {
+          "token": " October",
+          "preds": [
+            " November",
+            " November",
+            " November",
+            " November",
+            " November"
+          ],
+          "nontrivial_tail": false
+        },
+        "10": {
+          "token": " November",
+          "preds": [
+            " December",
+            " December",
+            " December",
+            " December",
+            " December"
+          ],
+          "nontrivial_tail": false
+        },
+        "11": {
+          "token": " December",
+          "preds": [
+            "\n",
+            "\n",
+            " January",
+            " January",
+            " January"
+          ],
+          "nontrivial_tail": true
+        }
+      }
+    },
+    "steak": {
+      "period": 10,
+      "n_classes": 10,
+      "nontrivial_tail": 1,
+      "p_tail": 0.1,
+      "cycle_str": "rare medium-rare medium medium-well well-done",
+      "classes_brief": {
+        "0": {
+          "token": " rare",
+          "preds": [
+            ",",
+            " medium",
+            " medium",
+            " medium",
+            " medium"
+          ],
+          "nontrivial_tail": false
+        },
+        "1": {
+          "token": " medium",
+          "preds": [
+            ",",
+            " medium",
+            " medium",
+            "-r",
+            "-r"
+          ],
+          "nontrivial_tail": true
+        },
+        "2": {
+          "token": "-r",
+          "preds": [
+            "are",
+            "are",
+            "are",
+            "are",
+            "are"
+          ],
+          "nontrivial_tail": false
+        },
+        "3": {
+          "token": "are",
+          "preds": [
+            " earth",
+            " medium",
+            " medium",
+            " medium",
+            " medium"
+          ],
+          "nontrivial_tail": false
+        },
+        "4": {
+          "token": " medium",
+          "preds": [
+            " rare",
+            " medium",
+            " medium",
+            " medium",
+            " medium"
+          ],
+          "nontrivial_tail": false
+        },
+        "5": {
+          "token": " medium",
+          "preds": [
+            " rare",
+            "-w",
+            "-w",
+            "-w",
+            "-w"
+          ],
+          "nontrivial_tail": false
+        },
+        "6": {
+          "token": "-w",
+          "preds": [
+            "aste",
+            "ell",
+            "ell",
+            "ell",
+            "ell"
+          ],
+          "nontrivial_tail": false
+        },
+        "7": {
+          "token": "ell",
+          "preds": [
+            " medium",
+            " well",
+            " well",
+            " well",
+            " well"
+          ],
+          "nontrivial_tail": false
+        },
+        "8": {
+          "token": " well",
+          "preds": [
+            " medium",
+            "-done",
+            "-done",
+            "-done",
+            "-done"
+          ],
+          "nontrivial_tail": false
+        },
+        "9": {
+          "token": "-done",
+          "preds": [
+            " medium",
+            " rare",
+            " rare",
+            " rare",
+            " rare"
+          ],
+          "nontrivial_tail": false
+        }
+      }
+    },
+    "sizes": {
+      "period": 5,
+      "n_classes": 5,
+      "nontrivial_tail": 2,
+      "p_tail": 0.4,
+      "cycle_str": "small medium large extra-large",
+      "classes_brief": {
+        "0": {
+          "token": " small",
+          "preds": [
+            ",",
+            " medium",
+            " large",
+            " medium",
+            " medium"
+          ],
+          "nontrivial_tail": true
+        },
+        "1": {
+          "token": " medium",
+          "preds": [
+            "-sized",
+            " large",
+            " large",
+            " large",
+            " large"
+          ],
+          "nontrivial_tail": false
+        },
+        "2": {
+          "token": " large",
+          "preds": [
+            " and",
+            " extra",
+            " extra",
+            " extra",
+            " extra"
+          ],
+          "nontrivial_tail": false
+        },
+        "3": {
+          "token": " extra",
+          "preds": [
+            " large",
+            "-large",
+            "-large",
+            "-large",
+            "-large"
+          ],
+          "nontrivial_tail": false
+        },
+        "4": {
+          "token": "-large",
+          "preds": [
+            "\n",
+            "\n",
+            " small",
+            " small",
+            " small"
+          ],
+          "nontrivial_tail": true
+        }
+      }
+    },
+    "rainbow": {
+      "period": 8,
+      "n_classes": 8,
+      "nontrivial_tail": 2,
+      "p_tail": 0.25,
+      "cycle_str": "red orange yellow green blue indigo violet",
+      "classes_brief": {
+        "0": {
+          "token": " red",
+          "preds": [
+            ",",
+            " purple",
+            " orange",
+            " orange",
+            " orange"
+          ],
+          "nontrivial_tail": true
+        },
+        "1": {
+          "token": " orange",
+          "preds": [
+            ",",
+            " yellow",
+            " yellow",
+            " yellow",
+            " yellow"
+          ],
+          "nontrivial_tail": false
+        },
+        "2": {
+          "token": " yellow",
+          "preds": [
+            ",",
+            " white",
+            " green",
+            " green",
+            " green"
+          ],
+          "nontrivial_tail": true
+        },
+        "3": {
+          "token": " green",
+          "preds": [
+            " red",
+            " blue",
+            " blue",
+            " blue",
+            " blue"
+          ],
+          "nontrivial_tail": false
+        },
+        "4": {
+          "token": " blue",
+          "preds": [
+            " red",
+            " ind",
+            " ind",
+            " ind",
+            " ind"
+          ],
+          "nontrivial_tail": false
+        },
+        "5": {
+          "token": " ind",
+          "preds": [
+            "igo",
+            "igo",
+            "igo",
+            "igo",
+            "igo"
+          ],
+          "nontrivial_tail": false
+        },
+        "6": {
+          "token": "igo",
+          "preds": [
+            " violet",
+            " violet",
+            " violet",
+            " violet",
+            " violet"
+          ],
+          "nontrivial_tail": false
+        },
+        "7": {
+          "token": " violet",
+          "preds": [
+            " purple",
+            " red",
+            " red",
+            " red",
+            " red"
+          ],
+          "nontrivial_tail": false
+        }
+      }
+    },
+    "planets": {
+      "period": 9,
+      "n_classes": 9,
+      "nontrivial_tail": 0,
+      "p_tail": 0.0,
+      "cycle_str": "Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune",
+      "classes_brief": {
+        "0": {
+          "token": " Mercury",
+          "preds": [
+            " is",
+            " Venus",
+            " Venus",
+            " Venus",
+            " Venus"
+          ],
+          "nontrivial_tail": false
+        },
+        "1": {
+          "token": " Venus",
+          "preds": [
+            ",",
+            " Earth",
+            " Earth",
+            " Earth",
+            " Earth"
+          ],
+          "nontrivial_tail": false
+        },
+        "2": {
+          "token": " Earth",
+          "preds": [
+            " Mars",
+            " Mars",
+            " Mars",
+            " Mars",
+            " Mars"
+          ],
+          "nontrivial_tail": false
+        },
+        "3": {
+          "token": " Mars",
+          "preds": [
+            "\n",
+            " Jupiter",
+            " Jupiter",
+            " Jupiter",
+            " Jupiter"
+          ],
+          "nontrivial_tail": false
+        },
+        "4": {
+          "token": " Jupiter",
+          "preds": [
+            " Saturn",
+            " Saturn",
+            " Saturn",
+            " Saturn",
+            " Saturn"
+          ],
+          "nontrivial_tail": false
+        },
+        "5": {
+          "token": " Saturn",
+          "preds": [
+            " Uran",
+            " Uran",
+            " Uran",
+            " Uran",
+            " Uran"
+          ],
+          "nontrivial_tail": false
+        },
+        "6": {
+          "token": " Uran",
+          "preds": [
+            "us",
+            "us",
+            "us",
+            "us",
+            "us"
+          ],
+          "nontrivial_tail": false
+        },
+        "7": {
+          "token": "us",
+          "preds": [
+            " Neptune",
+            " Neptune",
+            " Neptune",
+            " Neptune",
+            " Neptune"
+          ],
+          "nontrivial_tail": false
+        },
+        "8": {
+          "token": " Neptune",
+          "preds": [
+            " Pluto",
+            " Mercury",
+            " Mercury",
+            " Mercury",
+            " Mercury"
+          ],
+          "nontrivial_tail": false
+        }
+      }
+    },
+    "cardinal": {
+      "period": 4,
+      "n_classes": 4,
+      "nontrivial_tail": 1,
+      "p_tail": 0.25,
+      "cycle_str": "north east south west",
+      "classes_brief": {
+        "0": {
+          "token": " north",
+          "preds": [
+            ",",
+            " east",
+            " east",
+            " east",
+            " east"
+          ],
+          "nontrivial_tail": false
+        },
+        "1": {
+          "token": " east",
+          "preds": [
+            " of",
+            "\n",
+            " south",
+            " south",
+            " south"
+          ],
+          "nontrivial_tail": true
+        },
+        "2": {
+          "token": " south",
+          "preds": [
+            " east",
+            " west",
+            " west",
+            " west",
+            " west"
+          ],
+          "nontrivial_tail": false
+        },
+        "3": {
+          "token": " west",
+          "preds": [
+            " east",
+            " north",
+            " north",
+            " north",
+            " north"
+          ],
+          "nontrivial_tail": false
+        }
+      }
+    },
+    "count_1_5": {
+      "period": 10,
+      "n_classes": 10,
+      "nontrivial_tail": 1,
+      "p_tail": 0.1,
+      "cycle_str": "1 2 3 4 5",
+      "classes_brief": {
+        "0": {
+          "token": " ",
+          "preds": [
+            "1",
+            "6",
+            "1",
+            "1",
+            "1"
+          ],
+          "nontrivial_tail": true
+        },
+        "1": {
+          "token": "1",
+          "preds": [
+            "0",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "2": {
+          "token": " ",
+          "preds": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "2"
+          ],
+          "nontrivial_tail": false
+        },
+        "3": {
+          "token": "2",
+          "preds": [
+            "0",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "4": {
+          "token": " ",
+          "preds": [
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "nontrivial_tail": false
+        },
+        "5": {
+          "token": "3",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "6": {
+          "token": " ",
+          "preds": [
+            "4",
+            "4",
+            "4",
+            "4",
+            "4"
+          ],
+          "nontrivial_tail": false
+        },
+        "7": {
+          "token": "4",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "8": {
+          "token": " ",
+          "preds": [
+            "5",
+            "5",
+            "5",
+            "5",
+            "5"
+          ],
+          "nontrivial_tail": false
+        },
+        "9": {
+          "token": "5",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        }
+      }
+    },
+    "count_1_10": {
+      "period": 21,
+      "n_classes": 21,
+      "nontrivial_tail": 1,
+      "p_tail": 0.047619047619047616,
+      "cycle_str": "1 2 3 4 5 6 7 8 9 10",
+      "classes_brief": {
+        "0": {
+          "token": " ",
+          "preds": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "nontrivial_tail": false
+        },
+        "1": {
+          "token": "1",
+          "preds": [
+            "0",
+            "1",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": true
+        },
+        "2": {
+          "token": " ",
+          "preds": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "2"
+          ],
+          "nontrivial_tail": false
+        },
+        "3": {
+          "token": "2",
+          "preds": [
+            "0",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "4": {
+          "token": " ",
+          "preds": [
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "nontrivial_tail": false
+        },
+        "5": {
+          "token": "3",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "6": {
+          "token": " ",
+          "preds": [
+            "4",
+            "4",
+            "4",
+            "4",
+            "4"
+          ],
+          "nontrivial_tail": false
+        },
+        "7": {
+          "token": "4",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "8": {
+          "token": " ",
+          "preds": [
+            "5",
+            "5",
+            "5",
+            "5",
+            "5"
+          ],
+          "nontrivial_tail": false
+        },
+        "9": {
+          "token": "5",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "10": {
+          "token": " ",
+          "preds": [
+            "6",
+            "6",
+            "6",
+            "6",
+            "6"
+          ],
+          "nontrivial_tail": false
+        },
+        "11": {
+          "token": "6",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "12": {
+          "token": " ",
+          "preds": [
+            "7",
+            "7",
+            "7",
+            "7",
+            "7"
+          ],
+          "nontrivial_tail": false
+        },
+        "13": {
+          "token": "7",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "14": {
+          "token": " ",
+          "preds": [
+            "8",
+            "8",
+            "8",
+            "8",
+            "8"
+          ],
+          "nontrivial_tail": false
+        },
+        "15": {
+          "token": "8",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "16": {
+          "token": " ",
+          "preds": [
+            "9",
+            "9",
+            "9",
+            "9",
+            "9"
+          ],
+          "nontrivial_tail": false
+        },
+        "17": {
+          "token": "9",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "18": {
+          "token": " ",
+          "preds": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "nontrivial_tail": false
+        },
+        "19": {
+          "token": "1",
+          "preds": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "nontrivial_tail": false
+        },
+        "20": {
+          "token": "0",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        }
+      }
+    },
+    "count_by_10": {
+      "period": 31,
+      "n_classes": 31,
+      "nontrivial_tail": 2,
+      "p_tail": 0.06451612903225806,
+      "cycle_str": "10 20 30 40 50 60 70 80 90 100",
+      "classes_brief": {
+        "0": {
+          "token": " ",
+          "preds": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "nontrivial_tail": false
+        },
+        "1": {
+          "token": "1",
+          "preds": [
+            "0",
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "nontrivial_tail": true
+        },
+        "2": {
+          "token": "0",
+          "preds": [
+            "0",
+            "0",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": true
+        },
+        "3": {
+          "token": " ",
+          "preds": [
+            "1",
+            "2",
+            "2",
+            "2",
+            "2"
+          ],
+          "nontrivial_tail": false
+        },
+        "4": {
+          "token": "2",
+          "preds": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "nontrivial_tail": false
+        },
+        "5": {
+          "token": "0",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "6": {
+          "token": " ",
+          "preds": [
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "nontrivial_tail": false
+        },
+        "7": {
+          "token": "3",
+          "preds": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "nontrivial_tail": false
+        },
+        "8": {
+          "token": "0",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "9": {
+          "token": " ",
+          "preds": [
+            "4",
+            "4",
+            "4",
+            "4",
+            "4"
+          ],
+          "nontrivial_tail": false
+        },
+        "10": {
+          "token": "4",
+          "preds": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "nontrivial_tail": false
+        },
+        "11": {
+          "token": "0",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "12": {
+          "token": " ",
+          "preds": [
+            "5",
+            "5",
+            "5",
+            "5",
+            "5"
+          ],
+          "nontrivial_tail": false
+        },
+        "13": {
+          "token": "5",
+          "preds": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "nontrivial_tail": false
+        },
+        "14": {
+          "token": "0",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "15": {
+          "token": " ",
+          "preds": [
+            "6",
+            "6",
+            "6",
+            "6",
+            "6"
+          ],
+          "nontrivial_tail": false
+        },
+        "16": {
+          "token": "6",
+          "preds": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "nontrivial_tail": false
+        },
+        "17": {
+          "token": "0",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "18": {
+          "token": " ",
+          "preds": [
+            "7",
+            "7",
+            "7",
+            "7",
+            "7"
+          ],
+          "nontrivial_tail": false
+        },
+        "19": {
+          "token": "7",
+          "preds": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "nontrivial_tail": false
+        },
+        "20": {
+          "token": "0",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "21": {
+          "token": " ",
+          "preds": [
+            "8",
+            "8",
+            "8",
+            "8",
+            "8"
+          ],
+          "nontrivial_tail": false
+        },
+        "22": {
+          "token": "8",
+          "preds": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "nontrivial_tail": false
+        },
+        "23": {
+          "token": "0",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "24": {
+          "token": " ",
+          "preds": [
+            "9",
+            "9",
+            "9",
+            "9",
+            "9"
+          ],
+          "nontrivial_tail": false
+        },
+        "25": {
+          "token": "9",
+          "preds": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "nontrivial_tail": false
+        },
+        "26": {
+          "token": "0",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "27": {
+          "token": " ",
+          "preds": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "nontrivial_tail": false
+        },
+        "28": {
+          "token": "1",
+          "preds": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "nontrivial_tail": false
+        },
+        "29": {
+          "token": "0",
+          "preds": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "nontrivial_tail": false
+        },
+        "30": {
+          "token": "0",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        }
+      }
+    },
+    "letters_a_e": {
+      "period": 5,
+      "n_classes": 5,
+      "nontrivial_tail": 0,
+      "p_tail": 0.0,
+      "cycle_str": "a b c d e",
+      "classes_brief": {
+        "0": {
+          "token": " a",
+          "preds": [
+            " ",
+            " b",
+            " b",
+            " b",
+            " b"
+          ],
+          "nontrivial_tail": false
+        },
+        "1": {
+          "token": " b",
+          "preds": [
+            " c",
+            " c",
+            " c",
+            " c",
+            " c"
+          ],
+          "nontrivial_tail": false
+        },
+        "2": {
+          "token": " c",
+          "preds": [
+            " d",
+            " d",
+            " d",
+            " d",
+            " d"
+          ],
+          "nontrivial_tail": false
+        },
+        "3": {
+          "token": " d",
+          "preds": [
+            " e",
+            " e",
+            " e",
+            " e",
+            " e"
+          ],
+          "nontrivial_tail": false
+        },
+        "4": {
+          "token": " e",
+          "preds": [
+            " f",
+            " a",
+            " a",
+            " a",
+            " a"
+          ],
+          "nontrivial_tail": false
+        }
+      }
+    },
+    "fibonacci": {
+      "period": 21,
+      "n_classes": 21,
+      "nontrivial_tail": 2,
+      "p_tail": 0.09523809523809523,
+      "cycle_str": "1 1 2 3 5 8 13 21 34",
+      "classes_brief": {
+        "0": {
+          "token": " ",
+          "preds": [
+            "1",
+            "5",
+            "1",
+            "1",
+            "1"
+          ],
+          "nontrivial_tail": true
+        },
+        "1": {
+          "token": "1",
+          "preds": [
+            "0",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "2": {
+          "token": " ",
+          "preds": [
+            "2",
+            "2",
+            "1",
+            "1",
+            "1"
+          ],
+          "nontrivial_tail": true
+        },
+        "3": {
+          "token": "1",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "4": {
+          "token": " ",
+          "preds": [
+            "1",
+            "2",
+            "2",
+            "2",
+            "2"
+          ],
+          "nontrivial_tail": false
+        },
+        "5": {
+          "token": "2",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "6": {
+          "token": " ",
+          "preds": [
+            "1",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "nontrivial_tail": false
+        },
+        "7": {
+          "token": "3",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "8": {
+          "token": " ",
+          "preds": [
+            "4",
+            "5",
+            "5",
+            "5",
+            "5"
+          ],
+          "nontrivial_tail": false
+        },
+        "9": {
+          "token": "5",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "10": {
+          "token": " ",
+          "preds": [
+            "8",
+            "8",
+            "8",
+            "8",
+            "8"
+          ],
+          "nontrivial_tail": false
+        },
+        "11": {
+          "token": "8",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "12": {
+          "token": " ",
+          "preds": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "nontrivial_tail": false
+        },
+        "13": {
+          "token": "1",
+          "preds": [
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "nontrivial_tail": false
+        },
+        "14": {
+          "token": "3",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "15": {
+          "token": " ",
+          "preds": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "2"
+          ],
+          "nontrivial_tail": false
+        },
+        "16": {
+          "token": "2",
+          "preds": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "nontrivial_tail": false
+        },
+        "17": {
+          "token": "1",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "18": {
+          "token": " ",
+          "preds": [
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "nontrivial_tail": false
+        },
+        "19": {
+          "token": "3",
+          "preds": [
+            "4",
+            "4",
+            "4",
+            "4",
+            "4"
+          ],
+          "nontrivial_tail": false
+        },
+        "20": {
+          "token": "4",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        }
+      }
+    },
+    "primes_5": {
+      "period": 11,
+      "n_classes": 11,
+      "nontrivial_tail": 2,
+      "p_tail": 0.18181818181818182,
+      "cycle_str": "2 3 5 7 11",
+      "classes_brief": {
+        "0": {
+          "token": " ",
+          "preds": [
+            "1",
+            "1",
+            "2",
+            "2",
+            "2"
+          ],
+          "nontrivial_tail": true
+        },
+        "1": {
+          "token": "2",
+          "preds": [
+            "0",
+            "3",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": true
+        },
+        "2": {
+          "token": " ",
+          "preds": [
+            "2",
+            "3",
+            "3",
+            "3",
+            "3"
+          ],
+          "nontrivial_tail": false
+        },
+        "3": {
+          "token": "3",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "4": {
+          "token": " ",
+          "preds": [
+            "4",
+            "5",
+            "5",
+            "5",
+            "5"
+          ],
+          "nontrivial_tail": false
+        },
+        "5": {
+          "token": "5",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "6": {
+          "token": " ",
+          "preds": [
+            "6",
+            "7",
+            "7",
+            "7",
+            "7"
+          ],
+          "nontrivial_tail": false
+        },
+        "7": {
+          "token": "7",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "8": {
+          "token": " ",
+          "preds": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "nontrivial_tail": false
+        },
+        "9": {
+          "token": "1",
+          "preds": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "nontrivial_tail": false
+        },
+        "10": {
+          "token": "1",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        }
+      }
+    },
+    "carry_10": {
+      "period": 15,
+      "n_classes": 15,
+      "nontrivial_tail": 1,
+      "p_tail": 0.06666666666666667,
+      "cycle_str": "7 8 9 10 11 12",
+      "classes_brief": {
+        "0": {
+          "token": " ",
+          "preds": [
+            "1",
+            "1",
+            "7",
+            "7",
+            "7"
+          ],
+          "nontrivial_tail": true
+        },
+        "1": {
+          "token": "7",
+          "preds": [
+            ".",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "2": {
+          "token": " ",
+          "preds": [
+            "2",
+            "8",
+            "8",
+            "8",
+            "8"
+          ],
+          "nontrivial_tail": false
+        },
+        "3": {
+          "token": "8",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "4": {
+          "token": " ",
+          "preds": [
+            "9",
+            "9",
+            "9",
+            "9",
+            "9"
+          ],
+          "nontrivial_tail": false
+        },
+        "5": {
+          "token": "9",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "6": {
+          "token": " ",
+          "preds": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "nontrivial_tail": false
+        },
+        "7": {
+          "token": "1",
+          "preds": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "nontrivial_tail": false
+        },
+        "8": {
+          "token": "0",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "9": {
+          "token": " ",
+          "preds": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "nontrivial_tail": false
+        },
+        "10": {
+          "token": "1",
+          "preds": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "nontrivial_tail": false
+        },
+        "11": {
+          "token": "1",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "12": {
+          "token": " ",
+          "preds": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "nontrivial_tail": false
+        },
+        "13": {
+          "token": "1",
+          "preds": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "2"
+          ],
+          "nontrivial_tail": false
+        },
+        "14": {
+          "token": "2",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        }
+      }
+    },
+    "carry_100": {
+      "period": 21,
+      "n_classes": 21,
+      "nontrivial_tail": 1,
+      "p_tail": 0.047619047619047616,
+      "cycle_str": "97 98 99 100 101 102",
+      "classes_brief": {
+        "0": {
+          "token": " ",
+          "preds": [
+            "1",
+            "1",
+            "9",
+            "9",
+            "9"
+          ],
+          "nontrivial_tail": true
+        },
+        "1": {
+          "token": "9",
+          "preds": [
+            ".",
+            "7",
+            "7",
+            "7",
+            "7"
+          ],
+          "nontrivial_tail": false
+        },
+        "2": {
+          "token": "7",
+          "preds": [
+            "8",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "3": {
+          "token": " ",
+          "preds": [
+            "1",
+            "9",
+            "9",
+            "9",
+            "9"
+          ],
+          "nontrivial_tail": false
+        },
+        "4": {
+          "token": "9",
+          "preds": [
+            "8",
+            "8",
+            "8",
+            "8",
+            "8"
+          ],
+          "nontrivial_tail": false
+        },
+        "5": {
+          "token": "8",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "6": {
+          "token": " ",
+          "preds": [
+            "9",
+            "9",
+            "9",
+            "9",
+            "9"
+          ],
+          "nontrivial_tail": false
+        },
+        "7": {
+          "token": "9",
+          "preds": [
+            "9",
+            "9",
+            "9",
+            "9",
+            "9"
+          ],
+          "nontrivial_tail": false
+        },
+        "8": {
+          "token": "9",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "9": {
+          "token": " ",
+          "preds": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "nontrivial_tail": false
+        },
+        "10": {
+          "token": "1",
+          "preds": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "nontrivial_tail": false
+        },
+        "11": {
+          "token": "0",
+          "preds": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "nontrivial_tail": false
+        },
+        "12": {
+          "token": "0",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "13": {
+          "token": " ",
+          "preds": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "nontrivial_tail": false
+        },
+        "14": {
+          "token": "1",
+          "preds": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "nontrivial_tail": false
+        },
+        "15": {
+          "token": "0",
+          "preds": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "nontrivial_tail": false
+        },
+        "16": {
+          "token": "1",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        },
+        "17": {
+          "token": " ",
+          "preds": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          "nontrivial_tail": false
+        },
+        "18": {
+          "token": "1",
+          "preds": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "nontrivial_tail": false
+        },
+        "19": {
+          "token": "0",
+          "preds": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "2"
+          ],
+          "nontrivial_tail": false
+        },
+        "20": {
+          "token": "2",
+          "preds": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+          ],
+          "nontrivial_tail": false
+        }
+      }
+    }
+  },
+  "shuffled_canonical": {
+    "days_full": {
+      "period": 7,
+      "n_classes": 7,
+      "nontrivial_tail": 3,
+      "p_tail": 0.42857142857142855,
+      "cycle_str": "Friday Wednesday Tuesday Monday Saturday Thursday Sunday"
+    },
+    "days_short": {
+      "period": 7,
+      "n_classes": 7,
+      "nontrivial_tail": 0,
+      "p_tail": 0.0,
+      "cycle_str": "Tue Mon Fri Sat Sun Wed Thu"
+    },
+    "months": {
+      "period": 12,
+      "n_classes": 12,
+      "nontrivial_tail": 1,
+      "p_tail": 0.08333333333333333,
+      "cycle_str": "June January April August July December October February November May March September"
+    },
+    "steak": {
+      "period": 10,
+      "n_classes": 10,
+      "nontrivial_tail": 2,
+      "p_tail": 0.2,
+      "cycle_str": "medium-well well-done medium-rare medium rare"
+    },
+    "sizes": {
+      "period": 5,
+      "n_classes": 5,
+      "nontrivial_tail": 2,
+      "p_tail": 0.4,
+      "cycle_str": "small extra-large medium large"
+    },
+    "rainbow": {
+      "period": 8,
+      "n_classes": 8,
+      "nontrivial_tail": 2,
+      "p_tail": 0.25,
+      "cycle_str": "red yellow violet green orange indigo blue"
+    },
+    "planets": {
+      "period": 9,
+      "n_classes": 9,
+      "nontrivial_tail": 2,
+      "p_tail": 0.2222222222222222,
+      "cycle_str": "Mars Venus Earth Saturn Neptune Jupiter Uranus Mercury"
+    },
+    "cardinal": {
+      "period": 4,
+      "n_classes": 4,
+      "nontrivial_tail": 2,
+      "p_tail": 0.5,
+      "cycle_str": "west east south north"
+    },
+    "count_1_5": {
+      "period": 10,
+      "n_classes": 10,
+      "nontrivial_tail": 1,
+      "p_tail": 0.1,
+      "cycle_str": "1 4 5 2 3"
+    },
+    "count_1_10": {
+      "period": 21,
+      "n_classes": 21,
+      "nontrivial_tail": 2,
+      "p_tail": 0.09523809523809523,
+      "cycle_str": "6 3 1 8 5 7 10 9 4 2"
+    },
+    "count_by_10": {
+      "period": 31,
+      "n_classes": 31,
+      "nontrivial_tail": 2,
+      "p_tail": 0.06451612903225806,
+      "cycle_str": "20 70 40 100 50 30 10 80 90 60"
+    },
+    "letters_a_e": {
+      "period": 5,
+      "n_classes": 5,
+      "nontrivial_tail": 1,
+      "p_tail": 0.2,
+      "cycle_str": "b a d c e"
+    },
+    "fibonacci": {
+      "period": 21,
+      "n_classes": 21,
+      "nontrivial_tail": 3,
+      "p_tail": 0.14285714285714285,
+      "cycle_str": "2 8 1 13 21 1 3 5 34"
+    },
+    "primes_5": {
+      "period": 11,
+      "n_classes": 11,
+      "nontrivial_tail": 1,
+      "p_tail": 0.09090909090909091,
+      "cycle_str": "7 11 2 3 5"
+    },
+    "carry_10": {
+      "period": 15,
+      "n_classes": 15,
+      "nontrivial_tail": 1,
+      "p_tail": 0.06666666666666667,
+      "cycle_str": "10 12 8 9 11 7"
+    },
+    "carry_100": {
+      "period": 21,
+      "n_classes": 21,
+      "nontrivial_tail": 1,
+      "p_tail": 0.047619047619047616,
+      "cycle_str": "100 99 102 101 98 97"
+    }
+  },
+  "single_token": {
+    "the": {
+      "period": 5,
+      "n_classes": 5,
+      "nontrivial_tail": 0,
+      "p_tail": 0.0,
+      "cycle_str": "the the the the the"
+    },
+    "cat": {
+      "period": 5,
+      "n_classes": 5,
+      "nontrivial_tail": 0,
+      "p_tail": 0.0,
+      "cycle_str": "cat cat cat cat cat"
+    },
+    "5": {
+      "period": 10,
+      "n_classes": 10,
+      "nontrivial_tail": 0,
+      "p_tail": 0.0,
+      "cycle_str": "5 5 5 5 5"
+    },
+    "Monday": {
+      "period": 5,
+      "n_classes": 5,
+      "nontrivial_tail": 0,
+      "p_tail": 0.0,
+      "cycle_str": "Monday Monday Monday Monday Monday"
+    }
+  },
+  "random_int": {
+    "5": {
+      "n_trials": 20,
+      "target_period": 5,
+      "mean_p_tail": 0.10086080586080585,
+      "pooled_p_tail": 0.10104529616724739,
+      "total_classes": 287,
+      "total_nontrivial": 29,
+      "wilson_lo": 0.07127820951845529,
+      "wilson_hi": 0.14135162060213272,
+      "trials": [
+        {
+          "trial": 0,
+          "cycle_str": "89 69 87 50 90",
+          "period": 15,
+          "nontrivial_tail": 2,
+          "p_tail": 0.13333333333333333
+        },
+        {
+          "trial": 1,
+          "cycle_str": "67 35 66 30 27",
+          "period": 15,
+          "nontrivial_tail": 1,
+          "p_tail": 0.06666666666666667
+        },
+        {
+          "trial": 2,
+          "cycle_str": "86 75 53 74 35",
+          "period": 15,
+          "nontrivial_tail": 2,
+          "p_tail": 0.13333333333333333
+        },
+        {
+          "trial": 3,
+          "cycle_str": "57 63 84 82 89",
+          "period": 15,
+          "nontrivial_tail": 2,
+          "p_tail": 0.13333333333333333
+        },
+        {
+          "trial": 4,
+          "cycle_str": "45 10 41 78 14",
+          "period": 15,
+          "nontrivial_tail": 1,
+          "p_tail": 0.06666666666666667
+        },
+        {
+          "trial": 5,
+          "cycle_str": "62 75 80 42 24",
+          "period": 15,
+          "nontrivial_tail": 2,
+          "p_tail": 0.13333333333333333
+        },
+        {
+          "trial": 6,
+          "cycle_str": "31 2 93 34 14",
+          "period": 14,
+          "nontrivial_tail": 1,
+          "p_tail": 0.07142857142857142
+        },
+        {
+          "trial": 7,
+          "cycle_str": "90 28 47 21 42",
+          "period": 15,
+          "nontrivial_tail": 2,
+          "p_tail": 0.13333333333333333
+        },
+        {
+          "trial": 8,
+          "cycle_str": "54 7 12 18 89",
+          "period": 14,
+          "nontrivial_tail": 1,
+          "p_tail": 0.07142857142857142
+        },
+        {
+          "trial": 9,
+          "cycle_str": "28 5 73 81 68",
+          "period": 14,
+          "nontrivial_tail": 2,
+          "p_tail": 0.14285714285714285
+        },
+        {
+          "trial": 10,
+          "cycle_str": "77 87 9 3 15",
+          "period": 13,
+          "nontrivial_tail": 2,
+          "p_tail": 0.15384615384615385
+        },
+        {
+          "trial": 11,
+          "cycle_str": "81 24 77 73 15",
+          "period": 15,
+          "nontrivial_tail": 1,
+          "p_tail": 0.06666666666666667
+        },
+        {
+          "trial": 12,
+          "cycle_str": "50 11 47 14 4",
+          "period": 14,
+          "nontrivial_tail": 2,
+          "p_tail": 0.14285714285714285
+        },
+        {
+          "trial": 13,
+          "cycle_str": "77 2 24 23 91",
+          "period": 14,
+          "nontrivial_tail": 1,
+          "p_tail": 0.07142857142857142
+        },
+        {
+          "trial": 14,
+          "cycle_str": "15 61 26 93 7",
+          "period": 14,
+          "nontrivial_tail": 1,
+          "p_tail": 0.07142857142857142
+        },
+        {
+          "trial": 15,
+          "cycle_str": "86 2 69 54 79",
+          "period": 14,
+          "nontrivial_tail": 1,
+          "p_tail": 0.07142857142857142
+        },
+        {
+          "trial": 16,
+          "cycle_str": "12 33 8 28 9",
+          "period": 13,
+          "nontrivial_tail": 1,
+          "p_tail": 0.07692307692307693
+        },
+        {
+          "trial": 17,
+          "cycle_str": "82 38 44 55 23",
+          "period": 15,
+          "nontrivial_tail": 1,
+          "p_tail": 0.06666666666666667
+        },
+        {
+          "trial": 18,
+          "cycle_str": "7 64 59 5 76",
+          "period": 13,
+          "nontrivial_tail": 1,
+          "p_tail": 0.07692307692307693
+        },
+        {
+          "trial": 19,
+          "cycle_str": "12 89 50 25 33",
+          "period": 15,
+          "nontrivial_tail": 2,
+          "p_tail": 0.13333333333333333
+        }
+      ]
+    },
+    "7": {
+      "n_trials": 20,
+      "target_period": 7,
+      "mean_p_tail": 0.07659983291562239,
+      "pooled_p_tail": 0.07654320987654321,
+      "total_classes": 405,
+      "total_nontrivial": 31,
+      "wilson_lo": 0.05444526206430456,
+      "wilson_hi": 0.10659901523037388,
+      "trials": [
+        {
+          "trial": 0,
+          "cycle_str": "45 93 60 72 21 89 86",
+          "period": 21,
+          "nontrivial_tail": 2,
+          "p_tail": 0.09523809523809523
+        },
+        {
+          "trial": 1,
+          "cycle_str": "26 98 7 86 20 20 43",
+          "period": 20,
+          "nontrivial_tail": 3,
+          "p_tail": 0.15
+        },
+        {
+          "trial": 2,
+          "cycle_str": "67 32 15 76 56 85 22",
+          "period": 21,
+          "nontrivial_tail": 2,
+          "p_tail": 0.09523809523809523
+        },
+        {
+          "trial": 3,
+          "cycle_str": "1 60 87 52 72 65 39",
+          "period": 20,
+          "nontrivial_tail": 3,
+          "p_tail": 0.15
+        },
+        {
+          "trial": 4,
+          "cycle_str": "83 45 49 84 32 19 71",
+          "period": 21,
+          "nontrivial_tail": 1,
+          "p_tail": 0.047619047619047616
+        },
+        {
+          "trial": 5,
+          "cycle_str": "88 1 58 94 10 42 94",
+          "period": 20,
+          "nontrivial_tail": 1,
+          "p_tail": 0.05
+        },
+        {
+          "trial": 6,
+          "cycle_str": "5 69 35 17 30 97 61",
+          "period": 20,
+          "nontrivial_tail": 3,
+          "p_tail": 0.15
+        },
+        {
+          "trial": 7,
+          "cycle_str": "45 78 36 86 45 75 81",
+          "period": 21,
+          "nontrivial_tail": 0,
+          "p_tail": 0.0
+        },
+        {
+          "trial": 8,
+          "cycle_str": "79 16 91 39 49 95 53",
+          "period": 21,
+          "nontrivial_tail": 1,
+          "p_tail": 0.047619047619047616
+        },
+        {
+          "trial": 9,
+          "cycle_str": "83 10 0 76 24 89 42",
+          "period": 20,
+          "nontrivial_tail": 1,
+          "p_tail": 0.05
+        },
+        {
+          "trial": 10,
+          "cycle_str": "20 30 28 81 57 48 90",
+          "period": 21,
+          "nontrivial_tail": 2,
+          "p_tail": 0.09523809523809523
+        },
+        {
+          "trial": 11,
+          "cycle_str": "86 72 53 4 51 89 72",
+          "period": 20,
+          "nontrivial_tail": 1,
+          "p_tail": 0.05
+        },
+        {
+          "trial": 12,
+          "cycle_str": "53 98 84 90 5 21 57",
+          "period": 20,
+          "nontrivial_tail": 1,
+          "p_tail": 0.05
+        },
+        {
+          "trial": 13,
+          "cycle_str": "8 33 89 20 57 67 62",
+          "period": 20,
+          "nontrivial_tail": 2,
+          "p_tail": 0.1
+        },
+        {
+          "trial": 14,
+          "cycle_str": "71 77 96 0 4 63 41",
+          "period": 19,
+          "nontrivial_tail": 1,
+          "p_tail": 0.05263157894736842
+        },
+        {
+          "trial": 15,
+          "cycle_str": "39 59 6 53 24 70 81",
+          "period": 20,
+          "nontrivial_tail": 2,
+          "p_tail": 0.1
+        },
+        {
+          "trial": 16,
+          "cycle_str": "10 92 16 1 51 86 53",
+          "period": 20,
+          "nontrivial_tail": 1,
+          "p_tail": 0.05
+        },
+        {
+          "trial": 17,
+          "cycle_str": "40 0 27 1 91 96 0",
+          "period": 18,
+          "nontrivial_tail": 1,
+          "p_tail": 0.05555555555555555
+        },
+        {
+          "trial": 18,
+          "cycle_str": "86 67 78 12 24 15 77",
+          "period": 21,
+          "nontrivial_tail": 2,
+          "p_tail": 0.09523809523809523
+        },
+        {
+          "trial": 19,
+          "cycle_str": "83 25 38 35 88 23 12",
+          "period": 21,
+          "nontrivial_tail": 1,
+          "p_tail": 0.047619047619047616
+        }
+      ]
+    },
+    "10": {
+      "n_trials": 20,
+      "target_period": 10,
+      "mean_p_tail": 0.060587940156905676,
+      "pooled_p_tail": 0.060240963855421686,
+      "total_classes": 581,
+      "total_nontrivial": 35,
+      "wilson_lo": 0.043630687781217106,
+      "wilson_hi": 0.08262845657513511,
+      "trials": [
+        {
+          "trial": 0,
+          "cycle_str": "60 50 80 10 2 35 57 14 32 17",
+          "period": 29,
+          "nontrivial_tail": 1,
+          "p_tail": 0.034482758620689655
+        },
+        {
+          "trial": 1,
+          "cycle_str": "83 66 83 82 44 14 19 35 2 5",
+          "period": 28,
+          "nontrivial_tail": 3,
+          "p_tail": 0.10714285714285714
+        },
+        {
+          "trial": 2,
+          "cycle_str": "5 26 87 33 71 40 46 72 5 95",
+          "period": 28,
+          "nontrivial_tail": 2,
+          "p_tail": 0.07142857142857142
+        },
+        {
+          "trial": 3,
+          "cycle_str": "89 77 83 63 91 82 58 81 55 47",
+          "period": 30,
+          "nontrivial_tail": 2,
+          "p_tail": 0.06666666666666667
+        },
+        {
+          "trial": 4,
+          "cycle_str": "68 22 26 48 75 37 1 17 19 34",
+          "period": 29,
+          "nontrivial_tail": 1,
+          "p_tail": 0.034482758620689655
+        },
+        {
+          "trial": 5,
+          "cycle_str": "42 43 47 91 11 43 99 79 4 5",
+          "period": 28,
+          "nontrivial_tail": 2,
+          "p_tail": 0.07142857142857142
+        },
+        {
+          "trial": 6,
+          "cycle_str": "34 20 19 74 37 46 50 70 16 37",
+          "period": 30,
+          "nontrivial_tail": 0,
+          "p_tail": 0.0
+        },
+        {
+          "trial": 7,
+          "cycle_str": "14 61 93 30 6 39 22 66 93 9",
+          "period": 28,
+          "nontrivial_tail": 2,
+          "p_tail": 0.07142857142857142
+        },
+        {
+          "trial": 8,
+          "cycle_str": "38 51 42 38 53 13 12 71 61 60",
+          "period": 30,
+          "nontrivial_tail": 1,
+          "p_tail": 0.03333333333333333
+        },
+        {
+          "trial": 9,
+          "cycle_str": "43 43 15 61 14 89 63 54 4 38",
+          "period": 29,
+          "nontrivial_tail": 2,
+          "p_tail": 0.06896551724137931
+        },
+        {
+          "trial": 10,
+          "cycle_str": "42 94 87 19 21 80 72 48 81 11",
+          "period": 30,
+          "nontrivial_tail": 2,
+          "p_tail": 0.06666666666666667
+        },
+        {
+          "trial": 11,
+          "cycle_str": "8 10 25 95 28 7 49 1 12 50",
+          "period": 27,
+          "nontrivial_tail": 2,
+          "p_tail": 0.07407407407407407
+        },
+        {
+          "trial": 12,
+          "cycle_str": "71 66 37 57 62 74 91 86 27 54",
+          "period": 30,
+          "nontrivial_tail": 2,
+          "p_tail": 0.06666666666666667
+        },
+        {
+          "trial": 13,
+          "cycle_str": "10 47 28 33 74 99 21 55 24 45",
+          "period": 30,
+          "nontrivial_tail": 1,
+          "p_tail": 0.03333333333333333
+        },
+        {
+          "trial": 14,
+          "cycle_str": "14 8 89 3 67 57 96 86 25 15",
+          "period": 28,
+          "nontrivial_tail": 2,
+          "p_tail": 0.07142857142857142
+        },
+        {
+          "trial": 15,
+          "cycle_str": "63 50 32 26 82 5 27 79 18 13",
+          "period": 29,
+          "nontrivial_tail": 2,
+          "p_tail": 0.06896551724137931
+        },
+        {
+          "trial": 16,
+          "cycle_str": "25 58 48 46 69 19 13 76 62 18",
+          "period": 30,
+          "nontrivial_tail": 3,
+          "p_tail": 0.1
+        },
+        {
+          "trial": 17,
+          "cycle_str": "72 51 81 87 54 66 63 86 41 63",
+          "period": 30,
+          "nontrivial_tail": 1,
+          "p_tail": 0.03333333333333333
+        },
+        {
+          "trial": 18,
+          "cycle_str": "63 81 85 25 69 78 28 1 43 90",
+          "period": 29,
+          "nontrivial_tail": 2,
+          "p_tail": 0.06896551724137931
+        },
+        {
+          "trial": 19,
+          "cycle_str": "95 40 41 4 67 18 32 77 19 48",
+          "period": 29,
+          "nontrivial_tail": 2,
+          "p_tail": 0.06896551724137931
+        }
+      ]
+    }
+  },
+  "wall_time_s": 6.1076109409332275
+}

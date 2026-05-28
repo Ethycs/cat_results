@@ -1,0 +1,6 @@
+outs:
+- md5: adbfe429b62ae959640a1255bd87d1ab.dir
+  size: 62776086
+  nfiles: 12
+  hash: md5
+  path: chat
