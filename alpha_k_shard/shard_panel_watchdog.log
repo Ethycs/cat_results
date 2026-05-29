@@ -1,0 +1,1245 @@
+[watchdog] launch attempt 1 at 2026-05-27T02:15:13-07:00
+
+=== tier tier_1_to_10B : 18 repos ===
+  [skip] Qwen/Qwen2.5-1.5B already in journal
+  [skip] Qwen/Qwen2.5-3B already in journal
+  [skip] Qwen/Qwen2.5-7B already in journal
+  [skip] Qwen/Qwen2.5-1.5B-Instruct already in journal
+  [skip] Qwen/Qwen2.5-7B-Instruct already in journal
+  [skip] microsoft/phi-2 already in journal
+  [skip] 01-ai/Yi-1.5-6B already in journal
+  [skip] 01-ai/Yi-1.5-9B already in journal
+  [skip] HuggingFaceTB/SmolLM2-1.7B already in journal
+  [skip] EleutherAI/pythia-6.9b already in journal
+  [skip] mistralai/Mistral-7B-v0.1 already in journal
+  [skip] mistralai/Mistral-7B-v0.3 already in journal
+
+>>> meta-llama/Llama-3.2-1B
+  [skip] access probe failed: RuntimeError: fetch_config(meta-llama/Llama-3.2-1B) failed: HTTP 401
+
+>>> meta-llama/Llama-3.2-3B
+  [skip] access probe failed: RuntimeError: fetch_config(meta-llama/Llama-3.2-3B) failed: HTTP 401
+
+>>> meta-llama/Llama-3.1-8B
+  [skip] access probe failed: RuntimeError: fetch_config(meta-llama/Llama-3.1-8B) failed: HTTP 401
+
+>>> google/gemma-2-2b
+  [skip] access probe failed: RuntimeError: fetch_config(google/gemma-2-2b) failed: HTTP 401
+
+>>> google/gemma-2-9b
+  [skip] access probe failed: RuntimeError: fetch_config(google/gemma-2-9b) failed: HTTP 401
+  [skip] ibm-granite/granite-3.1-8b-base already in journal
+
+=== tier tier_10_to_50B : 15 repos ===
+  [skip] Qwen/Qwen2.5-14B already in journal
+
+>>> Qwen/Qwen2.5-32B
+[Qwen/Qwen2.5-32B] arch_hint=Qwen2ForCausalLM n_layers=64 d_hidden=5120
+[Qwen/Qwen2.5-32B] scanning layers: [0, 1, 2, 61, 62, 63]
+[Qwen/Qwen2.5-32B] needed shards: ['model-00001-of-00017.safetensors', 'model-00002-of-00017.safetensors', 'model-00016-of-00017.safetensors', 'model-00017-of-00017.safetensors']
+  opened model-00001-of-00017.safetensors: 3.92 GB total, hdr 4 KB, #tensors 33  (0.4s)
+  opened model-00002-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00016-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00017-of-00017.safetensors: 3.10 GB total, hdr 2 KB, #tensors 18  (0.4s)
+  [Qwen/Qwen2.5-32B] OOM at batch=4, halving batch
+[Qwen/Qwen2.5-32B] arch_hint=Qwen2ForCausalLM n_layers=64 d_hidden=5120
+[Qwen/Qwen2.5-32B] scanning layers: [0, 1, 2, 61, 62, 63]
+[Qwen/Qwen2.5-32B] needed shards: ['model-00001-of-00017.safetensors', 'model-00002-of-00017.safetensors', 'model-00016-of-00017.safetensors', 'model-00017-of-00017.safetensors']
+  opened model-00001-of-00017.safetensors: 3.92 GB total, hdr 4 KB, #tensors 33  (0.4s)
+  opened model-00002-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00016-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00017-of-00017.safetensors: 3.10 GB total, hdr 2 KB, #tensors 18  (0.4s)
+[watchdog] exit code 143
+[watchdog] done after 1 attempts
+[watchdog] launch attempt 1 at 2026-05-27T02:16:37-07:00
+
+=== tier tier_1_to_10B : 18 repos ===
+  [skip] Qwen/Qwen2.5-1.5B already in journal
+  [skip] Qwen/Qwen2.5-3B already in journal
+  [skip] Qwen/Qwen2.5-7B already in journal
+  [skip] Qwen/Qwen2.5-1.5B-Instruct already in journal
+  [skip] Qwen/Qwen2.5-7B-Instruct already in journal
+  [skip] microsoft/phi-2 already in journal
+  [skip] 01-ai/Yi-1.5-6B already in journal
+  [skip] 01-ai/Yi-1.5-9B already in journal
+  [skip] HuggingFaceTB/SmolLM2-1.7B already in journal
+  [skip] EleutherAI/pythia-6.9b already in journal
+  [skip] mistralai/Mistral-7B-v0.1 already in journal
+  [skip] mistralai/Mistral-7B-v0.3 already in journal
+  [skip] meta-llama/Llama-3.2-1B already in journal
+  [skip] meta-llama/Llama-3.2-3B already in journal
+  [skip] meta-llama/Llama-3.1-8B already in journal
+  [skip] google/gemma-2-2b already in journal
+  [skip] google/gemma-2-9b already in journal
+  [skip] ibm-granite/granite-3.1-8b-base already in journal
+
+=== tier tier_10_to_50B : 15 repos ===
+  [skip] Qwen/Qwen2.5-14B already in journal
+
+>>> Qwen/Qwen2.5-32B
+[Qwen/Qwen2.5-32B] arch_hint=Qwen2ForCausalLM n_layers=64 d_hidden=5120
+[Qwen/Qwen2.5-32B] scanning layers: [0, 1, 2, 61, 62, 63]
+[Qwen/Qwen2.5-32B] needed shards: ['model-00001-of-00017.safetensors', 'model-00002-of-00017.safetensors', 'model-00016-of-00017.safetensors', 'model-00017-of-00017.safetensors']
+  opened model-00001-of-00017.safetensors: 3.92 GB total, hdr 4 KB, #tensors 33  (0.4s)
+  opened model-00002-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00016-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00017-of-00017.safetensors: 3.10 GB total, hdr 2 KB, #tensors 18  (0.4s)
+  [Qwen/Qwen2.5-32B] OOM at batch=4, halving batch
+[Qwen/Qwen2.5-32B] arch_hint=Qwen2ForCausalLM n_layers=64 d_hidden=5120
+[Qwen/Qwen2.5-32B] scanning layers: [0, 1, 2, 61, 62, 63]
+[Qwen/Qwen2.5-32B] needed shards: ['model-00001-of-00017.safetensors', 'model-00002-of-00017.safetensors', 'model-00016-of-00017.safetensors', 'model-00017-of-00017.safetensors']
+  opened model-00001-of-00017.safetensors: 3.92 GB total, hdr 4 KB, #tensors 33  (0.4s)
+  opened model-00002-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00016-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00017-of-00017.safetensors: 3.10 GB total, hdr 2 KB, #tensors 18  (0.4s)
+  [Qwen/Qwen2.5-32B] OOM at batch=2, halving batch
+[Qwen/Qwen2.5-32B] arch_hint=Qwen2ForCausalLM n_layers=64 d_hidden=5120
+[Qwen/Qwen2.5-32B] scanning layers: [0, 1, 2, 61, 62, 63]
+[Qwen/Qwen2.5-32B] needed shards: ['model-00001-of-00017.safetensors', 'model-00002-of-00017.safetensors', 'model-00016-of-00017.safetensors', 'model-00017-of-00017.safetensors']
+  opened model-00001-of-00017.safetensors: 3.92 GB total, hdr 4 KB, #tensors 33  (0.4s)
+  opened model-00002-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00016-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00017-of-00017.safetensors: 3.10 GB total, hdr 2 KB, #tensors 18  (0.4s)
+  [Qwen/Qwen2.5-32B] OOM at batch=1, halving batch
+  [Qwen/Qwen2.5-32B] CUDA context dead after OOM-giveup, exiting.
+  [oom_giveup] Qwen/Qwen2.5-32B (56s)
+
+=== CUDA context corrupted. Exiting with code 42 so a wrapper can relaunch. Journal saved. ===
+[watchdog] exit code 42
+[watchdog] CUDA context died, relaunching in 5s...
+[watchdog] launch attempt 2 at 2026-05-27T02:17:41-07:00
+
+=== tier tier_1_to_10B : 18 repos ===
+  [skip] Qwen/Qwen2.5-1.5B already in journal
+  [skip] Qwen/Qwen2.5-3B already in journal
+  [skip] Qwen/Qwen2.5-7B already in journal
+  [skip] Qwen/Qwen2.5-1.5B-Instruct already in journal
+  [skip] Qwen/Qwen2.5-7B-Instruct already in journal
+  [skip] microsoft/phi-2 already in journal
+  [skip] 01-ai/Yi-1.5-6B already in journal
+  [skip] 01-ai/Yi-1.5-9B already in journal
+  [skip] HuggingFaceTB/SmolLM2-1.7B already in journal
+  [skip] EleutherAI/pythia-6.9b already in journal
+  [skip] mistralai/Mistral-7B-v0.1 already in journal
+  [skip] mistralai/Mistral-7B-v0.3 already in journal
+  [skip] meta-llama/Llama-3.2-1B already in journal
+  [skip] meta-llama/Llama-3.2-3B already in journal
+  [skip] meta-llama/Llama-3.1-8B already in journal
+  [skip] google/gemma-2-2b already in journal
+  [skip] google/gemma-2-9b already in journal
+  [skip] ibm-granite/granite-3.1-8b-base already in journal
+
+=== tier tier_10_to_50B : 15 repos ===
+  [skip] Qwen/Qwen2.5-14B already in journal
+  [skip] Qwen/Qwen2.5-32B already in journal
+
+>>> Qwen/Qwen2.5-14B-Instruct
+[Qwen/Qwen2.5-14B-Instruct] arch_hint=Qwen2ForCausalLM n_layers=48 d_hidden=5120
+[Qwen/Qwen2.5-14B-Instruct] scanning layers: [0, 1, 2, 45, 46, 47]
+[Qwen/Qwen2.5-14B-Instruct] needed shards: ['model-00001-of-00008.safetensors', 'model-00007-of-00008.safetensors']
+  opened model-00001-of-00008.safetensors: 3.89 GB total, hdr 7 KB, #tensors 58  (0.4s)
+  opened model-00007-of-00008.safetensors: 4.00 GB total, hdr 10 KB, #tensors 85  (0.4s)
+  [Qwen/Qwen2.5-14B-Instruct] OOM at batch=4, halving batch
+[Qwen/Qwen2.5-14B-Instruct] arch_hint=Qwen2ForCausalLM n_layers=48 d_hidden=5120
+[Qwen/Qwen2.5-14B-Instruct] scanning layers: [0, 1, 2, 45, 46, 47]
+[Qwen/Qwen2.5-14B-Instruct] needed shards: ['model-00001-of-00008.safetensors', 'model-00007-of-00008.safetensors']
+  opened model-00001-of-00008.safetensors: 3.89 GB total, hdr 7 KB, #tensors 58  (0.4s)
+  opened model-00007-of-00008.safetensors: 4.00 GB total, hdr 10 KB, #tensors 85  (0.4s)
+  layer    0 [swiglu]: fetched 424.7 MB (5.1s), jac 375.5s, n=16  sigma_min=0.0000  alpha_k=58833.0434 [21895.3387,4722652.9451]  zeros@1e-3=28.56  zeros@rel1e-2=1013.81
+  layer    1 [swiglu]: fetched 424.7 MB (6.3s), jac 768.7s, n=16  sigma_min=0.0000  alpha_k=39951895910.8737 [24250400128.3233,86855627142.5329]  zeros@1e-3=3890.62  zeros@rel1e-2=4457.25
+  layer    2 [swiglu]: fetched 424.7 MB (7.0s), jac 564.7s, n=16  sigma_min=0.0000  alpha_k=1428582809.2000 [1048170497.9396,2925448510.1811]  zeros@1e-3=1600.12  zeros@rel1e-2=2756.31
+  layer   45 [swiglu]: fetched 424.7 MB (6.6s), jac 365.6s, n=16  sigma_min=0.0003  alpha_k=1543.3124 [1021.7284,3195.7179]  zeros@1e-3=2.06  zeros@rel1e-2=702.56
+  layer   46 [swiglu]: fetched 424.7 MB (6.0s), jac 367.0s, n=16  sigma_min=0.0003  alpha_k=1302.2158 [822.1354,4544.0678]  zeros@1e-3=2.06  zeros@rel1e-2=968.75
+  layer 47: arch unknown, sample tensors: ['model.layers.47.input_layernorm.weight', 'model.layers.47.mlp.gate_proj.weight', 'model.layers.47.mlp.up_proj.weight', 'model.layers.47.post_attention_layernorm.weight', 'model.layers.47.self_attn.k_proj.bias', 'model.layers.47.self_attn.k_proj.weight']
+  [ok] Qwen/Qwen2.5-14B-Instruct (2485s)
+
+>>> Qwen/Qwen2.5-32B-Instruct
+[Qwen/Qwen2.5-32B-Instruct] arch_hint=Qwen2ForCausalLM n_layers=64 d_hidden=5120
+[Qwen/Qwen2.5-32B-Instruct] scanning layers: [0, 1, 2, 61, 62, 63]
+[Qwen/Qwen2.5-32B-Instruct] needed shards: ['model-00001-of-00017.safetensors', 'model-00016-of-00017.safetensors', 'model-00017-of-00017.safetensors']
+  opened model-00001-of-00017.safetensors: 3.92 GB total, hdr 4 KB, #tensors 35  (0.4s)
+  opened model-00016-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00017-of-00017.safetensors: 3.10 GB total, hdr 2 KB, #tensors 16  (0.5s)
+  [Qwen/Qwen2.5-32B-Instruct] OOM at batch=4, halving batch
+[Qwen/Qwen2.5-32B-Instruct] arch_hint=Qwen2ForCausalLM n_layers=64 d_hidden=5120
+[Qwen/Qwen2.5-32B-Instruct] scanning layers: [0, 1, 2, 61, 62, 63]
+[Qwen/Qwen2.5-32B-Instruct] needed shards: ['model-00001-of-00017.safetensors', 'model-00016-of-00017.safetensors', 'model-00017-of-00017.safetensors']
+  opened model-00001-of-00017.safetensors: 3.92 GB total, hdr 4 KB, #tensors 35  (0.4s)
+  opened model-00016-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.5s)
+  opened model-00017-of-00017.safetensors: 3.10 GB total, hdr 2 KB, #tensors 16  (0.4s)
+  [Qwen/Qwen2.5-32B-Instruct] OOM at batch=2, halving batch
+[Qwen/Qwen2.5-32B-Instruct] arch_hint=Qwen2ForCausalLM n_layers=64 d_hidden=5120
+[Qwen/Qwen2.5-32B-Instruct] scanning layers: [0, 1, 2, 61, 62, 63]
+[Qwen/Qwen2.5-32B-Instruct] needed shards: ['model-00001-of-00017.safetensors', 'model-00016-of-00017.safetensors', 'model-00017-of-00017.safetensors']
+  opened model-00001-of-00017.safetensors: 3.92 GB total, hdr 4 KB, #tensors 35  (0.4s)
+  opened model-00016-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00017-of-00017.safetensors: 3.10 GB total, hdr 2 KB, #tensors 16  (0.4s)
+  [Qwen/Qwen2.5-32B-Instruct] OOM at batch=1, halving batch
+  [Qwen/Qwen2.5-32B-Instruct] CUDA context dead after OOM-giveup, exiting.
+  [oom_giveup] Qwen/Qwen2.5-32B-Instruct (56s)
+
+=== CUDA context corrupted. Exiting with code 42 so a wrapper can relaunch. Journal saved. ===
+[watchdog] exit code 42
+[watchdog] CUDA context died, relaunching in 5s...
+[watchdog] launch attempt 3 at 2026-05-27T03:00:09-07:00
+
+=== tier tier_1_to_10B : 18 repos ===
+  [skip] Qwen/Qwen2.5-1.5B already in journal
+  [skip] Qwen/Qwen2.5-3B already in journal
+  [skip] Qwen/Qwen2.5-7B already in journal
+  [skip] Qwen/Qwen2.5-1.5B-Instruct already in journal
+  [skip] Qwen/Qwen2.5-7B-Instruct already in journal
+  [skip] microsoft/phi-2 already in journal
+  [skip] 01-ai/Yi-1.5-6B already in journal
+  [skip] 01-ai/Yi-1.5-9B already in journal
+  [skip] HuggingFaceTB/SmolLM2-1.7B already in journal
+  [skip] EleutherAI/pythia-6.9b already in journal
+  [skip] mistralai/Mistral-7B-v0.1 already in journal
+  [skip] mistralai/Mistral-7B-v0.3 already in journal
+  [skip] meta-llama/Llama-3.2-1B already in journal
+  [skip] meta-llama/Llama-3.2-3B already in journal
+  [skip] meta-llama/Llama-3.1-8B already in journal
+  [skip] google/gemma-2-2b already in journal
+  [skip] google/gemma-2-9b already in journal
+  [skip] ibm-granite/granite-3.1-8b-base already in journal
+
+=== tier tier_10_to_50B : 15 repos ===
+  [skip] Qwen/Qwen2.5-14B already in journal
+  [skip] Qwen/Qwen2.5-32B already in journal
+  [skip] Qwen/Qwen2.5-14B-Instruct already in journal
+  [skip] Qwen/Qwen2.5-32B-Instruct already in journal
+
+>>> 01-ai/Yi-1.5-34B
+[01-ai/Yi-1.5-34B] arch_hint=LlamaForCausalLM n_layers=60 d_hidden=7168
+[01-ai/Yi-1.5-34B] scanning layers: [0, 1, 2, 57, 58, 59]
+[01-ai/Yi-1.5-34B] needed shards: ['model-00001-of-00015.safetensors', 'model-00014-of-00015.safetensors', 'model-00015-of-00015.safetensors']
+  opened model-00001-of-00015.safetensors: 4.79 GB total, hdr 4 KB, #tensors 33  (1.1s)
+  opened model-00014-of-00015.safetensors: 4.76 GB total, hdr 4 KB, #tensors 37  (1.1s)
+  opened model-00015-of-00015.safetensors: 1.21 GB total, hdr 1 KB, #tensors 5  (1.0s)
+  [01-ai/Yi-1.5-34B] OOM at batch=4, halving batch
+[01-ai/Yi-1.5-34B] arch_hint=LlamaForCausalLM n_layers=60 d_hidden=7168
+[01-ai/Yi-1.5-34B] scanning layers: [0, 1, 2, 57, 58, 59]
+[01-ai/Yi-1.5-34B] needed shards: ['model-00001-of-00015.safetensors', 'model-00014-of-00015.safetensors', 'model-00015-of-00015.safetensors']
+  opened model-00001-of-00015.safetensors: 4.79 GB total, hdr 4 KB, #tensors 33  (0.4s)
+  opened model-00014-of-00015.safetensors: 4.76 GB total, hdr 4 KB, #tensors 37  (0.4s)
+  opened model-00015-of-00015.safetensors: 1.21 GB total, hdr 1 KB, #tensors 5  (0.5s)
+  [01-ai/Yi-1.5-34B] OOM at batch=2, halving batch
+[01-ai/Yi-1.5-34B] arch_hint=LlamaForCausalLM n_layers=60 d_hidden=7168
+[01-ai/Yi-1.5-34B] scanning layers: [0, 1, 2, 57, 58, 59]
+[01-ai/Yi-1.5-34B] needed shards: ['model-00001-of-00015.safetensors', 'model-00014-of-00015.safetensors', 'model-00015-of-00015.safetensors']
+  opened model-00001-of-00015.safetensors: 4.79 GB total, hdr 4 KB, #tensors 33  (0.4s)
+  opened model-00014-of-00015.safetensors: 4.76 GB total, hdr 4 KB, #tensors 37  (0.4s)
+  opened model-00015-of-00015.safetensors: 1.21 GB total, hdr 1 KB, #tensors 5  (0.4s)
+  [01-ai/Yi-1.5-34B] error: RuntimeError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rabbit/gpt2_attack_notions/scripts/alpha_k_shard_scan.py", line 573, in scan_one_model
+    t = remotes[shard_of_this].fetch(tname, device=device, cast_to=jac_dtype)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rabbit/gpt2_attack_notions/scripts/partial_safetensors.py", line 155, in fetch
+    t = t.view(*info.shape).to(device=device)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+  [01-ai/Yi-1.5-34B] CUDA context appears dead. Exiting so an external watchdog can relaunch.
+  [error] 01-ai/Yi-1.5-34B (45s)
+
+=== CUDA context corrupted. Exiting with code 42 so a wrapper can relaunch. Journal saved. ===
+[watchdog] exit code 42
+[watchdog] CUDA context died, relaunching in 5s...
+[watchdog] launch attempt 4 at 2026-05-27T03:01:03-07:00
+
+=== tier tier_1_to_10B : 18 repos ===
+  [skip] Qwen/Qwen2.5-1.5B already in journal
+  [skip] Qwen/Qwen2.5-3B already in journal
+  [skip] Qwen/Qwen2.5-7B already in journal
+  [skip] Qwen/Qwen2.5-1.5B-Instruct already in journal
+  [skip] Qwen/Qwen2.5-7B-Instruct already in journal
+  [skip] microsoft/phi-2 already in journal
+  [skip] 01-ai/Yi-1.5-6B already in journal
+  [skip] 01-ai/Yi-1.5-9B already in journal
+  [skip] HuggingFaceTB/SmolLM2-1.7B already in journal
+  [skip] EleutherAI/pythia-6.9b already in journal
+  [skip] mistralai/Mistral-7B-v0.1 already in journal
+  [skip] mistralai/Mistral-7B-v0.3 already in journal
+  [skip] meta-llama/Llama-3.2-1B already in journal
+  [skip] meta-llama/Llama-3.2-3B already in journal
+  [skip] meta-llama/Llama-3.1-8B already in journal
+  [skip] google/gemma-2-2b already in journal
+  [skip] google/gemma-2-9b already in journal
+  [skip] ibm-granite/granite-3.1-8b-base already in journal
+
+=== tier tier_10_to_50B : 15 repos ===
+  [skip] Qwen/Qwen2.5-14B already in journal
+  [skip] Qwen/Qwen2.5-32B already in journal
+  [skip] Qwen/Qwen2.5-14B-Instruct already in journal
+  [skip] Qwen/Qwen2.5-32B-Instruct already in journal
+
+>>> 01-ai/Yi-1.5-34B
+[01-ai/Yi-1.5-34B] arch_hint=LlamaForCausalLM n_layers=60 d_hidden=7168
+[01-ai/Yi-1.5-34B] scanning layers: [0, 1, 2, 57, 58, 59]
+[01-ai/Yi-1.5-34B] needed shards: ['model-00001-of-00015.safetensors', 'model-00014-of-00015.safetensors', 'model-00015-of-00015.safetensors']
+  opened model-00001-of-00015.safetensors: 4.79 GB total, hdr 4 KB, #tensors 33  (0.4s)
+  opened model-00014-of-00015.safetensors: 4.76 GB total, hdr 4 KB, #tensors 37  (0.4s)
+  opened model-00015-of-00015.safetensors: 1.21 GB total, hdr 1 KB, #tensors 5  (0.4s)
+  [01-ai/Yi-1.5-34B] OOM at batch=4, halving batch
+[01-ai/Yi-1.5-34B] arch_hint=LlamaForCausalLM n_layers=60 d_hidden=7168
+[01-ai/Yi-1.5-34B] scanning layers: [0, 1, 2, 57, 58, 59]
+[01-ai/Yi-1.5-34B] needed shards: ['model-00001-of-00015.safetensors', 'model-00014-of-00015.safetensors', 'model-00015-of-00015.safetensors']
+  opened model-00001-of-00015.safetensors: 4.79 GB total, hdr 4 KB, #tensors 33  (0.4s)
+  opened model-00014-of-00015.safetensors: 4.76 GB total, hdr 4 KB, #tensors 37  (0.4s)
+  opened model-00015-of-00015.safetensors: 1.21 GB total, hdr 1 KB, #tensors 5  (0.4s)
+  [01-ai/Yi-1.5-34B] OOM at batch=2, halving batch
+[01-ai/Yi-1.5-34B] arch_hint=LlamaForCausalLM n_layers=60 d_hidden=7168
+[01-ai/Yi-1.5-34B] scanning layers: [0, 1, 2, 57, 58, 59]
+[01-ai/Yi-1.5-34B] needed shards: ['model-00001-of-00015.safetensors', 'model-00014-of-00015.safetensors', 'model-00015-of-00015.safetensors']
+  opened model-00001-of-00015.safetensors: 4.79 GB total, hdr 4 KB, #tensors 33  (0.4s)
+  opened model-00014-of-00015.safetensors: 4.76 GB total, hdr 4 KB, #tensors 37  (0.4s)
+  opened model-00015-of-00015.safetensors: 1.21 GB total, hdr 1 KB, #tensors 5  (0.4s)
+  [01-ai/Yi-1.5-34B] error: RuntimeError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rabbit/gpt2_attack_notions/scripts/alpha_k_shard_scan.py", line 573, in scan_one_model
+    t = remotes[shard_of_this].fetch(tname, device=device, cast_to=jac_dtype)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rabbit/gpt2_attack_notions/scripts/partial_safetensors.py", line 155, in fetch
+    t = t.view(*info.shape).to(device=device)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+  [01-ai/Yi-1.5-34B] CUDA context appears dead. Exiting so an external watchdog can relaunch.
+  [error] 01-ai/Yi-1.5-34B (33s)
+
+=== CUDA context corrupted. Exiting with code 42 so a wrapper can relaunch. Journal saved. ===
+[watchdog] exit code 42
+[watchdog] CUDA context died, relaunching in 5s...
+[watchdog] launch attempt 5 at 2026-05-27T03:01:43-07:00
+
+=== tier tier_1_to_10B : 18 repos ===
+  [skip] Qwen/Qwen2.5-1.5B already in journal
+  [skip] Qwen/Qwen2.5-3B already in journal
+  [skip] Qwen/Qwen2.5-7B already in journal
+  [skip] Qwen/Qwen2.5-1.5B-Instruct already in journal
+  [skip] Qwen/Qwen2.5-7B-Instruct already in journal
+  [skip] microsoft/phi-2 already in journal
+  [skip] 01-ai/Yi-1.5-6B already in journal
+  [skip] 01-ai/Yi-1.5-9B already in journal
+  [skip] HuggingFaceTB/SmolLM2-1.7B already in journal
+  [skip] EleutherAI/pythia-6.9b already in journal
+  [skip] mistralai/Mistral-7B-v0.1 already in journal
+  [skip] mistralai/Mistral-7B-v0.3 already in journal
+  [skip] meta-llama/Llama-3.2-1B already in journal
+  [skip] meta-llama/Llama-3.2-3B already in journal
+  [skip] meta-llama/Llama-3.1-8B already in journal
+  [skip] google/gemma-2-2b already in journal
+  [skip] google/gemma-2-9b already in journal
+  [skip] ibm-granite/granite-3.1-8b-base already in journal
+
+=== tier tier_10_to_50B : 15 repos ===
+  [skip] Qwen/Qwen2.5-14B already in journal
+  [skip] Qwen/Qwen2.5-32B already in journal
+  [skip] Qwen/Qwen2.5-14B-Instruct already in journal
+  [skip] Qwen/Qwen2.5-32B-Instruct already in journal
+  [skip] 01-ai/Yi-1.5-34B already in journal
+
+>>> 01-ai/Yi-1.5-34B-Chat
+[01-ai/Yi-1.5-34B-Chat] arch_hint=LlamaForCausalLM n_layers=60 d_hidden=7168
+[01-ai/Yi-1.5-34B-Chat] scanning layers: [0, 1, 2, 57, 58, 59]
+[01-ai/Yi-1.5-34B-Chat] needed shards: ['model-00001-of-00015.safetensors', 'model-00014-of-00015.safetensors', 'model-00015-of-00015.safetensors']
+  opened model-00001-of-00015.safetensors: 4.79 GB total, hdr 4 KB, #tensors 33  (0.6s)
+  opened model-00014-of-00015.safetensors: 4.76 GB total, hdr 4 KB, #tensors 37  (0.5s)
+  opened model-00015-of-00015.safetensors: 1.21 GB total, hdr 1 KB, #tensors 5  (0.5s)
+  [01-ai/Yi-1.5-34B-Chat] OOM at batch=4, halving batch
+[01-ai/Yi-1.5-34B-Chat] arch_hint=LlamaForCausalLM n_layers=60 d_hidden=7168
+[01-ai/Yi-1.5-34B-Chat] scanning layers: [0, 1, 2, 57, 58, 59]
+[01-ai/Yi-1.5-34B-Chat] needed shards: ['model-00001-of-00015.safetensors', 'model-00014-of-00015.safetensors', 'model-00015-of-00015.safetensors']
+  opened model-00001-of-00015.safetensors: 4.79 GB total, hdr 4 KB, #tensors 33  (0.4s)
+  opened model-00014-of-00015.safetensors: 4.76 GB total, hdr 4 KB, #tensors 37  (0.4s)
+  opened model-00015-of-00015.safetensors: 1.21 GB total, hdr 1 KB, #tensors 5  (0.4s)
+  [01-ai/Yi-1.5-34B-Chat] OOM at batch=2, halving batch
+  [01-ai/Yi-1.5-34B-Chat] error: RuntimeError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/rabbit/gpt2_attack_notions/scripts/alpha_k_shard_panel.py", line 81, in run_one
+    torch.cuda.empty_cache() if device.type == "cuda" else None
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rabbit/gpt2_attack_notions/.pixi/envs/default/lib/python3.11/site-packages/torch/cuda/memory.py", line 162, in empty_cache
+    torch._C._cuda_emptyCache()
+RuntimeError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
+  [01-ai/Yi-1.5-34B-Chat] CUDA context appears dead. Exiting so an external watchdog can relaunch.
+  [error] 01-ai/Yi-1.5-34B-Chat (31s)
+
+=== CUDA context corrupted. Exiting with code 42 so a wrapper can relaunch. Journal saved. ===
+[watchdog] exit code 42
+[watchdog] CUDA context died, relaunching in 5s...
+[watchdog] launch attempt 6 at 2026-05-27T03:02:21-07:00
+
+=== tier tier_1_to_10B : 18 repos ===
+  [skip] Qwen/Qwen2.5-1.5B already in journal
+  [skip] Qwen/Qwen2.5-3B already in journal
+  [skip] Qwen/Qwen2.5-7B already in journal
+  [skip] Qwen/Qwen2.5-1.5B-Instruct already in journal
+  [skip] Qwen/Qwen2.5-7B-Instruct already in journal
+  [skip] microsoft/phi-2 already in journal
+  [skip] 01-ai/Yi-1.5-6B already in journal
+  [skip] 01-ai/Yi-1.5-9B already in journal
+  [skip] HuggingFaceTB/SmolLM2-1.7B already in journal
+  [skip] EleutherAI/pythia-6.9b already in journal
+  [skip] mistralai/Mistral-7B-v0.1 already in journal
+  [skip] mistralai/Mistral-7B-v0.3 already in journal
+  [skip] meta-llama/Llama-3.2-1B already in journal
+  [skip] meta-llama/Llama-3.2-3B already in journal
+  [skip] meta-llama/Llama-3.1-8B already in journal
+  [skip] google/gemma-2-2b already in journal
+  [skip] google/gemma-2-9b already in journal
+  [skip] ibm-granite/granite-3.1-8b-base already in journal
+
+=== tier tier_10_to_50B : 15 repos ===
+  [skip] Qwen/Qwen2.5-14B already in journal
+  [skip] Qwen/Qwen2.5-32B already in journal
+  [skip] Qwen/Qwen2.5-14B-Instruct already in journal
+  [skip] Qwen/Qwen2.5-32B-Instruct already in journal
+  [skip] 01-ai/Yi-1.5-34B already in journal
+  [skip] 01-ai/Yi-1.5-34B-Chat already in journal
+
+>>> mistralai/Mixtral-8x7B-v0.1
+[mistralai/Mixtral-8x7B-v0.1] arch_hint=MixtralForCausalLM n_layers=32 d_hidden=4096
+[mistralai/Mixtral-8x7B-v0.1] scanning layers: [0, 1, 2, 29, 30, 31]
+[mistralai/Mixtral-8x7B-v0.1] needed shards: ['model-00001-of-00019.safetensors', 'model-00002-of-00019.safetensors', 'model-00018-of-00019.safetensors', 'model-00019-of-00019.safetensors']
+  opened model-00001-of-00019.safetensors: 4.89 GB total, hdr 7 KB, #tensors 51  (0.6s)
+  opened model-00002-of-00019.safetensors: 4.98 GB total, hdr 7 KB, #tensors 55  (0.6s)
+  opened model-00018-of-00019.safetensors: 4.98 GB total, hdr 7 KB, #tensors 55  (0.5s)
+  opened model-00019-of-00019.safetensors: 4.22 GB total, hdr 6 KB, #tensors 44  (0.6s)
+  [mistralai/Mixtral-8x7B-v0.1] OOM at batch=4, halving batch
+[mistralai/Mixtral-8x7B-v0.1] arch_hint=MixtralForCausalLM n_layers=32 d_hidden=4096
+[mistralai/Mixtral-8x7B-v0.1] scanning layers: [0, 1, 2, 29, 30, 31]
+[mistralai/Mixtral-8x7B-v0.1] needed shards: ['model-00001-of-00019.safetensors', 'model-00002-of-00019.safetensors', 'model-00018-of-00019.safetensors', 'model-00019-of-00019.safetensors']
+  opened model-00001-of-00019.safetensors: 4.89 GB total, hdr 7 KB, #tensors 51  (0.4s)
+  opened model-00002-of-00019.safetensors: 4.98 GB total, hdr 7 KB, #tensors 55  (0.4s)
+  opened model-00018-of-00019.safetensors: 4.98 GB total, hdr 7 KB, #tensors 55  (0.4s)
+  opened model-00019-of-00019.safetensors: 4.22 GB total, hdr 6 KB, #tensors 44  (0.4s)
+  layer    0 [mixtral_moe]: fetched 352.3 MB (4.9s), jac 198.8s, n=16  sigma_min=0.0000  alpha_k=101400.2098 [84006.8713,2303128.9044]  zeros@1e-3=127.69  zeros@rel1e-2=668.69
+  layer    1 [mixtral_moe]: fetched 352.3 MB (5.3s), jac 198.0s, n=16  sigma_min=0.0000  alpha_k=27325.6091 [13640.1230,55298.7361]  zeros@1e-3=12.31  zeros@rel1e-2=423.75
+  layer    2 [mixtral_moe]: fetched 352.3 MB (5.8s), jac 196.6s, n=16  sigma_min=0.0000  alpha_k=23286.7760 [7140.3946,286689.4402]  zeros@1e-3=11.06  zeros@rel1e-2=434.50
+  layer   29 [mixtral_moe]: fetched 352.3 MB (5.6s), jac 197.1s, n=16  sigma_min=0.0001  alpha_k=12477.5648 [3600.2899,46248.9217]  zeros@1e-3=3.06  zeros@rel1e-2=429.38
+  layer   30 [mixtral_moe]: fetched 352.3 MB (22.3s), jac 195.9s, n=16  sigma_min=0.0001  alpha_k=8179.7931 [4762.6822,6441320.2533]  zeros@1e-3=8.38  zeros@rel1e-2=463.38
+  layer   31 [mixtral_moe]: fetched 352.3 MB (5.7s), jac 199.8s, n=16  sigma_min=0.0001  alpha_k=4810.8614 [1660.3071,19115.0816]  zeros@1e-3=3.56  zeros@rel1e-2=1258.69
+  [ok] mistralai/Mixtral-8x7B-v0.1 (1302s)
+
+>>> mistralai/Mistral-Nemo-Base-2407
+[mistralai/Mistral-Nemo-Base-2407] arch_hint=MistralForCausalLM n_layers=40 d_hidden=5120
+[mistralai/Mistral-Nemo-Base-2407] scanning layers: [0, 1, 2, 37, 38, 39]
+[mistralai/Mistral-Nemo-Base-2407] needed shards: ['model-00001-of-00005.safetensors', 'model-00005-of-00005.safetensors']
+  opened model-00001-of-00005.safetensors: 4.87 GB total, hdr 7 KB, #tensors 60  (0.6s)
+  opened model-00005-of-00005.safetensors: 4.91 GB total, hdr 7 KB, #tensors 60  (0.5s)
+  [mistralai/Mistral-Nemo-Base-2407] OOM at batch=4, halving batch
+[mistralai/Mistral-Nemo-Base-2407] arch_hint=MistralForCausalLM n_layers=40 d_hidden=5120
+[mistralai/Mistral-Nemo-Base-2407] scanning layers: [0, 1, 2, 37, 38, 39]
+[mistralai/Mistral-Nemo-Base-2407] needed shards: ['model-00001-of-00005.safetensors', 'model-00005-of-00005.safetensors']
+  opened model-00001-of-00005.safetensors: 4.87 GB total, hdr 7 KB, #tensors 60  (0.4s)
+  opened model-00005-of-00005.safetensors: 4.91 GB total, hdr 7 KB, #tensors 60  (0.4s)
+  layer    0 [swiglu]: fetched 440.4 MB (5.9s), jac 364.8s, n=16  sigma_min=0.0000  alpha_k=227905.0992 [82252.1783,4272497.3949]  zeros@1e-3=117.88  zeros@rel1e-2=2363.69
+  layer    1 [swiglu]: fetched 440.4 MB (6.6s), jac 366.0s, n=16  sigma_min=0.0000  alpha_k=19657.0845 [15538.8527,47144.9714]  zeros@1e-3=45.94  zeros@rel1e-2=403.06
+  layer    2 [swiglu]: fetched 440.4 MB (7.1s), jac 367.0s, n=16  sigma_min=0.0000  alpha_k=66599.5042 [31207.6602,215134.0725]  zeros@1e-3=50.19  zeros@rel1e-2=471.44
+  layer   37 [swiglu]: fetched 440.4 MB (6.2s), jac 370.3s, n=16  sigma_min=0.0000  alpha_k=33456.6177 [8534.7100,1380851.4882]  zeros@1e-3=13.25  zeros@rel1e-2=712.19
+  layer   38 [swiglu]: fetched 440.4 MB (6.7s), jac 372.4s, n=16  sigma_min=0.0000  alpha_k=5830.8609 [4702.7208,25447.5205]  zeros@1e-3=10.88  zeros@rel1e-2=919.56
+  layer   39 [swiglu]: fetched 440.4 MB (6.6s), jac 370.9s, n=16  sigma_min=0.0000  alpha_k=21885.4146 [8954.9492,44438.4657]  zeros@1e-3=10.25  zeros@rel1e-2=657.69
+  [ok] mistralai/Mistral-Nemo-Base-2407 (2263s)
+  [skip] google/gemma-2-27b already in journal
+  [skip] google/gemma-2-27b-it already in journal
+  [skip] CohereForAI/c4ai-command-r-v01 already in journal
+  [skip] CohereForAI/c4ai-command-r-08-2024 already in journal
+
+>>> mistralai/Codestral-22B-v0.1
+[mistralai/Codestral-22B-v0.1] arch_hint=MistralForCausalLM n_layers=56 d_hidden=6144
+[mistralai/Codestral-22B-v0.1] scanning layers: [0, 1, 2, 53, 54, 55]
+[mistralai/Codestral-22B-v0.1] needed shards: ['model-00001-of-00009.safetensors', 'model-00009-of-00009.safetensors']
+  opened model-00001-of-00009.safetensors: 4.88 GB total, hdr 6 KB, #tensors 52  (0.5s)
+  opened model-00009-of-00009.safetensors: 4.98 GB total, hdr 6 KB, #tensors 53  (0.5s)
+  [mistralai/Codestral-22B-v0.1] OOM at batch=4, halving batch
+[mistralai/Codestral-22B-v0.1] arch_hint=MistralForCausalLM n_layers=56 d_hidden=6144
+[mistralai/Codestral-22B-v0.1] scanning layers: [0, 1, 2, 53, 54, 55]
+[mistralai/Codestral-22B-v0.1] needed shards: ['model-00001-of-00009.safetensors', 'model-00009-of-00009.safetensors']
+  opened model-00001-of-00009.safetensors: 4.88 GB total, hdr 6 KB, #tensors 52  (0.4s)
+  opened model-00009-of-00009.safetensors: 4.98 GB total, hdr 6 KB, #tensors 53  (0.4s)
+  [mistralai/Codestral-22B-v0.1] OOM at batch=2, halving batch
+[mistralai/Codestral-22B-v0.1] arch_hint=MistralForCausalLM n_layers=56 d_hidden=6144
+[mistralai/Codestral-22B-v0.1] scanning layers: [0, 1, 2, 53, 54, 55]
+[mistralai/Codestral-22B-v0.1] needed shards: ['model-00001-of-00009.safetensors', 'model-00009-of-00009.safetensors']
+  opened model-00001-of-00009.safetensors: 4.88 GB total, hdr 6 KB, #tensors 52  (0.4s)
+  opened model-00009-of-00009.safetensors: 4.98 GB total, hdr 6 KB, #tensors 53  (0.4s)
+  layer    0 [swiglu]: fetched 604.0 MB (8.3s), jac 697.5s, n=16  sigma_min=0.0000  alpha_k=1880881.5464 [1049560.9079,4594871.2680]  zeros@1e-3=1534.62  zeros@rel1e-2=3210.38
+  layer    1 [swiglu]: fetched 604.0 MB (9.1s), jac 685.8s, n=16  sigma_min=0.0000  alpha_k=459741.3220 [297719.3444,6504215.1842]  zeros@1e-3=559.44  zeros@rel1e-2=3952.38
+  layer    2 [swiglu]: fetched 604.0 MB (9.3s), jac 684.4s, n=16  sigma_min=0.0000  alpha_k=869429.0703 [330599.2417,4071773.6053]  zeros@1e-3=343.81  zeros@rel1e-2=1334.31
+  layer   53 [swiglu]: fetched 604.0 MB (8.5s), jac 677.3s, n=16  sigma_min=0.0000  alpha_k=32477.3463 [16614.6688,215473.8636]  zeros@1e-3=29.94  zeros@rel1e-2=1165.81
+  layer   54 [swiglu]: fetched 604.0 MB (8.8s), jac 679.8s, n=16  sigma_min=0.0000  alpha_k=57669.9904 [19179.9308,1126902.1105]  zeros@1e-3=30.31  zeros@rel1e-2=1958.88
+  layer   55 [swiglu]: fetched 604.0 MB (9.6s), jac 685.1s, n=16  sigma_min=0.0000  alpha_k=24370.0855 [11183.5415,59682.2553]  zeros@1e-3=37.50  zeros@rel1e-2=2474.31
+  [ok] mistralai/Codestral-22B-v0.1 (4262s)
+
+>>> deepseek-ai/deepseek-coder-33b-instruct
+[deepseek-ai/deepseek-coder-33b-instruct] arch_hint=LlamaForCausalLM n_layers=62 d_hidden=7168
+[deepseek-ai/deepseek-coder-33b-instruct] scanning layers: [0, 1, 2, 59, 60, 61]
+[deepseek-ai/deepseek-coder-33b-instruct] needed shards: ['model-00001-of-00007.safetensors', 'model-00007-of-00007.safetensors']
+  opened model-00001-of-00007.safetensors: 9.73 GB total, hdr 9 KB, #tensors 79  (0.5s)
+  opened model-00007-of-00007.safetensors: 7.38 GB total, hdr 7 KB, #tensors 60  (0.6s)
+  [deepseek-ai/deepseek-coder-33b-instruct] OOM at batch=4, halving batch
+[deepseek-ai/deepseek-coder-33b-instruct] arch_hint=LlamaForCausalLM n_layers=62 d_hidden=7168
+[deepseek-ai/deepseek-coder-33b-instruct] scanning layers: [0, 1, 2, 59, 60, 61]
+[deepseek-ai/deepseek-coder-33b-instruct] needed shards: ['model-00001-of-00007.safetensors', 'model-00007-of-00007.safetensors']
+  opened model-00001-of-00007.safetensors: 9.73 GB total, hdr 9 KB, #tensors 79  (0.4s)
+  opened model-00007-of-00007.safetensors: 7.38 GB total, hdr 7 KB, #tensors 60  (0.4s)
+  [deepseek-ai/deepseek-coder-33b-instruct] OOM at batch=2, halving batch
+[deepseek-ai/deepseek-coder-33b-instruct] arch_hint=LlamaForCausalLM n_layers=62 d_hidden=7168
+[deepseek-ai/deepseek-coder-33b-instruct] scanning layers: [0, 1, 2, 59, 60, 61]
+[deepseek-ai/deepseek-coder-33b-instruct] needed shards: ['model-00001-of-00007.safetensors', 'model-00007-of-00007.safetensors']
+  opened model-00001-of-00007.safetensors: 9.73 GB total, hdr 9 KB, #tensors 79  (0.4s)
+  opened model-00007-of-00007.safetensors: 7.38 GB total, hdr 7 KB, #tensors 60  (0.4s)
+  [deepseek-ai/deepseek-coder-33b-instruct] OOM at batch=1, halving batch
+  [deepseek-ai/deepseek-coder-33b-instruct] CUDA context dead after OOM-giveup, exiting.
+  [oom_giveup] deepseek-ai/deepseek-coder-33b-instruct (85s)
+
+=== CUDA context corrupted. Exiting with code 42 so a wrapper can relaunch. Journal saved. ===
+[watchdog] exit code 42
+[watchdog] CUDA context died, relaunching in 5s...
+[watchdog] launch attempt 7 at 2026-05-27T05:14:21-07:00
+
+=== tier tier_1_to_10B : 18 repos ===
+  [skip] Qwen/Qwen2.5-1.5B already in journal
+  [skip] Qwen/Qwen2.5-3B already in journal
+  [skip] Qwen/Qwen2.5-7B already in journal
+  [skip] Qwen/Qwen2.5-1.5B-Instruct already in journal
+  [skip] Qwen/Qwen2.5-7B-Instruct already in journal
+  [skip] microsoft/phi-2 already in journal
+  [skip] 01-ai/Yi-1.5-6B already in journal
+  [skip] 01-ai/Yi-1.5-9B already in journal
+  [skip] HuggingFaceTB/SmolLM2-1.7B already in journal
+  [skip] EleutherAI/pythia-6.9b already in journal
+  [skip] mistralai/Mistral-7B-v0.1 already in journal
+  [skip] mistralai/Mistral-7B-v0.3 already in journal
+  [skip] meta-llama/Llama-3.2-1B already in journal
+  [skip] meta-llama/Llama-3.2-3B already in journal
+  [skip] meta-llama/Llama-3.1-8B already in journal
+  [skip] google/gemma-2-2b already in journal
+  [skip] google/gemma-2-9b already in journal
+  [skip] ibm-granite/granite-3.1-8b-base already in journal
+
+=== tier tier_10_to_50B : 15 repos ===
+  [skip] Qwen/Qwen2.5-14B already in journal
+  [skip] Qwen/Qwen2.5-32B already in journal
+  [skip] Qwen/Qwen2.5-14B-Instruct already in journal
+  [skip] Qwen/Qwen2.5-32B-Instruct already in journal
+  [skip] 01-ai/Yi-1.5-34B already in journal
+  [skip] 01-ai/Yi-1.5-34B-Chat already in journal
+  [skip] mistralai/Mixtral-8x7B-v0.1 already in journal
+  [skip] mistralai/Mistral-Nemo-Base-2407 already in journal
+  [skip] google/gemma-2-27b already in journal
+  [skip] google/gemma-2-27b-it already in journal
+  [skip] CohereForAI/c4ai-command-r-v01 already in journal
+  [skip] CohereForAI/c4ai-command-r-08-2024 already in journal
+  [skip] mistralai/Codestral-22B-v0.1 already in journal
+  [skip] deepseek-ai/deepseek-coder-33b-instruct already in journal
+
+>>> microsoft/phi-4
+[microsoft/phi-4] arch_hint=Phi3ForCausalLM n_layers=40 d_hidden=5120
+[microsoft/phi-4] scanning layers: [0, 1, 2, 37, 38, 39]
+[microsoft/phi-4] needed shards: ['model-00001-of-00006.safetensors', 'model-00006-of-00006.safetensors']
+  opened model-00001-of-00006.safetensors: 4.93 GB total, hdr 4 KB, #tensors 34  (0.4s)
+  opened model-00006-of-00006.safetensors: 4.99 GB total, hdr 4 KB, #tensors 36  (0.4s)
+  layer 0: arch unknown, sample tensors: ['model.layers.0.input_layernorm.weight', 'model.layers.0.mlp.down_proj.weight', 'model.layers.0.mlp.gate_up_proj.weight', 'model.layers.0.post_attention_layernorm.weight', 'model.layers.0.self_attn.o_proj.weight', 'model.layers.0.self_attn.qkv_proj.weight']
+  layer 1: arch unknown, sample tensors: ['model.layers.1.input_layernorm.weight', 'model.layers.1.mlp.down_proj.weight', 'model.layers.1.mlp.gate_up_proj.weight', 'model.layers.1.post_attention_layernorm.weight', 'model.layers.1.self_attn.o_proj.weight', 'model.layers.1.self_attn.qkv_proj.weight']
+  layer 2: arch unknown, sample tensors: ['model.layers.2.input_layernorm.weight', 'model.layers.2.mlp.down_proj.weight', 'model.layers.2.mlp.gate_up_proj.weight', 'model.layers.2.post_attention_layernorm.weight', 'model.layers.2.self_attn.o_proj.weight', 'model.layers.2.self_attn.qkv_proj.weight']
+  layer 37: arch unknown, sample tensors: ['model.layers.37.input_layernorm.weight', 'model.layers.37.mlp.down_proj.weight', 'model.layers.37.mlp.gate_up_proj.weight', 'model.layers.37.post_attention_layernorm.weight', 'model.layers.37.self_attn.o_proj.weight', 'model.layers.37.self_attn.qkv_proj.weight']
+  layer 38: arch unknown, sample tensors: ['model.layers.38.input_layernorm.weight', 'model.layers.38.mlp.down_proj.weight', 'model.layers.38.mlp.gate_up_proj.weight', 'model.layers.38.post_attention_layernorm.weight', 'model.layers.38.self_attn.o_proj.weight', 'model.layers.38.self_attn.qkv_proj.weight']
+  layer 39: arch unknown, sample tensors: ['model.layers.39.input_layernorm.weight', 'model.layers.39.mlp.down_proj.weight', 'model.layers.39.mlp.gate_up_proj.weight', 'model.layers.39.post_attention_layernorm.weight', 'model.layers.39.self_attn.o_proj.weight', 'model.layers.39.self_attn.qkv_proj.weight']
+  [ok] microsoft/phi-4 (1s)
+
+=== tier tier_100B_plus : 14 repos ===
+  [skip] meta-llama/Llama-3.1-405B already in journal
+  [skip] meta-llama/Llama-3.1-405B-Instruct already in journal
+
+>>> mistralai/Mixtral-8x22B-v0.1
+[mistralai/Mixtral-8x22B-v0.1] arch_hint=MixtralForCausalLM n_layers=56 d_hidden=6144
+[mistralai/Mixtral-8x22B-v0.1] scanning layers: [0, 1, 2, 53, 54, 55]
+[mistralai/Mixtral-8x22B-v0.1] needed shards: ['model-00001-of-00059.safetensors', 'model-00002-of-00059.safetensors', 'model-00003-of-00059.safetensors', 'model-00056-of-00059.safetensors', 'model-00057-of-00059.safetensors', 'model-00058-of-00059.safetensors']
+  opened model-00001-of-00059.safetensors: 5.00 GB total, hdr 4 KB, #tensors 28  (0.6s)
+  opened model-00002-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (1.1s)
+  opened model-00003-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.6s)
+  opened model-00056-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 28  (1.2s)
+  opened model-00057-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.6s)
+  opened model-00058-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (1.0s)
+  [mistralai/Mixtral-8x22B-v0.1] OOM at batch=4, halving batch
+[mistralai/Mixtral-8x22B-v0.1] arch_hint=MixtralForCausalLM n_layers=56 d_hidden=6144
+[mistralai/Mixtral-8x22B-v0.1] scanning layers: [0, 1, 2, 53, 54, 55]
+[mistralai/Mixtral-8x22B-v0.1] needed shards: ['model-00001-of-00059.safetensors', 'model-00002-of-00059.safetensors', 'model-00003-of-00059.safetensors', 'model-00056-of-00059.safetensors', 'model-00057-of-00059.safetensors', 'model-00058-of-00059.safetensors']
+  opened model-00001-of-00059.safetensors: 5.00 GB total, hdr 4 KB, #tensors 28  (0.4s)
+  opened model-00002-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.4s)
+  opened model-00003-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.5s)
+  opened model-00056-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 28  (0.4s)
+  opened model-00057-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.4s)
+  opened model-00058-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.4s)
+  [mistralai/Mixtral-8x22B-v0.1] OOM at batch=2, halving batch
+[mistralai/Mixtral-8x22B-v0.1] arch_hint=MixtralForCausalLM n_layers=56 d_hidden=6144
+[mistralai/Mixtral-8x22B-v0.1] scanning layers: [0, 1, 2, 53, 54, 55]
+[mistralai/Mixtral-8x22B-v0.1] needed shards: ['model-00001-of-00059.safetensors', 'model-00002-of-00059.safetensors', 'model-00003-of-00059.safetensors', 'model-00056-of-00059.safetensors', 'model-00057-of-00059.safetensors', 'model-00058-of-00059.safetensors']
+  opened model-00001-of-00059.safetensors: 5.00 GB total, hdr 4 KB, #tensors 28  (0.5s)
+  opened model-00002-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.4s)
+  opened model-00003-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.4s)
+  opened model-00056-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 28  (0.4s)
+  opened model-00057-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.4s)
+  opened model-00058-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.4s)
+  layer    0 [mixtral_moe]: fetched 604.0 MB (7.2s), jac 688.8s, n=16  sigma_min=0.0000  alpha_k=112340.5623 [37859.1260,339510.6306]  zeros@1e-3=84.38  zeros@rel1e-2=1715.69
+  layer    1 [mixtral_moe]: fetched 604.0 MB (14.8s), jac 679.0s, n=16  sigma_min=0.0000  alpha_k=62190.6410 [44049.4289,122089.2608]  zeros@1e-3=51.62  zeros@rel1e-2=1022.94
+  layer    2 [mixtral_moe]: fetched 604.0 MB (8.8s), jac 681.0s, n=16  sigma_min=0.0000  alpha_k=56591.4236 [26224.3644,136303.1619]  zeros@1e-3=42.56  zeros@rel1e-2=838.00
+  layer   53 [mixtral_moe]: fetched 604.0 MB (16.2s), jac 671.3s, n=16  sigma_min=0.0000  alpha_k=68273.6413 [25268.4605,5756663.7765]  zeros@1e-3=28.06  zeros@rel1e-2=816.81
+  layer   54 [mixtral_moe]: fetched 604.0 MB (8.8s), jac 676.1s, n=16  sigma_min=0.0000  alpha_k=39603.1139 [21954.6116,955485.7645]  zeros@1e-3=29.19  zeros@rel1e-2=1303.31
+  layer   55 [mixtral_moe]: fetched 604.0 MB (18.4s), jac 681.3s, n=16  sigma_min=0.0000  alpha_k=29237.7676 [20019.4353,129017.9013]  zeros@1e-3=37.94  zeros@rel1e-2=1810.94
+  [ok] mistralai/Mixtral-8x22B-v0.1 (4256s)
+
+>>> mistralai/Mixtral-8x22B-Instruct-v0.1
+[mistralai/Mixtral-8x22B-Instruct-v0.1] arch_hint=MixtralForCausalLM n_layers=56 d_hidden=6144
+[mistralai/Mixtral-8x22B-Instruct-v0.1] scanning layers: [0, 1, 2, 53, 54, 55]
+[mistralai/Mixtral-8x22B-Instruct-v0.1] needed shards: ['model-00001-of-00059.safetensors', 'model-00002-of-00059.safetensors', 'model-00003-of-00059.safetensors', 'model-00056-of-00059.safetensors', 'model-00057-of-00059.safetensors', 'model-00058-of-00059.safetensors']
+  opened model-00001-of-00059.safetensors: 4.81 GB total, hdr 3 KB, #tensors 27  (0.5s)
+  opened model-00002-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.5s)
+  opened model-00003-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.5s)
+  opened model-00056-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.5s)
+  opened model-00057-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.5s)
+  opened model-00058-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.5s)
+  [mistralai/Mixtral-8x22B-Instruct-v0.1] OOM at batch=4, halving batch
+[mistralai/Mixtral-8x22B-Instruct-v0.1] arch_hint=MixtralForCausalLM n_layers=56 d_hidden=6144
+[mistralai/Mixtral-8x22B-Instruct-v0.1] scanning layers: [0, 1, 2, 53, 54, 55]
+[mistralai/Mixtral-8x22B-Instruct-v0.1] needed shards: ['model-00001-of-00059.safetensors', 'model-00002-of-00059.safetensors', 'model-00003-of-00059.safetensors', 'model-00056-of-00059.safetensors', 'model-00057-of-00059.safetensors', 'model-00058-of-00059.safetensors']
+  opened model-00001-of-00059.safetensors: 4.81 GB total, hdr 3 KB, #tensors 27  (0.4s)
+  opened model-00002-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.4s)
+  opened model-00003-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.4s)
+  opened model-00056-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.4s)
+  opened model-00057-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.4s)
+  opened model-00058-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.4s)
+  [mistralai/Mixtral-8x22B-Instruct-v0.1] OOM at batch=2, halving batch
+[mistralai/Mixtral-8x22B-Instruct-v0.1] arch_hint=MixtralForCausalLM n_layers=56 d_hidden=6144
+[mistralai/Mixtral-8x22B-Instruct-v0.1] scanning layers: [0, 1, 2, 53, 54, 55]
+[mistralai/Mixtral-8x22B-Instruct-v0.1] needed shards: ['model-00001-of-00059.safetensors', 'model-00002-of-00059.safetensors', 'model-00003-of-00059.safetensors', 'model-00056-of-00059.safetensors', 'model-00057-of-00059.safetensors', 'model-00058-of-00059.safetensors']
+  opened model-00001-of-00059.safetensors: 4.81 GB total, hdr 3 KB, #tensors 27  (0.4s)
+  opened model-00002-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.4s)
+  opened model-00003-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.4s)
+  opened model-00056-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.4s)
+  opened model-00057-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.4s)
+  opened model-00058-of-00059.safetensors: 4.81 GB total, hdr 4 KB, #tensors 30  (0.4s)
+  layer    0 [mixtral_moe]: fetched 604.0 MB (8.1s), jac 688.1s, n=16  sigma_min=0.0000  alpha_k=84913.0182 [52097.0871,194609.7983]  zeros@1e-3=84.50  zeros@rel1e-2=1716.00
+  layer    1 [mixtral_moe]: fetched 604.0 MB (8.5s), jac 681.0s, n=16  sigma_min=0.0000  alpha_k=48820.9749 [29844.3806,104995.1530]  zeros@1e-3=51.25  zeros@rel1e-2=1022.75
+  layer    2 [mixtral_moe]: fetched 604.0 MB (8.6s), jac 680.2s, n=16  sigma_min=0.0000  alpha_k=25356.6534 [15103.0601,81426.8249]  zeros@1e-3=42.50  zeros@rel1e-2=838.19
+  layer   53 [mixtral_moe]: fetched 604.0 MB (8.8s), jac 669.5s, n=16  sigma_min=0.0000  alpha_k=39956.4901 [13406.1744,570948.9636]  zeros@1e-3=28.12  zeros@rel1e-2=816.69
+  layer   54 [mixtral_moe]: fetched 604.0 MB (10.0s), jac 671.3s, n=16  sigma_min=0.0000  alpha_k=59987.0057 [19680.7980,730368.8481]  zeros@1e-3=29.44  zeros@rel1e-2=1302.94
+  layer   55 [mixtral_moe]: fetched 604.0 MB (8.9s), jac 683.6s, n=16  sigma_min=0.0000  alpha_k=17354.6013 [11162.5840,60649.7317]  zeros@1e-3=38.19  zeros@rel1e-2=1809.94
+  [ok] mistralai/Mixtral-8x22B-Instruct-v0.1 (4230s)
+  [skip] mistralai/Mistral-Large-Instruct-2407 already in journal
+
+>>> mistralai/Mistral-Large-Instruct-2411
+[mistralai/Mistral-Large-Instruct-2411] arch_hint=MistralForCausalLM n_layers=88 d_hidden=12288
+[mistralai/Mistral-Large-Instruct-2411] scanning layers: [0, 1, 2, 85, 86, 87]
+[mistralai/Mistral-Large-Instruct-2411] needed shards: ['model-00001-of-00051.safetensors', 'model-00002-of-00051.safetensors', 'model-00050-of-00051.safetensors', 'model-00051-of-00051.safetensors']
+  opened model-00001-of-00051.safetensors: 4.93 GB total, hdr 2 KB, #tensors 15  (2.0s)
+  opened model-00002-of-00051.safetensors: 4.83 GB total, hdr 2 KB, #tensors 17  (1.9s)
+  opened model-00050-of-00051.safetensors: 4.83 GB total, hdr 2 KB, #tensors 17  (2.0s)
+  opened model-00051-of-00051.safetensors: 2.92 GB total, hdr 1 KB, #tensors 7  (1.9s)
+  [mistralai/Mistral-Large-Instruct-2411] OOM at batch=4, halving batch
+[mistralai/Mistral-Large-Instruct-2411] arch_hint=MistralForCausalLM n_layers=88 d_hidden=12288
+[mistralai/Mistral-Large-Instruct-2411] scanning layers: [0, 1, 2, 85, 86, 87]
+[mistralai/Mistral-Large-Instruct-2411] needed shards: ['model-00001-of-00051.safetensors', 'model-00002-of-00051.safetensors', 'model-00050-of-00051.safetensors', 'model-00051-of-00051.safetensors']
+  opened model-00001-of-00051.safetensors: 4.93 GB total, hdr 2 KB, #tensors 15  (0.5s)
+  opened model-00002-of-00051.safetensors: 4.83 GB total, hdr 2 KB, #tensors 17  (0.5s)
+  opened model-00050-of-00051.safetensors: 4.83 GB total, hdr 2 KB, #tensors 17  (0.5s)
+  opened model-00051-of-00051.safetensors: 2.92 GB total, hdr 1 KB, #tensors 7  (0.5s)
+  [mistralai/Mistral-Large-Instruct-2411] OOM at batch=2, halving batch
+[mistralai/Mistral-Large-Instruct-2411] arch_hint=MistralForCausalLM n_layers=88 d_hidden=12288
+[mistralai/Mistral-Large-Instruct-2411] scanning layers: [0, 1, 2, 85, 86, 87]
+[mistralai/Mistral-Large-Instruct-2411] needed shards: ['model-00001-of-00051.safetensors', 'model-00002-of-00051.safetensors', 'model-00050-of-00051.safetensors', 'model-00051-of-00051.safetensors']
+  opened model-00001-of-00051.safetensors: 4.93 GB total, hdr 2 KB, #tensors 15  (0.4s)
+  opened model-00002-of-00051.safetensors: 4.83 GB total, hdr 2 KB, #tensors 17  (0.4s)
+  opened model-00050-of-00051.safetensors: 4.83 GB total, hdr 2 KB, #tensors 17  (0.4s)
+  opened model-00051-of-00051.safetensors: 2.92 GB total, hdr 1 KB, #tensors 7  (0.4s)
+  [mistralai/Mistral-Large-Instruct-2411] OOM at batch=1, halving batch
+  [oom_giveup] mistralai/Mistral-Large-Instruct-2411 (123s)
+  [skip] tiiuae/falcon-180B already in journal
+  [skip] tiiuae/falcon-180B-chat already in journal
+  [skip] databricks/dbrx-base already in journal
+  [skip] databricks/dbrx-instruct already in journal
+  [skip] CohereForAI/c4ai-command-r-plus already in journal
+  [skip] CohereForAI/c4ai-command-r-plus-08-2024 already in journal
+
+>>> deepseek-ai/DeepSeek-V3-Base
+[deepseek-ai/DeepSeek-V3-Base] arch_hint=DeepseekV3ForCausalLM n_layers=61 d_hidden=7168
+[deepseek-ai/DeepSeek-V3-Base] scanning layers: [0, 1, 2, 58, 59, 60]
+[deepseek-ai/DeepSeek-V3-Base] needed shards: ['model-00001-of-000163.safetensors', 'model-00152-of-000163.safetensors', 'model-00155-of-000163.safetensors', 'model-00158-of-000163.safetensors']
+  opened model-00001-of-000163.safetensors: 5.23 GB total, hdr 34 KB, #tensors 270  (0.6s)
+  opened model-00152-of-000163.safetensors: 4.30 GB total, hdr 74 KB, #tensors 576  (1.3s)
+  opened model-00155-of-000163.safetensors: 4.30 GB total, hdr 74 KB, #tensors 576  (1.3s)
+  opened model-00158-of-000163.safetensors: 4.30 GB total, hdr 74 KB, #tensors 576  (0.6s)
+  [deepseek-ai/DeepSeek-V3-Base] error: KeyError: 'F8_E4M3'
+Traceback (most recent call last):
+  File "/home/rabbit/gpt2_attack_notions/scripts/alpha_k_shard_panel.py", line 82, in run_one
+    out = scan_one_model(repo, layers, device, jac_dtype=jac_dtype,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rabbit/gpt2_attack_notions/scripts/alpha_k_shard_scan.py", line 573, in scan_one_model
+    if verbose:
+        ^^^^^^^^
+  File "/home/rabbit/gpt2_attack_notions/scripts/partial_safetensors.py", line 152, in fetch
+    torch_dtype = HF_DTYPE_TO_TORCH[info.dtype]
+                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'F8_E4M3'
+
+  [error] deepseek-ai/DeepSeek-V3-Base (6s)
+
+>>> deepseek-ai/DeepSeek-V3
+[deepseek-ai/DeepSeek-V3] arch_hint=DeepseekV3ForCausalLM n_layers=61 d_hidden=7168
+[deepseek-ai/DeepSeek-V3] scanning layers: [0, 1, 2, 58, 59, 60]
+[deepseek-ai/DeepSeek-V3] needed shards: ['model-00001-of-000163.safetensors', 'model-00152-of-000163.safetensors', 'model-00155-of-000163.safetensors', 'model-00158-of-000163.safetensors']
+  opened model-00001-of-000163.safetensors: 5.23 GB total, hdr 34 KB, #tensors 270  (0.4s)
+  opened model-00152-of-000163.safetensors: 4.30 GB total, hdr 74 KB, #tensors 576  (0.4s)
+  opened model-00155-of-000163.safetensors: 4.30 GB total, hdr 74 KB, #tensors 576  (0.4s)
+  opened model-00158-of-000163.safetensors: 4.30 GB total, hdr 74 KB, #tensors 576  (0.4s)
+  [deepseek-ai/DeepSeek-V3] error: KeyError: 'F8_E4M3'
+Traceback (most recent call last):
+  File "/home/rabbit/gpt2_attack_notions/scripts/alpha_k_shard_panel.py", line 82, in run_one
+    out = scan_one_model(repo, layers, device, jac_dtype=jac_dtype,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rabbit/gpt2_attack_notions/scripts/alpha_k_shard_scan.py", line 573, in scan_one_model
+    if verbose:
+        ^^^^^^^^
+  File "/home/rabbit/gpt2_attack_notions/scripts/partial_safetensors.py", line 152, in fetch
+    torch_dtype = HF_DTYPE_TO_TORCH[info.dtype]
+                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'F8_E4M3'
+
+  [error] deepseek-ai/DeepSeek-V3 (4s)
+
+Done. ok=21 no_access=28 err=9
+Journal: data/alpha_k_shard/shard_panel_journal.json
+[watchdog] exit code 0
+[watchdog] done after 7 attempts
+[watchdog] launch attempt 1 at 2026-05-27T10:54:45-07:00
+
+=== tier tier_1_to_10B : 18 repos ===
+  [skip] Qwen/Qwen2.5-1.5B already in journal
+  [skip] Qwen/Qwen2.5-3B already in journal
+  [skip] Qwen/Qwen2.5-7B already in journal
+  [skip] Qwen/Qwen2.5-1.5B-Instruct already in journal
+  [skip] Qwen/Qwen2.5-7B-Instruct already in journal
+  [skip] microsoft/phi-2 already in journal
+  [skip] 01-ai/Yi-1.5-6B already in journal
+  [skip] 01-ai/Yi-1.5-9B already in journal
+  [skip] HuggingFaceTB/SmolLM2-1.7B already in journal
+  [skip] EleutherAI/pythia-6.9b already in journal
+  [skip] mistralai/Mistral-7B-v0.1 already in journal
+  [skip] mistralai/Mistral-7B-v0.3 already in journal
+  [skip] meta-llama/Llama-3.2-1B already in journal
+  [skip] meta-llama/Llama-3.2-3B already in journal
+  [skip] meta-llama/Llama-3.1-8B already in journal
+  [skip] google/gemma-2-2b already in journal
+  [skip] google/gemma-2-9b already in journal
+  [skip] ibm-granite/granite-3.1-8b-base already in journal
+
+=== tier tier_10_to_50B : 15 repos ===
+  [skip] Qwen/Qwen2.5-14B already in journal
+
+>>> Qwen/Qwen2.5-32B
+[Qwen/Qwen2.5-32B] arch_hint=Qwen2ForCausalLM n_layers=64 d_hidden=5120
+[Qwen/Qwen2.5-32B] scanning layers: [0, 1, 2, 61, 62, 63]
+[Qwen/Qwen2.5-32B] needed shards: ['model-00001-of-00017.safetensors', 'model-00002-of-00017.safetensors', 'model-00016-of-00017.safetensors', 'model-00017-of-00017.safetensors']
+  opened model-00001-of-00017.safetensors: 3.92 GB total, hdr 4 KB, #tensors 33  (0.4s)
+  opened model-00002-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00016-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00017-of-00017.safetensors: 3.10 GB total, hdr 2 KB, #tensors 18  (0.4s)
+  [Qwen/Qwen2.5-32B] error: TypeError: jacfwd() got an unexpected keyword argument 'chunk_size'
+Traceback (most recent call last):
+  File "/home/rabbit/gpt2_attack_notions/scripts/alpha_k_shard_panel.py", line 83, in run_one
+    out = scan_one_model(repo, layers, device, jac_dtype=jac_dtype,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rabbit/gpt2_attack_notions/scripts/alpha_k_shard_scan.py", line 689, in scan_one_model
+    jac_fn = jacfwd(f, chunk_size=chunk_size) if chunk_size else jacfwd(f)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: jacfwd() got an unexpected keyword argument 'chunk_size'
+
+  [error] Qwen/Qwen2.5-32B (14s)
+  [skip] Qwen/Qwen2.5-14B-Instruct already in journal
+
+>>> Qwen/Qwen2.5-32B-Instruct
+[Qwen/Qwen2.5-32B-Instruct] arch_hint=Qwen2ForCausalLM n_layers=64 d_hidden=5120
+[Qwen/Qwen2.5-32B-Instruct] scanning layers: [0, 1, 2, 61, 62, 63]
+[Qwen/Qwen2.5-32B-Instruct] needed shards: ['model-00001-of-00017.safetensors', 'model-00016-of-00017.safetensors', 'model-00017-of-00017.safetensors']
+  opened model-00001-of-00017.safetensors: 3.92 GB total, hdr 4 KB, #tensors 35  (0.4s)
+  opened model-00016-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00017-of-00017.safetensors: 3.10 GB total, hdr 2 KB, #tensors 16  (0.4s)
+  [Qwen/Qwen2.5-32B-Instruct] error: TypeError: jacfwd() got an unexpected keyword argument 'chunk_size'
+Traceback (most recent call last):
+  File "/home/rabbit/gpt2_attack_notions/scripts/alpha_k_shard_panel.py", line 83, in run_one
+    out = scan_one_model(repo, layers, device, jac_dtype=jac_dtype,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rabbit/gpt2_attack_notions/scripts/alpha_k_shard_scan.py", line 689, in scan_one_model
+    jac_fn = jacfwd(f, chunk_size=chunk_size) if chunk_size else jacfwd(f)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: jacfwd() got an unexpected keyword argument 'chunk_size'
+
+  [error] Qwen/Qwen2.5-32B-Instruct (11s)
+
+>>> 01-ai/Yi-1.5-34B
+[01-ai/Yi-1.5-34B] arch_hint=LlamaForCausalLM n_layers=60 d_hidden=7168
+[01-ai/Yi-1.5-34B] scanning layers: [0, 1, 2, 57, 58, 59]
+[01-ai/Yi-1.5-34B] needed shards: ['model-00001-of-00015.safetensors', 'model-00014-of-00015.safetensors', 'model-00015-of-00015.safetensors']
+  opened model-00001-of-00015.safetensors: 4.79 GB total, hdr 4 KB, #tensors 33  (0.4s)
+  opened model-00014-of-00015.safetensors: 4.76 GB total, hdr 4 KB, #tensors 37  (0.4s)
+  opened model-00015-of-00015.safetensors: 1.21 GB total, hdr 1 KB, #tensors 5  (0.4s)
+[watchdog] exit code 143
+[watchdog] done after 1 attempts
+[watchdog] launch attempt 1 at 2026-05-27T10:56:45-07:00
+
+=== tier tier_1_to_10B : 18 repos ===
+  [skip] Qwen/Qwen2.5-1.5B already in journal
+  [skip] Qwen/Qwen2.5-3B already in journal
+  [skip] Qwen/Qwen2.5-7B already in journal
+  [skip] Qwen/Qwen2.5-1.5B-Instruct already in journal
+  [skip] Qwen/Qwen2.5-7B-Instruct already in journal
+  [skip] microsoft/phi-2 already in journal
+  [skip] 01-ai/Yi-1.5-6B already in journal
+  [skip] 01-ai/Yi-1.5-9B already in journal
+  [skip] HuggingFaceTB/SmolLM2-1.7B already in journal
+  [skip] EleutherAI/pythia-6.9b already in journal
+  [skip] mistralai/Mistral-7B-v0.1 already in journal
+  [skip] mistralai/Mistral-7B-v0.3 already in journal
+  [skip] meta-llama/Llama-3.2-1B already in journal
+  [skip] meta-llama/Llama-3.2-3B already in journal
+  [skip] meta-llama/Llama-3.1-8B already in journal
+  [skip] google/gemma-2-2b already in journal
+  [skip] google/gemma-2-9b already in journal
+  [skip] ibm-granite/granite-3.1-8b-base already in journal
+
+=== tier tier_10_to_50B : 15 repos ===
+  [skip] Qwen/Qwen2.5-14B already in journal
+  [skip] Qwen/Qwen2.5-32B already in journal
+  [skip] Qwen/Qwen2.5-14B-Instruct already in journal
+  [skip] Qwen/Qwen2.5-32B-Instruct already in journal
+
+>>> 01-ai/Yi-1.5-34B
+[01-ai/Yi-1.5-34B] arch_hint=LlamaForCausalLM n_layers=60 d_hidden=7168
+[01-ai/Yi-1.5-34B] scanning layers: [0, 1, 2, 57, 58, 59]
+[01-ai/Yi-1.5-34B] needed shards: ['model-00001-of-00015.safetensors', 'model-00014-of-00015.safetensors', 'model-00015-of-00015.safetensors']
+  opened model-00001-of-00015.safetensors: 4.79 GB total, hdr 4 KB, #tensors 33  (0.4s)
+  opened model-00014-of-00015.safetensors: 4.76 GB total, hdr 4 KB, #tensors 37  (0.4s)
+  opened model-00015-of-00015.safetensors: 1.21 GB total, hdr 1 KB, #tensors 5  (0.4s)
+[watchdog] exit code 143
+[watchdog] done after 1 attempts
+[watchdog] launch attempt 1 at 2026-05-27T10:57:40-07:00
+
+=== tier tier_1_to_10B : 18 repos ===
+  [skip] Qwen/Qwen2.5-1.5B already in journal
+  [skip] Qwen/Qwen2.5-3B already in journal
+  [skip] Qwen/Qwen2.5-7B already in journal
+  [skip] Qwen/Qwen2.5-1.5B-Instruct already in journal
+  [skip] Qwen/Qwen2.5-7B-Instruct already in journal
+  [skip] microsoft/phi-2 already in journal
+  [skip] 01-ai/Yi-1.5-6B already in journal
+  [skip] 01-ai/Yi-1.5-9B already in journal
+  [skip] HuggingFaceTB/SmolLM2-1.7B already in journal
+  [skip] EleutherAI/pythia-6.9b already in journal
+  [skip] mistralai/Mistral-7B-v0.1 already in journal
+  [skip] mistralai/Mistral-7B-v0.3 already in journal
+  [skip] meta-llama/Llama-3.2-1B already in journal
+  [skip] meta-llama/Llama-3.2-3B already in journal
+  [skip] meta-llama/Llama-3.1-8B already in journal
+  [skip] google/gemma-2-2b already in journal
+  [skip] google/gemma-2-9b already in journal
+  [skip] ibm-granite/granite-3.1-8b-base already in journal
+
+=== tier tier_10_to_50B : 15 repos ===
+  [skip] Qwen/Qwen2.5-14B already in journal
+
+>>> Qwen/Qwen2.5-32B
+[Qwen/Qwen2.5-32B] arch_hint=Qwen2ForCausalLM n_layers=64 d_hidden=5120
+[Qwen/Qwen2.5-32B] scanning layers: [0, 1, 2, 61, 62, 63]
+[Qwen/Qwen2.5-32B] needed shards: ['model-00001-of-00017.safetensors', 'model-00002-of-00017.safetensors', 'model-00016-of-00017.safetensors', 'model-00017-of-00017.safetensors']
+  opened model-00001-of-00017.safetensors: 3.92 GB total, hdr 4 KB, #tensors 33  (0.4s)
+  opened model-00002-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00016-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00017-of-00017.safetensors: 3.10 GB total, hdr 2 KB, #tensors 18  (0.4s)
+  layer    0 [swiglu]: fetched 849.4 MB (12.7s), jac 546.9s, n=16  sigma_min=0.0000  alpha_k=62070.8104 [18834.9047,2054002.6254]  zeros@1e-3=24.25  zeros@rel1e-2=1595.38
+  layer    1 [swiglu]: fetched 849.4 MB (10.3s), jac 859.3s, n=16  sigma_min=0.0000  alpha_k=15627034900.5517 [8879710202.9568,32494749319.8143]  zeros@1e-3=3199.50  zeros@rel1e-2=4397.62
+  layer 2: arch unknown, sample tensors: ['model.layers.2.input_layernorm.weight', 'model.layers.2.mlp.down_proj.weight', 'model.layers.2.mlp.up_proj.weight', 'model.layers.2.post_attention_layernorm.weight']
+[watchdog] exit code 143
+[watchdog] done after 1 attempts
+[watchdog] launch attempt 1 at 2026-05-27T11:23:42-07:00
+
+=== tier tier_1_to_10B : 18 repos ===
+  [skip] Qwen/Qwen2.5-1.5B already in journal
+  [skip] Qwen/Qwen2.5-3B already in journal
+  [skip] Qwen/Qwen2.5-7B already in journal
+  [skip] Qwen/Qwen2.5-1.5B-Instruct already in journal
+  [skip] Qwen/Qwen2.5-7B-Instruct already in journal
+  [skip] microsoft/phi-2 already in journal
+  [skip] 01-ai/Yi-1.5-6B already in journal
+  [skip] 01-ai/Yi-1.5-9B already in journal
+  [skip] HuggingFaceTB/SmolLM2-1.7B already in journal
+  [skip] EleutherAI/pythia-6.9b already in journal
+  [skip] mistralai/Mistral-7B-v0.1 already in journal
+  [skip] mistralai/Mistral-7B-v0.3 already in journal
+  [skip] meta-llama/Llama-3.2-1B already in journal
+  [skip] meta-llama/Llama-3.2-3B already in journal
+  [skip] meta-llama/Llama-3.1-8B already in journal
+  [skip] google/gemma-2-2b already in journal
+  [skip] google/gemma-2-9b already in journal
+  [skip] ibm-granite/granite-3.1-8b-base already in journal
+
+=== tier tier_10_to_50B : 15 repos ===
+  [skip] Qwen/Qwen2.5-14B already in journal
+
+>>> Qwen/Qwen2.5-32B
+[Qwen/Qwen2.5-32B] arch_hint=Qwen2ForCausalLM n_layers=64 d_hidden=5120
+[Qwen/Qwen2.5-32B] scanning layers: [0, 1, 2, 61, 62, 63]
+[Qwen/Qwen2.5-32B] needed shards: ['model-00001-of-00017.safetensors', 'model-00002-of-00017.safetensors', 'model-00016-of-00017.safetensors', 'model-00017-of-00017.safetensors']
+  opened model-00001-of-00017.safetensors: 3.92 GB total, hdr 4 KB, #tensors 33  (0.4s)
+  opened model-00002-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00016-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00017-of-00017.safetensors: 3.10 GB total, hdr 2 KB, #tensors 18  (0.4s)
+  layer    0 [swiglu]: fetched 849.4 MB (10.0s), jac 546.8s, n=16  sigma_min=0.0000  alpha_k=62070.8104 [18834.9047,2054002.6254]  zeros@1e-3=24.25  zeros@rel1e-2=1595.38
+  layer    1 [swiglu]: fetched 849.4 MB (10.7s), jac 859.8s, n=16  sigma_min=0.0000  alpha_k=15627034900.5517 [8879710202.9568,32494749319.8143]  zeros@1e-3=3199.50  zeros@rel1e-2=4397.62
+  layer 2: arch unknown, sample tensors: ['model.layers.2.input_layernorm.weight', 'model.layers.2.mlp.down_proj.weight', 'model.layers.2.mlp.up_proj.weight', 'model.layers.2.post_attention_layernorm.weight']
+  layer   61 [swiglu]: fetched 849.4 MB (9.3s), jac 533.4s, n=16  sigma_min=0.0006  alpha_k=1005.9859 [423.6860,5019.8299]  zeros@1e-3=0.88  zeros@rel1e-2=593.00
+  layer 62: arch unknown, sample tensors: ['model.layers.62.input_layernorm.weight', 'model.layers.62.mlp.down_proj.weight', 'model.layers.62.mlp.up_proj.weight', 'model.layers.62.post_attention_layernorm.weight']
+  layer   63 [swiglu]: fetched 849.4 MB (11.5s), jac 535.3s, n=16  sigma_min=0.0006  alpha_k=778.8789 [539.0970,2779.5693]  zeros@1e-3=0.75  zeros@rel1e-2=766.62
+  [ok] Qwen/Qwen2.5-32B (2520s)
+  [skip] Qwen/Qwen2.5-14B-Instruct already in journal
+
+>>> Qwen/Qwen2.5-32B-Instruct
+[Qwen/Qwen2.5-32B-Instruct] arch_hint=Qwen2ForCausalLM n_layers=64 d_hidden=5120
+[Qwen/Qwen2.5-32B-Instruct] scanning layers: [0, 1, 2, 61, 62, 63]
+[Qwen/Qwen2.5-32B-Instruct] needed shards: ['model-00001-of-00017.safetensors', 'model-00002-of-00017.safetensors', 'model-00016-of-00017.safetensors', 'model-00017-of-00017.safetensors']
+  opened model-00001-of-00017.safetensors: 3.92 GB total, hdr 4 KB, #tensors 35  (0.5s)
+  opened model-00002-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00016-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00017-of-00017.safetensors: 3.10 GB total, hdr 2 KB, #tensors 16  (0.4s)
+[watchdog] exit code 143
+[watchdog] done after 1 attempts
+[watchdog] launch attempt 1 at 2026-05-27T12:09:09-07:00
+
+=== tier tier_1_to_10B : 18 repos ===
+  [skip] Qwen/Qwen2.5-1.5B already in journal
+  [skip] Qwen/Qwen2.5-3B already in journal
+  [skip] Qwen/Qwen2.5-7B already in journal
+  [skip] Qwen/Qwen2.5-1.5B-Instruct already in journal
+  [skip] Qwen/Qwen2.5-7B-Instruct already in journal
+  [skip] microsoft/phi-2 already in journal
+  [skip] 01-ai/Yi-1.5-6B already in journal
+  [skip] 01-ai/Yi-1.5-9B already in journal
+  [skip] HuggingFaceTB/SmolLM2-1.7B already in journal
+  [skip] EleutherAI/pythia-6.9b already in journal
+  [skip] mistralai/Mistral-7B-v0.1 already in journal
+  [skip] mistralai/Mistral-7B-v0.3 already in journal
+  [skip] meta-llama/Llama-3.2-1B already in journal
+  [skip] meta-llama/Llama-3.2-3B already in journal
+  [skip] meta-llama/Llama-3.1-8B already in journal
+  [skip] google/gemma-2-2b already in journal
+  [skip] google/gemma-2-9b already in journal
+  [skip] ibm-granite/granite-3.1-8b-base already in journal
+
+=== tier tier_10_to_50B : 15 repos ===
+  [skip] Qwen/Qwen2.5-14B already in journal
+
+>>> Qwen/Qwen2.5-32B
+[Qwen/Qwen2.5-32B] arch_hint=Qwen2ForCausalLM n_layers=64 d_hidden=5120
+[Qwen/Qwen2.5-32B] scanning layers: [0, 1, 2, 61, 62, 63]
+[Qwen/Qwen2.5-32B] needed shards: ['model-00001-of-00017.safetensors', 'model-00002-of-00017.safetensors', 'model-00016-of-00017.safetensors', 'model-00017-of-00017.safetensors']
+  opened model-00001-of-00017.safetensors: 3.92 GB total, hdr 4 KB, #tensors 33  (0.4s)
+  opened model-00002-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00016-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00017-of-00017.safetensors: 3.10 GB total, hdr 2 KB, #tensors 18  (0.4s)
+  layer    0 [swiglu]: fetched 849.4 MB (11.2s), jac 546.9s, n=16  sigma_min=0.0000  alpha_k=62070.8104 [18834.9047,2054002.6254]  zeros@1e-3=24.25  zeros@rel1e-2=1595.38
+  layer    1 [swiglu]: fetched 849.4 MB (9.9s), jac 859.2s, n=16  sigma_min=0.0000  alpha_k=15627034900.5517 [8879710202.9568,32494749319.8143]  zeros@1e-3=3199.50  zeros@rel1e-2=4397.62
+  layer    2 [swiglu]: fetched 849.4 MB (12.2s), jac 557.8s, n=16  sigma_min=0.0000  alpha_k=224292.6924 [148302.0259,3618202.8818]  zeros@1e-3=156.81  zeros@rel1e-2=2925.25
+  layer   61 [swiglu]: fetched 849.4 MB (10.7s), jac 533.6s, n=16  sigma_min=0.0007  alpha_k=542.1047 [352.4930,50395.6268]  zeros@1e-3=0.88  zeros@rel1e-2=588.38
+  layer   62 [swiglu]: fetched 849.4 MB (11.6s), jac 533.6s, n=16  sigma_min=0.0006  alpha_k=2066.7784 [637.5862,26380.0097]  zeros@1e-3=0.88  zeros@rel1e-2=797.38
+  layer   63 [swiglu]: fetched 849.4 MB (10.3s), jac 534.9s, n=16  sigma_min=0.0006  alpha_k=892.4827 [501.9283,11342.7014]  zeros@1e-3=0.88  zeros@rel1e-2=819.50
+  [ok] Qwen/Qwen2.5-32B (3636s)
+  [skip] Qwen/Qwen2.5-14B-Instruct already in journal
+
+>>> Qwen/Qwen2.5-32B-Instruct
+[Qwen/Qwen2.5-32B-Instruct] arch_hint=Qwen2ForCausalLM n_layers=64 d_hidden=5120
+[Qwen/Qwen2.5-32B-Instruct] scanning layers: [0, 1, 2, 61, 62, 63]
+[Qwen/Qwen2.5-32B-Instruct] needed shards: ['model-00001-of-00017.safetensors', 'model-00002-of-00017.safetensors', 'model-00016-of-00017.safetensors', 'model-00017-of-00017.safetensors']
+  opened model-00001-of-00017.safetensors: 3.92 GB total, hdr 4 KB, #tensors 35  (0.4s)
+  opened model-00002-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00016-of-00017.safetensors: 3.90 GB total, hdr 6 KB, #tensors 48  (0.4s)
+  opened model-00017-of-00017.safetensors: 3.10 GB total, hdr 2 KB, #tensors 16  (0.4s)
+  layer    0 [swiglu]: fetched 849.4 MB (12.5s), jac 547.5s, n=16  sigma_min=0.0000  alpha_k=22639.8225 [19854.2934,123614.8105]  zeros@1e-3=24.00  zeros@rel1e-2=1594.56
+  layer    1 [swiglu]: fetched 849.4 MB (23.5s), jac 862.8s, n=16  sigma_min=0.0000  alpha_k=26611471945.7984 [7787722891.0015,55379283033.3182]  zeros@1e-3=3199.19  zeros@rel1e-2=4397.88
+  layer    2 [swiglu]: fetched 849.4 MB (12.4s), jac 559.0s, n=16  sigma_min=0.0000  alpha_k=489184.2823 [214783.6282,4436166.4898]  zeros@1e-3=157.12  zeros@rel1e-2=2925.00
+  layer   61 [swiglu]: fetched 849.4 MB (11.7s), jac 532.9s, n=16  sigma_min=0.0007  alpha_k=518.1337 [278.8932,14107.6373]  zeros@1e-3=0.88  zeros@rel1e-2=588.75
+  layer   62 [swiglu]: fetched 849.4 MB (11.3s), jac 532.6s, n=16  sigma_min=0.0004  alpha_k=754.7262 [460.0714,13331.8988]  zeros@1e-3=0.94  zeros@rel1e-2=797.06
+  layer   63 [swiglu]: fetched 849.4 MB (10.1s), jac 536.3s, n=16  sigma_min=0.0006  alpha_k=776.6294 [497.9456,33500.4926]  zeros@1e-3=0.81  zeros@rel1e-2=820.19
+  [ok] Qwen/Qwen2.5-32B-Instruct (3656s)
+
+>>> 01-ai/Yi-1.5-34B
+[01-ai/Yi-1.5-34B] arch_hint=LlamaForCausalLM n_layers=60 d_hidden=7168
+[01-ai/Yi-1.5-34B] scanning layers: [0, 1, 2, 57, 58, 59]
+[01-ai/Yi-1.5-34B] needed shards: ['model-00001-of-00015.safetensors', 'model-00014-of-00015.safetensors', 'model-00015-of-00015.safetensors']
+  opened model-00001-of-00015.safetensors: 4.79 GB total, hdr 4 KB, #tensors 33  (0.4s)
+  opened model-00014-of-00015.safetensors: 4.76 GB total, hdr 4 KB, #tensors 37  (0.4s)
+  opened model-00015-of-00015.safetensors: 1.21 GB total, hdr 1 KB, #tensors 5  (0.5s)
+  layer    0 [swiglu]: fetched 880.8 MB (10.8s), jac 1105.3s, n=16  sigma_min=0.0000  alpha_k=401538.6777 [273936.4302,2888980.3847]  zeros@1e-3=569.69  zeros@rel1e-2=4476.19
+[watchdog] exit code 143
+[watchdog] done after 1 attempts
+[watchdog] launch attempt 1 at 2026-05-27T14:29:42-07:00
+
+=== tier tier_1_to_10B : 18 repos ===
+  [skip] Qwen/Qwen2.5-1.5B already in journal
+  [skip] Qwen/Qwen2.5-3B already in journal
+  [skip] Qwen/Qwen2.5-7B already in journal
+  [skip] Qwen/Qwen2.5-1.5B-Instruct already in journal
+  [skip] Qwen/Qwen2.5-7B-Instruct already in journal
+  [skip] microsoft/phi-2 already in journal
+  [skip] 01-ai/Yi-1.5-6B already in journal
+  [skip] 01-ai/Yi-1.5-9B already in journal
+  [skip] HuggingFaceTB/SmolLM2-1.7B already in journal
+  [skip] EleutherAI/pythia-6.9b already in journal
+  [skip] mistralai/Mistral-7B-v0.1 already in journal
+  [skip] mistralai/Mistral-7B-v0.3 already in journal
+  [skip] meta-llama/Llama-3.2-1B already in journal
+  [skip] meta-llama/Llama-3.2-3B already in journal
+  [skip] meta-llama/Llama-3.1-8B already in journal
+  [skip] google/gemma-2-2b already in journal
+  [skip] google/gemma-2-9b already in journal
+  [skip] ibm-granite/granite-3.1-8b-base already in journal
+
+=== tier tier_10_to_50B : 15 repos ===
+  [skip] Qwen/Qwen2.5-14B already in journal
+  [skip] Qwen/Qwen2.5-32B already in journal
+  [skip] Qwen/Qwen2.5-14B-Instruct already in journal
+  [skip] Qwen/Qwen2.5-32B-Instruct already in journal
+
+>>> 01-ai/Yi-1.5-34B
+[01-ai/Yi-1.5-34B] arch_hint=LlamaForCausalLM n_layers=60 d_hidden=7168
+[01-ai/Yi-1.5-34B] scanning layers: [0, 1, 2, 57, 58, 59]
+[01-ai/Yi-1.5-34B] needed shards: ['model-00001-of-00015.safetensors', 'model-00014-of-00015.safetensors', 'model-00015-of-00015.safetensors']
+  opened model-00001-of-00015.safetensors: 4.79 GB total, hdr 4 KB, #tensors 33  (0.4s)
+  opened model-00014-of-00015.safetensors: 4.76 GB total, hdr 4 KB, #tensors 37  (0.6s)
+  opened model-00015-of-00015.safetensors: 1.21 GB total, hdr 1 KB, #tensors 5  (0.4s)
+  layer    0 [swiglu]: fetched 880.8 MB (11.9s), jac 1104.6s, n=16  sigma_min=0.0000  alpha_k=401538.6777 [273936.4302,2888980.3847]  zeros@1e-3=569.69  zeros@rel1e-2=4476.19
+  layer    1 [swiglu]: fetched 880.8 MB (16.1s), jac 1109.6s, n=16  sigma_min=0.0000  alpha_k=633014.4544 [276266.6389,4944498.0097]  zeros@1e-3=364.81  zeros@rel1e-2=4589.75
+  layer    2 [swiglu]: fetched 880.8 MB (20.7s), jac 1093.7s, n=16  sigma_min=0.0000  alpha_k=146245.2044 [82026.1206,9564272.2562]  zeros@1e-3=138.75  zeros@rel1e-2=4886.38
+  layer   57 [swiglu]: fetched 880.8 MB (20.9s), jac 1086.4s, n=16  sigma_min=0.0001  alpha_k=8254.1702 [2870.7658,27967.0964]  zeros@1e-3=6.00  zeros@rel1e-2=914.31
+  layer   58 [swiglu]: fetched 880.8 MB (18.2s), jac 1080.9s, n=16  sigma_min=0.0001  alpha_k=6281.1321 [3026.5228,14580.4352]  zeros@1e-3=6.06  zeros@rel1e-2=1702.31
+  layer   59 [swiglu]: fetched 880.8 MB (19.0s), jac 1082.6s, n=16  sigma_min=0.0001  alpha_k=4050.1826 [2912.7468,173978.0570]  zeros@1e-3=6.06  zeros@rel1e-2=1089.75
+  [ok] 01-ai/Yi-1.5-34B (6668s)
+
+>>> 01-ai/Yi-1.5-34B-Chat
+[01-ai/Yi-1.5-34B-Chat] arch_hint=LlamaForCausalLM n_layers=60 d_hidden=7168
+[01-ai/Yi-1.5-34B-Chat] scanning layers: [0, 1, 2, 57, 58, 59]
+[01-ai/Yi-1.5-34B-Chat] needed shards: ['model-00001-of-00015.safetensors', 'model-00014-of-00015.safetensors', 'model-00015-of-00015.safetensors']
+  opened model-00001-of-00015.safetensors: 4.79 GB total, hdr 4 KB, #tensors 33  (0.6s)
+  opened model-00014-of-00015.safetensors: 4.76 GB total, hdr 4 KB, #tensors 37  (0.4s)
+  opened model-00015-of-00015.safetensors: 1.21 GB total, hdr 1 KB, #tensors 5  (0.5s)
+  layer    0 [swiglu]: fetched 880.8 MB (11.0s), jac 1105.5s, n=16  sigma_min=0.0000  alpha_k=405372.0829 [207489.6710,777127.4121]  zeros@1e-3=570.25  zeros@rel1e-2=4521.44
+  layer    1 [swiglu]: fetched 880.8 MB (12.2s), jac 1108.4s, n=16  sigma_min=0.0000  alpha_k=472305.7198 [229138.8675,1441492.8277]  zeros@1e-3=364.06  zeros@rel1e-2=4618.94
+  layer    2 [swiglu]: fetched 880.8 MB (12.3s), jac 1096.3s, n=16  sigma_min=0.0000  alpha_k=111723.3691 [91059.8652,234389.7697]  zeros@1e-3=138.19  zeros@rel1e-2=4868.94
+  layer   57 [swiglu]: fetched 880.8 MB (11.9s), jac 1082.8s, n=16  sigma_min=0.0001  alpha_k=16274.5303 [6890.9853,42253.9831]  zeros@1e-3=6.06  zeros@rel1e-2=907.69
+  layer   58 [swiglu]: fetched 880.8 MB (12.1s), jac 1084.0s, n=16  sigma_min=0.0001  alpha_k=8636.0655 [4100.6708,66836.2214]  zeros@1e-3=5.88  zeros@rel1e-2=1705.38
+  layer   59 [swiglu]: fetched 880.8 MB (12.9s), jac 1088.7s, n=16  sigma_min=0.0001  alpha_k=57811.0136 [8974.1438,351966.5244]  zeros@1e-3=6.00  zeros@rel1e-2=1081.62
+  [ok] 01-ai/Yi-1.5-34B-Chat (6642s)
+  [skip] mistralai/Mixtral-8x7B-v0.1 already in journal
+  [skip] mistralai/Mistral-Nemo-Base-2407 already in journal
+  [skip] google/gemma-2-27b already in journal
+  [skip] google/gemma-2-27b-it already in journal
+  [skip] CohereForAI/c4ai-command-r-v01 already in journal
+  [skip] CohereForAI/c4ai-command-r-08-2024 already in journal
+  [skip] mistralai/Codestral-22B-v0.1 already in journal
+
+>>> deepseek-ai/deepseek-coder-33b-instruct
+[deepseek-ai/deepseek-coder-33b-instruct] arch_hint=LlamaForCausalLM n_layers=62 d_hidden=7168
+[deepseek-ai/deepseek-coder-33b-instruct] scanning layers: [0, 1, 2, 59, 60, 61]
+[deepseek-ai/deepseek-coder-33b-instruct] needed shards: ['model-00001-of-00007.safetensors', 'model-00007-of-00007.safetensors']
+  opened model-00001-of-00007.safetensors: 9.73 GB total, hdr 9 KB, #tensors 79  (0.6s)
+  opened model-00007-of-00007.safetensors: 7.38 GB total, hdr 7 KB, #tensors 60  (0.6s)
+  layer    0 [swiglu]: fetched 825.8 MB (13.2s), jac 1121.4s, n=16  sigma_min=0.0000  alpha_k=720017.4520 [355439.5751,6332490.4020]  zeros@1e-3=466.62  zeros@rel1e-2=4201.12
+  layer    1 [swiglu]: fetched 825.8 MB (13.6s), jac 1087.8s, n=16  sigma_min=0.0000  alpha_k=150578.2724 [89183.8820,450628.5999]  zeros@1e-3=90.38  zeros@rel1e-2=3654.06
+  layer    2 [swiglu]: fetched 825.8 MB (12.2s), jac 1070.7s, n=16  sigma_min=0.0000  alpha_k=34438.1842 [18476.4823,130777.9736]  zeros@1e-3=12.75  zeros@rel1e-2=1798.69
+  layer   59 [swiglu]: fetched 825.8 MB (12.5s), jac 1061.2s, n=16  sigma_min=0.0002  alpha_k=3572.8073 [1075.0860,87750.6002]  zeros@1e-3=2.12  zeros@rel1e-2=1493.75
+  layer   60 [swiglu]: fetched 825.8 MB (13.1s), jac 1062.3s, n=16  sigma_min=0.0002  alpha_k=6647.9612 [2340.6130,46685.2094]  zeros@1e-3=2.88  zeros@rel1e-2=4066.44
+  layer   61 [swiglu]: fetched 825.8 MB (17.5s), jac 1081.1s, n=16  sigma_min=0.0001  alpha_k=6530.4396 [2692.6191,14398.5645]  zeros@1e-3=4.38  zeros@rel1e-2=4639.56
+  [ok] deepseek-ai/deepseek-coder-33b-instruct (6570s)
+  [skip] microsoft/phi-4 already in journal
+
+=== tier tier_50_to_100B : 5 repos ===
+
+>>> meta-llama/Meta-Llama-3-70B
+[meta-llama/Meta-Llama-3-70B] arch_hint=LlamaForCausalLM n_layers=80 d_hidden=8192
+[meta-llama/Meta-Llama-3-70B] scanning layers: [0, 1, 2, 77, 78, 79]
+[meta-llama/Meta-Llama-3-70B] needed shards: ['model-00001-of-00030.safetensors', 'model-00002-of-00030.safetensors', 'model-00028-of-00030.safetensors', 'model-00029-of-00030.safetensors']
+  opened model-00001-of-00030.safetensors: 4.58 GB total, hdr 2 KB, #tensors 15  (1.3s)
+  opened model-00002-of-00030.safetensors: 4.66 GB total, hdr 3 KB, #tensors 26  (1.0s)
+  opened model-00028-of-00030.safetensors: 5.00 GB total, hdr 3 KB, #tensors 26  (1.1s)
+  opened model-00029-of-00030.safetensors: 4.97 GB total, hdr 3 KB, #tensors 25  (1.0s)
+  layer    0 [swiglu]: fetched 1409.3 MB (37.0s), jac 1769.8s, n=16  sigma_min=0.0000  alpha_k=1355947.5882 [476405.3496,12134624.5127]  zeros@1e-3=1030.69  zeros@rel1e-2=8145.06
+  layer    1 [swiglu]: fetched 1409.3 MB (27.6s), jac 1783.1s, n=16  sigma_min=0.0000  alpha_k=391480.3901 [187393.5941,1529952.9160]  zeros@1e-3=193.81  zeros@rel1e-2=4413.19
+  layer    2 [swiglu]: fetched 1409.3 MB (48.5s), jac 1774.0s, n=16  sigma_min=0.0000  alpha_k=229926.0614 [114044.9843,703830.3850]  zeros@1e-3=150.19  zeros@rel1e-2=4544.19
+  layer   77 [swiglu]: fetched 1409.3 MB (34.2s), jac 1763.6s, n=16  sigma_min=0.0000  alpha_k=25183.6054 [9053.8064,153566.3795]  zeros@1e-3=14.50  zeros@rel1e-2=1372.56
+  layer   78 [swiglu]: fetched 1409.3 MB (34.2s), jac 1758.7s, n=16  sigma_min=0.0000  alpha_k=14263.5774 [9721.5648,66277.5415]  zeros@1e-3=15.19  zeros@rel1e-2=2918.00
+  layer   79 [swiglu]: fetched 1409.3 MB (37.1s), jac 1765.1s, n=16  sigma_min=0.0000  alpha_k=12027.5654 [8459.3161,71506.4774]  zeros@1e-3=18.62  zeros@rel1e-2=1569.25
+  [ok] meta-llama/Meta-Llama-3-70B (10840s)
+
+>>> meta-llama/Meta-Llama-3-70B-Instruct
+[meta-llama/Meta-Llama-3-70B-Instruct] arch_hint=LlamaForCausalLM n_layers=80 d_hidden=8192
+[meta-llama/Meta-Llama-3-70B-Instruct] scanning layers: [0, 1, 2, 77, 78, 79]
+[meta-llama/Meta-Llama-3-70B-Instruct] needed shards: ['model-00001-of-00030.safetensors', 'model-00002-of-00030.safetensors', 'model-00028-of-00030.safetensors', 'model-00029-of-00030.safetensors']
+  opened model-00001-of-00030.safetensors: 4.58 GB total, hdr 2 KB, #tensors 15  (0.7s)
+  opened model-00002-of-00030.safetensors: 4.66 GB total, hdr 3 KB, #tensors 26  (0.7s)
+  opened model-00028-of-00030.safetensors: 5.00 GB total, hdr 3 KB, #tensors 26  (0.7s)
+  opened model-00029-of-00030.safetensors: 4.97 GB total, hdr 3 KB, #tensors 25  (1.1s)
+  layer    0 [swiglu]: fetched 1409.3 MB (20.9s), jac 1768.1s, n=16  sigma_min=0.0000  alpha_k=701609.2751 [427399.7786,1390407.2381]  zeros@1e-3=1031.38  zeros@rel1e-2=8141.75
+  layer    1 [swiglu]: fetched 1409.3 MB (20.9s), jac 1784.8s, n=16  sigma_min=0.0000  alpha_k=998492.7439 [192569.4009,6332901.4888]  zeros@1e-3=195.00  zeros@rel1e-2=4405.81
+  layer    2 [swiglu]: fetched 1409.3 MB (30.3s), jac 1775.4s, n=16  sigma_min=0.0000  alpha_k=169909.7337 [93700.5220,2678571.2069]  zeros@1e-3=151.94  zeros@rel1e-2=4540.25
+  layer   77 [swiglu]: fetched 1409.3 MB (33.2s), jac 1760.0s, n=16  sigma_min=0.0000  alpha_k=23773.2691 [6835.6184,71374.3467]  zeros@1e-3=14.44  zeros@rel1e-2=1367.94
+  layer   78 [swiglu]: fetched 1409.3 MB (33.7s), jac 1760.3s, n=16  sigma_min=0.0000  alpha_k=44476.8958 [15699.8520,139379.7350]  zeros@1e-3=15.50  zeros@rel1e-2=2900.19
+  layer   79 [swiglu]: fetched 1409.3 MB (28.4s), jac 2450.2s, n=16  sigma_min=0.0000  alpha_k=12682.8524 [8218.0074,81065.3196]  zeros@1e-3=18.94  zeros@rel1e-2=1571.88
+  [ok] meta-llama/Meta-Llama-3-70B-Instruct (11473s)
+
+>>> meta-llama/Meta-Llama-3.1-70B
+[meta-llama/Meta-Llama-3.1-70B] arch_hint=LlamaForCausalLM n_layers=80 d_hidden=8192
+[meta-llama/Meta-Llama-3.1-70B] scanning layers: [0, 1, 2, 77, 78, 79]
+[meta-llama/Meta-Llama-3.1-70B] needed shards: ['model-00001-of-00030.safetensors', 'model-00002-of-00030.safetensors', 'model-00028-of-00030.safetensors', 'model-00029-of-00030.safetensors']
+  opened model-00001-of-00030.safetensors: 4.58 GB total, hdr 2 KB, #tensors 15  (0.9s)
+  opened model-00002-of-00030.safetensors: 4.66 GB total, hdr 3 KB, #tensors 26  (0.9s)
+  opened model-00028-of-00030.safetensors: 5.00 GB total, hdr 3 KB, #tensors 26  (1.1s)
+  opened model-00029-of-00030.safetensors: 4.97 GB total, hdr 3 KB, #tensors 25  (0.9s)
+  layer    0 [swiglu]: fetched 1409.3 MB (20.5s), jac 1771.2s, n=16  sigma_min=0.0000  alpha_k=1847896.7681 [1109787.3220,2540243631.2678]  zeros@1e-3=1033.12  zeros@rel1e-2=8140.38
+  layer    1 [swiglu]: fetched 1409.3 MB (19.7s), jac 1783.8s, n=16  sigma_min=0.0000  alpha_k=394650.0990 [94584.7006,1173513.9035]  zeros@1e-3=199.50  zeros@rel1e-2=4397.06
+  layer    2 [swiglu]: fetched 1409.3 MB (21.1s), jac 1774.6s, n=16  sigma_min=0.0000  alpha_k=214322.5557 [113321.9467,1052602.9056]  zeros@1e-3=156.25  zeros@rel1e-2=4543.56
+  layer   77 [swiglu]: fetched 1409.3 MB (19.4s), jac 1758.9s, n=16  sigma_min=0.0000  alpha_k=15633.2138 [9823.2051,339445.9596]  zeros@1e-3=14.69  zeros@rel1e-2=1252.75
+  layer   78 [swiglu]: fetched 1409.3 MB (19.7s), jac 1757.6s, n=16  sigma_min=0.0000  alpha_k=24449.0609 [17573.9861,322696.4679]  zeros@1e-3=15.19  zeros@rel1e-2=2771.00
+  layer   79 [swiglu]: fetched 1409.3 MB (21.0s), jac 1759.4s, n=16  sigma_min=0.0000  alpha_k=16150.3590 [9659.1710,54760.1731]  zeros@1e-3=18.88  zeros@rel1e-2=1557.88
+  [ok] meta-llama/Meta-Llama-3.1-70B (10733s)
+
+>>> meta-llama/Meta-Llama-3.1-70B-Instruct
+[meta-llama/Meta-Llama-3.1-70B-Instruct] arch_hint=LlamaForCausalLM n_layers=80 d_hidden=8192
+[meta-llama/Meta-Llama-3.1-70B-Instruct] scanning layers: [0, 1, 2, 77, 78, 79]
+[meta-llama/Meta-Llama-3.1-70B-Instruct] needed shards: ['model-00001-of-00030.safetensors', 'model-00002-of-00030.safetensors', 'model-00028-of-00030.safetensors', 'model-00029-of-00030.safetensors']
+  opened model-00001-of-00030.safetensors: 4.58 GB total, hdr 2 KB, #tensors 15  (0.7s)
+  opened model-00002-of-00030.safetensors: 4.66 GB total, hdr 3 KB, #tensors 26  (0.8s)
+  opened model-00028-of-00030.safetensors: 5.00 GB total, hdr 3 KB, #tensors 26  (0.7s)
+  opened model-00029-of-00030.safetensors: 4.97 GB total, hdr 3 KB, #tensors 25  (0.7s)
+  layer    0 [swiglu]: fetched 1409.3 MB (15.9s), jac 1768.3s, n=16  sigma_min=0.0000  alpha_k=1079650.4125 [576920.4750,34304487.7075]  zeros@1e-3=1055.00  zeros@rel1e-2=8142.00
+  layer    1 [swiglu]: fetched 1409.3 MB (17.0s), jac 1784.1s, n=16  sigma_min=0.0000  alpha_k=159827.9760 [77900.1036,616597.3279]  zeros@1e-3=201.75  zeros@rel1e-2=4394.75
+  layer    2 [swiglu]: fetched 1409.3 MB (21.7s), jac 1772.8s, n=16  sigma_min=0.0000  alpha_k=171135.0089 [78106.4017,2792523.0707]  zeros@1e-3=159.00  zeros@rel1e-2=4543.69
+  layer   77 [swiglu]: fetched 1409.3 MB (17.7s), jac 1763.8s, n=16  sigma_min=0.0000  alpha_k=23797.5195 [7751.4013,1340686.9005]  zeros@1e-3=14.50  zeros@rel1e-2=1256.31
+  layer   78 [swiglu]: fetched 1409.3 MB (21.4s), jac 1754.6s, n=16  sigma_min=0.0000  alpha_k=46898.8202 [7236.6813,158775.6065]  zeros@1e-3=15.62  zeros@rel1e-2=2756.62
+  layer   79 [swiglu]: fetched 1409.3 MB (19.3s), jac 1765.4s, n=16  sigma_min=0.0000  alpha_k=28129.5193 [16860.2117,83897.4479]  zeros@1e-3=19.19  zeros@rel1e-2=1562.25
+  [ok] meta-llama/Meta-Llama-3.1-70B-Instruct (10727s)
+
+>>> meta-llama/Llama-3.3-70B-Instruct
+[meta-llama/Llama-3.3-70B-Instruct] arch_hint=LlamaForCausalLM n_layers=80 d_hidden=8192
+[meta-llama/Llama-3.3-70B-Instruct] scanning layers: [0, 1, 2, 77, 78, 79]
+[meta-llama/Llama-3.3-70B-Instruct] needed shards: ['model-00001-of-00030.safetensors', 'model-00002-of-00030.safetensors', 'model-00028-of-00030.safetensors', 'model-00029-of-00030.safetensors']
+  opened model-00001-of-00030.safetensors: 4.58 GB total, hdr 2 KB, #tensors 15  (0.4s)
+  opened model-00002-of-00030.safetensors: 4.66 GB total, hdr 3 KB, #tensors 26  (0.5s)
+  opened model-00028-of-00030.safetensors: 5.00 GB total, hdr 3 KB, #tensors 26  (0.5s)
+  opened model-00029-of-00030.safetensors: 4.97 GB total, hdr 3 KB, #tensors 25  (0.6s)
+  layer    0 [swiglu]: fetched 1409.3 MB (16.9s), jac 1766.6s, n=16  sigma_min=0.0000  alpha_k=2381627.0684 [575465.6071,6981799.1930]  zeros@1e-3=1051.38  zeros@rel1e-2=8139.75
+  layer    1 [swiglu]: fetched 1409.3 MB (14.6s), jac 1782.4s, n=16  sigma_min=0.0000  alpha_k=719636.7511 [236252.0735,1548903.5270]  zeros@1e-3=202.12  zeros@rel1e-2=4391.62
+  layer    2 [swiglu]: fetched 1409.3 MB (17.8s), jac 1777.8s, n=16  sigma_min=0.0000  alpha_k=161559.9559 [72647.0270,518586.9654]  zeros@1e-3=158.69  zeros@rel1e-2=4539.12
+  layer   77 [swiglu]: fetched 1409.3 MB (18.6s), jac 1756.5s, n=16  sigma_min=0.0000  alpha_k=19240.3865 [7992.9824,94146.4042]  zeros@1e-3=14.69  zeros@rel1e-2=1255.00
+  layer   78 [swiglu]: fetched 1409.3 MB (17.2s), jac 1755.5s, n=16  sigma_min=0.0000  alpha_k=19145.2286 [14097.5021,40425.4807]  zeros@1e-3=15.56  zeros@rel1e-2=2754.12
+  layer   79 [swiglu]: fetched 1409.3 MB (21.1s), jac 1764.4s, n=16  sigma_min=0.0000  alpha_k=21793.9903 [11752.2754,19902370.2573]  zeros@1e-3=19.12  zeros@rel1e-2=1562.69
+  [ok] meta-llama/Llama-3.3-70B-Instruct (10713s)
+
+=== tier tier_100B_plus : 14 repos ===
+  [skip] meta-llama/Llama-3.1-405B already in journal
+  [skip] meta-llama/Llama-3.1-405B-Instruct already in journal
+  [skip] mistralai/Mixtral-8x22B-v0.1 already in journal
+  [skip] mistralai/Mixtral-8x22B-Instruct-v0.1 already in journal
+  [skip] mistralai/Mistral-Large-Instruct-2407 already in journal
+
+>>> mistralai/Mistral-Large-Instruct-2411
+[mistralai/Mistral-Large-Instruct-2411] arch_hint=MistralForCausalLM n_layers=88 d_hidden=12288
+[mistralai/Mistral-Large-Instruct-2411] scanning layers: [0, 1, 2, 85, 86, 87]
+[mistralai/Mistral-Large-Instruct-2411] needed shards: ['model-00001-of-00051.safetensors', 'model-00002-of-00051.safetensors', 'model-00049-of-00051.safetensors', 'model-00050-of-00051.safetensors', 'model-00051-of-00051.safetensors']
+  opened model-00001-of-00051.safetensors: 4.93 GB total, hdr 2 KB, #tensors 15  (0.4s)
+  opened model-00002-of-00051.safetensors: 4.83 GB total, hdr 2 KB, #tensors 17  (0.4s)
+  opened model-00049-of-00051.safetensors: 4.83 GB total, hdr 2 KB, #tensors 17  (0.6s)
+  opened model-00050-of-00051.safetensors: 4.83 GB total, hdr 2 KB, #tensors 17  (0.4s)
+  opened model-00051-of-00051.safetensors: 2.92 GB total, hdr 1 KB, #tensors 7  (0.4s)
+  [mistralai/Mistral-Large-Instruct-2411] OOM at batch=1, halving batch
+  [oom_giveup] mistralai/Mistral-Large-Instruct-2411 (37s)
+  [skip] tiiuae/falcon-180B already in journal
+  [skip] tiiuae/falcon-180B-chat already in journal
+  [skip] databricks/dbrx-base already in journal
+  [skip] databricks/dbrx-instruct already in journal
+  [skip] CohereForAI/c4ai-command-r-plus already in journal
+  [skip] CohereForAI/c4ai-command-r-plus-08-2024 already in journal
+
+>>> deepseek-ai/DeepSeek-V3-Base
+[deepseek-ai/DeepSeek-V3-Base] arch_hint=DeepseekV3ForCausalLM n_layers=61 d_hidden=7168
+[deepseek-ai/DeepSeek-V3-Base] scanning layers: [0, 1, 2, 58, 59, 60]
+[deepseek-ai/DeepSeek-V3-Base] needed shards: ['model-00001-of-000163.safetensors', 'model-00152-of-000163.safetensors', 'model-00153-of-000163.safetensors', 'model-00154-of-000163.safetensors', 'model-00155-of-000163.safetensors', 'model-00156-of-000163.safetensors', 'model-00157-of-000163.safetensors', 'model-00158-of-000163.safetensors', 'model-00159-of-000163.safetensors', 'model-00160-of-000163.safetensors']
+  opened model-00001-of-000163.safetensors: 5.23 GB total, hdr 34 KB, #tensors 270  (0.4s)
+  opened model-00152-of-000163.safetensors: 4.30 GB total, hdr 74 KB, #tensors 576  (0.4s)
+  opened model-00153-of-000163.safetensors: 4.30 GB total, hdr 76 KB, #tensors 586  (1.2s)
+  opened model-00154-of-000163.safetensors: 4.30 GB total, hdr 76 KB, #tensors 586  (0.6s)
+  opened model-00155-of-000163.safetensors: 4.30 GB total, hdr 74 KB, #tensors 576  (0.4s)
+  opened model-00156-of-000163.safetensors: 4.30 GB total, hdr 76 KB, #tensors 586  (0.6s)
+  opened model-00157-of-000163.safetensors: 4.30 GB total, hdr 76 KB, #tensors 586  (1.1s)
+  opened model-00158-of-000163.safetensors: 4.30 GB total, hdr 74 KB, #tensors 576  (0.5s)
+  opened model-00159-of-000163.safetensors: 4.30 GB total, hdr 76 KB, #tensors 586  (0.5s)
+  opened model-00160-of-000163.safetensors: 5.23 GB total, hdr 58 KB, #tensors 452  (1.0s)
+  layer    0 [swiglu]: fetched 396.4 MB (6.5s), jac 1797.6s, n=16  sigma_min=1191.6045  alpha_k=1.1937 [0.5029,3.8509]  zeros@1e-3=0.00  zeros@rel1e-2=7022.38
+  layer    1 [swiglu]: fetched 396.4 MB (6.4s), jac 1638.6s, n=16  sigma_min=336.1529  alpha_k=3.6339 [1.5730,26.7677]  zeros@1e-3=0.00  zeros@rel1e-2=7114.75
+  layer    2 [swiglu]: fetched 396.4 MB (6.4s), jac 1828.4s, n=16  sigma_min=184.5871  alpha_k=0.5936 [0.2296,5.0714]  zeros@1e-3=0.00  zeros@rel1e-2=7036.31
+  layer   58 [deepseek_moe]: fetched 44.1 MB (3.6s), jac 2240.5s, n=16  sigma_min=3.1542  alpha_k=0.1975 [0.1051,0.8457]  zeros@1e-3=0.00  zeros@rel1e-2=6226.25
+  layer   59 [deepseek_moe]: fetched 44.1 MB (3.0s), jac 2235.0s, n=16  sigma_min=5.7317  alpha_k=0.0964 [0.0638,0.2458]  zeros@1e-3=0.00  zeros@rel1e-2=6307.06
+  layer   60 [deepseek_moe]: fetched 44.1 MB (1.8s), jac 2213.8s, n=16  sigma_min=0.8863  alpha_k=0.8760 [0.4567,4.9136]  zeros@1e-3=0.00  zeros@rel1e-2=6846.38
+  [ok] deepseek-ai/DeepSeek-V3-Base (11991s)
+
+>>> deepseek-ai/DeepSeek-V3
+[deepseek-ai/DeepSeek-V3] arch_hint=DeepseekV3ForCausalLM n_layers=61 d_hidden=7168
+[deepseek-ai/DeepSeek-V3] scanning layers: [0, 1, 2, 58, 59, 60]
+[deepseek-ai/DeepSeek-V3] needed shards: ['model-00001-of-000163.safetensors', 'model-00152-of-000163.safetensors', 'model-00153-of-000163.safetensors', 'model-00154-of-000163.safetensors', 'model-00155-of-000163.safetensors', 'model-00156-of-000163.safetensors', 'model-00157-of-000163.safetensors', 'model-00158-of-000163.safetensors', 'model-00159-of-000163.safetensors', 'model-00160-of-000163.safetensors']
+  opened model-00001-of-000163.safetensors: 5.23 GB total, hdr 34 KB, #tensors 270  (0.4s)
+  opened model-00152-of-000163.safetensors: 4.30 GB total, hdr 74 KB, #tensors 576  (0.5s)
+  opened model-00153-of-000163.safetensors: 4.30 GB total, hdr 76 KB, #tensors 586  (0.5s)
+  opened model-00154-of-000163.safetensors: 4.30 GB total, hdr 76 KB, #tensors 586  (0.5s)
+  opened model-00155-of-000163.safetensors: 4.30 GB total, hdr 74 KB, #tensors 576  (0.4s)
+  opened model-00156-of-000163.safetensors: 4.30 GB total, hdr 76 KB, #tensors 586  (0.4s)
+  opened model-00157-of-000163.safetensors: 4.30 GB total, hdr 76 KB, #tensors 586  (0.5s)
+  opened model-00158-of-000163.safetensors: 4.30 GB total, hdr 74 KB, #tensors 576  (0.4s)
+  opened model-00159-of-000163.safetensors: 4.30 GB total, hdr 76 KB, #tensors 586  (0.4s)
+  opened model-00160-of-000163.safetensors: 5.23 GB total, hdr 58 KB, #tensors 452  (0.4s)
+  layer    0 [swiglu]: fetched 396.4 MB (4.9s), jac 1781.3s, n=16  sigma_min=1801.1607  alpha_k=1.1540 [0.7395,2.2074]  zeros@1e-3=0.00  zeros@rel1e-2=7022.75
+  layer    1 [swiglu]: fetched 396.4 MB (5.4s), jac 1645.0s, n=16  sigma_min=445.4287  alpha_k=4.7871 [0.4070,53.6644]  zeros@1e-3=0.00  zeros@rel1e-2=7114.75
+  layer    2 [swiglu]: fetched 396.4 MB (5.8s), jac 1828.9s, n=16  sigma_min=252.0561  alpha_k=0.5401 [0.1917,2.4068]  zeros@1e-3=0.00  zeros@rel1e-2=7035.75
+  layer   58 [deepseek_moe]: fetched 44.1 MB (1.2s), jac 2223.1s, n=16  sigma_min=4.1736  alpha_k=0.1860 [0.1069,0.4397]  zeros@1e-3=0.00  zeros@rel1e-2=6225.62
+  layer   59 [deepseek_moe]: fetched 44.1 MB (1.1s), jac 2257.7s, n=16  sigma_min=8.0452  alpha_k=0.0726 [0.0386,4.2132]  zeros@1e-3=0.00  zeros@rel1e-2=6306.88
+  layer   60 [deepseek_moe]: fetched 44.1 MB (1.2s), jac 2192.3s, n=16  sigma_min=0.8338  alpha_k=2.1100 [0.6899,5.2744]  zeros@1e-3=0.00  zeros@rel1e-2=6846.06
+  [ok] deepseek-ai/DeepSeek-V3 (11955s)
+
+Done. ok=33 no_access=28 err=1
+Journal: data/alpha_k_shard/shard_panel_journal.json
+[watchdog] exit code 0
+[watchdog] done after 1 attempts

@@ -37,6 +37,51 @@
       "_path": "data/alpha_k_shard/Qwen_Qwen2.5-0.5B_shard_rmsnorm.json"
     },
     {
+      "repo": "meta-llama/Llama-3.2-1B-Instruct",
+      "n_params": 1230000000,
+      "n_layers": 16,
+      "d_hidden": 2048,
+      "arch_hint": "LlamaForCausalLM",
+      "sample_mode": "rmsnorm",
+      "scanned_layers": [
+        0,
+        1,
+        2,
+        13,
+        14,
+        15
+      ],
+      "L0": 0,
+      "Llast": 15,
+      "L0_alpha_k": 24574.62275784921,
+      "Llast_alpha_k": 7339.721717117046,
+      "L0_zeros_abs_1e-3": 12.8125,
+      "L0_zeros_rel_1e-2": 102.625,
+      "Llast_zeros_abs_1e-3": 5.0625,
+      "early_mean_alpha_k": 14598.581110960455,
+      "late_mean_alpha_k": 5669.4237896794875,
+      "early_mean_zeros_1e-3": 9.416666666666666,
+      "late_mean_zeros_1e-3": 6.229166666666667,
+      "per_layer_alpha_k": {
+        "0": 24574.62275784921,
+        "1": 8318.474436338718,
+        "2": 10902.64613869344,
+        "13": 3658.742210259166,
+        "14": 6009.807441662249,
+        "15": 7339.721717117046
+      },
+      "per_layer_zeros_1e-3": {
+        "0": 12.8125,
+        "1": 8.125,
+        "2": 7.3125,
+        "13": 6.6875,
+        "14": 6.9375,
+        "15": 5.0625
+      },
+      "bytes_downloaded": 604004352,
+      "_path": "data/alpha_k_shard/meta-llama_Llama-3.2-1B-Instruct_shard_rmsnorm.json"
+    },
+    {
       "repo": "meta-llama/Llama-3.2-1B",
       "n_params": 1230000000,
       "n_layers": 16,
@@ -305,6 +350,51 @@
       },
       "bytes_downloaded": 811622400,
       "_path": "data/alpha_k_shard/Qwen_Qwen2.5-3B_shard_rmsnorm.json"
+    },
+    {
+      "repo": "meta-llama/Llama-3.2-3B-Instruct",
+      "n_params": 3210000000,
+      "n_layers": 28,
+      "d_hidden": 3072,
+      "arch_hint": "LlamaForCausalLM",
+      "sample_mode": "rmsnorm",
+      "scanned_layers": [
+        0,
+        1,
+        2,
+        25,
+        26,
+        27
+      ],
+      "L0": 0,
+      "Llast": 27,
+      "L0_alpha_k": 62883.6517918234,
+      "Llast_alpha_k": 18708.40427721155,
+      "L0_zeros_abs_1e-3": 23.5625,
+      "L0_zeros_rel_1e-2": 306.375,
+      "Llast_zeros_abs_1e-3": 7.125,
+      "early_mean_alpha_k": 35925.148012716585,
+      "late_mean_alpha_k": 15230.170401421708,
+      "early_mean_zeros_1e-3": 17.979166666666668,
+      "late_mean_zeros_1e-3": 7.208333333333333,
+      "per_layer_alpha_k": {
+        "0": 62883.6517918234,
+        "1": 27901.03076853547,
+        "2": 16990.761477790893,
+        "25": 7026.828279426019,
+        "26": 19955.278647627554,
+        "27": 18708.40427721155
+      },
+      "per_layer_zeros_1e-3": {
+        "0": 23.5625,
+        "1": 20.1875,
+        "2": 10.1875,
+        "25": 7.25,
+        "26": 7.25,
+        "27": 7.125
+      },
+      "bytes_downloaded": 906006528,
+      "_path": "data/alpha_k_shard/meta-llama_Llama-3.2-3B-Instruct_shard_rmsnorm.json"
     },
     {
       "repo": "meta-llama/Llama-3.2-3B",
@@ -620,6 +710,51 @@
       },
       "bytes_downloaded": 2444273664,
       "_path": "data/alpha_k_shard/Qwen_Qwen2.5-7B_shard_rmsnorm.json"
+    },
+    {
+      "repo": "meta-llama/Llama-3.1-8B-Instruct",
+      "n_params": 8030000000,
+      "n_layers": 32,
+      "d_hidden": 4096,
+      "arch_hint": "LlamaForCausalLM",
+      "sample_mode": "rmsnorm",
+      "scanned_layers": [
+        0,
+        1,
+        2,
+        29,
+        30,
+        31
+      ],
+      "L0": 0,
+      "Llast": 31,
+      "L0_alpha_k": 41380.113923988225,
+      "Llast_alpha_k": 79909.74820126839,
+      "L0_zeros_abs_1e-3": 49.9375,
+      "L0_zeros_rel_1e-2": 379.0625,
+      "Llast_zeros_abs_1e-3": 9.0625,
+      "early_mean_alpha_k": 63994.10305342994,
+      "late_mean_alpha_k": 35170.26893428584,
+      "early_mean_zeros_1e-3": 41.229166666666664,
+      "late_mean_zeros_1e-3": 9.666666666666666,
+      "per_layer_alpha_k": {
+        "0": 41380.113923988225,
+        "1": 81515.27756972573,
+        "2": 69086.91766657586,
+        "29": 13646.114793949693,
+        "30": 11954.943807639453,
+        "31": 79909.74820126839
+      },
+      "per_layer_zeros_1e-3": {
+        "0": 49.9375,
+        "1": 51.9375,
+        "2": 21.8125,
+        "29": 10.1875,
+        "30": 9.75,
+        "31": 9.0625
+      },
+      "bytes_downloaded": 2113978368,
+      "_path": "data/alpha_k_shard/meta-llama_Llama-3.1-8B-Instruct_shard_rmsnorm.json"
     },
     {
       "repo": "meta-llama/Llama-3.1-8B",
@@ -1066,6 +1201,51 @@
       "_path": "data/alpha_k_shard/Qwen_Qwen2.5-32B_shard_rmsnorm.json"
     },
     {
+      "repo": "deepseek-ai/deepseek-coder-33b-instruct",
+      "n_params": 33340000000,
+      "n_layers": 62,
+      "d_hidden": 7168,
+      "arch_hint": "LlamaForCausalLM",
+      "sample_mode": "rmsnorm",
+      "scanned_layers": [
+        0,
+        1,
+        2,
+        59,
+        60,
+        61
+      ],
+      "L0": 0,
+      "Llast": 61,
+      "L0_alpha_k": 720017.4519880787,
+      "Llast_alpha_k": 6530.439638778031,
+      "L0_zeros_abs_1e-3": 466.625,
+      "L0_zeros_rel_1e-2": 4201.125,
+      "Llast_zeros_abs_1e-3": 4.375,
+      "early_mean_alpha_k": 301677.96952838777,
+      "late_mean_alpha_k": 5583.736047355419,
+      "early_mean_zeros_1e-3": 189.91666666666666,
+      "late_mean_zeros_1e-3": 3.125,
+      "per_layer_alpha_k": {
+        "0": 720017.4519880787,
+        "1": 150578.27235014318,
+        "2": 34438.1842469415,
+        "59": 3572.807263751325,
+        "60": 6647.961239536903,
+        "61": 6530.439638778031
+      },
+      "per_layer_zeros_1e-3": {
+        "0": 466.625,
+        "1": 90.375,
+        "2": 12.75,
+        "59": 2.125,
+        "60": 2.875,
+        "61": 4.375
+      },
+      "bytes_downloaded": 4954607616,
+      "_path": "data/alpha_k_shard/deepseek-ai_deepseek-coder-33b-instruct_shard_rmsnorm.json"
+    },
+    {
       "repo": "01-ai/Yi-1.5-34B-Chat",
       "n_params": 34390000000,
       "n_layers": 60,
@@ -1201,6 +1381,231 @@
       "_path": "data/alpha_k_shard/mistralai_Mixtral-8x7B-v0.1_shard_rmsnorm.json"
     },
     {
+      "repo": "meta-llama/Llama-3.3-70B-Instruct",
+      "n_params": 70600000000,
+      "n_layers": 80,
+      "d_hidden": 8192,
+      "arch_hint": "LlamaForCausalLM",
+      "sample_mode": "rmsnorm",
+      "scanned_layers": [
+        0,
+        1,
+        2,
+        77,
+        78,
+        79
+      ],
+      "L0": 0,
+      "Llast": 79,
+      "L0_alpha_k": 2381627.068440052,
+      "Llast_alpha_k": 21793.990313263443,
+      "L0_zeros_abs_1e-3": 1051.375,
+      "L0_zeros_rel_1e-2": 8139.75,
+      "Llast_zeros_abs_1e-3": 19.125,
+      "early_mean_alpha_k": 1087607.9251291482,
+      "late_mean_alpha_k": 20059.86847784503,
+      "early_mean_zeros_1e-3": 470.7291666666667,
+      "late_mean_zeros_1e-3": 16.458333333333332,
+      "per_layer_alpha_k": {
+        "0": 2381627.068440052,
+        "1": 719636.7510910714,
+        "2": 161559.95585632115,
+        "77": 19240.386510446064,
+        "78": 19145.228609825586,
+        "79": 21793.990313263443
+      },
+      "per_layer_zeros_1e-3": {
+        "0": 1051.375,
+        "1": 202.125,
+        "2": 158.6875,
+        "77": 14.6875,
+        "78": 15.5625,
+        "79": 19.125
+      },
+      "bytes_downloaded": 8455815168,
+      "_path": "data/alpha_k_shard/meta-llama_Llama-3.3-70B-Instruct_shard_rmsnorm.json"
+    },
+    {
+      "repo": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "n_params": 70600000000,
+      "n_layers": 80,
+      "d_hidden": 8192,
+      "arch_hint": "LlamaForCausalLM",
+      "sample_mode": "rmsnorm",
+      "scanned_layers": [
+        0,
+        1,
+        2,
+        77,
+        78,
+        79
+      ],
+      "L0": 0,
+      "Llast": 79,
+      "L0_alpha_k": 701609.2751037827,
+      "Llast_alpha_k": 12682.8523579336,
+      "L0_zeros_abs_1e-3": 1031.375,
+      "L0_zeros_rel_1e-2": 8141.75,
+      "Llast_zeros_abs_1e-3": 18.9375,
+      "early_mean_alpha_k": 623337.2508992722,
+      "late_mean_alpha_k": 26977.67240796384,
+      "early_mean_zeros_1e-3": 459.4375,
+      "late_mean_zeros_1e-3": 16.291666666666668,
+      "per_layer_alpha_k": {
+        "0": 701609.2751037827,
+        "1": 998492.7439436936,
+        "2": 169909.7336503403,
+        "77": 23773.269103792692,
+        "78": 44476.89576216524,
+        "79": 12682.8523579336
+      },
+      "per_layer_zeros_1e-3": {
+        "0": 1031.375,
+        "1": 195.0,
+        "2": 151.9375,
+        "77": 14.4375,
+        "78": 15.5,
+        "79": 18.9375
+      },
+      "bytes_downloaded": 8455815168,
+      "_path": "data/alpha_k_shard/meta-llama_Meta-Llama-3-70B-Instruct_shard_rmsnorm.json"
+    },
+    {
+      "repo": "meta-llama/Meta-Llama-3-70B",
+      "n_params": 70600000000,
+      "n_layers": 80,
+      "d_hidden": 8192,
+      "arch_hint": "LlamaForCausalLM",
+      "sample_mode": "rmsnorm",
+      "scanned_layers": [
+        0,
+        1,
+        2,
+        77,
+        78,
+        79
+      ],
+      "L0": 0,
+      "Llast": 79,
+      "L0_alpha_k": 1355947.5881866089,
+      "Llast_alpha_k": 12027.56537627515,
+      "L0_zeros_abs_1e-3": 1030.6875,
+      "L0_zeros_rel_1e-2": 8145.0625,
+      "Llast_zeros_abs_1e-3": 18.625,
+      "early_mean_alpha_k": 659118.0132206456,
+      "late_mean_alpha_k": 17158.249380429188,
+      "early_mean_zeros_1e-3": 458.2291666666667,
+      "late_mean_zeros_1e-3": 16.104166666666668,
+      "per_layer_alpha_k": {
+        "0": 1355947.5881866089,
+        "1": 391480.3900577494,
+        "2": 229926.06141757852,
+        "77": 25183.605386902895,
+        "78": 14263.577378109518,
+        "79": 12027.56537627515
+      },
+      "per_layer_zeros_1e-3": {
+        "0": 1030.6875,
+        "1": 193.8125,
+        "2": 150.1875,
+        "77": 14.5,
+        "78": 15.1875,
+        "79": 18.625
+      },
+      "bytes_downloaded": 8455815168,
+      "_path": "data/alpha_k_shard/meta-llama_Meta-Llama-3-70B_shard_rmsnorm.json"
+    },
+    {
+      "repo": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "n_params": 70600000000,
+      "n_layers": 80,
+      "d_hidden": 8192,
+      "arch_hint": "LlamaForCausalLM",
+      "sample_mode": "rmsnorm",
+      "scanned_layers": [
+        0,
+        1,
+        2,
+        77,
+        78,
+        79
+      ],
+      "L0": 0,
+      "Llast": 79,
+      "L0_alpha_k": 1079650.4125262427,
+      "Llast_alpha_k": 28129.519262671056,
+      "L0_zeros_abs_1e-3": 1055.0,
+      "L0_zeros_rel_1e-2": 8142.0,
+      "Llast_zeros_abs_1e-3": 19.1875,
+      "early_mean_alpha_k": 470204.4658056435,
+      "late_mean_alpha_k": 32941.95296664832,
+      "early_mean_zeros_1e-3": 471.9166666666667,
+      "late_mean_zeros_1e-3": 16.4375,
+      "per_layer_alpha_k": {
+        "0": 1079650.4125262427,
+        "1": 159827.97600701463,
+        "2": 171135.008883673,
+        "77": 23797.519464920544,
+        "78": 46898.820172353364,
+        "79": 28129.519262671056
+      },
+      "per_layer_zeros_1e-3": {
+        "0": 1055.0,
+        "1": 201.75,
+        "2": 159.0,
+        "77": 14.5,
+        "78": 15.625,
+        "79": 19.1875
+      },
+      "bytes_downloaded": 8455815168,
+      "_path": "data/alpha_k_shard/meta-llama_Meta-Llama-3.1-70B-Instruct_shard_rmsnorm.json"
+    },
+    {
+      "repo": "meta-llama/Meta-Llama-3.1-70B",
+      "n_params": 70600000000,
+      "n_layers": 80,
+      "d_hidden": 8192,
+      "arch_hint": "LlamaForCausalLM",
+      "sample_mode": "rmsnorm",
+      "scanned_layers": [
+        0,
+        1,
+        2,
+        77,
+        78,
+        79
+      ],
+      "L0": 0,
+      "Llast": 79,
+      "L0_alpha_k": 1847896.7680757572,
+      "Llast_alpha_k": 16150.358997987389,
+      "L0_zeros_abs_1e-3": 1033.125,
+      "L0_zeros_rel_1e-2": 8140.375,
+      "Llast_zeros_abs_1e-3": 18.875,
+      "early_mean_alpha_k": 818956.4742552717,
+      "late_mean_alpha_k": 18744.21123566734,
+      "early_mean_zeros_1e-3": 462.9583333333333,
+      "late_mean_zeros_1e-3": 16.25,
+      "per_layer_alpha_k": {
+        "0": 1847896.7680757572,
+        "1": 394650.0989949742,
+        "2": 214322.55569508413,
+        "77": 15633.213788158217,
+        "78": 24449.060920856413,
+        "79": 16150.358997987389
+      },
+      "per_layer_zeros_1e-3": {
+        "0": 1033.125,
+        "1": 199.5,
+        "2": 156.25,
+        "77": 14.6875,
+        "78": 15.1875,
+        "79": 18.875
+      },
+      "bytes_downloaded": 8455815168,
+      "_path": "data/alpha_k_shard/meta-llama_Meta-Llama-3.1-70B_shard_rmsnorm.json"
+    },
+    {
       "repo": "mistralai/Mixtral-8x22B-Instruct-v0.1",
       "n_params": 141000000000,
       "n_layers": 56,
@@ -1289,6 +1694,51 @@
       },
       "bytes_downloaded": 3623878656,
       "_path": "data/alpha_k_shard/mistralai_Mixtral-8x22B-v0.1_shard_rmsnorm.json"
+    },
+    {
+      "repo": "deepseek-ai/DeepSeek-V3-Base",
+      "n_params": 671000000000,
+      "n_layers": 61,
+      "d_hidden": 7168,
+      "arch_hint": "DeepseekV3ForCausalLM",
+      "sample_mode": "rmsnorm",
+      "scanned_layers": [
+        0,
+        1,
+        2,
+        58,
+        59,
+        60
+      ],
+      "L0": 0,
+      "Llast": 60,
+      "L0_alpha_k": 1.1936896841658144,
+      "Llast_alpha_k": 0.876021797973866,
+      "L0_zeros_abs_1e-3": 0.0,
+      "L0_zeros_rel_1e-2": 7022.375,
+      "Llast_zeros_abs_1e-3": 0.0,
+      "early_mean_alpha_k": 1.807076954879972,
+      "late_mean_alpha_k": 0.3899842678250793,
+      "early_mean_zeros_1e-3": 0.0,
+      "late_mean_zeros_1e-3": 0.0,
+      "per_layer_alpha_k": {
+        "0": 1.1936896841658144,
+        "1": 3.633924261693328,
+        "2": 0.5936169187807739,
+        "58": 0.19753255730736957,
+        "59": 0.09639844819400231,
+        "60": 0.876021797973866
+      },
+      "per_layer_zeros_1e-3": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0,
+        "58": 0.0,
+        "59": 0.0,
+        "60": 0.0
+      },
+      "bytes_downloaded": 1321291776,
+      "_path": "data/alpha_k_shard/deepseek-ai_DeepSeek-V3-Base_shard_rmsnorm.json"
     }
   ]
 }
