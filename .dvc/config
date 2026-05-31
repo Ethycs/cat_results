@@ -1,0 +1,6 @@
+[core]
+    remote = lakefs
+['remote "lakefs"']
+    url = s3://cat-work/main/
+    endpointurl = https://central-dev.lan:8000
+    ssl_verify = /home/rabbit/.config/lakefs/caddy-root.crt
