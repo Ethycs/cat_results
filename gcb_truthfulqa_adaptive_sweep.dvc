@@ -1,0 +1,6 @@
+outs:
+- md5: 18b2799a18a62e8471f4e9e7c3cbd96e.dir
+  size: 333022
+  nfiles: 20
+  hash: md5
+  path: gcb_truthfulqa_adaptive_sweep

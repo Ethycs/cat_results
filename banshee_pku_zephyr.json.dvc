@@ -1,0 +1,5 @@
+outs:
+- md5: a4aa998d95092bbdbaadd7528af6c7ca
+  size: 748
+  hash: md5
+  path: banshee_pku_zephyr.json

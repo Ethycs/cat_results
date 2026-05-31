@@ -1,0 +1,6 @@
+outs:
+- md5: 39938af3a3bb7c0e7f5b11084a212a80.dir
+  size: 23960
+  nfiles: 3
+  hash: md5
+  path: gcb_suite

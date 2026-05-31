@@ -1,0 +1,6 @@
+outs:
+- md5: 0b4789f7c916bf794197cf8ea1301c54.dir
+  size: 1720160
+  nfiles: 18
+  hash: md5
+  path: gcb_safety_tree_sweep

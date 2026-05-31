@@ -1,0 +1,6 @@
+outs:
+- md5: e4b0bc66e27a311507d6f1876c2d8755.dir
+  size: 2114481
+  nfiles: 18
+  hash: md5
+  path: input_loop_monodromy

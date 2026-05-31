@@ -1,0 +1,6 @@
+outs:
+- md5: 1a271caea6929b8704cab4bfa49a7310.dir
+  size: 221426
+  nfiles: 2
+  hash: md5
+  path: cross_reference

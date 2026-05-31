@@ -1,0 +1,6 @@
+outs:
+- md5: c2ba6cd0fc948357e74b0b617ac8a52d.dir
+  size: 500789
+  nfiles: 11
+  hash: md5
+  path: gcb_truthfulqa_sweep

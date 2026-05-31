@@ -1,0 +1,6 @@
+outs:
+- md5: 0ff0831d3d39426086474cb04f2f159f.dir
+  size: 222466
+  nfiles: 4
+  hash: md5
+  path: monodromy_germ_cycle

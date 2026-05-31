@@ -1,0 +1,6 @@
+outs:
+- md5: 2ba0eb4299ac1186252277d1ccfd9cc2.dir
+  size: 85723
+  nfiles: 12
+  hash: md5
+  path: widthlaw_spectral

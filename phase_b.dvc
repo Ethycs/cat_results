@@ -1,0 +1,6 @@
+outs:
+- md5: 331cc210ff283a1e88b9700131783752.dir
+  size: 1344576
+  nfiles: 19
+  hash: md5
+  path: phase_b

@@ -1,0 +1,6 @@
+outs:
+- md5: 756f2f897b693638904ae9f50a2cda94.dir
+  size: 5063
+  nfiles: 2
+  hash: md5
+  path: alpha_k_shard_verify

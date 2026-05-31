@@ -1,0 +1,5 @@
+outs:
+- md5: 042fea825d7d8a9ee8665f3733443f65
+  size: 72380
+  hash: md5
+  path: gcb_germs_stablelm.json

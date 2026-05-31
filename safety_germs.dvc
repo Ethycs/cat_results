@@ -1,0 +1,6 @@
+outs:
+- md5: bc44f97dcb23afe4608d4b8d3d8487a1.dir
+  size: 7686739
+  nfiles: 3
+  hash: md5
+  path: safety_germs

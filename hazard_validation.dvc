@@ -1,0 +1,6 @@
+outs:
+- md5: 41daf548bf6ec72142a2bcf5d2b6abfd.dir
+  size: 840932
+  nfiles: 2
+  hash: md5
+  path: hazard_validation

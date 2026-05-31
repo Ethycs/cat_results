@@ -1,0 +1,6 @@
+outs:
+- md5: 618631bd5bb0900c43d5e46212a796a7.dir
+  size: 10534
+  nfiles: 3
+  hash: md5
+  path: alpha_k_shard_bigmode

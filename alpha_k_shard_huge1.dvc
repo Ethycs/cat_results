@@ -1,0 +1,6 @@
+outs:
+- md5: cac546cd5cbec256ec551b39675639ec.dir
+  size: 840
+  nfiles: 1
+  hash: md5
+  path: alpha_k_shard_huge1

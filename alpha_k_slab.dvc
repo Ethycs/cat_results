@@ -1,0 +1,6 @@
+outs:
+- md5: 2c329d18c8762899017435a8515cf961.dir
+  size: 948288
+  nfiles: 16
+  hash: md5
+  path: alpha_k_slab

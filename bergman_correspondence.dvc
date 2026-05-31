@@ -1,0 +1,6 @@
+outs:
+- md5: c19ea0f847f5b38e698b938e1b5d0064.dir
+  size: 534878
+  nfiles: 18
+  hash: md5
+  path: bergman_correspondence

@@ -1,0 +1,6 @@
+outs:
+- md5: 6e900b0e6f9d55399963e400e161354c.dir
+  size: 6192
+  nfiles: 3
+  hash: md5
+  path: fisher_safety_scan_v2

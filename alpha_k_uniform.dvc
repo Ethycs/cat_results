@@ -1,0 +1,6 @@
+outs:
+- md5: 4d8b3477a3818bd8f83a86b3badcc543.dir
+  size: 55446
+  nfiles: 3
+  hash: md5
+  path: alpha_k_uniform

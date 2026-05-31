@@ -1,0 +1,6 @@
+outs:
+- md5: 16793470cd1cae252173b80509b0b984.dir
+  size: 897908
+  nfiles: 12
+  hash: md5
+  path: random_init_baseline
