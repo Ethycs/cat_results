@@ -1,0 +1,6 @@
+outs:
+- md5: 8c5b7149f7826024cc043fd54ee39f12.dir
+  size: 18047392
+  nfiles: 30
+  hash: md5
+  path: monodromy_atlas
