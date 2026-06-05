@@ -1,0 +1,6 @@
+outs:
+- md5: fcd5fdf9ef4a048be7ba6aba48325b53.dir
+  size: 3834571
+  nfiles: 24
+  hash: md5
+  path: tree_adversarial
