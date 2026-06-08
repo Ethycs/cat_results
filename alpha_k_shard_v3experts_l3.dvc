@@ -1,0 +1,6 @@
+outs:
+- md5: b672ae0932d7e5a231033ff362923323.dir
+  size: 19451
+  nfiles: 8
+  hash: md5
+  path: alpha_k_shard_v3experts_l3
