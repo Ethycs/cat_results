@@ -1,6 +1,6 @@
 # data/ INDEX
 
-Last refreshed 2026-05-27.
+Last refreshed 2026-06-08.
 
 Top-level pointer file for the `data/` submodule. Each section maps a
 directory to the script that produced it, the paper section that
@@ -35,6 +35,8 @@ status flags lives in
 |-----------|------------------|--------|---------------|
 | `alpha_k_uniform_fp32/` | Per-layer alpha_k via in-process scanner (fp32), 11 LMs | `src/cat_scanner/uniform/alpha_k_panel.py`, `scripts/alpha_k_uniform.py` | MAIN/Bergman |
 | `alpha_k_shard/` | Per-model L0/L_last alpha_k via HTTP-Range partial fetch, 24 models 0.5B-141B | `scripts/alpha_k_shard_scan.py`, `_panel.py`, `_aggregate.py` | MAIN/Width-law |
+| `alpha_k_shard_precision/` | Precision sweep / noise-from-inv falsifier (fp32/fp16/bf16 weight roundoff on gemma-2-9b): sigma_min u-invariant (geometric), alpha_k +82% bf16 (bounded ~2x bias) | `scripts/alpha_k/alpha_k_shard_scan.py --weight-dtype` | MAIN/Width-law robustness |
+| `alpha_k_shard_v3experts/`, `_v3experts_l3/` | DeepSeek-V3 per-expert rmsnorm alpha_k sweeps (e0..e200) + summaries; V3 MoE rank-bottleneck | `scripts/alpha_k/v3_expert_sweep.py` | MAIN/Width-law V3 MoE |
 | `alpha_k_shard/scaling.png` | 4-panel width-law figure | `scripts/plot_shard_scaling.py` | MAIN/Width-law figure |
 | `fisher_safety_scan/`, `_v2/`, `_pgd/` | Tr(F) base vs instruct + PGD variant | `scripts/fisher_safety_scan.py`, `scripts/re_safety_scan.py` | MAIN/Fisher |
 | `phase_b/` | kitchen_light refusal-flip rate per OpenRouter model, n=100 each (10 BACKED, 9 ERR) | `scripts/phase_b_hazard.py` + `scripts/blackbox_attacks/harness.py` | MAIN/Hazard |
@@ -48,6 +50,7 @@ status flags lives in
 | File | Contents |
 |------|----------|
 | `alpha_k_shard/aggregate.json` | Width-law master table: 24 rows with n_params, L0 alpha_k, L_last alpha_k, zero counts, per-layer detail, bytes_downloaded |
+| `alpha_k_shard/panel_dtypes.json` | Native safetensors storage dtype per panel model (mostly BF16; Gemma-2 = F32; DeepSeek-V3 = mixed F8_E4M3/BF16/F32). dtype confound map for the alpha_k panel |
 | `alpha_k_shard/shard_panel_journal.json` | Scan status journal (ok / oom_giveup / no_access / cuda_dead / error) |
 | `alpha_k_uniform_fp32/aggregate.json` | All-model whitebox alpha_k aggregate |
 | `alpha_k_uniform_fp32/normalized.json` | Per-layer alpha_k normalized by per-model max |

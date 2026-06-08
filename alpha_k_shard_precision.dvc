@@ -1,0 +1,6 @@
+outs:
+- md5: 900053aefdc9fb348800a043b3ed16d0.dir
+  size: 39698
+  nfiles: 3
+  hash: md5
+  path: alpha_k_shard_precision

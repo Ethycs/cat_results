@@ -1,6 +1,6 @@
 outs:
-- md5: 859b088ee30621db52257160429c28f5.dir
-  size: 1251122
-  nfiles: 56
+- md5: efac0fd8795c0b1dc93e54e325b3d343.dir
+  size: 1292829
+  nfiles: 59
   hash: md5
   path: alpha_k_shard
