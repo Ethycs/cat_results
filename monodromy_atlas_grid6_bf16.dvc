@@ -1,0 +1,6 @@
+outs:
+- md5: 79ee08a19b7ca7b699faef93a987e9db.dir
+  size: 210453913
+  nfiles: 7
+  hash: md5
+  path: monodromy_atlas_grid6_bf16
