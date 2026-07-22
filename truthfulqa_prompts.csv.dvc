@@ -1,0 +1,5 @@
+outs:
+- md5: 6a7618641381b7c54217fd42cb69578e
+  size: 11638
+  hash: md5
+  path: truthfulqa_prompts.csv
