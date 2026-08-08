@@ -1,6 +1,6 @@
 outs:
-- md5: 7a6f1ac0debc7c8a3ecfaa779ae778d7.dir
-  size: 3905530
-  nfiles: 51
+- md5: c545b548ad2a40c65e99d6406313ef83.dir
+  size: 3906340
+  nfiles: 52
   hash: md5
   path: gcb_results
