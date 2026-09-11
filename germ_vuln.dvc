@@ -1,0 +1,6 @@
+outs:
+- md5: a861cb2c315f46146751ba47913a87bd.dir
+  size: 46767381
+  nfiles: 178
+  hash: md5
+  path: germ_vuln
