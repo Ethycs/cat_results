@@ -1,6 +1,6 @@
 outs:
-- md5: dc2218277674f80fd4e3e7d467129437.dir
-  size: 2627355
-  nfiles: 25
+- md5: 66beb51c5834dace2e146489d0b6d522.dir
+  size: 2662610
+  nfiles: 27
   hash: md5
   path: tasksafety
