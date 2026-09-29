@@ -1,0 +1,6 @@
+outs:
+- md5: 71b3131489fc62be6f4f629f95e1de7c.dir
+  size: 38704712
+  nfiles: 5
+  hash: md5
+  path: helix
